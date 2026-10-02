@@ -1,170 +1,169 @@
 # Management Engineering
-Management Engineering @ Unipd — Bachelor's (L-9) and Master's (LM-31) in Vicenza: combining engineering, economics and management to design and run complex production, logistics and service systems. 
+
+> **Management Engineering @ Unipd — Bachelor's (L-9) and Master's (LM-31) in Vicenza: combining engineering, economics and management to design and run complex production, logistics and service systems.**
+
+Notes, summaries and exercises from the **English-taught "Management Engineering" track of the Master's Degree (LM-31)** at the University of Padova. The notes are plain Markdown files, designed to be read with [Obsidian](https://obsidian.md).
+**No coding skills needed**: this guide walks you through everything, step by step.
 
 ---
 
-# 📚 Appunti — Management Engineering (Ingegneria Gestionale) · Università di Padova
+## 🎓 The program in brief
 
-> Appunti, dispense ed esercizi di **Ingegneria Gestionale** dell'Università degli Studi di Padova.
-> Le note sono in formato Markdown e pensate per essere lette con [Obsidian](https://obsidian.md).
-> **Non serve sapere programmare**: questa guida ti spiega tutto, passaggio per passaggio.
+The **Master's Degree in Management Engineering** (Italian: *Ingegneria Gestionale*) is where engineering meets economics and business: graduates learn to "speak" both with engineers and managers, and to analyze, design and run complex production, logistics and service systems.
 
----
+Key facts about the English-taught track:
 
-## 🎓 Il corso in breve
+| | Master's Degree — Management Engineering track |
+|---|---|
+| **Degree class** | LM-31 — Ingegneria Gestionale (Management Engineering) |
+| **Duration** | 2 years |
+| **Location** | Vicenza campus |
+| **Language** | English |
+| **Access** | Free access, with curricular requirements |
 
-**Ingegneria Gestionale** (in inglese *Management Engineering*) è il corso di studio che unisce l'ingegneria all'economia e all'organizzazione aziendale: chi si laurea sa "parlare" sia con i tecnici sia con i manager, e sa analizzare, progettare e gestire sistemi produttivi, logistici e di servizi complessi.
+- **What you learn**: the program is multidisciplinary, built on three pillars — technical engineering, economics & management, and quantitative methods. You learn to model socio-technical systems, manage projects and drive innovation, backed by a robust toolkit of analytical and quantitative techniques.
+- **The English track focus**: **digital transformation** — how digital technologies reshape business processes, operations and organizations.
+- **How it ends**: an internship plus a thesis, where you show you can work autonomously on a real, often company-based, problem.
+- **Careers**: production, logistics, purchasing, marketing, R&D, management control, finance, consulting, banking and insurance — in Italy or abroad. According to Almalaurea data, LM-31 graduates in Padova have one of the highest employment rates (~98.6%). The degree also opens the way to PhD programs.
+- The same LM-31 degree also runs an Italian-taught track (focused on business processes and sustainability): **this repository covers the English track**.
 
-All'Università di Padova il percorso esiste in due livelli, entrambi con sede a **Vicenza**:
-
-| | Laurea Triennale | Laurea Magistrale |
-|---|---|---|
-| **Codice / Classe** | L-9 — Ingegneria Industriale | LM-31 — Ingegneria Gestionale |
-| **Durata** | 3 anni | 2 anni |
-| **Lingua** | Italiano | Italiano **o** Inglese |
-| **Accesso** | Libero, con prova d'ingresso | Libero, con requisiti curriculari |
-
-- **Triennale (L-9)**: fornisce le basi di matematica, fisica, informatica e statistica, unite all'ingegneria industriale e alle discipline economico-aziendali. Prepara a ruoli operativi e manageriali in produzione e logistica, processi operativi e amministrativi, acquisti, marketing e valutazione economica dei progetti.
-- **Magistrale (LM-31)**: aggiunge un approccio multidisciplinare su tre pilastri — tecnico-ingegneristico, economico-gestionale e metodologico-quantitativo — e offre **due curricula**: uno in italiano (focalizzato sui processi di business, anche in ottica sostenibile) e uno in inglese chiamato proprio **Management Engineering** (focalizzato sulla trasformazione digitale). Il percorso si conclude con un tirocinio e una tesi.
-- **Sbocchi**: produzione, logistica, acquisti e approvvigionamenti, commerciale e marketing, R&S, controllo di gestione, consulenza, banche e assicurazioni — secondo i dati Almalaurea il tasso di occupazione dei laureati LM-31 a Padova è tra i più alti (~98,6%).
-
-Fonti: [Scheda triennale Unipd](https://www.ingegneria.unipd.it/offerta-didattica/corsi-di-laurea?tipo=L&ordinamento=2025&key=IN2919) · [Scheda magistrale Unipd](https://www.ingegneria.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM&ordinamento=2025&key=IN3084)
+Sources: [Unipd — LM-31 program page](https://www.ingegneria.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM&ordinamento=2025&key=IN3084) · [Official course catalogue](https://didattica.unipd.it/off/2025/LM/IN/IN3084)
 
 ---
 
-## 📁 Cosa contiene questa repository
+## 📁 What's in this repository
 
 ```
-📁 appunti-management-engineering-unipd/
-├── 00 - Indice.md          ← partite sempre da qui: è la "mappa" di tutti gli appunti
-├── 01 - ....md             ← una nota per capitolo/argomento
+📁 management-engineering-unipd/
+├── 00 - Index.md            ← always start here: it's the "map" of all the notes
+├── 01 - ....md              ← one note per chapter/topic
 ├── 02 - ....md
 ├── ...
-├── allegati/               ← immagini e figure citate nelle note
-└── README.md               ← questo file
+├── allegati/                ← images and figures referenced in the notes
+└── README.md                ← this file
 ```
 
-- I file con estensione **`.md`** sono semplici documenti di testo (Markdown): si leggono benissimo anche qui su GitHub, ma con Obsidian diventano interattivi — formule matematiche, evidenziazioni e collegamenti cliccabili tra gli argomenti (`[[così]]`).
-- La nota **`00 - Indice`** contiene i link a tutti i capitoli: è il punto di partenza consigliato.
+- Files ending in **`.md`** are simple text documents (Markdown): they read fine here on GitHub too, but with Obsidian they become interactive — math formulas, highlights, and clickable links between topics (`[[like this]]`).
+- The **`00 - Index`** note links to every chapter: it's the recommended starting point.
 
-## 🔍 Due modi per leggere gli appunti
+## 🔍 Two ways to read the notes
 
-| Metodo | Per chi | Serve internet? | Si aggiorna facilmente? |
+| Method | For whom | Internet needed? | Easy updates? |
 |---|---|---|---|
-| **A — Download ZIP** (consigliato) | Chiunque, zero installazioni "strane" | Solo per scaricare | Riscaricando lo ZIP |
-| **B — Clonare con Git** | Chi ha (o vuole imparare) Git | Solo per scaricare | Sì, con un comando |
+| **A — Download ZIP** (recommended) | Anyone, zero extra tools | Only to download | Re-download the ZIP |
+| **B — Clone with Git** | Anyone with (or willing to learn) Git | Only to download | Yes, one command |
 
-In entrambi i casi vi servirà **Obsidian** per leggere gli appunti con formula, immagini e link. Ecco come installarlo.
-
----
-
-## 🛠️ Installare Obsidian (una volta sola)
-
-Obsidian è **gratuito** (per uso personale e anche commerciale) e non richiede la creazione di un account: basta installarlo e aprirlo.
-
-### Su Windows
-
-1. Aprite il browser e andate su **[obsidian.md/download](https://obsidian.md/download)**.
-2. Nella sezione **Windows** cliccate il pulsante di download: partirà il download di un file `.exe` (di solito finisce nella cartella *Download*).
-3. Fate **doppio clic** sul file scaricato (`Obsidian-x.x.x.exe`).
-4. Cliccate **Install** e aspettate qualche secondo: Obsidian si aprirà da solo al termine.
-5. La prima volta scegliete la lingua (c'è anche **italiano**) e chiudete pure la finestra di benvenuto: al prossimo passaggio apriremo gli appunti.
-
-> Non comparirà nessuna richiesta di account o password: se vedete un pulsante "Sign in" potete ignorarlo tranquillamente.
-
-### Su macOS
-
-1. Andate su **[obsidian.md/download](https://obsidian.md/download)**.
-2. Nella sezione **macOS** cliccate il pulsante **Universal** per scaricare il file `.dmg`.
-3. Fate **doppio clic** sul file `.dmg` scaricato: si aprirà una finestrella con l'icona di Obsidian e la cartella `Applications`.
-4. **Trascinate** l'icona di Obsidian dentro `Applications`.
-5. Chiudete la finestrella e aprite Obsidian dal **Launchpad** (o dalla cartella Applicazioni). Se macOS chiede "vuoi aprire un'app scaricata da internet?", cliccate **Apri**.
-
-### Su Linux (facoltativo)
-
-- **Facile**: da terminale, `flatpak install flathub md.obsidian.Obsidian` e poi avviatelo dal menu applicazioni.
-- In alternativa scaricate l'**AppImage** dalla stessa pagina, poi: `chmod u+x Obsidian-*.AppImage` e `./Obsidian-*.AppImage`.
+Either way, you'll want **Obsidian** to read the notes with formulas, images and links. Here's how to install it.
 
 ---
 
-## 🅰️ Metodo A — Aprire gli appunti senza Git (consigliato ai principianti)
+## 🛠️ Install Obsidian (one time only)
 
-Con questo metodo "copiate" gli appunti sul vostro computer semplicemente scaricandoli come archivio ZIP. Non serve alcun programma aggiuntivo.
+Obsidian is **free** (for personal and commercial use) and does **not** require creating an account: just install it and open it.
 
-1. Nella pagina GitHub di questa repo, cliccate il pulsante verde **`<> Code`** (in alto a destra, sopra l'elenco dei file).
-2. Nel menu che si apre, cliccate **Download ZIP**.
-3. Il browser scaricherà un file tipo `appunti-management-engineering-unipd-main.zip` (di solito nella cartella *Download*).
-4. **Estraete l'archivio**:
-   - **Windows**: clic destro sul file ZIP → **Estrai tutto…** → cliccate **Estrai** (lasciate pure la destinazione proposta). Otterrete una cartella con lo stesso nome dello ZIP.
-   - **macOS**: fate semplicemente doppio clic sul file ZIP: si estrae da solo in una cartella omonima.
-5. Aprite **Obsidian** e cliccate su **Open folder as vault** (in italiano: *Apri cartella come vault*).
-   - Se non vedete la finestra iniziale: menu `File` → `Open vault…` → scheda **Open folder as vault**.
-6. Selezionate la cartella **appena estratta** (quella che contiene `00 - Indice.md`, non lo ZIP!) e confermate.
-7. Se Obsidian chiede *"Do you trust the author of this vault?"* cliccate **Trust author and enable plugins** (in italiano: *Fidati dell'autore*): è una richiesta standard, serve solo ad attivare le impostazioni incluse nella cartella.
-8. Aprite la nota **`00 - Indice`** e buona lettura ✨
+### On Windows
 
-> 💡 **Da ricordare**: gli appunti scaricati così sono una *fotografia*: non si aggiorneranno da soli. Quando escono note nuove, ripetete i passaggi 1–4 e sostituite la cartella (oppure passate al Metodo B).
+1. Open your browser and go to **[obsidian.md/download](https://obsidian.md/download)**.
+2. In the **Windows** section, click the download button: an `.exe` file will download (usually to your *Downloads* folder).
+3. **Double-click** the downloaded file (`Obsidian-x.x.x.exe`).
+4. Click **Install** and wait a few seconds: Obsidian will open by itself when done.
+5. The first time, pick your language and feel free to close the welcome window — the next steps show you how to open the notes.
 
-## 🅱️ Metodo B — Clonare la repository con Git
+> No account or password will be requested: if you ever see a "Sign in" button, you can safely ignore it.
 
-"Clonare" significa scaricare una copia "intelligente" degli appunti, che potrete aggiornare con un solo comando ogni volta che escono note nuove.
+### On macOS
 
-### B.1 — Installare Git (una volta sola)
+1. Go to **[obsidian.md/download](https://obsidian.md/download)**.
+2. In the **macOS** section, click **Universal** to download the `.dmg` file.
+3. **Double-click** the downloaded `.dmg`: a small window opens with the Obsidian icon and the `Applications` folder.
+4. **Drag** the Obsidian icon into `Applications`.
+5. Close the little window and open Obsidian from the **Launchpad** (or the Applications folder). If macOS asks "do you want to open an app downloaded from the internet?", click **Open**.
 
-- **Windows**: scaricate il programma da **[git-scm.com/download/win](https://git-scm.com/download/win)**, aprite il file `.exe` scaricato e cliccate sempre **Avanti/Next** senza cambiare nulla: le opzioni predefinite vanno benissimo. Alla fine potete deselezionare "Launch Git Bash" se volete.
-- **macOS**: Git è già incluso. Se il terminale vi chiede di installare "Command Line Developer Tools", confermate e aspettate.
+### On Linux (optional)
 
-### B.2 — Clonare la repo
+- **Easiest**: run `flatpak install flathub md.obsidian.Obsidian` in a terminal, then launch it from your app menu.
+- Alternative: download the **AppImage** from the same page, then run `chmod u+x Obsidian-*.AppImage` and `./Obsidian-*.AppImage`.
 
-1. In questa pagina GitHub cliccate il pulsante verde **`<> Code`** e copiate l'indirizzo HTTPS (somiglia a `https://github.com/TUO-USERNAME/appunti-management-engineering-unipd.git`).
-2. Aprite un terminale:
-   - **Windows**: premete il tasto ⊞ Start, scrivete **Git Bash** e aprite quell'app (si apre una finestra nera dove si scrive).
-   - **macOS**: premete `Cmd + Spazio`, scrivete **Terminale** e premete Invio.
-3. Scrivete (o incollate con `Ctrl+V` / `Cmd+V`) il comando seguente, sostituendo l'indirizzo con quello copiato al punto 1:
+---
+
+## 🅰️ Method A — Open the notes without Git (recommended for beginners)
+
+With this method you simply download the notes as a ZIP archive and unzip it on your computer. No extra software required.
+
+1. On this repository's GitHub page, click the green **`<> Code`** button (top right, above the file list).
+2. In the menu that opens, click **Download ZIP**.
+3. Your browser will download a file like `management-engineering-unipd-main.zip` (usually to your *Downloads* folder).
+4. **Extract the archive**:
+   - **Windows**: right-click the ZIP file → **Extract All…** → click **Extract** (the suggested destination is fine). You'll get a folder with the same name as the ZIP.
+   - **macOS**: just double-click the ZIP file: it extracts itself into a folder with the same name.
+5. Open **Obsidian** and click **Open folder as vault**.
+   - If you don't see the startup window: menu `File` → `Open vault…` → **Open folder as vault** tab.
+6. Select the **folder you just extracted** (the one containing `00 - Index.md` — not the ZIP file!) and confirm.
+7. If Obsidian asks *"Do you trust the author of this vault?"*, click **Trust author and enable plugins**: it's a standard prompt that just enables the settings included in the folder.
+8. Open the **`00 - Index`** note — happy studying ✨
+
+> 💡 **Keep in mind**: notes downloaded this way are a *snapshot*: they won't update on their own. When new notes come out, repeat steps 1–4 and replace the folder (or switch to Method B).
+
+## 🅱️ Method B — Clone the repository with Git
+
+"Cloning" means downloading a *smart* copy of the notes that you can update with a single command whenever new notes are published.
+
+### B.1 — Install Git (one time only)
+
+- **Windows**: download the installer from **[git-scm.com/download/win](https://git-scm.com/download/win)**, open the downloaded `.exe` and keep clicking **Next** without changing anything — the default options are fine. You can untick "Launch Git Bash" at the end if you want.
+- **macOS**: Git is already included. If the terminal asks to install "Command Line Developer Tools", confirm and wait.
+
+### B.2 — Clone the repository
+
+1. On this repository's GitHub page, click the green **`<> Code`** button and copy the HTTPS address (it looks like `https://github.com/your-username/management-engineering-unipd.git`).
+2. Open a terminal:
+   - **Windows**: press the ⊞ Start key, type **Git Bash** and open that app (a black window where you type).
+   - **macOS**: press `Cmd + Space`, type **Terminal** and press Enter.
+3. Type (or paste with `Ctrl+V` / `Cmd+V`) the following command, replacing the address with the one you copied in step 1:
 
    ```bash
-   git clone <https://github.com/TUO-USERNAME/appunti-management-engineering-unipd.git>
+   git clone <https://github.com/your-username/management-engineering-unipd.git>
    ```
 
-4. Premete **Invio**: verrà creata una cartella `appunti-management-engineering-unipd` nella posizione dove avete aperto il terminale.
-   - Su Windows Git Bash si apre nella vostra cartella utente (`C:\Users\VostroNome`); se preferite un'altra posizione, prima scrivete ad esempio `cd Documents` e poi ripetete il clone.
+4. Press **Enter**: a `management-engineering-unipd` folder will be created where you opened the terminal.
+   - On Windows, Git Bash opens in your user folder (`C:\Users\YourName`); if you prefer another location, first type e.g. `cd Documents` and then run the clone again.
 
-### B.3 — Aprirla in Obsidian
+### B.3 — Open it in Obsidian
 
-1. Aprite **Obsidian** → **Open folder as vault** (*Apri cartella come vault*).
-2. Selezionate la cartella `appunti-management-engineering-unipd` creata dal clone.
-3. Se richiesto, cliccate **Trust author and enable plugins**.
-4. Aprite **`00 - Indice`** e studiate! 📖
+1. Open **Obsidian** → **Open folder as vault**.
+2. Select the `management-engineering-unipd` folder created by the clone.
+3. If asked, click **Trust author and enable plugins**.
+4. Open **`00 - Index`** and study! 📖
 
-### B.4 — Aggiornare gli appunti
+### B.4 — Update the notes
 
-Quando escono note nuove, aprite Git Bash (o il Terminale) **dentro** la cartella della repo e scrivete:
+When new notes come out, open Git Bash (or the Terminal) **inside** the repository folder and type:
 
 ```bash
 git pull
 ```
 
-Se siete dentro la cartella: `cd appunti-management-engineering-unipd` prima di `git pull`. Obsidian aggiornerà le note automaticamente.
+If you're not inside the folder yet: `cd management-engineering-unipd` before `git pull`. Obsidian will refresh the notes automatically.
 
 ---
 
-## ❓ Problemi comuni
+## ❓ Troubleshooting
 
-| Problema | Soluzione |
+| Problem | Solution |
 |---|---|
-| "I file `.md` si aprono con Blocco note e non li capisco" | Non aprite i file singolarmente: installate Obsidian e aprite **l'intera cartella** come vault (punti 5–7 del Metodo A). |
-| "Non vedo le immagini / le formule" | Avete estratto lo ZIP **completo**, inclusa la cartella `allegati/`? Se avete copiato solo alcuni file, le immagini restano orfane: ri-estraete tutta la cartella. |
-| "Obsidian chiede di fidarsi dell'autore" | È normale: cliccate *Trust author and enable plugins*. |
-| "Dove trovo un argomento?" | Premete `Ctrl+O` (o `Cmd+O` su Mac) per cercare una nota per nome, oppure `Ctrl+Shift+F` per cercare una parola dentro tutte le note. |
-| "Come aggiorno gli appunti?" | Metodo A: riscaricate lo ZIP. Metodo B: `git pull`. |
-| "Posso usarle sul telefono?" | Sì: Obsidian esiste gratis anche per iOS/Android (App Store / Play Store), ma per avere gli stessi file sul telefono serve un sistema di sincronizzazione (es. cartella su iCloud/Drive) — argomento non trattato qui. |
-| "Ho modificato le note, posso condividerle?" | Certo: aprite una *Issue* su GitHub o contattate l'autore. Le modifiche fatte in locale restano però sul vostro computer finché non le caricate voi. |
+| "The `.md` files open in Notepad and look weird" | Don't open the files one by one: install Obsidian and open the **whole folder** as a vault (steps 5–7 of Method A). |
+| "I can't see images or formulas" | Did you extract the **complete** ZIP, including the `allegati/` folder? If you only copied some files, the images are missing: extract the whole folder again. |
+| "Obsidian asks me to trust the author" | That's normal: click *Trust author and enable plugins*. |
+| "Where do I find a topic?" | Press `Ctrl+O` (`Cmd+O` on Mac) to search a note by name, or `Ctrl+Shift+F` to search a word across all notes. |
+| "How do I update the notes?" | Method A: re-download the ZIP. Method B: `git pull`. |
+| "Can I read them on my phone?" | Yes: Obsidian is free on iOS/Android too (App Store / Play Store), but getting the same files on your phone requires a sync system (e.g. an iCloud/Drive folder) — not covered here. |
+| "I improved the notes — can I share them?" | Sure: open a GitHub *Issue* or contact the author. Local changes stay on your computer until you upload them yourself. |
 
 ---
 
-## 📜 Licenza
+## 📜 License
 
-<!-- Scegliete una licenza e sostituite questa riga, es. CC BY-NC-SA 4.0 -->
-Questi appunti sono forniti "as is" per uso di studio personale. Prima di redistribuirli, chiedete all'autore o aggiungete una licenza esplicita (per appunti universititi è comune [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.it)).
+<!-- Pick a license and replace this line, e.g. CC BY-NC-SA 4.0 -->
+These notes are provided "as is" for personal study use. Before redistributing them, ask the author or add an explicit license (for university notes, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) is a common choice).
 
-*Appunti realizzati da uno studente del corso: possono contenere errori — segnalali pure, si accetta ogni contributo!*
+*Notes written by a student of the program: they may contain mistakes — please report them, contributions are welcome!* ♪
