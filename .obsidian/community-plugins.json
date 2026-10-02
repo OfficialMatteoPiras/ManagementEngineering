@@ -29,5 +29,10 @@
   "pdfplus-exporter",
   "obsidian-zotero-desktop-connector",
   "obsidian-tasks-plugin",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "image-converter",
+  "oz-image-plugin",
+  "obsidian-paste-image-rename",
+  "oz-clear-unused-images",
+  "horizontal-blocks"
 ]
