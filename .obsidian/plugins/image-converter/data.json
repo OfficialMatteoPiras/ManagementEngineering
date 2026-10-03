@@ -11,9 +11,13 @@
     {
       "type": "CURRENT",
       "name": "Same folder as current note"
+    },
+    {
+      "name": "Subfolder Under Current Note",
+      "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "Same folder as current note",
+  "selectedFolderPreset": "Subfolder Under Current Note",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -46,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "",
+  "subfolderTemplate": "assets/",
   "conversionPresets": [
     {
       "name": "None",

@@ -80,10 +80,11 @@ INDUSTRY 5.0: Promoted by the European commission and other governmental bodies 
 
 ![[Lessons-1791028942324.webp]]
 
-
-
-
-
+```horizontal
+When a company has a “good” material flow, materials at different stage moves steadily and predictability, but a “bad” flow means there is a lot of stops and starts in the process, ultimately resulting in an inefficient system. If a company is looking to go Lean, the material flow is a great place to start.
+---
+![[Lessons-1791032816444.webp]]
+```
 
 
 
