@@ -68,7 +68,7 @@ Logistic is divided in parts:
 
 The traditional flow goes **from left to right**, the reverse logistic process goes **from right to left**: to solve problems of returning flows, discard products that need to return to company to try to refurbish them or to recreate new products, in same case it’s not possible because they’re completely broken and in this case, they will become waste. We need to manage waste.
 
-![[Lessons-1791027577129.webp]]
+![[Lessons-1791027577129.webp|619]]
 
 
 ***<font color="#ff0000">Closed Loop Supply Chain</font>***
@@ -84,7 +84,13 @@ In this picture are contained all the kinds of activities that are close to supp
 
 > The most closed supply chain is the chain of paper and corrugated fibreboard packaging. It’s closed around 98%.
 
+In spite of we need to increase the profit, because we have also economic variables and we have to take in mind that logistic choices need to be sustainable by an economical point of view, we need to find a solution less expensive.
 
+> How to translate environmental objectives into economic objectives?
+
+We have the carbon footprint market: carbon price change day by day and if we are making a project and we are evaluating the cost of a project, we have to consider the environmental impact! →software ANYLOGISTIC help us to do this.
+![[Lessons-1791033984161.webp|565]]
+We need to consider that we have the **4th industrial revolution right now**, so companies have to invest in digitalization and in the equipment that will substitute humans in some cases, when the works aren’t safe and in the majority of cases will collaborate with humans. Implement industry 4.0 means to implement technologies interconnected each other.
 
 ***<font color="#ff0000">Industry 4.0 and 5.0</font>***
 ```horizontal
