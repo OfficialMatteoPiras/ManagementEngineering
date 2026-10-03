@@ -51,12 +51,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LECTURE%201-introduction.pdf",
-                "title": "Presentazione standard di PowerPoint",
+                "url": "https://stem.elearning.unipd.it/course/view.php?id=17225",
+                "title": "Corso: MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 | STEM",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Presentazione standard di PowerPoint"
+              "title": "Corso: MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 | STEM"
             }
           }
         ],
@@ -322,15 +322,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0310350b743e53ba",
+  "active": "7e49dcbc4f7a37b0",
   "lastOpenFiles": [
+    "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Lessons-1791028270082.webp",
     "Lessons-1791028262029.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026918612.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026950725.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027004293.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027011385.webp",
-    "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Lessons-1791027854570.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026860666.webp",
@@ -347,7 +347,6 @@
     "Digital Marketing and International Management/New folder",
     "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Smart Operations and Supply Chain Management/assets/Pasted image 20261002112146.png",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",

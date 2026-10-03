@@ -1,3 +1,6 @@
+> [!IMPORTANT] 
+> https://stem.elearning.unipd.it/course/view.php?id=17225
+
 # L1 - Introduction
 https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LECTURE%201-introduction.pdf
 
@@ -60,9 +63,18 @@ Design, control and operation of a system to maximize value over the entire prod
 
 ***<font color="#ff0000">Industry 4.0 and 5.0</font>***
 ```horizontal
-![[Lessons-1791028262029.webp|370x248]]
+![[Lessons-1791028262029.webp|562x377]]
 ---
 
 ![[Lessons-1791028270082.webp|489x253]]
+
+INDUSTRY 5.0: Promoted by the European commission and other governmental bodies in 2021, Industry 5.0 emphasizes a triple-bottom-line of economic, environmental, and societal impact, bringing ESG (Environment, Social and Governance) perspective and balance to what have often been technology-led and economic-driven choices.
+
+> Ref: Xu, Xun & Lu, Yuqian & Vogel-Heuser, Birgit & Wang, Lihui. (2021). Industry 4.0 and Industry 5.0-Inception, conception and perception. Journal of Manufacturing Systems. 61. 530-535.
+
 ```
+
+# Lesson 2
+
+
 
