@@ -1,5 +1,6 @@
 > [!IMPORTANT] 
-> https://stem.elearning.unipd.it/course/view.php?id=17225
+> moodle: https://stem.elearning.unipd.it/course/view.php?id=17225
+> 
 
 # L1 - Introduction
 https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LECTURE%201-introduction.pdf

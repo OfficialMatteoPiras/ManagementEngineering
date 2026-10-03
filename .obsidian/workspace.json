@@ -51,12 +51,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/course/view.php?id=17225",
-                "title": "Corso: MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 | STEM",
+                "url": "https://stem.elearning.unipd.it/course/section.php?id=177809",
+                "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Corso: MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 | STEM"
+              "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM"
             }
           }
         ],
@@ -129,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -322,19 +321,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e49dcbc4f7a37b0",
+  "active": "686bebb0fdf95394",
   "lastOpenFiles": [
     "Material Flow Systems and Supply Chain Management/Lessons.md",
-    "Lessons-1791028270082.webp",
-    "Lessons-1791028262029.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028270082.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028262029.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026918612.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026950725.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027004293.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027011385.webp",
-    "Lessons-1791027854570.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027854570.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026860666.webp",
-    "Lessons-1791027577129.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027577129.webp",
     "Untitled Kanban.md",
     "Material Flow Systems and Supply Chain Management/assets",
     "Untitled Kanban 1.md",
