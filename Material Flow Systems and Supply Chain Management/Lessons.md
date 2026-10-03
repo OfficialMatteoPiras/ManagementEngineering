@@ -28,3 +28,39 @@ Teaching material:
 - **Logistics** is the discipline that supervise, optimize and manage material and information flows inside the supply chain, between the point of origin and the point of consumption in order to meet customer requirements, offering the desired service level at the minimum cost. 
 - **Supply Chain** is a complex system made up by industrial partners, infrastructures and resources involved in transforming raw materials and components in a finished product or service from the first supplier to the final customer with the final aim to maximize the Supply Chain competitiveness and profitability. $\rightarrow$ Supply Network
 - **Supply Chain Management** encompasses the planning and management of all activities involved in sourcing and procurement, conversion, and all logistics management activities. Importantly, it also includes coordination and collaboration with channel partners, which can be suppliers, intermediaries, third-party service providers, and customers. In essence, supply chain management integrates supply and demand management within and across companies. 
+```horizontal
+![[Lessons-1791026864110.webp|398]]
+
+---
+
+
+![[Lessons-1791026918612.webp|438x275]]
+
+
+```
+
+***<font color="#ff0000">Forward and Reverse Logistic Process</font>***
+
+```horizontal
+
+![[Lessons-1791026950725.webp]]
+
+---
+
+![[Lessons-1791027011385.webp]]
+
+```
+
+***<font color="#ff0000">Closed Loop Supply Chain</font>***
+Design, control and operation of a system to maximize value over the entire product life cycle, with the dynamic recovery of value from product that come back from users
+
+![[Lessons-1791027577129.webp]]{align=block-center width=625}
+![[Lessons-1791027854570.webp]]{align=block-center width=622}
+
+
+
+
+
+
+
+

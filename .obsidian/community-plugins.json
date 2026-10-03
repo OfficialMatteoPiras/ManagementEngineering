@@ -30,12 +30,12 @@
   "obsidian-zotero-desktop-connector",
   "obsidian-tasks-plugin",
   "obsidian-minimal-settings",
-  "image-converter",
-  "oz-image-plugin",
   "obsidian-paste-image-rename",
   "oz-clear-unused-images",
   "horizontal-blocks",
   "obsidian-git",
   "ink",
-  "link-iframe"
+  "link-iframe",
+  "image-converter",
+  "live-image-editor"
 ]

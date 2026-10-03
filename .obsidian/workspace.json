@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "799249efd3b9b969",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0310350b743e53ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons.md",
+                "file": "Material Flow Systems and Supply Chain Management/Lessons.md",
                 "mode": "source",
                 "source": false
               },
@@ -24,11 +24,27 @@
         ]
       },
       {
-        "id": "799249efd3b9b969",
+        "id": "b096ae8dc4295a87",
         "type": "tabs",
         "children": [
           {
-            "id": "0310350b743e53ba",
+            "id": "2ed68cb92033d57b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 16,
+                "left": 0,
+                "top": 586,
+                "zoom": 1.5771947527749748
+              },
+              "icon": "lucide-file-text",
+              "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "7e49dcbc4f7a37b0",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -40,24 +56,9 @@
               "icon": "globe-2",
               "title": "Presentazione standard di PowerPoint"
             }
-          },
-          {
-            "id": "2ed68cb92033d57b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-                "page": 15,
-                "left": -21,
-                "top": 678,
-                "zoom": 1.3513908368396446
-              },
-              "icon": "lucide-file-text",
-              "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,10 +319,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0310350b743e53ba",
   "lastOpenFiles": [
-    "Lessons.md",
+    "Lessons-1791027854570.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026860666.webp",
+    "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Lessons-1791027577129.webp",
+    "Untitled Kanban.md",
+    "Material Flow Systems and Supply Chain Management/assets",
+    "Untitled Kanban 1.md",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027011385.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791027004293.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026950725.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026918612.webp",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026864110.webp",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -330,26 +342,17 @@
     "Digital Marketing and International Management/New folder",
     "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
-    "Untitled Kanban.md",
     "Smart Operations and Supply Chain Management/assets/Pasted image 20261002112146.png",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/assets/Pasted image 20261002112151.png",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Smart Operations and Supply Chain Management/assets/Pasted image 20261002095846.png",
-    "Smart Operations and Supply Chain Management/assets/Pasted image 20261002104812.png",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "ManagementEngineering/README.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Home.md",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Pasted image 20260930195328.png",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Pasted image 20261001134014.png",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Pasted image 20261001133737.png",
     "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/Drawing 2026-09-30 19.44.31.excalidraw.md",
     "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/Drawing 2026-09-30 19.44.00.excalidraw.md",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/file-20260930194217059.png",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/file-20260930184700503.png",
-    "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/file-20260930184220550.png",
     "Triennale/Impianti/Capitoli/Capitolo 3 - SCELTA DELL’UBICAZIONE DI UN IMPIANTO INDUSTRIALE.md",
     "Triennale/Impianti/INDEX.md",
     "Triennale/Impianti/Capitoli/Capitolo 2 - STUDIO DI FATTIBILITÀ.md",
