@@ -90,7 +90,17 @@ In spite of we need to increase the profit, because we have also economic variab
 
 We have the carbon footprint market: carbon price change day by day and if we are making a project and we are evaluating the cost of a project, we have to consider the environmental impact! →software ANYLOGISTIC help us to do this.
 ![[Lessons-1791033984161.webp|565]]
-We need to consider that we have the **4th industrial revolution right now**, so companies have to invest in digitalization and in the equipment that will substitute humans in some cases, when the works aren’t safe and in the majority of cases will collaborate with humans. Implement industry 4.0 means to implement technologies interconnected each other.
+We need to consider that we have the **4th industrial revolution right now**, so companies have to invest in digitalization and in the equipment that will substitute humans in some cases, *when the works aren’t safe and in the majority of cases will collaborate with humans*. Implement industry 4.0 means to implement technologies interconnected each other.
+
+> All companies are connected each other with the help of different technologies.
+
+
+```horizontal
+Interconnective of different companies in the same reality, they need to collect data . The logistic manager needs the possibility to use several kind of 4.0 technologies. The first one is Internet of Things: we need to collect data, to know where the products are , so data capturing, sensors, barcodes etc The fourth industrial revolution, also termed Industry4.0, represents a trend of industrial automation that integrates some new production technologies to improve working conditions, create new business models and increase the productivity and production quality of the plants
+---
+![[Lessons-1791034104821.webp]]
+
+```
 
 ***<font color="#ff0000">Industry 4.0 and 5.0</font>***
 ```horizontal
@@ -108,9 +118,17 @@ INDUSTRY 5.0: Promoted by the European commission and other governmental bodies 
 # Lesson 2
 ***<font color="#ff0000">Three important consideration in Logistics:</font>***
 
+```horizontal
+There are three important considerations in logistic in inhouse: 
+1. **Flow** of people, of materials 
+2. **Space problems**: human resources, materials store, layout of machines 
+3. **Activity relationships** between department and inside a department 
 
+A company can be seen as a material flow system, we have materials that are raw materials, semifinished products and instrument used to produce that come from supplier to incoming storage that we call STORE. Then these are put into production system where also energy and water go inside the system. From the production process there is the output that is the finished product that will be delivered to an outgoing storage system, and from this, we will send these products to the packaging area and finally to another storage point or directly to the trucks to be sent to the retailers or to the users. Some parts are discorded in the disposal system.
+
+---
 ![[Lessons-1791032941577.webp]]
-
+```
 
 ```horizontal
 When a company has a “good” material flow, materials at different stage moves steadily and predictability, but a “bad” flow means there is a lot of stops and starts in the process, ultimately resulting in an inefficient system. If a company is looking to go Lean, the material flow is a great place to start.
@@ -118,5 +136,8 @@ When a company has a “good” material flow, materials at different stage move
 ![[Lessons-1791032816444.webp|273x240]]
 ```
 
-
+> [!PDF|red] [[Material flow system and logistic networks.pdf#page=6&selection=60,0,83,20&color=red|Material flow system and logistic networks, p.6]]
+>Def. Flow system: flows in the supply network are movements of goods, materials, energy, information and workers. We can have two kind of flows: - Discrete flow process: discrete items move through the flow process. These is the most used flow in the industrial system. Ex. automotive, textile products, mechanical parts, home appliances, etc - Continuous flow process: products continuously move through successive productions states. Ex. chemical plants, oil productions plants, electric current flow, etc.
+> 
+> 
 

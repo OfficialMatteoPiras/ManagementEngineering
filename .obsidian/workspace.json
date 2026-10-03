@@ -64,9 +64,9 @@
               "type": "pdf",
               "state": {
                 "file": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
-                "page": 3,
+                "page": 6,
                 "left": -13,
-                "top": 3,
+                "top": 633,
                 "zoom": 1.1466733870967742
               },
               "icon": "lucide-file-text",
@@ -89,8 +89,7 @@
               "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -353,10 +352,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0310350b743e53ba",
+  "active": "7e49dcbc4f7a37b0",
   "lastOpenFiles": [
     "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791033984161.webp",
@@ -369,7 +369,6 @@
     "Material Flow Systems and Supply Chain Management/assets/image.png",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028940617.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028949547.webp",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028942324.webp",
     "Untitled Kanban.md",
     "Material Flow Systems and Supply Chain Management/assets",
     "Untitled Kanban 1.md",

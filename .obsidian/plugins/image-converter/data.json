@@ -311,7 +311,7 @@
     ]
   },
   "isImageAlignmentEnabled": true,
-  "imageAlignmentDefaultAlignment": "none",
+  "imageAlignmentDefaultAlignment": "center",
   "imageAlignmentCacheCleanupInterval": 3600000,
   "imageAlignmentCacheLocation": "config",
   "isDragResizeEnabled": true,
