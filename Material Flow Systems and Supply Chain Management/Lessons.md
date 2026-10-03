@@ -54,13 +54,15 @@ Teaching material:
 ***<font color="#ff0000">Closed Loop Supply Chain</font>***
 Design, control and operation of a system to maximize value over the entire product life cycle, with the dynamic recovery of value from product that come back from users
 
-![[Lessons-1791027577129.webp]]{align=block-center width=625}
-![[Lessons-1791027854570.webp]]{align=block-center width=622}
+![[Lessons-1791027577129.webp]]
 
+![[Lessons-1791027854570.webp]]
 
+***<font color="#ff0000">Industry 4.0 and 5.0</font>***
+```horizontal
+![[Lessons-1791028262029.webp|370x248]]
+---
 
-
-
-
-
+![[Lessons-1791028270082.webp|489x253]]
+```
 
