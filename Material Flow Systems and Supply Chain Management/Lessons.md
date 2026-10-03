@@ -32,7 +32,21 @@ Teaching material:
 - **Logistics** is the discipline that supervise, optimize and manage material and information flows inside the supply chain, between the point of origin and the point of consumption in order to meet customer requirements, offering the desired service level at the minimum cost. 
 - **Supply Chain** is a complex system made up by industrial partners, infrastructures and resources involved in transforming raw materials and components in a finished product or service from the first supplier to the final customer with the final aim to maximize the Supply Chain competitiveness and profitability. $\rightarrow$ Supply Network
 - **Supply Chain Management** encompasses the planning and management of all activities involved in sourcing and procurement, conversion, and all logistics management activities. Importantly, it also includes coordination and collaboration with channel partners, which can be suppliers, intermediaries, third-party service providers, and customers. In essence, supply chain management integrates supply and demand management within and across companies. 
+
+All partners: suppliers, delivers of raw material, production which transforms raw materials in semifinished products and then in finished products that will be stored in warehouses and then they will be distributed to costumers. 
+
+There are two flows with two different directions: Physical flow goes from left to right, instead information flow goes from right to left. 
+
+The market tells us what they want, and we need to provide what the market asks and the storages will give to the market what they order. The production system will put in the production only what the market wants, and we order raw material to produce what is required. The information that comes from the market is the demand, we don’t work with certain data, we need to make a plan: starting from the information that come from the customers, then we will decide to set the production quantity of the plant, in order to meet this forecast. From the production quantity of the plant, we know how many parts we need to deliver to the station per hour, in order to provide all the materials for the production system.
+
 ```horizontal
+
+Logistic is divided in parts: 
+- Inbound logistics→ It deals from supplier to company: Provided the raw material 
+- Outbound logistics → It deals from company to customers (that can be retailer/ distribution/ persons) 
+  
+- Inside the company we have INHOUSE LOGISTICS
+
 ![[Lessons-1791026864110.webp|398]]
 
 ---
@@ -78,13 +92,14 @@ INDUSTRY 5.0: Promoted by the European commission and other governmental bodies 
 # Lesson 2
 ***<font color="#ff0000">Three important consideration in Logistics:</font>***
 
+
 ![[Lessons-1791032941577.webp]]
 
 
 ```horizontal
 When a company has a “good” material flow, materials at different stage moves steadily and predictability, but a “bad” flow means there is a lot of stops and starts in the process, ultimately resulting in an inefficient system. If a company is looking to go Lean, the material flow is a great place to start.
 ---
-![[Lessons-1791032816444.webp]]
+![[Lessons-1791032816444.webp|273x240]]
 ```
 
 
