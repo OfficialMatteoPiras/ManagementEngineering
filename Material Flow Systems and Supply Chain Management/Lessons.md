@@ -76,6 +76,14 @@ INDUSTRY 5.0: Promoted by the European commission and other governmental bodies 
 ```
 
 # Lesson 2
+***<font color="#ff0000">Three important consideration in Logistics:</font>***
+
+![[Lessons-1791028942324.webp]]
+
+
+
+
+
 
 
 
