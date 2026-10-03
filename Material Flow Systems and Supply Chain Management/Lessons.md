@@ -45,15 +45,12 @@ Logistic is divided in parts:
 - Inbound logistics→ It deals from supplier to company: Provided the raw material 
 - Outbound logistics → It deals from company to customers (that can be retailer/ distribution/ persons) 
   
-- Inside the company we have INHOUSE LOGISTICS
-
-![[Lessons-1791026864110.webp|398]]
-
+  Inside the company we have INHOUSE LOGISTICS
 ---
+![[Lessons-1791026864110.webp|310x225]]
 
 
-![[Lessons-1791026918612.webp|438x275]]
-
+![[Lessons-1791026918612.webp|316x198]]
 
 ```
 
@@ -61,7 +58,7 @@ Logistic is divided in parts:
 
 ```horizontal
 
-![[Lessons-1791026950725.webp]]
+![[Lessons-1791026950725.webp|496x249]]
 
 ---
 
@@ -69,12 +66,25 @@ Logistic is divided in parts:
 
 ```
 
-***<font color="#ff0000">Closed Loop Supply Chain</font>***
-Design, control and operation of a system to maximize value over the entire product life cycle, with the dynamic recovery of value from product that come back from users
+The traditional flow goes **from left to right**, the reverse logistic process goes **from right to left**: to solve problems of returning flows, discard products that need to return to company to try to refurbish them or to recreate new products, in same case it’s not possible because they’re completely broken and in this case, they will become waste. We need to manage waste.
 
 ![[Lessons-1791027577129.webp]]
 
+
+***<font color="#ff0000">Closed Loop Supply Chain</font>***
+Design, control and operation of a system to maximize value over the entire product life cycle, with the dynamic recovery of value from product that come back from users
+
+The term ***‘Closed Loop Supply Chain’*** represents the design, control, and operation of a system to maximize the creation of value over the entire life cycle of a product with the dynamic recovery of value from different types and volumes of products that come back from users. The most common activities involved in a Closed-loop Supply Chain are: 
+1. **Product reuse**: collected products/ materials can be recovered in order to return the product the functionality it previously had. Before reusing, some maintenance activities could be necessary such as cleaning and/or repairing /refurbishing/reconditioning of some minor previously worn part components. 
+2. **Products recycle:** in recycling, the identity and functionality of products and components are lost. Product recycling aims at repurposing used components in manufacturing processes of original parts if the quality of the materials is high or in the production of other parts. Materials like aluminium or titanium or carbon fibres are often recycled because they are expensive but there are other materials that can’t be recycle or that their recycling process is expensive. The product is completely disassembled and we can try to recycle some parts and bring to the landfill the parts that can’t be recycled anymore.
+3. **Energy recovery (from process waste/inventories):** collected materials/products are not eligible to reusage or recycle and they are therefore employed for energy generation. 
+4. **Secondary market:** collected products are directly repurposed on secondary markets without any additional operation/transformation.
 ![[Lessons-1791027854570.webp]]
+In this picture are contained all the kinds of activities that are close to supply chain in order to close a loop. Recycling arrive to deliver the raw material ; while waste-to-energy, remanufacturing and cannibalisation of components will provide components to manufacturer ; while the repair activities and refurbishing activities can be managed by 3PL provider (directed by manufacturer but also by partners). The landfill is the final stage.
+
+> The most closed supply chain is the chain of paper and corrugated fibreboard packaging. It’s closed around 98%.
+
+
 
 ***<font color="#ff0000">Industry 4.0 and 5.0</font>***
 ```horizontal

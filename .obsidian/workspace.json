@@ -66,9 +66,9 @@
               "type": "pdf",
               "state": {
                 "file": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
-                "page": 1,
+                "page": 3,
                 "left": -14,
-                "top": 264,
+                "top": 719,
                 "zoom": 1.0383064516129032
               },
               "icon": "lucide-file-text",
@@ -338,10 +338,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0310350b743e53ba",
+  "active": "25415a86dda7c276",
   "lastOpenFiles": [
-    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032941577.webp",
