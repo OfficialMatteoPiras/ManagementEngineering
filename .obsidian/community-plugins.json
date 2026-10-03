@@ -34,5 +34,8 @@
   "oz-image-plugin",
   "obsidian-paste-image-rename",
   "oz-clear-unused-images",
-  "horizontal-blocks"
+  "horizontal-blocks",
+  "obsidian-git",
+  "ink",
+  "link-iframe"
 ]
