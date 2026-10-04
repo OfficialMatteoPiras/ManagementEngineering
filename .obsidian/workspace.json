@@ -4,93 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "799249efd3b9b969",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 60.93466424682396,
         "children": [
           {
-            "id": "0310350b743e53ba",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Material Flow Systems and Supply Chain Management/Lessons.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lessons"
-            }
-          },
-          {
-            "id": "2ed68cb92033d57b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DEFINING REQUIREMENTS"
+              "title": "Nuova scheda"
             }
           }
         ]
-      },
-      {
-        "id": "b096ae8dc4295a87",
-        "type": "tabs",
-        "dimension": 39.06533575317604,
-        "children": [
-          {
-            "id": "7e49dcbc4f7a37b0",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://stem.elearning.unipd.it/course/section.php?id=177809",
-                "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM"
-            }
-          },
-          {
-            "id": "25415a86dda7c276",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
-                "page": 6,
-                "left": -13,
-                "top": 820,
-                "zoom": 1.1466733870967742
-              },
-              "icon": "lucide-file-text",
-              "title": "Material flow system and logistic networks"
-            }
-          },
-          {
-            "id": "11b9d9febb44b424",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-                "page": 17,
-                "left": -27,
-                "top": 257,
-                "zoom": 1.3
-              },
-              "icon": "lucide-file-text",
-              "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -364,14 +290,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11b9d9febb44b424",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Requirement/wetransfer_opsl1-zip_2026-10-02_0818.zip",
     "Requirement",
     "Nuova cartella",
     "wetransfer_opsl1-zip_2026-10-02_0818.zip",
-    "Material Flow Systems and Supply Chain Management/Lessons.md",
-    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
@@ -390,7 +316,6 @@
     "Untitled Kanban 1.md",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
