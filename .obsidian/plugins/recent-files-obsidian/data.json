@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Impianti Calzavara",
+      "path": "RequiredKnowledge/IMPIANTI MECCANICI/Impianti Calzavara.pdf"
+    },
+    {
+      "basename": "Formulario impianti meccanici",
+      "path": "RequiredKnowledge/IMPIANTI MECCANICI/Formulario impianti meccanici.pdf"
+    },
+    {
+      "basename": "DEFINING REQUIREMENTS",
+      "path": "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md"
+    },
+    {
       "basename": "Lessons",
       "path": "Material Flow Systems and Supply Chain Management/Lessons.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Material flow system and logistic networks",
       "path": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf"
-    },
-    {
-      "basename": "DEFINING REQUIREMENTS",
-      "path": "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md"
     },
     {
       "basename": "Lessons-1791028940617",
@@ -191,14 +199,6 @@
     {
       "basename": "04_accettazione_campionamento",
       "path": "Triennale/Qualità&Organizzazione/Mappe/04_accettazione_campionamento.md"
-    },
-    {
-      "basename": "03_ispezioni",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/03_ispezioni.md"
-    },
-    {
-      "basename": "mappa_qualita",
-      "path": "Triennale/Qualità&Organizzazione/mappa_qualita.md"
     }
   ],
   "omittedPaths": [],

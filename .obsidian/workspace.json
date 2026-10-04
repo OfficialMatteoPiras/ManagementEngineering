@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "42c1ae89620fff62",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "7cecebea1899771c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "type": "pdf",
+              "state": {
+                "file": "RequiredKnowledge/IMPIANTI MECCANICI/Impianti Calzavara.pdf",
+                "page": 1,
+                "left": 0,
+                "top": 842,
+                "zoom": 2.7753976390180677
+              },
+              "icon": "lucide-file-text",
+              "title": "Impianti Calzavara"
             }
           }
         ]
@@ -290,19 +296,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "686bebb0fdf95394",
   "lastOpenFiles": [
-    "Material Flow Systems and Supply Chain Management/Lessons.md",
-    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Requirement/wetransfer_opsl1-zip_2026-10-02_0818.zip",
-    "Requirement",
-    "Nuova cartella",
-    "wetransfer_opsl1-zip_2026-10-02_0818.zip",
-    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
+    "RequiredKnowledge/OPSL1/Quiz_OPSL.pdf",
+    "RequiredKnowledge/OPSL1/Quaderno OPSL.pdf",
+    "RequiredKnowledge/OPSL1/Eserciziario OPSL.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi caricati su Moodle.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/Copy of 1)ES. RIASSUNTIVO MPS E MRP.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/5)Selezione vettore e matrice dei risparmi.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/4)DRP.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/3)ES. RIASSUNTIVO PIANIFICAZIONE DI MEDIO BREVE.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/2)ES. RIASSUNTIVO PIANIFICAZIONE DI MEDIO LUNGO.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi/1)ES. RIASSUNTIVO MPS E MRP.pdf",
+    "RequiredKnowledge/OPSL1/Esercizi riassuntivi",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
+    "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791033984161.webp",
-    "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032941577.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032816444.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032710691.webp",
@@ -312,10 +322,7 @@
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028940617.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028949547.webp",
     "Untitled Kanban.md",
-    "Material Flow Systems and Supply Chain Management/assets",
     "Untitled Kanban 1.md",
-    "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
