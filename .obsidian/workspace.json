@@ -49,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://shibidp.cca.unipd.it/idp/profile/SAML2/Redirect/SSO?execution=e1s2",
-                "title": "Servizio di Accesso Web - idp9-shib5",
+                "url": "https://stem.elearning.unipd.it/course/section.php?id=177809",
+                "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Servizio di Accesso Web - idp9-shib5"
+              "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 1 | STEM"
             }
           },
           {
@@ -66,7 +66,7 @@
                 "file": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
                 "page": 6,
                 "left": -13,
-                "top": 633,
+                "top": 820,
                 "zoom": 1.1466733870967742
               },
               "icon": "lucide-file-text",
@@ -80,16 +80,17 @@
               "type": "pdf",
               "state": {
                 "file": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-                "page": 27,
-                "left": 0,
-                "top": 632,
-                "zoom": 1.3773965691220988
+                "page": 1,
+                "left": -11,
+                "top": 738,
+                "zoom": 1.3294763908368397
               },
               "icon": "lucide-file-text",
               "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -363,10 +364,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e49dcbc4f7a37b0",
+  "active": "11b9d9febb44b424",
   "lastOpenFiles": [
-    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",

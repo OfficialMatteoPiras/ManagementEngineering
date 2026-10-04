@@ -58,7 +58,7 @@ Logistic is divided in parts:
 
 ```horizontal
 
-![[Lessons-1791026950725.webp|496x249]]
+![[Lessons-1791026950725.webp|530x266]]
 
 ---
 
