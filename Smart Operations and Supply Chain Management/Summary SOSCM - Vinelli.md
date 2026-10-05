@@ -188,7 +188,7 @@ This is the very poorest level of contribution by the operations function. The o
 **STAGE 2: EXTERNAL NEUTRALITY** 
 Operations function start comparing itself with similar companies in the outside market. Vision: become up to speed or externally neutral with similar businesses in its industry by adopting best practice ideas and norms of performance from others. 
 
-Copy the competitors and find what the competitors high managers do to achieve that result. Adopt the best practice of the best in the industries. You're not setting the tren, you just copy the best to achieve the best position posrs
+Copy the competitors and find what the competitors high managers do to achieve that result. Adopt the best practice of the best in the industries. You're not setting the trend, you just copy the best to achieve the best position possible in the market.
 
 **STAGE 3: INTERNALLY SUPPORTIVE** 
 They may not be better than competitors on every aspect of performance, but they are broadly up. Vision: be clearly and unambiguously the very best in the market. They try to achieve this by gaining a clear view of the company’s competitive and strategic goals and developing appropriate operations resources to excel in the areas in which the company needs to compete effectively. 
@@ -196,8 +196,8 @@ They may not be better than competitors on every aspect of performance, but they
 **STAGE 4: EXTERNALLY SUPPORTIVE** 
 Operations look to the long term. It develops the operations-based capabilities that will be required to compete in future market conditions. Operations are creative, innovative and capable of adaptation as markets change. They are trying to be one step ahead of competitors. Vision: provide the foundation for competitive success.
 
+*Operations themself drive the company strategy, they make it. It's the apotheosis of the operations manager.*
 ![[Summary SOSCM - Vinelli-1791193952041.webp]]
-
 Strategic impact is related to operations capabilities
 
 
