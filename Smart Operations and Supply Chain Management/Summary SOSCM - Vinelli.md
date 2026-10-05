@@ -96,5 +96,15 @@ The network concept can be applied at 3 levels of analysis:
 3. The level of individual processes
 
 The following image shows why the single processes are important. Each resource is organized by importance and needs to be well coordinated with the others.
-
 ![[Pasted image 20261001134014.png]]
+
+
+
+
+
+
+
+
+
+
+
