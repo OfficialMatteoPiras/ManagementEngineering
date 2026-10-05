@@ -163,12 +163,19 @@ Example: illustrates the different positions on the four Vs for some retail bank
 ![[Summary SOSCM - Vinelli-1791193009933.webp]]
 
 Operations management activities can be grouped into 4 broad categories: 
-- DIRECTING the overall strategy of the operation It necessary to understand operations and processes, their strategic purpose, how it is translated into reality, how innovation is incorporated into products and services, and how much of the total value-adding process should be kept in-house and outsourced.  DESIGNING the operation’s processes Design is the activity of determining the physical form, shape and composition of operations and processes, together with the types of resources they contain. 
-- Planning and controlling process DELIVERY After being designed, the delivery of products and services from suppliers and through the total operation to customers must be planned and controlled.  DEVELOPING process performance They have to develop the capabilities of their processes to improve process performance.
+- **DIRECTING** the overall strategy of the operation It necessary to understand operations and processes, their strategic purpose, how it is translated into reality, how innovation is incorporated into products and services, and how much of the total value-adding process should be kept in-house and outsourced. 
+- **DESIGNING** the operation’s processes Design is the activity of determining the physical form, shape and composition of operations and processes, together with the types of resources they contain. 
+- Planning and controlling process **DELIVERY**. After being designed, the delivery of products and services from suppliers and through the total operation to customers must be planned and controlled. 
+- **DEVELOPING** process performance They have to develop the capabilities of their processes to improve process performance.
 ![[Summary SOSCM - Vinelli-1791193380459.webp]]
+# Chapter 2: Operations and strategic impact
+shareholders -> azionisti
+stakeholders -> portatori di interessi
+### Corporate social responsibility (CSR)
+Strongly related to the stakeholder perspective of operations performance is that of corporate social responsibility (generally known as CSR). It is generally taken to mean listening and responding to the needs of a company’s stakeholders, including the requirements of sustainable
 
+![[Summary SOSCM - Vinelli-1791193646521.webp]]
 
-# Chapter 2: 
 
 
 

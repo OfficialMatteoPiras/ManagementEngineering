@@ -50,10 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 57,
-                "left": 47,
-                "top": 657,
-                "zoom": 1.41
+                "page": 70,
+                "left": 97,
+                "top": 126,
+                "zoom": 1.2
               },
               "icon": "lucide-file-text",
               "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
@@ -67,8 +67,8 @@
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
                 "page": 17,
-                "left": 1,
-                "top": 756,
+                "left": 3,
+                "top": 568,
                 "zoom": 1.19
               },
               "icon": "lucide-file-text",
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -342,9 +342,10 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791193646521.webp",
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791193380459.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791193009933.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791192524661.webp",
@@ -364,7 +365,6 @@
     "NotesFromGroup/MLCDM exam note.pdf",
     "NotesFromGroup/MFSLN exam notes.pdf",
     "Digital Marketing and International Management/assets/Lessons-1791183214824.webp",
-    "Digital Marketing and International Management/assets/Lessons-1791183211166.webp",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
