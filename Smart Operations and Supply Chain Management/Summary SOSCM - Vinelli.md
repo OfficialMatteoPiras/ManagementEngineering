@@ -179,11 +179,16 @@ Strongly related to the stakeholder perspective of operations performance is tha
 ![[Summary SOSCM - Vinelli-1791193646521.webp]]
 > OPERATIONS PRINCIPLE Operations strategy should take the requirements of significant stakeholders into account.
 
+### An operations strategy should articulate a vision for the operations contribution
+Operations strategy should articulate a vision for the operations function’s contribution to overall strategy. The vision is a clear statement of how operations intend to contribute value for the business. A common approach to summarize operations contribution is the ***Hayes and Wheelwright FourStage Model***, that traces the progression of the operations function from what is the largely negative role of Stage 1 operations to it becoming the central element of competitive strategy.
+
 **STAGE 1: INTERNAL NEUTRALITY** 
 This is the very poorest level of contribution by the operations function. The other functions regard it as holding them back from competing effectively. The operations function has very positives to contributes towards competitive success. Its goal is to be ignored. Vision: be internally neutral, by avoiding the bigger mistakes. 
 
 **STAGE 2: EXTERNAL NEUTRALITY** 
 Operations function start comparing itself with similar companies in the outside market. Vision: become up to speed or externally neutral with similar businesses in its industry by adopting best practice ideas and norms of performance from others. 
+
+Copy the competitors and find what the competitors high managers do to achieve that result. Adopt the best practice of the best in the industries. You're not setting the tren, you just copy the best to achieve the best position posrs
 
 **STAGE 3: INTERNALLY SUPPORTIVE** 
 They may not be better than competitors on every aspect of performance, but they are broadly up. Vision: be clearly and unambiguously the very best in the market. They try to achieve this by gaining a clear view of the company’s competitive and strategic goals and developing appropriate operations resources to excel in the areas in which the company needs to compete effectively. 
@@ -193,7 +198,7 @@ Operations look to the long term. It develops the operations-based capabilities 
 
 ![[Summary SOSCM - Vinelli-1791193952041.webp]]
 
-stategic impact is related to operations capabilities
+Strategic impact is related to operations capabilities
 
 
 
