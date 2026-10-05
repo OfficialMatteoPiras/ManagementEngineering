@@ -145,9 +145,17 @@ All processes differ in some way, so, to some extent, all processes will need to
 - The variety of the different products and services produced. 
 - The variation in demand for products and services. 
 - The degree of visibility that customers have of the production of products and services.
-This is called the **4 V MODEL**
-
-
+This is called the **4 V MODEL**. Moreover we can go deeper by specifying each V:
+- VOLUME 
+	- HIGH volume: high degree of repeatability, and because tasks are repeated frequently it often makes sense for staff to specialize the tasks they perform. This allows the systemization of activities, with standard procedures. Also, because tasks are systemized and repeated, it is often worthwhile developing specialized technology that gives higher processing efficiencies. By contrast, low-volume processes with less repetition cannot specialize to the same degree. Staff is likely to perform a wide range of tasks. 
+	- Example: Fincantieri has low volume since works one at a time meanwhile McDonald has high volume since has to make burgers really fast
+- VARIETY: 
+	- HIGH variety of products and services: must engage in a wide range of different activities, changing relatively frequently between each activity. They must also contain a wide range of skills and technology. That also imply a relatively wide range of inputs to the process and the additional complexity of matching customer requirements to appropriate products or services. High variety processes are invariably more complex and costly than low-variety ones. 
+- VARIATION IN DEMAND 
+	- CONSTANT DEMAND: Processes are generally easier to manage when they only must cope with predictably constant demand, because resources can be geared to a level that is just capable of meeting demand, and all activities can be planned. Also, because processes with lower variation do not need any extra safety capacity and can be planned, they will generally have lower costs than those with higher variation. By contrast, when demand is variable and/or unpredictable, resources will have to be adjusted over time. Worse still, when demand is unpredictable, extra resources will have to be designed into the process to provide a capacity cushion that can absorb unexpected demand. 
+- VISIBILIY 
+	- Process visibility indicates how much of the process is experienced directly by customers, or how much the process is exposed to its customers. Generally, processes that act directly on customers (such as retail processes or healthcare processes) will have more of their activities visible to their customers than those who act on materials and information. Also, because the customer interface needs managing, high-visibility processes tend to have higher costs than low-visibility processes.
+![[Summary SOSCM - Vinelli-1791192524661.webp]]
 
 
 

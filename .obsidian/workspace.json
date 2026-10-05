@@ -52,7 +52,7 @@
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
                 "page": 50,
                 "left": 72,
-                "top": 412,
+                "top": 93,
                 "zoom": 1.41
               },
               "icon": "lucide-file-text",
@@ -66,17 +66,17 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 13,
-                "left": -9,
-                "top": 34,
-                "zoom": 1.15
+                "page": 15,
+                "left": -90,
+                "top": 554,
+                "zoom": 0.91
               },
               "icon": "lucide-file-text",
               "title": "Teoria_SOSCM 2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -342,9 +342,10 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791192524661.webp",
+    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/Lessons.md",
@@ -366,7 +367,6 @@
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791033984161.webp",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032941577.webp",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
