@@ -27,6 +27,9 @@ We can clearly see how the world markets in the 1985 was mainly mechanical firms
 ![[Lessons-1791186923704.webp|525]]
 Substantial changes and new leading giants (based on S&P 500 data 10 largest companies by their share of the S&P 500 ’s total market Capitalization, from 1985 to 2024. Data from Goldmans Sachs and American Enterprise Institute).
 ![[Lessons-1791187395224.webp]]
+***Navigating the “Globalization Yo - Yo”***
+Business leaders face a dangerous pattern: expectations about globalization swing wildly between extremes. From "the world is flat" euphoria (Friedman ) to "globalization is dead" despair (2008 - 2012), to geopolitical turmoil - C reating costly strategic mistakes…
+![[Lessons-1791187796457.webp]]
 
 
 
