@@ -26,6 +26,7 @@ The Agenda:![[Lessons-1791186479626.webp]]
 We can clearly see how the world markets in the 1985 was mainly mechanical firms at the top and now are HW/SW oriented like apple or microsoft.
 ![[Lessons-1791186923704.webp|525]]
 Substantial changes and new leading giants (based on S&P 500 data 10 largest companies by their share of the S&P 500 ’s total market Capitalization, from 1985 to 2024. Data from Goldmans Sachs and American Enterprise Institute).
+![[Lessons-1791187395224.webp]]
 
 
 
