@@ -36,11 +36,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://stem.elearning.unipd.it/course/view.php?id=16800",
-                "title": "stem.elearning.unipd.it/course/view.php?id=16800",
+                "title": "Corso: INTERNATIONAL MANAGEMENT 2026-2027 - INQ5109531 | STEM",
                 "mode": "error"
               },
               "icon": "globe-2",
-              "title": "stem.elearning.unipd.it/course/view.php?id=16800"
+              "title": "Corso: INTERNATIONAL MANAGEMENT 2026-2027 - INQ5109531 | STEM"
             }
           },
           {
@@ -50,10 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 46,
-                "left": 16,
-                "top": 775,
-                "zoom": 1.0605786618444848
+                "page": 48,
+                "left": 115,
+                "top": 747,
+                "zoom": 1.41
               },
               "icon": "lucide-file-text",
               "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
@@ -66,10 +66,10 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 9,
-                "left": -13,
-                "top": 289,
-                "zoom": 1.1326686328147837
+                "page": 12,
+                "left": -9,
+                "top": 333,
+                "zoom": 1.15
               },
               "icon": "lucide-file-text",
               "title": "Teoria_SOSCM 2"
@@ -342,10 +342,10 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/assets/Lessons-1791187796457.webp",

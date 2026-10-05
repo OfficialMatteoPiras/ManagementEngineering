@@ -97,8 +97,18 @@ The network concept can be applied at 3 levels of analysis:
 
 The following image shows why the single processes are important. Each resource is organized by importance and needs to be well coordinated with the others.
 ![[Pasted image 20261001134014.png]]
+***The triple bottom line***
+> [!PDF|red] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=47&selection=27,0,44,41&color=red|p.47]]
+> One idea that tries to capture the idea of a broader approach to assessing an organisation’s performance is the ‘triple bottom line’6 (TBL, or 3BL), also known as ‘people, planet and profit’. Essentially, it is a straightforward idea simply that organisations should measure themselves not just on the traditional economic profit that they generate for their owners, but also on the impact their operations have on society (broadly, in the sense of communities, and individually, for example in terms of their employees) and the ecological impact on the environment. The influential initiative that has come out of this triple bottom line approach is that of ‘sustainability’. A sustainable business is one that creates an acceptable profit for its owners, but minimises the damage to the environment and enhances the existence of the people with whom it has contact. In other words, it balances economic, environmental and societal interests. This gives the organisation its ‘license to operate’ in society. The assumption underlying the triple bottom line (which is not universally accepted, see the critical commentary at the end of the chapter) is that a sustainable business is more likely to remain successful in the long term than one that focuses on economic goals alone.
+
+> [!PDF|note] [[Teoria_SOSCM 2.pdf#page=12&selection=40,18,40,19&color=note|Teoria_SOSCM 2.pdf, p.12]]
+> TRIPLE BOTTOM LINE
 
 
+> OPERATIONS PRINCIPLE: Operations should judge themselves on the triple bottom line principle of ‘people, planet and profit’.
+
+### Operations performance at the level of the enterprise
+The ability of operations and process management to impact the strategic success of any kind of enterprise is being increasingly recognised.
 
 
 
