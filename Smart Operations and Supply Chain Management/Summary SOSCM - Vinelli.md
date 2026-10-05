@@ -171,11 +171,29 @@ Operations management activities can be grouped into 4 broad categories:
 # Chapter 2: Operations and strategic impact
 shareholders -> azionisti
 stakeholders -> portatori di interessi
+
+> [!PDF|red] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=70&selection=36,0,46,6&color=red|p.70]]
+> All operations have stakeholders. They are the people and groups who have a legitimate interest in the operation’s strategy. Some are internal (employees); others are external (customers, society or community groups, and a company’s shareholders). External stakeholders may have a direct commercial relationship with the organisation (suppliers and customers); others may not (industry regulators). In not-for-profit operations, these stakeholder groups can overlap. So, voluntary workers in a charity may be employees, shareholders and customers all at once. However, in any kind of organisation, it is a responsibility of the operations function to understand the (often conflicting) objectives of its stakeholders and set its objectives accordingly. Yet, although all stakeholder groups, to different extents, will be interested in operations performance, they are likely to have very different views on which aspect of performance is important. 
 ### Corporate social responsibility (CSR)
-Strongly related to the stakeholder perspective of operations performance is that of corporate social responsibility (generally known as CSR). It is generally taken to mean listening and responding to the needs of a company’s stakeholders, including the requirements of sustainable
-
+Strongly related to the stakeholder perspective of operations performance is that of corporate social responsibility (generally known as CSR). It is generally taken to mean listening and responding to the needs of a company’s stakeholders, including the requirements of sustainable development, and building good relationships with employees, suppliers and wider society.
 ![[Summary SOSCM - Vinelli-1791193646521.webp]]
+> OPERATIONS PRINCIPLE Operations strategy should take the requirements of significant stakeholders into account.
 
+**STAGE 1: INTERNAL NEUTRALITY** 
+This is the very poorest level of contribution by the operations function. The other functions regard it as holding them back from competing effectively. The operations function has very positives to contributes towards competitive success. Its goal is to be ignored. Vision: be internally neutral, by avoiding the bigger mistakes. 
+
+**STAGE 2: EXTERNAL NEUTRALITY** 
+Operations function start comparing itself with similar companies in the outside market. Vision: become up to speed or externally neutral with similar businesses in its industry by adopting best practice ideas and norms of performance from others. 
+
+**STAGE 3: INTERNALLY SUPPORTIVE** 
+They may not be better than competitors on every aspect of performance, but they are broadly up. Vision: be clearly and unambiguously the very best in the market. They try to achieve this by gaining a clear view of the company’s competitive and strategic goals and developing appropriate operations resources to excel in the areas in which the company needs to compete effectively. 
+
+**STAGE 4: EXTERNALLY SUPPORTIVE** 
+Operations look to the long term. It develops the operations-based capabilities that will be required to compete in future market conditions. Operations are creative, innovative and capable of adaptation as markets change. They are trying to be one step ahead of competitors. Vision: provide the foundation for competitive success.
+
+![[Summary SOSCM - Vinelli-1791193952041.webp]]
+
+stategic impact is related to operations capabilities
 
 
 
