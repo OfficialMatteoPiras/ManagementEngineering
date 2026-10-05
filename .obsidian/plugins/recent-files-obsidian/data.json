@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)",
+      "path": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    },
+    {
+      "basename": "Lessons",
+      "path": "Digital Marketing and International Management/Lessons.md"
+    },
+    {
+      "basename": "International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk)",
+      "path": "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    },
+    {
+      "basename": "Material flow system and logistic networks",
+      "path": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf"
+    },
+    {
       "basename": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)",
       "path": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
     },
@@ -9,8 +25,12 @@
       "path": "Material Flow Systems and Supply Chain Management/Lessons.md"
     },
     {
-      "basename": "Material flow system and logistic networks",
-      "path": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf"
+      "basename": "Impianti Calzavara",
+      "path": "RequiredKnowledge/IMPIANTI MECCANICI/Impianti Calzavara.pdf"
+    },
+    {
+      "basename": "Formulario impianti meccanici",
+      "path": "RequiredKnowledge/IMPIANTI MECCANICI/Formulario impianti meccanici.pdf"
     },
     {
       "basename": "DEFINING REQUIREMENTS",
@@ -179,26 +199,6 @@
     {
       "basename": "13_TQM",
       "path": "Triennale/Qualità&Organizzazione/Mappe/13_TQM.md"
-    },
-    {
-      "basename": "14_normazione_certificazione",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/14_normazione_certificazione.md"
-    },
-    {
-      "basename": "05_carte_controllo",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/05_carte_controllo.md"
-    },
-    {
-      "basename": "04_accettazione_campionamento",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/04_accettazione_campionamento.md"
-    },
-    {
-      "basename": "03_ispezioni",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/03_ispezioni.md"
-    },
-    {
-      "basename": "mappa_qualita",
-      "path": "Triennale/Qualità&Organizzazione/mappa_qualita.md"
     }
   ],
   "omittedPaths": [],

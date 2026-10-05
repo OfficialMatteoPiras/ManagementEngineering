@@ -4,20 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "799249efd3b9b969",
         "type": "tabs",
+        "dimension": 48.122317596566525,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0310350b743e53ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Digital Marketing and International Management/Lessons.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lessons"
             }
           }
         ]
+      },
+      {
+        "id": "b096ae8dc4295a87",
+        "type": "tabs",
+        "dimension": 51.877682403433475,
+        "children": [
+          {
+            "id": "17d54d291fdabb6e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 1,
+                "left": -14,
+                "top": 783,
+                "zoom": 1.1017156862745099
+              },
+              "icon": "lucide-file-text",
+              "title": "International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "b05d15f0ce61bbf8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 47,
+                "left": -14,
+                "top": 351,
+                "zoom": 1.091102750889712
+              },
+              "icon": "lucide-file-text",
+              "title": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "d57430e3b33ebc69",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://stem.elearning.unipd.it/pluginfile.php/1410571/mod_resource/content/4/2026%20IntMan%20ppt1%20Week%201%20Gen%20intro.pdf",
+                "title": "2026 IntMan ppt1 Week 1 Gen intro.pdf",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "2026 IntMan ppt1 Week 1 Gen intro.pdf"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -222,8 +280,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -232,8 +290,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           },
           {
@@ -242,22 +300,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "c9084b34afaaddc3",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -266,17 +314,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
-      "obsidian-importer:Import notes": false,
+      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Import notes": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -285,39 +334,38 @@
       "templater-obsidian:Templater": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-kanban:Create new board": false,
-      "quickadd:QuickAdd": false,
       "pdfplus-exporter:Export PDF++ annotations": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "69feef6ab7d979fa",
   "lastOpenFiles": [
-    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Requirement/wetransfer_opsl1-zip_2026-10-02_0818.zip",
-    "Requirement",
-    "Nuova cartella",
-    "wetransfer_opsl1-zip_2026-10-02_0818.zip",
+    "Digital Marketing and International Management/Lessons.md",
+    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "NotesFromGroup/SOSCM exam notes.pdf",
+    "NotesFromGroup/SOM exam notes.pdf",
+    "NotesFromGroup/SDT exam notes.pdf",
+    "NotesFromGroup/NPPM exam notes.pdf",
+    "NotesFromGroup/MLCDM exam note.pdf",
+    "NotesFromGroup/MFSLN exam notes.pdf",
+    "NotesFromGroup/IM exam notes.pdf",
+    "NotesFromGroup/DWT exam notes.pdf",
+    "Digital Marketing and International Management/assets/Lessons-1791183214824.webp",
+    "Digital Marketing and International Management/assets/Lessons-1791183211166.webp",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
-    "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791033984161.webp",
-    "Material Flow Systems and Supply Chain Management/pdf/Logistica Integrata e Flessibile (A.PARESCHI, E.FERRARI, A.PERSONA etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032941577.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032816444.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032710691.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026860666.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791026864110.webp",
     "Material Flow Systems and Supply Chain Management/assets/image.png",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028940617.webp",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791028949547.webp",
     "Untitled Kanban.md",
-    "Material Flow Systems and Supply Chain Management/assets",
     "Untitled Kanban 1.md",
-    "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf.crswap",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
