@@ -9,17 +9,17 @@
         "dimension": 48.122317596566525,
         "children": [
           {
-            "id": "0310350b743e53ba",
+            "id": "8f402bdc74c87f45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Marketing and International Management/Lessons.md",
+                "file": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lessons"
+              "title": "Summary SOSCM - Macchion"
             }
           }
         ]
@@ -30,53 +30,50 @@
         "dimension": 51.877682403433475,
         "children": [
           {
-            "id": "17d54d291fdabb6e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-                "page": 1,
-                "left": -14,
-                "top": 783,
-                "zoom": 1.1017156862745099
-              },
-              "icon": "lucide-file-text",
-              "title": "International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
-            }
-          },
-          {
-            "id": "b05d15f0ce61bbf8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-                "page": 47,
-                "left": -14,
-                "top": 717,
-                "zoom": 1.091102750889712
-              },
-              "icon": "lucide-file-text",
-              "title": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
-            }
-          },
-          {
             "id": "d57430e3b33ebc69",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/pluginfile.php/1410572/mod_resource/content/5/2026%20IntMan%20ppt2%20Week%201%20Globalization.pdf",
-                "title": "2026 IntMan ppt2 Week 1 Globalization.pdf",
-                "mode": "webview"
+                "url": "https://stem.elearning.unipd.it/course/view.php?id=16800",
+                "title": "stem.elearning.unipd.it/course/view.php?id=16800",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "2026 IntMan ppt2 Week 1 Globalization.pdf"
+              "title": "stem.elearning.unipd.it/course/view.php?id=16800"
+            }
+          },
+          {
+            "id": "9eb30461ae26e804",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+                "page": 149,
+                "zoom": -0.054249547920434
+              },
+              "icon": "lucide-file-text",
+              "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
+            }
+          },
+          {
+            "id": "ce363327e3180438",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
+                "page": 38,
+                "left": -15,
+                "top": 114,
+                "zoom": 0.9852579208689218
+              },
+              "icon": "lucide-file-text",
+              "title": "Teoria_SOSCM 2"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -340,15 +336,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0310350b743e53ba",
+  "active": "d57430e3b33ebc69",
   "lastOpenFiles": [
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
+    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
+    "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/assets/Lessons-1791187796457.webp",
     "Digital Marketing and International Management/assets/Lessons-1791187395224.webp",
     "Digital Marketing and International Management/assets/Lessons-1791186923704.webp",
     "Digital Marketing and International Management/assets/Lessons-1791186824084.webp",
     "Digital Marketing and International Management/assets/Lessons-1791186479626.webp",
-    "Digital Marketing and International Management/Lessons.md",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "NotesFromGroup/SOSCM exam notes.pdf",
     "NotesFromGroup/SOM exam notes.pdf",
@@ -357,7 +356,6 @@
     "NotesFromGroup/MLCDM exam note.pdf",
     "NotesFromGroup/MFSLN exam notes.pdf",
     "NotesFromGroup/IM exam notes.pdf",
-    "NotesFromGroup/DWT exam notes.pdf",
     "Digital Marketing and International Management/assets/Lessons-1791183214824.webp",
     "Digital Marketing and International Management/assets/Lessons-1791183211166.webp",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
@@ -365,11 +363,9 @@
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791033984161.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032941577.webp",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791032816444.webp",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "ManagementEngineering/README.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
