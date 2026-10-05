@@ -54,7 +54,7 @@
                 "file": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
                 "page": 47,
                 "left": -14,
-                "top": 351,
+                "top": 717,
                 "zoom": 1.091102750889712
               },
               "icon": "lucide-file-text",
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -339,7 +340,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69feef6ab7d979fa",
+  "active": "d57430e3b33ebc69",
   "lastOpenFiles": [
     "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
