@@ -197,6 +197,7 @@ They may not be better than competitors on every aspect of performance, but they
 Operations look to the long term. It develops the operations-based capabilities that will be required to compete in future market conditions. Operations are creative, innovative and capable of adaptation as markets change. They are trying to be one step ahead of competitors. Vision: provide the foundation for competitive success.
 
 *Operations themself drive the company strategy, they make it. It's the apotheosis of the operations manager.*
+Examples: ikea, toyota (TPS: Toyota Productive System), South West Airlines (invented new way of fly and other companies like Ryanair copied it).
 ![[Summary SOSCM - Vinelli-1791193952041.webp]]
 Strategic impact is related to operations capabilities
 
