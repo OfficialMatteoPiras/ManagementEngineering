@@ -115,9 +115,17 @@ The ability of operations and process management to impact the strategic success
 This may be partly because the area has been neglected in the past. But it also denotes an acceptance that it can have both short-term and long-term impact. This can be seen in the impact that operations and process management can have on the business’s costs, revenue, risk, investment and capabilities:
 - COST: Operations and processes management can reduce the costs of producing products and services by being efficient. The more productive the operation is at transforming inputs into outputs, the lower will be the cost of producing a unit of output. Cost reduction is almost always treated as an important contribution that operations can make to the success of any business.
 - REVENUE: It can increase revenue by increasing customer satisfaction through quality, service and innovation. Existing customers are more likely to be retained and new customers are more likely to be attracted to products and services if they are error-free and appropriately designed, if the operation is fast and responsive in meeting their needs and keeping its delivery promises, and if an operation can be flexible.
-- RISK: It can reduce the risk of operational failure, because well-designed and well-run operations should be less likely to fail and if fails, should be able to recover faster and with less disruption.
-- INVESTMENT: 
-- CAPABILITY: 
+- RISK: It can reduce the risk of operational failure, because well-designed and well-run operations should be less likely to fail and if fails, should be able to recover faster and with less disruption (this is called resilience)
+	- risk of supply chain that can disrupt 
+- INVESTMENT: It can ensure effective investment (capital employed) to produce its products and services. Effective and efficient operations can reduce costs and increase revenues.
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=48&selection=63,0,77,55&color=note|p.48]]
+> It can ensure effective investment (capital employed) to produce its products and services. Eventually all businesses in the commercial world are judged by the return that they produce for their investors. This is a function of profit (the difference between costs and revenues) and the amount of money invested in the business’s operations resources. We have already established that effective and efficient operations can reduce costs and increase revenue. What is sometimes overlooked is the role of operations in reducing the investment required per unit of output. It does this by increasing the effective capacity of the operation and by being innovative in how it uses its physical resources.
+- CAPABILITY: It can build capabilities that will form the basis for future innovation by building a solid base of operations skills and knowledge within the business. Every time an operation produces a product or a service it has the opportunity to accumulate knowledge about how that product or service is best produced. This accumulation of knowledge should be used as a basis for learning and improvement. 
+	- why big brands such as bottega veneta stay in Italy instead of other countries? here they find a concentration of capabilitys where most of them are people that are able to build the products
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=48&selection=81,0,97,77&color=note|p.48]]
+> It can build capabilities that will form the basis for future innovation by building a solid base of operations skills and knowledge within the business. Every time an operation produces a product or a service it has the opportunity to accumulate knowledge about how that product or service is best produced. This accumulation of knowledge should be used as a basis for learning and improvement. If so, in the long term, capabilities can be built that will allow the operation to respond to future market challenges. Conversely, if an operations function is simply seen as the mechanical and routine fulfilment of customer requests, then it is difficult to build the knowledge base that will allow future innovation
+
+
 
 
 
