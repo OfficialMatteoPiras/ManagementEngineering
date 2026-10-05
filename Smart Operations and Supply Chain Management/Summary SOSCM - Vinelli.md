@@ -129,15 +129,23 @@ This may be partly because the area has been neglected in the past. But it also 
 
 ### Operations performance at the level of an operation’s processes
 Operations and process management can also be judged at the more operational level. This is how well the network of processes within an operation serves its internal, and eventually its external, customers. There are five aspects of operations and process performance, all of which to a greater or lesser extent will affect customer satisfaction and business competitiveness: 
-1. Quality – doing things right, providing error-free goods and services that are ‘fit for their purpose’. 
-2. Speed – doing things fast, minimising the time between a customer asking for goods and services and the customer receiving them in full. 
-3. Dependability – doing things on-time, keeping the delivery promises that have been made to customers. -> **Zara example cause it can do a lot of collections in a single year.**
-4. Flexibility – changing what you do or how you do it, the ability to vary or adapt the operation’s activities to cope with unexpected circumstances or to give customers individual treatment, or to introduce new products or services. 
-5. Cost – doing things cheaply, producing goods and services at a cost that enables them to be priced appropriately for the market while still allowing a return to the organisation (or, in a not-for-profit organisation, that give good value to the taxpayers or whoever is funding the operation). 
+1. **Quality** – doing things right, providing error-free goods and services that are ‘fit for their purpose’. 
+2. **Speed** – doing things fast, minimising the time between a customer asking for goods and services and the customer receiving them in full. 
+3. Dependability – doing things on-time, keeping the delivery promises that have been made to customers. -> **Zara example cause it can do a lot of collections in a single year. or amazon with the quantity of deliveries**
+4. **Flexibility** – changing what you do or how you do it, the ability to vary or adapt the operation’s activities to cope with unexpected circumstances or to give customers individual treatment, or to introduce new products or services.  
+5. **Cost** – doing things cheaply, producing goods and services at a cost that enables them to be priced appropriately for the market while still allowing a return to the organisation (or, in a not-for-profit organisation, that give good value to the taxpayers or whoever is funding the operation). 
 But do not think that these ‘operational’ aspects of performance have little strategic significance. On the contrary, they all contribute to the success of the organisation as a whole. We will look further at these aspects of performance in the next chapter, which deals with operations strategy.
 
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=49&selection=44,0,50,20&color=note|p.49]]
+> OPERATIONS PRINCIPLE Operations and process performance at an operational level can be grouped together as quality, speed, dependability, flexibility and cost
 
-
+### Diagnostic question: Are processes managed to reflect their operating circumstances?
+All processes differ in some way, so, to some extent, all processes will need to be managed differently. Some of the differences between processes are ‘technical’ in the sense that different products and services require different skills and technologies to produce them. However, processes also differ in terms of the nature of demand for their products or services. Four characteristics in particular have a significant effect on how processes need to be managed: 
+- The volume of the products and services produced. 
+- The variety of the different products and services produced. 
+- The variation in demand for products and services. 
+- The degree of visibility that customers have of the production of products and services.
+This is called the **4 V MODEL**
 
 
 

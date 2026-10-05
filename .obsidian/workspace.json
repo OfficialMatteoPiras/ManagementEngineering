@@ -50,9 +50,9 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 48,
-                "left": 78,
-                "top": 50,
+                "page": 50,
+                "left": 72,
+                "top": 412,
                 "zoom": 1.41
               },
               "icon": "lucide-file-text",
@@ -66,9 +66,9 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 14,
+                "page": 13,
                 "left": -9,
-                "top": 826,
+                "top": 34,
                 "zoom": 1.15
               },
               "icon": "lucide-file-text",
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -342,9 +342,9 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/Lessons.md",
