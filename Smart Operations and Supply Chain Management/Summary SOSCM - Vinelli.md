@@ -201,7 +201,15 @@ Examples: ikea, toyota (TPS: Toyota Productive System), South West Airlines (inv
 ![[Summary SOSCM - Vinelli-1791193952041.webp]]
 Strategic impact is related to operations capabilities
 
-
+The 'context, 'content' and 'process' of operations strategy
+Often a distinction is made between the context, content and process of operations strategy.
+The distinction was popularised largely by the strategy academic, Andrew Pettigrew, based on his extensive eight-year study of a single firm over time:
+- The "**context**" of operations strategy is the set of circumstances under which a strategy is formed. It is the environment in which strategy is shaped. Context, therefore, is different for different organisations, each of which develops strategy in a unique set of circumstances The context in which an operation works, whether it is sudden disruptions to supply, labour shortages, currency fluctuations, changes in ownership, technological disruption, or new services offered by rivals, will directly shape strategy. The answer to the question, 'what should we do?' is always, 'it depends'. It depends on factors both outside the control of any individual organisation such as geopolitical turbulence, and some that are internal, such as the availability of the skills needed to implement a strategy.
+- The "**content**" of operations strategy means the collection of strategic decisions that are made (deliberately or by default). They shape and develop the long-term direction of the operation. They fall into categories such as capacity strategy, supply network strategy, technology strategy, and so on.
+- The "**process**" of operations strategy, as its name implies, is the way in which operations strategies are (or can be) formulated. It reflects what operations managers should do in practice. But it is worth making two points at this stage. First, the practical reality of putting operations strategies together and making them happen in practice is extremely complex.
+As Dr Andrew MacLennan, an expert in strategy implementation, says, "The challenge of implementing strategy successfully is one that faces managers across the globe and in organizations of every kind. However, few organizations have discovered how to make strategy work reliably - the failure rate of planned strategies remains remarkably high."
+Figure 2.3 illustrates the relationship between the context, content and process of operations strategy. But it is worth noting that there are overlaps between them. The reality is that all decisions.
+![[Summary SOSCM - Vinelli-1791195131226.webp]]
 
 
 
