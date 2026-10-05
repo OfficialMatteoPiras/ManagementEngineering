@@ -9,7 +9,12 @@ Two old image s on leading exporters and their trade, and global flows
 
 ## Globalization
 Brexit happened around 2025-16. It changed the rules of the game in the EU. 
-Parise conference about the global war
+Parise conference about the global warming: marked he agreement betwee china and UsA about the global transportation. It has been signed by both parts but since then has been changed, stopped etc. 
 
+The Agenda:![[Lessons-1791186479626.webp]]
+### Bigger picture
+
+***Megatrends*** are durable, directional structural forces that reshape the conditions under which societies, individuals, and organisations across the world operate. They are historically specific rather than permanent features of human societies, resilient to individual action and short -term disruption, and grounded in dynamics strong enough to persist for decades.
+- shaped 
 
 
