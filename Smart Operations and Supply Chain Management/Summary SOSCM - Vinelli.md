@@ -108,9 +108,16 @@ The following image shows why the single processes are important. Each resource 
 > OPERATIONS PRINCIPLE: Operations should judge themselves on the triple bottom line principle of ‘people, planet and profit’.
 
 ### Operations performance at the level of the enterprise
+> [[Teoria_SOSCM 2.pdf#page=13&selection=40,18,40,19&color=note|Teoria_SOSCM 2.pdf, p.13]]
+
+
 The ability of operations and process management to impact the strategic success of any kind of enterprise is being increasingly recognised.
-
-
+This may be partly because the area has been neglected in the past. But it also denotes an acceptance that it can have both short-term and long-term impact. This can be seen in the impact that operations and process management can have on the business’s costs, revenue, risk, investment and capabilities:
+- COST: Operations and processes management can reduce the costs of producing products and services by being efficient. The more productive the operation is at transforming inputs into outputs, the lower will be the cost of producing a unit of output. Cost reduction is almost always treated as an important contribution that operations can make to the success of any business.
+- REVENUE: It can increase revenue by increasing customer satisfaction through quality, service and innovation. Existing customers are more likely to be retained and new customers are more likely to be attracted to products and services if they are error-free and appropriately designed, if the operation is fast and responsive in meeting their needs and keeping its delivery promises, and if an operation can be flexible.
+- RISK: 
+- INVESTMENT: 
+- CAPABILITY: 
 
 
 
