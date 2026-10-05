@@ -162,6 +162,13 @@ In almost any operation, processes can be identified that have different positio
 Example: illustrates the different positions on the four Vs for some retail banking processes.
 ![[Summary SOSCM - Vinelli-1791193009933.webp]]
 
+Operations management activities can be grouped into 4 broad categories: 
+- DIRECTING the overall strategy of the operation It necessary to understand operations and processes, their strategic purpose, how it is translated into reality, how innovation is incorporated into products and services, and how much of the total value-adding process should be kept in-house and outsourced.  DESIGNING the operation’s processes Design is the activity of determining the physical form, shape and composition of operations and processes, together with the types of resources they contain. 
+- Planning and controlling process DELIVERY After being designed, the delivery of products and services from suppliers and through the total operation to customers must be planned and controlled.  DEVELOPING process performance They have to develop the capabilities of their processes to improve process performance.
+![[Summary SOSCM - Vinelli-1791193380459.webp]]
+
+
+# Chapter 2: 
 
 
 
