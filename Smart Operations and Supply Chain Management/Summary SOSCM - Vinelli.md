@@ -156,6 +156,7 @@ This is called the **4 V MODEL**. Moreover we can go deeper by specifying each V
 - VISIBILIY 
 	- Process visibility indicates how much of the process is experienced directly by customers, or how much the process is exposed to its customers. Generally, processes that act directly on customers (such as retail processes or healthcare processes) will have more of their activities visible to their customers than those who act on materials and information. Also, because the customer interface needs managing, high-visibility processes tend to have higher costs than low-visibility processes.
 ![[Summary SOSCM - Vinelli-1791192524661.webp]]
+
 > fast-food have hight volume since it has low variety -> standardised chain of work
 
 In almost any operation, processes can be identified that have different positions on the four dimensions, and which therefore have different objectives and will need managing in different ways. 
@@ -167,7 +168,7 @@ Operations management activities can be grouped into 4 broad categories:
 - **DESIGNING** the operation’s processes Design is the activity of determining the physical form, shape and composition of operations and processes, together with the types of resources they contain. 
 - Planning and controlling process **DELIVERY**. After being designed, the delivery of products and services from suppliers and through the total operation to customers must be planned and controlled. 
 - **DEVELOPING** process performance They have to develop the capabilities of their processes to improve process performance.
-![[Summary SOSCM - Vinelli-1791193380459.webp]]
+![[Summary SOSCM - Vinelli-1791193380459.webp|774x661]]
 # Chapter 2: Operations and strategic impact
 shareholders -> azionisti
 stakeholders -> portatori di interessi
@@ -209,7 +210,7 @@ The distinction was popularised largely by the strategy academic, Andrew Pettigr
 - The "**process**" of operations strategy, as its name implies, is the way in which operations strategies are (or can be) formulated. It reflects what operations managers should do in practice. But it is worth making two points at this stage. First, the practical reality of putting operations strategies together and making them happen in practice is extremely complex.
 As Dr Andrew MacLennan, an expert in strategy implementation, says, "The challenge of implementing strategy successfully is one that faces managers across the globe and in organizations of every kind. However, few organizations have discovered how to make strategy work reliably - the failure rate of planned strategies remains remarkably high."
 Figure below illustrates the relationship between the context, content and process of operations strategy. But it is worth noting that there are overlaps between them. The reality is that all decisions.
-![[Summary SOSCM - Vinelli-1791195131226.webp]]
+![[Summary SOSCM - Vinelli-1791195131226.webp|670]]
 
 
 
