@@ -290,15 +290,15 @@ How to calculate the total time Tm to complete m cycles? Let’s assume that the
 #### 1b) The Cumulative Average Power Model 
 This is the original version of the WLC, as Wright analysed the relationship between the direct labour man hours and the cumulative number of units produced:
 $$
-\hat{t_n} = t_1 \cdot n^{-b} \space{} [sec] 
-\\ \\
-\text{where:} \\ 
-- n \text{ is the number of cycles (or repetitions) completed} \\
-- t_1 \text{ is the performance time to complete the first cycle} \\
-- b \text{ is the learning constant}\\
-
-\text{and:} \\
-- \hat{t_n} \text{ is the cumulative average time for completing n cycles}
+\begin{aligned}
+\hat{t_n} &= t_1 \cdot n^{-b} \quad [\text{sec}] \\[6pt]
+\text{where:}\quad
+& n &&\text{is the number of cycles (or repetitions) completed} \\
+& t_1 &&\text{is the performance time to complete the first cycle} \\
+& b &&\text{is the learning constant} \\[6pt]
+\text{and:}\quad
+& \hat{t_n} &&\text{is the cumulative average time for completing } n \text{ cycles}
+\end{aligned}
 $$With this formulation, it is slightly more difficult to calculate tn , the performance time for the n-th repetition:
 $$
 𝑡_𝑛 = 𝑇_𝑛 − 𝑇_𝑛−1 \\
