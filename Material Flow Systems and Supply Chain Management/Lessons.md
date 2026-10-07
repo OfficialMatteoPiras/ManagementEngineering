@@ -313,8 +313,19 @@ The Stanford B-model proposes a modification of the Power Model, introducing the
 ![[Lessons-1791366862945.webp]]
 
 
+#### 3) Plateau Learning Model
+The main issue with the WLC and its derived models is that, for an infinite number of cycles, the execution time goes to zero. That is not realistic. The Plateau Model tries to avoid this problem:
 
+![[Lessons-1791367044462.webp]]
+$𝐴$ represents the **plateau (Threshold / limit / asymptote)**, the performance time of highly experienced workers under nominal motivating conditions.
 
+![[Lessons-1791367026169.webp]]
+> This model is way more realistic since it introduce a limit to the learning curve. The more you learn the less it's likely you find something new to learn.
+
+#### 4) De Jong’s Learning Model
+De Jong (1957) proposed a model that can account for both manual and machine-controlled tasks. While the manual parts are compressible with respect to experience, the machine part is not. Production time is split in two parts: one is subject to the traditional power learning process, while the other remains constant and represents the incompressible part of the task:
+![[Lessons-1791367305988.webp]]
+> This model wor
 
 
 
