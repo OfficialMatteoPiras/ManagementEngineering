@@ -141,3 +141,23 @@ When a company has a “good” material flow, materials at different stage move
 > 
 > 
 
+
+# Lesson 2 - AN INTRODUCTION TO LEARNING CURVES
+
+> What do we mean by “learning” in the field of industrial engineering and operations management?
+
+**Learning effect:** the phenomenon in which humans or human organizations gain experience through the repetition of the same activity. Experience takes the form of either or both improved manipulative skills and in process procedures. (adapted from Dar-El, 2000)
+
+**Human learning** has developed almost independently in four areas: 
+- *Individual learning*: I study myself the things i need to learn
+- *Product learning:* the focus is on integrating the efforts of individual learning together with improvements in all aspects of materials and information flow involved in putting the whole product together 
+- *Product development learning:* product design changes are the essential ingredients in this type of learning, with an emphasis on design quality. Change the product to become better. 
+- *Learning Organizations*: how companys gets better at realizing multiple products.
+
+
+
+
+
+
+
+

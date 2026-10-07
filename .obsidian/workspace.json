@@ -4,20 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "799249efd3b9b969",
         "type": "tabs",
+        "dimension": 60.93466424682396,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0310350b743e53ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Material Flow Systems and Supply Chain Management/Lessons.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lessons"
             }
           }
         ]
+      },
+      {
+        "id": "b096ae8dc4295a87",
+        "type": "tabs",
+        "dimension": 39.06533575317604,
+        "children": [
+          {
+            "id": "2ed68cb92033d57b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 15,
+                "left": -16,
+                "top": 93,
+                "zoom": -0.060544904137235116
+              },
+              "icon": "lucide-file-text",
+              "title": "Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "7e49dcbc4f7a37b0",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://stem.elearning.unipd.it/course/section.php?id=177816",
+                "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 2 | STEM",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "MATERIAL FLOW SYSTEMS AND LOGISTIC NETWORKS 2026-2027 - INQ1097439 , Tile: WEEK 2 | STEM"
+            }
+          },
+          {
+            "id": "25415a86dda7c276",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Material Flow Systems and Supply Chain Management/pdf/Material flow system and logistic networks.pdf",
+                "page": 7,
+                "left": -18,
+                "top": 150,
+                "zoom": 0.8316532258064516
+              },
+              "icon": "lucide-file-text",
+              "title": "Material flow system and logistic networks"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -281,8 +340,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7e49dcbc4f7a37b0",
   "lastOpenFiles": [
+    "Material Flow Systems and Supply Chain Management/Lessons.md",
+    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
@@ -305,8 +366,6 @@
     "NotesFromGroup/SDT exam notes.pdf",
     "NotesFromGroup/NPPM exam notes.pdf",
     "NotesFromGroup/MLCDM exam note.pdf",
-    "NotesFromGroup/MFSLN exam notes.pdf",
-    "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
