@@ -220,6 +220,25 @@ C_n = C_1 \cdot n^{-b} \space{} [sec]
 \\ \\
 \text{where:} \\ 
 - n, b \text{ are defined as before} \\
-- C_n is the cost for producing the n th unit 
-- C_1 is the cost for producing the first unit
+- C_n { is the cost for producing the n-th unit} \\
+- C_1 { is the cost for producing the first unit} \\
+$$
+Taking the logarithm of both sides of the WLC results in a linear equation. Thus:
+$$
+t_n = t_1 \cdot n^{-b} \\
+\ln(t_n) = \ln(t_1 \cdot n^{-b}) \\
+\ln(t_n) = \ln(t_1) - b \cdot \ln(n) \\ 
+\ln(C_n) = \ln(C_1) - b \ln(n)
+$$
+![[Lessons-1791364651586.webp]]
+
+An interesting characteristic of the Power Model is that each time production is doubled, the performance time is reduced by a fraction that depends from the value of the learning constant, b. 
+
+Consider two different number of cycles, $n_1$ and $n_2$ , such as:
+
+$$ n_2 = 2 n_1$$
+
+Substituting these two values into the Power Model:
+$$
+t_{n_2} = t_1  
 $$
