@@ -34,11 +34,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://stem.elearning.unipd.it/pluginfile.php/1495475/mod_resource/content/1/Lex%202%20-%205th%20October%202026.pdf",
-                "title": "stem.elearning.unipd.it/pluginfile.php/1495475/mod_resource/content/1/Lex 2 - 5th October 2026.pdf",
+                "title": "Lex 2 - 5th October 2026",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "stem.elearning.unipd.it/pluginfile.php/1495475/mod_resource/content/1/Lex 2 - 5th October 2026.pdf"
+              "title": "Lex 2 - 5th October 2026"
             }
           }
         ]
@@ -305,8 +305,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376bdcea576749fc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Digital Warehousing and Transportations/assets/Lessons-1791373523930.webp",
+    "Digital Warehousing and Transportations/assets/Lessons-1791373315512.webp",
+    "Digital Warehousing and Transportations/assets",
     "Digital Warehousing and Transportations/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
@@ -319,7 +322,6 @@
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367026169.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791366862945.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791366837820.webp",
-    "Material Flow Systems and Supply Chain Management/assets/Lessons-1791366282377.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
@@ -331,7 +333,6 @@
     "NotesFromGroup/SOM exam notes.pdf",
     "NotesFromGroup/SDT exam notes.pdf",
     "NotesFromGroup/NPPM exam notes.pdf",
-    "NotesFromGroup/MLCDM exam note.pdf",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
