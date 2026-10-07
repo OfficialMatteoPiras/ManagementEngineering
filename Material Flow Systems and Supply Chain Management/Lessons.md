@@ -188,15 +188,24 @@ Factors influencing learning at individual level:
 	2. Variations within each operator 
 3. Previous experience 
 4. Training
-5. Motivation 
+5. Motivation: even in the same day a worker could be more ore less motivated. for example before and after lunch.
 6. Job Complexity 
 7. Number of Repetitions 
-	1. Does learning continue forever? • How many cycles to reach Time Standard? • The size of job orders 8) Length of Task 9) Errors 10) Forgetting 11) Continuous Improvement
+	1. Does learning continue forever? 
+	2. How many cycles to reach Time Standard? 
+	3. The size of job orders 
+8. Length of Task 
+9. Errors 
+10. Forgetting 
+11. Continuous Improvement
 
-
-
-
-
+### 1) The Power Model
+The Power Model was first introduced in 1936 by T. P. Wright while studying aircraft production. He discovered that as output doubles, the time required to produce each unit reduced by a constant percentage (20%)![[Lessons-1791364050157.webp]]
+the more aircraft you produce the less time it takes. eg producing 4 instead of 2 is 20% faster.
+Also known as Wright’s Learning Curve (WLC), follows this formula:
+$$
+t_n = t_1
+$$
 
 
 
