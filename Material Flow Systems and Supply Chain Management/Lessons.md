@@ -275,12 +275,13 @@ Learning Slopes for **various activities in the defense sector**
 
 #### Example
 ![[Lessons-1791365838242.webp]]
+
 ![[Lessons-1791365936386.webp]]![[Lessons-1791365854967.webp]]
+
 ![[Lessons-1791365879363.webp]]
 
-
-
-
-
+How to calculate the total time Tm to complete m cycles? Let’s assume that the number of repetitions is a continuous variable (the assumption is more exact for n>=15). Then, we can integrate the power model between 0 and m:
+![[Lessons-1791366282377.webp|518]]
+> m is the m-th unit. this integral tells us how much time it takes to go from unit 1 to unit m
 
 
