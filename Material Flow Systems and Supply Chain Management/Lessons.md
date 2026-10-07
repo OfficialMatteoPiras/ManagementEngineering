@@ -177,7 +177,23 @@ Learning curves provide several benefits at different levels of decision-making:
 	4. vertical integration decisions
 
 > amazon: has a lot of temporary workers thus it has to change continuously the work flow.
-> We need to know how 
+> We need to know how fast the workers are to coordinate at its beast the work flow.
+
+we need to ask ourself how fast the flow is and how we could seed it up by changing (e.g.) from linear to batch production.
+
+Factors influencing learning at individual level: 
+1. Methods improvements: you do things slightly more efficiently 
+2. Worker Selection 
+	1. Differences between workers: every worker has its own speed. ideally for the company we would like to have all the same speed.
+	2. Variations within each operator 
+3. Previous experience 
+4. Training
+5. Motivation 
+6. Job Complexity 
+7. Number of Repetitions 
+	1. Does learning continue forever? • How many cycles to reach Time Standard? • The size of job orders 8) Length of Task 9) Errors 10) Forgetting 11) Continuous Improvement
+
+
 
 
 
