@@ -260,8 +260,11 @@ $\Phi$ can be interpreted as the «percent learning» that occurs each time outp
 In the image on the right we change $\Phi$ keeping $t_1$ constant. Vice versa on the right we keep $\Phi$ constant but change $t_1$
 
 ![[Lessons-1791364981913.webp]]
+
 ![[Lessons-1791365406344.webp]]
+
 This table shows the learning slope based on different skills starting on the same point
+
 ![[Lessons-1791365529068.webp]]
 
 ```horizontal
@@ -284,4 +287,16 @@ How to calculate the total time Tm to complete m cycles? Let’s assume that the
 ![[Lessons-1791366282377.webp|518]]
 > m is the m-th unit. this integral tells us how much time it takes to go from unit 1 to unit m
 
+#### 1b) The Cumulative Average Power Model 
+This is the original version of the WLC, as Wright analysed the relationship between the direct labour man hours and the cumulative number of units produced:
+$$
+\hat{t_n} = t_1 \cdot n^{-b} \space{} [sec] 
+\\ \\
+\text{where:} \\ 
+- n \text{ is the number of cycles (or repetitions) completed} \\
+- t_1 \text{ is the performance time to complete the first cycle} \\
+- b \text{ is the learning constant}\\
 
+\text{and:} \\
+- \hat{t_n} \text{ is the cumulative average time for completing n cycles}
+$$
