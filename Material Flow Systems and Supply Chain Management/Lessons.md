@@ -204,8 +204,22 @@ The Power Model was first introduced in 1936 by T. P. Wright while studying airc
 the more aircraft you produce the less time it takes. eg producing 4 instead of 2 is 20% faster.
 Also known as Wright’s Learning Curve (WLC), follows this formula:
 $$
-t_n = t_1
+t_n = t_1 \cdot n^{-b} \space{} [sec] 
+\\ \\
+\text{where:} \\ 
+- n \text{ is the number of cycles (or repetitions) completed} \\ 
+- t_n \text{ is the performance time to complete the n-th cycle} \\
+- t_1 \text{ is the performance time to complete the first cycle} \\
+- b \text{ is the learning constant}\\
 $$
+> b is the most important parameter since it tells how fast we are learning.
 
-
-
+The WLC can also be expressed in terms of cost:
+$$
+C_n = C_1 \cdot n^{-b} \space{} [sec] 
+\\ \\
+\text{where:} \\ 
+- n, b \text{ are defined as before} \\
+- C_n is the cost for producing the n th unit 
+- C_1 is the cost for producing the first unit
+$$
