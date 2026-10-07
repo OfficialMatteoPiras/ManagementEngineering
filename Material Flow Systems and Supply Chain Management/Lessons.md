@@ -240,5 +240,34 @@ $$ n_2 = 2 n_1$$
 
 Substituting these two values into the Power Model:
 $$
-t_{n_2} = t_1  
+t_{n_2} = t_1 \cdot (2n_1) ^ {-b} \\
+t_{n_1} = t_1 \cdot (n_1) ^ {-b} 
 $$
+
+Dividing the first by the second equation gives:
+$$
+\frac{t_{n_2}}{t_{n_1}} = 2^{-b}
+$$
+
+Therefore, we can derive a new parameter called Φ, the Learning Rate (LR or Learning Slope):
+$$
+\Phi = 100 \cdot 2^{-b}
+$$
+$\Phi$ can be interpreted as the «percent learning» that occurs each time output is doubled. In fitting data from the aircraft industry, Wright empirically found $\Phi$ to equal 80% (hence the 20% rule), with its equivalent b value of 0.322. 
+
+> Although there is a tendency to consider the 80% learning rate as a fixed value, $\Phi$ varies depending on job complexity, ranging from **65% up to 95%** (see next slides)
+
+![[Lessons-1791364981913.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
