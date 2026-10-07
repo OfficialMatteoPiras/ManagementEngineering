@@ -284,6 +284,43 @@ ne way of generalising the market requirements that operations need to fulfil is
 #### Reconciling market requirements and operations capabilities over time – the ‘line of fit’ model
 ![[Summary SOSCM - Vinelli-1791380599088.webp]]
 
+![[Summary SOSCM - Vinelli-1791380753325.webp]]
+
+
+![[Summary SOSCM - Vinelli-1791380934203.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
