@@ -257,9 +257,10 @@ $\Phi$ can be interpreted as the «percent learning» that occurs each time outp
 
 > Although there is a tendency to consider the 80% learning rate as a fixed value, $\Phi$ varies depending on job complexity, ranging from **65% up to 95%** (see next slides)
 
+In the image on the right we change $\Phi$ keeping $t_1$ constant. Vice versa on the right we keep $\Phi$ constant but change $t_1$
+
 ![[Lessons-1791364981913.webp]]
-
-
+![[Lessons-1791365406344.webp]]
 
 
 
