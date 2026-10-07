@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "Lessons",
+      "path": "Digital Warehousing and Transportations/Lessons.md"
+    },
+    {
+      "basename": "Lessons",
       "path": "Material Flow Systems and Supply Chain Management/Lessons.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "12_pdca",
       "path": "Triennale/Qualità&Organizzazione/Mappe/12_pdca.md"
-    },
-    {
-      "basename": "13_TQM",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/13_TQM.md"
     }
   ],
   "omittedPaths": [],

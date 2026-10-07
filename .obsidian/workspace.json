@@ -11,10 +11,34 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Digital Warehousing and Transportations/Lessons.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lessons"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6655a8802dabbd53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "376bdcea576749fc",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://stem.elearning.unipd.it/login/index.php",
+                "title": "Login al sito | STEM",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "Login al sito | STEM"
             }
           }
         ]
@@ -281,8 +305,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "376bdcea576749fc",
   "lastOpenFiles": [
+    "Digital Warehousing and Transportations/Lessons.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367703187.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367662826.webp",
