@@ -268,8 +268,13 @@ Yesterday order winner is todays qualifiers. We as a customer we are happier but
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80&selection=76,0,80,8&color=note|p.80]]
 > **OPERATIONS PRINCIPLE** Operations strategy should reflect the requirements of the business’s markets.
 
-
-
+#### The product/service life cycle influence on performance objectives
+ne way of generalising the market requirements that operations need to fulfil is to link them to the life cycle of the products or services that the operation is producing. The exact form of product/service life cycles will vary, but generally they are shown as the sales volume passing through four stages *introduction, growth, maturity and decline.* The important implication of this for operations management is that products and services will require different operations strategies in each stage of their life cycle (see Figure 2.7). 
+- **Introduction stage** – when a product or service is first introduced, it is likely to be offering something new in terms of its design or performance. Given the market uncertainty, the operations management of the company needs to develop the flexibility to cope with these changes and the quality to maintain product/service performance.
+- **Growth stage** – in the growing market, standardised designs emerge that allow the operation to supply the rapidly growing market. Keeping up with demand through rapid and dependable response and maintaining quality levels will help to keep market share as competition starts to increase. 
+- **Maturity stage** – eventually demand starts to level off as the market becomes dominated by a few larger companies with standardised designs. Competition will probably emphasise price or value for money, so operations will be expected to get the costs down in order to maintain profits or to allow price-cutting, or both. So, cost and productivity issues, together with dependable supply, are likely to be the operation’s main concerns. 
+- **Decline stage** – after time, sales will decline. To the companies left there might be a residual market, but if capacity in the industry lags demand, the market will be dominated by price competition; therefore cost-cutting continues to be important.
+![[Summary SOSCM - Vinelli-1791379072444.webp]]
 
 
 

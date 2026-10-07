@@ -5,16 +5,20 @@
       "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md"
     },
     {
+      "basename": "Summary SOSCM - Macchion",
+      "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Operations-and-Process-Management-–-Gestión-por-Procesos",
       "path": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf"
     },
     {
       "basename": "Teoria_SOSCM 2",
       "path": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf"
-    },
-    {
-      "basename": "Summary SOSCM - Macchion",
-      "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md"
     },
     {
       "basename": "Lessons",
@@ -195,10 +199,6 @@
     {
       "basename": "11_causa_effetto",
       "path": "Triennale/Qualità&Organizzazione/Mappe/11_causa_effetto.md"
-    },
-    {
-      "basename": "12_pdca",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/12_pdca.md"
     }
   ],
   "omittedPaths": [],
