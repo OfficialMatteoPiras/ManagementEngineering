@@ -243,9 +243,21 @@ One synthesis of literature shows that business models have a number of common e
  - Processes, responsibilities and interactions. r Key knowledge and competence.
 
 An operating model is like an operations strategy, but applied across all functions and domains of the organisation. Second, there are clear overlaps between the ‘**business model’ and the ‘operating model’**, the main difference being that an operating model focuses more on how an overall business strategy is to be achieved. Also, operating models are rarely designed from first principles. Some kind of understood ‘way of doing things’ will already exist. This is why operating models often have an element of implied change or transformation of the organisation’s resources and processes. Often the term ‘target operating model’ (TOM) is used to describe the way the organisation should operate in the future if it is going to achieve its objectives and make a success of its business model.
+
 ![[Summary SOSCM - Vinelli-1791377142909.webp]]
+**The exact meaning of performance objectives is different in different operations**
 
 
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80&selection=63,0,67,18&color=note|p.80]]
+> OPERATIONS PRINCIPLE The interpretation of the five performance objectives will differ between different operations.
+
+
+![[Summary SOSCM - Vinelli-1791377607658.webp]]
+**Order-winners and qualifiers**
+A particularly useful way of determining the relative importance of competitive factors is to distinguish between what have been termed ‘order-winners’ and ‘qualifiers’. Figure 2.6 shows the difference between order-winning and qualifying objectives in terms of their utility, or worth, to the competitiveness of the organisation. The curves illustrate the relative amount of competitiveness (or attractiveness to customers) as the operation’s performance varies.
+![[Summary SOSCM - Vinelli-1791377748814.webp]]
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80&selection=76,0,80,8&color=note|p.80]]
+> OPERATIONS PRINCIPLE Operations strategy should reflect the requirements of the business’s markets.
 
 
 
