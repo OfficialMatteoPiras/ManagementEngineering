@@ -152,9 +152,32 @@ When a company has a “good” material flow, materials at different stage move
 - *Individual learning*: I study myself the things i need to learn
 - *Product learning:* the focus is on integrating the efforts of individual learning together with improvements in all aspects of materials and information flow involved in putting the whole product together 
 - *Product development learning:* product design changes are the essential ingredients in this type of learning, with an emphasis on design quality. Change the product to become better. 
-- *Learning Organizations*: how companys gets better at realizing multiple products.
+- *Learning Organizations*: how companies gets better at realizing multiple products and how fust they learn to change it. 
 
+**Learning curve:** a graphical/mathematical representation of the empirical relationship between performance in completing an activity and experience, where increased repetition of a task leads to efficiency improvements
+![[Lessons-1791363294221.webp]]
 
+> *Learning curve synonyms:* progress function, cost-quantity relationship, cost curve, product acceleration curve, improvement curve, performance curve, experience curve, efficiency curve
+
+### Why are learning curves important?
+Learning curves provide several benefits at different levels of decision-making: 
+1. At the **planning/operations level**: 
+	1. setting more accurate labor standards and monitoring realistic production objectives 
+	2. forecasting the available working time of a process 
+	3. predicting production output and non-conforming units 
+2. At the **management decision support systems/tactical level**: 
+	1. more accurate inventory management and lot-sizing models 
+	2. better supplier selection 
+	3. more accurate vehicle routing algorithms 
+	4. improved manual order picking procedures 
+3. At the **strategic level**: 
+	1. optimal timing of new product introductions
+	2. competitive pricing decisions 
+	3. determining investment levels to stimulate process and product innovations
+	4. vertical integration decisions
+
+> amazon: has a lot of temporary workers thus it has to change continuously the work flow.
+> We need to know how 
 
 
 
