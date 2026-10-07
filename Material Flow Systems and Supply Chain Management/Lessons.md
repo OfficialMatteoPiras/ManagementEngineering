@@ -329,8 +329,15 @@ De Jong (1957) proposed a model that can account for both manual and machine-con
 
 ![[Lessons-1791367398103.webp]]
 
+```horizontal
 
+![[Lessons-1791367653881.webp]]
+---
+![[Lessons-1791367662826.webp]]
 
+```
+
+![[Lessons-1791367703187.webp]]
 
 
 
