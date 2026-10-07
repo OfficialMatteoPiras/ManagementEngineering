@@ -275,11 +275,14 @@ ne way of generalising the market requirements that operations need to fulfil is
 - **Maturity stage** – eventually demand starts to level off as the market becomes dominated by a few larger companies with standardised designs. Competition will probably emphasise price or value for money, so operations will be expected to get the costs down in order to maintain profits or to allow price-cutting, or both. So, cost and productivity issues, together with dependable supply, are likely to be the operation’s main concerns. 
 - **Decline stage** – after time, sales will decline. To the companies left there might be a residual market, but if capacity in the industry lags demand, the market will be dominated by price competition; therefore cost-cutting continues to be important.
 ![[Summary SOSCM - Vinelli-1791379072444.webp]]
+### 2.6 Diagnostic question: Are the four perspectives of operations strategy reconciled?
 
 
 
+![[Summary SOSCM - Vinelli-1791380476922.webp]]
 
-
+#### Reconciling market requirements and operations capabilities over time – the ‘line of fit’ model
+![[Summary SOSCM - Vinelli-1791380599088.webp]]
 
 
 
