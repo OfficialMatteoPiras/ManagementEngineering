@@ -325,8 +325,9 @@ $𝐴$ represents the **plateau (Threshold / limit / asymptote)**, the performan
 #### 4) De Jong’s Learning Model
 De Jong (1957) proposed a model that can account for both manual and machine-controlled tasks. While the manual parts are compressible with respect to experience, the machine part is not. Production time is split in two parts: one is subject to the traditional power learning process, while the other remains constant and represents the incompressible part of the task:
 ![[Lessons-1791367305988.webp]]
-> This model wor
+> This model works for bot human and machine. M = % of the work done by the machine.
 
+![[Lessons-1791367398103.webp]]
 
 
 
