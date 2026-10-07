@@ -33,12 +33,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/login/index.php",
-                "title": "Login al sito | STEM",
-                "mode": "blank"
+                "url": "https://stem.elearning.unipd.it/pluginfile.php/1480073/mod_resource/content/1/Lesson%201%20-%2029%20September%202026.pdf",
+                "title": "stem.elearning.unipd.it/pluginfile.php/1480073/mod_resource/content/1/Lesson 1 - 29 September 2026.pdf",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Login al sito | STEM"
+              "title": "stem.elearning.unipd.it/pluginfile.php/1480073/mod_resource/content/1/Lesson 1 - 29 September 2026.pdf"
             }
           }
         ]
@@ -308,6 +308,7 @@
   "active": "376bdcea576749fc",
   "lastOpenFiles": [
     "Digital Warehousing and Transportations/Lessons.md",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367703187.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367662826.webp",
@@ -322,7 +323,6 @@
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/Lessons.md",
