@@ -263,11 +263,20 @@ In the image on the right we change $\Phi$ keeping $t_1$ constant. Vice versa on
 ![[Lessons-1791365406344.webp]]
 This table shows the learning slope based on different skills starting on the same point
 ![[Lessons-1791365529068.webp]]
+
+```horizontal
 Learning **Slopes for machining operations**
 ![[Lessons-1791365703249.webp|322]]
+---
 Learning Slopes for **various activities in the defense sector**
-![[Lessons-1791365720851.webp|378x389]]
+![[Lessons-1791365720851.webp|394x406]]
+```
 
+
+#### Example
+![[Lessons-1791365838242.webp]]
+![[Lessons-1791365936386.webp]]![[Lessons-1791365854967.webp]]
+![[Lessons-1791365879363.webp]]
 
 
 
