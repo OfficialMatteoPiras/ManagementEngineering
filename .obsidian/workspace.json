@@ -4,93 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "799249efd3b9b969",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 57.07547169811321,
         "children": [
           {
-            "id": "8f402bdc74c87f45",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Summary SOSCM - Vinelli"
-            }
-          },
-          {
-            "id": "c2d38d87652d5741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Summary SOSCM - Macchion"
+              "title": "New tab"
             }
           }
         ]
-      },
-      {
-        "id": "b096ae8dc4295a87",
-        "type": "tabs",
-        "dimension": 42.924528301886795,
-        "children": [
-          {
-            "id": "d57430e3b33ebc69",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://stem.elearning.unipd.it/course/view.php?id=17033",
-                "title": "Corso: SMART OPERATIONS AND SUPPLY CHAIN MANAGEMENT 2026-2027 - INQ1097419 | STEM",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Corso: SMART OPERATIONS AND SUPPLY CHAIN MANAGEMENT 2026-2027 - INQ1097419 | STEM"
-            }
-          },
-          {
-            "id": "9eb30461ae26e804",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 94,
-                "left": 29,
-                "top": 651,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
-            }
-          },
-          {
-            "id": "ce363327e3180438",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 28,
-                "left": 27,
-                "top": 791,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "Teoria_SOSCM 2"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -354,12 +281,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9eb30461ae26e804",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380934203.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380753325.webp",
-    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380599088.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380476922.webp",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
