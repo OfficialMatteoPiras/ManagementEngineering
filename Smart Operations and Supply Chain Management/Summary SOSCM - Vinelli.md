@@ -200,6 +200,10 @@ Operations look to the long term. It develops the operations-based capabilities 
 *Operations themself drive the company strategy, they make it. It's the apotheosis of the operations manager.*
 Examples: ikea, toyota (TPS: Toyota Productive System), South West Airlines (invented new way of fly and other companies like Ryanair copied it).
 ![[Summary SOSCM - Vinelli-1791193952041.webp]]
+
+![[Summary SOSCM - Vinelli-1791376583944.webp]]
+
+
 Strategic impact is related to operations capabilities
 
 The 'context, 'content' and 'process' of operations strategy
@@ -211,9 +215,11 @@ The distinction was popularised largely by the strategy academic, Andrew Pettigr
 As Dr Andrew MacLennan, an expert in strategy implementation, says, "The challenge of implementing strategy successfully is one that faces managers across the globe and in organizations of every kind. However, few organizations have discovered how to make strategy work reliably - the failure rate of planned strategies remains remarkably high."
 Figure below illustrates the relationship between the context, content and process of operations strategy. But it is worth noting that there are overlaps between them. The reality is that all decisions.
 ![[Summary SOSCM - Vinelli-1791195131226.webp|670]]
+### The concepts of the ‘business model’ and the ‘operating model’
+> [!PDF|red] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=75&selection=44,0,57,8&color=red|Operations-and-Process-Management-–-Gestión-por-Procesos, p.75]]
+> Two concepts have emerged over the last few years that are useful in understanding the topdown perspective on operations strategy (or at least the terms are new – one could argue that the ideas are far older). These are the concepts of the ‘business model’ and the ‘operating model’. Put simply, a ‘business model’ is the plan that is implemented by a company to generate revenue and make a profit (or fulfil its social objectives if a not-for-profit enterprise). It includes the various parts and organisational functions of the business, as well as the revenues it generates and the expenses it incurs. In other words, what a company does and how it makes money from doing it. More formally, it is ‘a conceptual tool that contains a big set of elements and their relationships and allows [the expression of] the business logic of a specific firm. It is a description of the value a company offers to one or several segments of customers and of the architecture of the firm and its network of partners for creating, marketing, and delivering this value and relationship capital, to generate profitable and sustainable revenue streams.
 
-
-
+![[Summary SOSCM - Vinelli-1791376701008.webp]]
 
 
 
