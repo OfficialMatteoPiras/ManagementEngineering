@@ -287,24 +287,35 @@ How to calculate the total time Tm to complete m cycles? Let’s assume that the
 ![[Lessons-1791366282377.webp|518]]
 > m is the m-th unit. this integral tells us how much time it takes to go from unit 1 to unit m
 
-#### 1b) The Cumulative Average Power Model 
+### 1b) The Cumulative Average Power Model
+
 This is the original version of the WLC, as Wright analysed the relationship between the direct labour man hours and the cumulative number of units produced:
+
 $$
-\begin{aligned}
-\hat{t_n} &= t_1 \cdot n^{-b} \quad [\text{sec}] \\[6pt]
-\text{where:}\quad
-& n &&\text{is the number of cycles (or repetitions) completed} \\
-& t_1 &&\text{is the performance time to complete the first cycle} \\
-& b &&\text{is the learning constant} \\[6pt]
-\text{and:}\quad
-& \hat{t_n} &&\text{is the cumulative average time for completing } n \text{ cycles}
-\end{aligned}
-$$With this formulation, it is slightly more difficult to calculate tn , the performance time for the n-th repetition:
+\hat{t_n} = t_1 \cdot n^{-b} \quad [\text{sec}]
 $$
-𝑡_𝑛 = 𝑇_𝑛 − 𝑇_𝑛−1 \\
-𝑡_𝑛 = 𝑡_1 \cdot {n ^{(1−𝑏)} − (𝑛 − 1) ^{(1−b)}}
+
+**where:**
+
+- $n$ is the number of cycles (or repetitions) completed
+- $t_1$ is the performance time to complete the first cycle
+- $b$ is the learning constant
+
+**and:**
+
+- $\hat{t_n}$ is the cumulative average time for completing $n$ cycles
+
+With this formulation, it is slightly more difficult to calculate $t_n$, the performance time for the $n$-th repetition:
+
 $$
-This version of the WLC is generally used when regression values with the Power Model are too low. The cumulative average, in fact, dampens out the effect of outliers. 
+t_n = T_n - T_{n-1}
+$$
+
+$$
+t_n = t_1 \cdot \left[n^{(1-b)} - (n-1)^{(1-b)}\right]
+$$
+
+This version of the WLC is generally used when regression values with the Power Model are too low. The cumulative average, in fact, dampens out the effect of outliers.
 
 The Stanford B-model proposes a modification of the Power Model, introducing the parameter B:
 
