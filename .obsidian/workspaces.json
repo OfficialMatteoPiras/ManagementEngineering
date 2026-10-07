@@ -1263,7 +1263,7 @@
                 "state": {
                   "type": "footnotes",
                   "state": {
-                    "file": "Impianti/Capitoli/Capitolo 2 - STUDIO DI FATTIBILITÀ.md"
+                    "file": "Digital Warehousing and Transportations/Lessons.md"
                   },
                   "icon": "lucide-file-signature",
                   "title": "Footnotes"
@@ -1358,5 +1358,5 @@
       "mtime": "2026-10-07T13:22:07+02:00"
     }
   },
-  "active": "Warehousing and Transportation"
+  "active": "Smart Operations"
 }
