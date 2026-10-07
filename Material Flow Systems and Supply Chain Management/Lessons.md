@@ -299,4 +299,40 @@ $$
 
 \text{and:} \\
 - \hat{t_n} \text{ is the cumulative average time for completing n cycles}
+$$With this formulation, it is slightly more difficult to calculate tn , the performance time for the n-th repetition:
 $$
+𝑡_𝑛 = 𝑇_𝑛 − 𝑇_𝑛−1 \\
+𝑡_𝑛 = 𝑡_1 \cdot {n ^{(1−𝑏)} − (𝑛 − 1) ^{(1−b)}}
+$$
+This version of the WLC is generally used when regression values with the Power Model are too low. The cumulative average, in fact, dampens out the effect of outliers. 
+
+The Stanford B-model proposes a modification of the Power Model, introducing the parameter B:
+
+![[Lessons-1791366837820.webp]]
+
+![[Lessons-1791366862945.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
