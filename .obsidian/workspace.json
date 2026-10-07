@@ -65,8 +65,8 @@
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
                 "page": 81,
-                "left": 120,
-                "top": 672,
+                "left": 63,
+                "top": 211,
                 "zoom": 1.1
               },
               "icon": "lucide-file-text",
@@ -80,17 +80,17 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 19,
-                "left": 3,
-                "top": 45,
-                "zoom": 1.19
+                "page": 23,
+                "left": 27,
+                "top": 603,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "Teoria_SOSCM 2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -356,8 +356,9 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377748814.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377607658.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377142909.webp",
@@ -375,7 +376,6 @@
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367703187.webp",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791367662826.webp",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",

@@ -260,11 +260,11 @@ A particularly useful way of determining the relative importance of competitive 
 > - Order-winners – are those things that directly and significantly contribute to winning business. They are regarded by customers as key reasons for purchasing the product or service. Raising performance in an order-winner will either result in more business or improve the chances of gaining more business. Order-winners show a steady and significant increase in their contribution to competitiveness as the operation gets better at providing them. 
 > - Qualifiers – may not be the major competitive determinants of success, but are important in another way. They are those aspects of competitiveness where the operation’s performance has to be above a particular level just to be considered by the customer. Performance below this ‘qualifying’ level of performance may disqualify the operation from being considered by customers. But any further improvement above the qualifying level is unlikely to gain the company much competitive benefit. Qualifiers are those things that are generally expected by customers. Being great at them is unlikely to excite customers, but being bad at them can disadvantage the competitive position of the operation
 
+
+Yesterday order winner is todays qualifiers. We as a customer we are happier but the bar of the company have risen.
 ![[Summary SOSCM - Vinelli-1791377748814.webp]]
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80&selection=76,0,80,8&color=note|p.80]]
-> OPERATIONS PRINCIPLE Operations strategy should reflect the requirements of the business’s markets.
-
-
+> **OPERATIONS PRINCIPLE** Operations strategy should reflect the requirements of the business’s markets.
 
 
 
