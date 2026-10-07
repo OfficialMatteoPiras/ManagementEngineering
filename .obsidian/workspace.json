@@ -64,9 +64,9 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 81,
+                "page": 82,
                 "left": 63,
-                "top": 211,
+                "top": 33,
                 "zoom": 1.1
               },
               "icon": "lucide-file-text",
@@ -80,9 +80,9 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-                "page": 23,
+                "page": 28,
                 "left": 27,
-                "top": 603,
+                "top": 791,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -356,9 +356,9 @@
   },
   "active": "8f402bdc74c87f45",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377748814.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377607658.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377142909.webp",
