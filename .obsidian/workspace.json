@@ -214,7 +214,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Impianti/Capitoli/Capitolo 2 - STUDIO DI FATTIBILITÀ.md"
+                "file": "Digital Warehousing and Transportations/Lessons.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -226,8 +226,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           },
           {

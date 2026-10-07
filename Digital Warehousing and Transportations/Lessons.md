@@ -22,9 +22,17 @@ networks contains warehouses and tansport system
 Performance pillars in transport are:
 ![[Lessons-1791373523930.webp]]
 
-| Type of  |     |     |
-| -------- | --- | --- |
-|          |     |     |
+|  Type of Transport   | Primary Transport | Secondary Transport |
+|:--------------------:|:-----------------:|:-------------------:|
+|    Road Transport    |         x         |          x          |
+|    Rail Transport    |         x         |                     |
+|    Sea Transport     |         x         |                     |
+|    Air Transport     |         x         |    x ("drones")     |
+| Intermodal Transport |         x         |                     |
+
+
+
+
 
 
 
