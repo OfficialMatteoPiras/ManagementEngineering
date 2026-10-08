@@ -37,17 +37,27 @@ Coca-Cola has been bouncing between local and global actor with the change of th
 ![[Lessons-1791470264827.webp]]
 > [!Important] this argument will be surely in the exam
 
-#### What Is Globalisation
+### What Is Globalisation
 Globalization refers to the **shift toward a more integrated and interdependent world economy.** 
 > even tho we change city we find the more or less the same shops.  
 
 This long-term and multifaceted phenomenon involves the increasing interconnectedness of countries through various exchanges, including goods, services, technology, information, trade, financial flows, and people.
 
 (from our economic/engineering standpoint) It primarily includes two major dynamics: the globalisation of markets and the globalisation of production.
-
 #### Globalization of Markets
+Globalization of markets refers to the merging of historically distinct national markets into one vast global marketplace. Eventually consumer tastes and preferences around the world are converging, making it possible for firms to sell increasingly standardised products globally – but it is far from being that simple... 
+
+This converging trend anyway is driven by factors such as improved communication technologies, global media, and increased ease of travel, which expose consumers worldwide to similar products and lifestyles. Products and services are impacted and benefitting from this trend.
 
 
+| Shop        |                                                                                                                                               | Example                                  |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| Cocacola    | A soft drink sold with a largely consistent formula and branding worldwide.                                                                   | different flavours between Italy and USA |
+| McDondald's | Offering a standardised fast - food experience and core menu items across tight international operations, plus a set of extra local offerings |                                          |
+| Apple       | Selling iPhones, other devices and software platforms, quite identical in form and function globally, with minor regional adaptations         |                                          |
+| Nike        | Marketing athletic footwear and apparel with universal designs and branding                                                                   |                                          |
+
+The globalization of markets presents significant opportunities for companies to expand their reach and achieve economies of scale, while also posing challenges related to local preferences, cultures, competitive dynamics, etc.
 
 
 
