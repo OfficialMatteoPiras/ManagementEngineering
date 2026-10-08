@@ -73,14 +73,21 @@ While this approach creates complex and impacting global supply chains , it enab
 
 #### The classic case of the Apple iPhone: A truly global product
 ![[Lessons-1791471285100.webp]]
-> Apple's iPhone exemplifies the globalization of production in action (with more than 100 dependencies along the production and the supply chain. 
-- Design and software: Developed in California, USA 
-- Semiconductors: various countries, incl Germany, Taiwan 
-- Memory components: From South Korea and Japan 
-- Display panels: Manufactured in South Korea and Taiwan 
-- Rare metals: Mined in Africa and Asia 
-- Assembly: Primarily China, Brazil and India 
-This global production network allows Apple to optimise quality and efficiency whilst maintaining control of key value - adding activities like design, software engineering, and marketing at corporate level in Cupertino, USA.
+> [!Note] Apple's iPhone exemplifies the globalization of production in action (with more than 100 dependencies along the production and the supply chain.
+> - Design and software: Developed in California, USA 
+> - Semiconductors: various countries, incl Germany, Taiwan 
+> - Memory components: From South Korea and Japan 
+> - Display panels: Manufactured in South Korea and Taiwan
+> - Rare metals: Mined in Africa and Asia 
+> - Assembly: Primarily China, Brazil and India 
+> 
+> This global production network allows Apple to optimise quality and efficiency whilst maintaining control of key value - adding activities like design, software engineering, and marketing at corporate level in Cupertino, USA.
+
+#### Key institutions supporting Globalization
+As markets globalise and business increasingly crosses borders, several institutions have emerged to manage and regulate the global marketplace.
+![[Lessons-1791471528519.webp]]
+> These institutions, created through voluntary agreements between Nations, provide the governance infrastructure that should enable globalization to function effectively . Other global institutions such as G7 or G20 or OECD (ie. OCSE in Italian) are not mentioned here, but extremely relevant as well.
+
 
 
 
