@@ -105,6 +105,17 @@ Advancements in technology have significantly reduced former geographic constrai
 
 ![[Lessons-1791472273779.webp]]
 
+Implications of Tech change for Globalization
+
+| For Markets                                                     | For Production                                                        |
+| --------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Creates (electronic) global marketplaces <br>                   | Enables firms to coordinate globally dispersed production systems     |
+| Reduces the cultural distance between countries                 | Makes outsourcing of manufacturing and services more viable           |
+| Enables global media to create shared consumer experiences      | Allows businesses to locate activities in optimal locations worldwide |
+| Facilitates the emergence of global brands and global consumers | Facilitates just - in-time inventory systems across borders           |
+| Makes market entry possible for smaller firms                   | Enables 24 - hour work cycles using time zone differences             |
+
+![[Lessons-1791472550124.webp]]
 
 
 
