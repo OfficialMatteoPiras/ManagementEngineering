@@ -31,6 +31,29 @@ Substantial changes and new leading giants (based on S&P 500 data 10 largest com
 Business leaders face a dangerous pattern: expectations about globalization swing wildly between extremes. From "the world is flat" euphoria (Friedman ) to "globalization is dead" despair (2008 - 2012), to geopolitical turmoil - C reating costly strategic mistakes…
 ![[Lessons-1791187796457.webp]]
 
+#### What Is Globalisation
+Globalization refers to the shift toward a more integrated and interdependent world economy . This long -term and multifaceted phenomenon involves the increasing interconnectedness of countries through various exchanges, including goods, services, technology, information, trade, financial flows, and people. (from our economic/engineering standpoint) It primarily includes two major dynamics: the globalisation of markets and the globalisation of production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
