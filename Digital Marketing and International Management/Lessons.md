@@ -88,7 +88,7 @@ As markets globalise and business increasingly crosses borders, several institut
 ![[Lessons-1791471528519.webp]]
 > These institutions, created through voluntary agreements between Nations, provide the governance infrastructure that should enable globalization to function effectively . Other global institutions such as G7 or G20 or OECD (ie. OCSE in Italian) are not mentioned here, but extremely relevant as well.
 
-
+![[Lessons-1791472055179.webp]]
 
 
 
