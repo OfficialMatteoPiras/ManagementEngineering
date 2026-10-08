@@ -46,7 +46,8 @@ the network could be:
 we need to reach the saturation of the vehicle or the saturation of the container (if we adopt adopt rail, sea, intermodal tarnsport)
 
 **But why we need to do this?**
-With primary transport we pay the trip. 
+With primary transport we pay the trip. we could do a direct trip or direct and return trip
+
 
 
 
