@@ -144,6 +144,7 @@ So companies should leverage their natural advantages and closest relationships.
 
 ![[Lessons-1791473292043.webp]]
 
+![[Lessons-1791473385009.webp]]
 
 
 
