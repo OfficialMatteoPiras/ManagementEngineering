@@ -126,7 +126,23 @@ China has been the largest recipient among developing nations, receiving approxi
 ![[Lessons-1791472789351.webp]]
 #### The “Law of Semi globalization”
 - 25% is the level of globalization we've achieved in the planet
+- experts over estimate it by a factor of 5
 ![[Lessons-1791472821638.webp]]
+#### The “Law of Distance ” (P. Ghemawat)
+![[Lessons-1791473090660.webp]]
+
+#### The “Globaloney Problem” (P. Ghemawat)
+According to surveys and research, most managers consistently overestimate globalization levels by five times on average . This "globaloney" leads to costly business mistakes and fuels anti - globalization sentiment.
+
+| Common Misconceptions                                                                                                                                                               | Reality Check                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Truly global companies should compete everywhere • Competing the same way everywhere is optimal • Global companies should have no home base • Globalization offers limitless growth | Less than 0.1% of firms have foreign operations • Only 1% of firms export • Median US multinational operates in just 3 countries • Distance effects persist despite technology |
+|                                                                                                                                                                                     |                                                                                                                                                                                |
+These biases stem from various sorts of bias and misconceptions — the fantasy that new technology abolishes borders and distance s. 
+Stress tests for these empirical laws: 1929 crunch, 2008, Trump tariffs… 
+So companies should leverage their natural advantages and closest relationships.
+
+![[Lessons-1791473292043.webp]]
 
 
 
