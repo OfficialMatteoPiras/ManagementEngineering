@@ -117,8 +117,16 @@ Implications of Tech change for Globalization
 
 ![[Lessons-1791472550124.webp]]
 
-
-
+#### Shift in Foreign Direct Investment and World Order
+At least two significant trends have emerged in cross - border investment flows, proving the growth of internationalization patter ns: 
+1. Sustained growth in FDI since 1990, with periodic fluctuations due to global economic conditions (1990? → USSR; Berlin Wall…) 
+2. Increasing importance of developing nations as investment destinations 
+China has been the largest recipient among developing nations, receiving approximately 250 billion USD in inflows (2020). This sustained flow of foreign investment into developing nations serves as a key stimulus for economic growth in the BRICS countries and al ike .
+![[Lessons-1791472772416.webp]]
+![[Lessons-1791472789351.webp]]
+#### The “Law of Semi globalization”
+- 25% is the level of globalization we've achieved in the planet
+![[Lessons-1791472821638.webp]]
 
 
 
