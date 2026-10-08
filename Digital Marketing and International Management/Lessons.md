@@ -59,8 +59,28 @@ This converging trend anyway is driven by factors such as improved communication
 
 The globalization of markets presents significant opportunities for companies to expand their reach and achieve economies of scale, while also posing challenges related to local preferences, cultures, competitive dynamics, etc.
 
+#### Globalization of Production
+The globalization of production refers to the sourcing of goods and services from optimal/optimized locations around the globe, to leverage national differences in factors of production (labour, energy, land, capital), ie. regarding quality and costs. This strategic approach allows companies to take advantage of cost differences, specialized skills, and resource availability across countries, thereby enhancing efficiency and competitiveness.
 
+| Shop                  |                                                                                                                                                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Boing 787 Dreamlinear | 65% outsourced…. Wings from Japan, fuselage sections from Italy, engines from UK. Final assembly in the US                                                                                                                                          |
+| Nike Shoes            | Designs are created in Oregon, while manufacturing takes place in Vietnam, Indonesia, China, etc., benefitting from lower labor costs and substantial availability of labor                                                                         |
+| Automotive Industry   | Car parts are sourced globally, then assembled (and more). Just as an example, the US automotive industry totaled 90BlnUSD sourcing in 2024, with these Top10 sourcing countries: Mexico, Canada, China, Japan, South Korea, Germany, India, Taiwan |
+| SW Development        | Coding may be done ie. in India, design in California, testing in Eastern EU, optimizing expertise, costs, etc..                                                                                                                                    |
 
+While this approach creates complex and impacting global supply chains , it enables companies to optimize costs and efficiencies , and access specialized capabilities worldwide.
+
+#### The classic case of the Apple iPhone: A truly global product
+![[Lessons-1791471285100.webp]]
+> Apple's iPhone exemplifies the globalization of production in action (with more than 100 dependencies along the production and the supply chain. 
+- Design and software: Developed in California, USA 
+- Semiconductors: various countries, incl Germany, Taiwan 
+- Memory components: From South Korea and Japan 
+- Display panels: Manufactured in South Korea and Taiwan 
+- Rare metals: Mined in Africa and Asia 
+- Assembly: Primarily China, Brazil and India 
+This global production network allows Apple to optimise quality and efficiency whilst maintaining control of key value - adding activities like design, software engineering, and marketing at corporate level in Cupertino, USA.
 
 
 
