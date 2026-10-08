@@ -11,10 +11,34 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Digital Warehousing and Transportations/Lessons.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lessons"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6655a8802dabbd53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "376bdcea576749fc",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://stem.elearning.unipd.it/pluginfile.php/1495475/mod_resource/content/1/Lex%202%20-%205th%20October%202026.pdf",
+                "title": "Lex 2 - 5th October 2026",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Lex 2 - 5th October 2026"
             }
           }
         ]
@@ -86,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -189,7 +214,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Impianti/Capitoli/Capitolo 2 - STUDIO DI FATTIBILITÀ.md"
+                "file": "Digital Warehousing and Transportations/Lessons.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -280,8 +305,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "376bdcea576749fc",
   "lastOpenFiles": [
+    "Digital Warehousing and Transportations/Lessons.md",
+    "Home.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
@@ -290,7 +317,6 @@
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380753325.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380599088.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791380476922.webp",
-    "Untitled.md",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791379072444.webp",
     "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377748814.webp",
@@ -298,7 +324,6 @@
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791377142909.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791376701008.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Vinelli-1791376583944.webp",
-    "Digital Warehousing and Transportations/Lessons.md",
     "Ink/Drawing",
     "Ink",
     "Digital Warehousing and Transportations/assets",
@@ -314,7 +339,6 @@
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "ManagementEngineering/README.md",
     "Magistrale/Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
-    "Home.md",
     "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/Drawing 2026-09-30 19.44.31.excalidraw.md",
     "Magistrale/Smart Operations and Supply Chain Management/assets/Summary SOSCM/Drawing 2026-09-30 19.44.00.excalidraw.md",
     "Triennale/Impianti/Capitoli/Capitolo 3 - SCELTA DELL’UBICAZIONE DI UN IMPIANTO INDUSTRIALE.md",
