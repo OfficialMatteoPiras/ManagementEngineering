@@ -41,21 +41,25 @@ the network could be:
 - only suppliers
 - mixed situation
 
-#### Primary Transport
+### Primary Transport
 ![[Lessons-1791458840119.webp]]
 we need to reach the saturation of the vehicle or the saturation of the container (if we adopt adopt rail, sea, intermodal transport)
 
 **But why we need to do this?**
 With primary transport we pay the trip. we could do a direct trip or direct and return trip.
 
-There are two types od containers
+There are two types of containers:
 
 
  ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.36pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=500&aspectRatio=1.778&viewBoxX=0&viewBoxY=0&viewBoxW=2000&viewBoxH=1125)
 
+Primary Transport can be done by:
+- own fleet: only road transport
+- outsourcing provider: every type of transport
 
-
-
+#### Road Transport  by own fleet
+Cost classification:
+- *Internal cost:* 
 
 
 
