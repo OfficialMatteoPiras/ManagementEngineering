@@ -90,14 +90,20 @@ As markets globalise and business increasingly crosses borders, several institut
 
 ![[Lessons-1791472055179.webp]]
 
+#### The Primary Drivers of Globalization
+**Declining Trade and Investment Barriers**
+Trump (and Brexit) aside, since World War II, advanced industrial nations have progressively reduced barriers to cross - border movement of goods, services and capital:
+- GATT/WTO negotiations have lowered average tariff rates from over 40% in 1950 to about 2 - 3% today in developed nations (before Trump47) 
+- Bilateral and regional agreements (EU, NAFTA, etc.) have further reduced trade barriers 
+- Most changes to national laws governing foreign direct investment (FDI) since 2000 have largely created more favourable conditions.
 
+**Technological Change**
+Advancements in technology have significantly reduced former geographic constraints:
+- *Communications*: Microprocessors, satellites, optical fibre, wireless technologies, and others
+- *Internet*: Creating a global information backbone with multiple billion users (68% of global population according to ITU, end of 2024) 
+- *Transportation*: Commercial jet aircrafts, containerisation, super freighters reducing shipping time and costs.
 
-
-
-
-
-
-
+![[Lessons-1791472273779.webp]]
 
 
 
