@@ -60,7 +60,20 @@ Primary Transport can be done by:
 #### Road Transport  by own fleet
 Cost classification:
 - *Internal cost:* cost that the company has to pay like fuel, drivers ...
-- *External cost:* cost that fall on society and on the environment like pollution, $co_2$ emission, road  
+- *External cost:* cost that fall on society and on the environment like pollution, $co_2$ emission, road damage, congestions of traffic, noise..  
+
+#### Internal Cost
+Internal cost are like:
+- driver cost
+- fuel cost
+- truck cost
+- taxes cost
+- highway cost (only for distance travelled on highway)
+- maintenance cost
+- Loading and unloading cost
+Truck cost are measurement in units $[€/km]$. 
+
+
 
 
 
