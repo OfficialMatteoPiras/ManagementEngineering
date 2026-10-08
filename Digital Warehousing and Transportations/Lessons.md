@@ -43,10 +43,16 @@ the network could be:
 
 #### Primary Transport
 ![[Lessons-1791458840119.webp]]
-we need to reach the saturation of the vehicle or the saturation of the container (if we adopt adopt rail, sea, intermodal tarnsport)
+we need to reach the saturation of the vehicle or the saturation of the container (if we adopt adopt rail, sea, intermodal transport)
 
 **But why we need to do this?**
-With primary transport we pay the trip. we could do a direct trip or direct and return trip
+With primary transport we pay the trip. we could do a direct trip or direct and return trip.
+
+There are two types od containers
+
+
+ ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.36pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=500&aspectRatio=1.778&viewBoxX=0&viewBoxY=0&viewBoxW=2000&viewBoxH=1125)
+
 
 
 
