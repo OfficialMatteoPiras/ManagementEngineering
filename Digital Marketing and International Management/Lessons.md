@@ -32,13 +32,20 @@ Business leaders face a dangerous pattern: expectations about globalization swin
 ![[Lessons-1791187796457.webp]]
 > Triple A: Adaptation, Aggregation, Adaptation
 
-Cocacola has been bou
+Coca-Cola has been bouncing between local and global actor with the change of the management. 
 
 ![[Lessons-1791470264827.webp]]
 > [!Important] this argument will be surely in the exam
 
 #### What Is Globalisation
-Globalization refers to the shift toward a more integrated and interdependent world economy . This long -term and multifaceted phenomenon involves the increasing interconnectedness of countries through various exchanges, including goods, services, technology, information, trade, financial flows, and people. (from our economic/engineering standpoint) It primarily includes two major dynamics: the globalisation of markets and the globalisation of production.
+Globalization refers to the **shift toward a more integrated and interdependent world economy.** 
+> even tho we change city we find the more or less the same shops.  
+
+This long-term and multifaceted phenomenon involves the increasing interconnectedness of countries through various exchanges, including goods, services, technology, information, trade, financial flows, and people.
+
+(from our economic/engineering standpoint) It primarily includes two major dynamics: the globalisation of markets and the globalisation of production.
+
+#### Globalization of Markets
 
 
 
