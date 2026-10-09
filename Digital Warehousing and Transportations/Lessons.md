@@ -62,7 +62,7 @@ Cost classification:
 - *Internal cost:* cost that the company has to pay like fuel, drivers ...
 - *External cost:* cost that fall on society and on the environment like pollution, $co_2$ emission, road damage, congestions of traffic, noise..  
 
-#### Internal Cost
+#### Internal Costs
 Internal cost are like:
 - driver cost
 - fuel cost
@@ -73,7 +73,8 @@ Internal cost are like:
 - Loading and unloading cost
 Truck cost are measurement in units $[€/km]$. 
 
-
+> [!Example] Example
+> 
 
 
 
