@@ -74,7 +74,15 @@ Internal cost are like:
 Truck cost are measurement in units $[€/km]$. 
 
 > [!Example] Example
-> 
+> **1] Truck cost:** with measurement unit [€/km] 
+> **2] Driver Cost:** today it's about 25 €/km
+> $$
+> c_{driver} = \frac{25}{50} = 0.5 €/km
+> $$
+>  **3] Fuel Cost:**
+>  $$
+>  
+>  $$
 
 
 
