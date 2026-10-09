@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 61.79824561403508,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -26,6 +27,7 @@
       {
         "id": "6655a8802dabbd53",
         "type": "tabs",
+        "dimension": 38.20175438596492,
         "children": [
           {
             "id": "376bdcea576749fc",
@@ -33,12 +35,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/enrol/index.php?id=16780",
-                "title": "2026-IN3084-002VI-2026-INQ5109535-N0-IN3084 | STEM",
+                "url": "https://stem.elearning.unipd.it/course/view.php?id=16780",
+                "title": "Corso: DIGITAL WAREHOUSING AND TRANSPORTATION 2026-2027 - INQ5109535 | STEM",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "2026-IN3084-002VI-2026-INQ5109535-N0-IN3084 | STEM"
+              "title": "Corso: DIGITAL WAREHOUSING AND TRANSPORTATION 2026-2027 - INQ5109535 | STEM"
             }
           }
         ]
@@ -305,8 +307,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "376bdcea576749fc",
   "lastOpenFiles": [
+    "Digital Warehousing and Transportations/Lessons.md",
     "Ink/Drawing/2026.10.7 - 13.51pm.svg",
     "Ink/Drawing/2026.10.8 - 13.13pm.svg",
     "Ink/Drawing/2026.10.8 - 13.36pm.svg",
@@ -318,10 +321,8 @@
     "Digital Marketing and International Management/assets/Lessons-1791473292043.webp",
     "Digital Marketing and International Management/assets/Lessons-1791473090660.webp",
     "Digital Marketing and International Management/assets/Lessons-1791472821638.webp",
-    "Digital Marketing and International Management/assets/Lessons-1791472801085.webp",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Digital Warehousing and Transportations/Lessons.md",
     "Home.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
