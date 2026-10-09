@@ -147,6 +147,14 @@ So companies should leverage their natural advantages and closest relationships.
 ![[Lessons-1791473385009.webp]]
 
 
+### The Global Economy of the 21st Century
+![[Lessons-1791473781587.webp]]
+
+#### Is the shift toward a more integrated global economy beneficial?
+![[Lessons-1791473854651.webp]]
+#### How are jobs and income affected and evolving?
+
+![[Lessons-1791473914581.webp]]
 
 
 
