@@ -33,7 +33,7 @@ Performance pillars in transport are:
 **Secondary Transport**
 It's the sequence of delivery from warehouse to all the customers.
 
- ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=863.3226318359375&aspectRatio=1.030&viewBoxX=-682.018&viewBoxY=-1832.068&viewBoxW=3478.438&viewBoxH=3377.119)
+ ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=971.3226318359375&aspectRatio=1.465&viewBoxX=-899.571&viewBoxY=-1479.604&viewBoxW=3913.546&viewBoxH=2672.19)
 
 
 the network could be:
@@ -79,12 +79,27 @@ Truck cost are measurement in units $[€/km]$.
 > $$
 > c_{driver} = \frac{25}{50} = 0.5 €/km
 > $$
+> where: 50 is the average value of the speed (more precisely 58[km/h]) 
 > 
 >  **3] Fuel Cost:**
+>  1.6 €/l -> 3€/l for an articulated truck (big van truck)
+>  $$
+>  c_{fuel} = \frac{1.6}{3} = 0.54 €/km
+>  $$
+>  truck's cost (investment)
+>  - 160.00€ (standard configuration)
+>  - n = 5 years
+>  - 250 000 km/year -> usually 400 000 km/year
+>  $$
+>  c_{truck} = \frac{160 000}{5 \cdot 250 000} = 0.13 €/km
 >  $$
 >  
->  $$
+>  **4] Country taxes insurance:**
+>  4 000 €/year
 >  
+
+
+
 
 
 
