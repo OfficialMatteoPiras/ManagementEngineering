@@ -96,6 +96,9 @@ Truck cost are measurement in units $[€/km]$.
 >  
 >  **4] Country taxes insurance:**
 >  4 000 €/year
+>  $$
+>  c_{taxes} = \frac{4 000}{250 000} = 0.02 €/km
+>  $$
 >  
 
 
