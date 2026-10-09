@@ -33,7 +33,7 @@ Performance pillars in transport are:
 **Secondary Transport**
 It's the sequence of delivery from warehouse to all the customers.
 
- ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=500&aspectRatio=1.778&viewBoxX=0&viewBoxY=0&viewBoxW=2000&viewBoxH=1125)
+ ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=863.3226318359375&aspectRatio=1.030&viewBoxX=-682.018&viewBoxY=-1832.068&viewBoxW=3478.438&viewBoxH=3377.119)
 
 
 the network could be:
