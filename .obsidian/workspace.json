@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -307,7 +306,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376bdcea576749fc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Digital Warehousing and Transportations/Lessons.md",
     "Ink/Drawing/2026.10.7 - 13.51pm.svg",
