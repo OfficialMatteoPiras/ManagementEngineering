@@ -164,8 +164,9 @@ Truck cost are measurement in units $[€/km]$.
 > >![[Lessons-1791624073929.webp]]
 >
 > > [!Important] Temperature of transport cost increase
-> > if we have (for example) 100 of a quantity at the temperature of 
-> > 
+> > if we have (for example) 100 of a quantity at the temperature of the environment we increase by  
+> >  -> $10 \div 15 \%$ for **fresh goods** between $2 \div 4 °C$
+> >  -> $40 \div 50 \%$ for **frozen goods** from $-25 °C$ 
 
 
 
