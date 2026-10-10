@@ -146,9 +146,10 @@ Truck cost are measurement in units $[€/km]$.
 > c_\text{tot} = 1 000 \cdot 1.4 + 1.5 \cdot 25 = 1 437.5 €/trip
 > $$
 > > pay attention to the right distance!!
-> 
-> ![[Lessons-1791619937676.webp|331x317]]
->
+> >
+> > ![[Lessons-1791619937676.webp|331x317]]
+>> 
+> >
 > 
 
 
