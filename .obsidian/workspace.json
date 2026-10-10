@@ -307,9 +307,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376bdcea576749fc",
+  "floating": {
+    "id": "17ce3081188b1bcb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2cb5e55e643d6c1d",
+        "type": "window",
+        "children": [
+          {
+            "id": "66d422245d88776b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6233081d685bbda6",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-10-10 12.39.28.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 320,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "6233081d685bbda6",
   "lastOpenFiles": [
     "Digital Warehousing and Transportations/Lessons.md",
+    "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
+    "Excalidraw",
     "Digital Warehousing and Transportations/assets/Lessons-1791628448097.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791628411731.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791626888185.webp",
@@ -334,7 +373,6 @@
     "Digital Warehousing and Transportations/assets",
     "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "NotesFromGroup/SOSCM exam notes.pdf",
-    "NotesFromGroup/SOM exam notes.pdf",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
