@@ -128,7 +128,13 @@ Truck cost are measurement in units $[€/km]$.
 > $$
 > 
 > **7] Final calculations**
+> **Case a:**
+> ![[Lessons-1791622604496.webp]]
+> $$
+> d_\text{trip} = 500 km \\
 > 
+> $$
+
 
 
 
