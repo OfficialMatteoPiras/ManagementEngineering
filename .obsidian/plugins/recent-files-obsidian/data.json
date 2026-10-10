@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "DWT exam notes",
+      "path": "NotesFromGroup/DWT exam notes.pdf"
+    },
+    {
+      "basename": "MFSLN exam notes",
+      "path": "NotesFromGroup/MFSLN exam notes.pdf"
+    },
+    {
+      "basename": "SOM exam notes",
+      "path": "NotesFromGroup/SOM exam notes.pdf"
+    },
+    {
+      "basename": "SOSCM exam notes",
+      "path": "NotesFromGroup/SOSCM exam notes.pdf"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Riassunto Q&O",
       "path": "Triennale/Qualità&Organizzazione/Riassunto Q&O.md"
-    },
-    {
-      "basename": "01_concetto_qualita",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/01_concetto_qualita.md"
-    },
-    {
-      "basename": "02_specifiche_tolleranze_costi",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/02_specifiche_tolleranze_costi.md"
-    },
-    {
-      "basename": "09_istogrammi",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/09_istogrammi.md"
-    },
-    {
-      "basename": "08_fogli_raccolta_dati",
-      "path": "Triennale/Qualità&Organizzazione/Mappe/08_fogli_raccolta_dati.md"
     }
   ],
   "omittedPaths": [],

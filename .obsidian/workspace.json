@@ -11,14 +11,16 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "NotesFromGroup/DWT exam notes.pdf",
+                "page": 1,
+                "left": -7,
+                "top": 842,
+                "zoom": 2.4916107382550337
               },
-              "icon": "lucide-file",
-              "title": "Home"
+              "icon": "lucide-file-text",
+              "title": "DWT exam notes"
             }
           }
         ]
@@ -90,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -287,6 +288,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "NotesFromGroup/MFSLN exam notes.pdf",
+    "NotesFromGroup/SOM exam notes.pdf",
+    "NotesFromGroup/SOSCM exam notes.pdf",
+    "Home.md",
     "Digital Warehousing and Transportations/Lessons.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791630687919.webp",
     "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md",
@@ -301,7 +306,6 @@
     "Digital Warehousing and Transportations/assets/Lessons-1791628411731.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791626888185.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791624073929.webp",
-    "Home.md",
     "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -313,8 +317,6 @@
     "Ink/Drawing",
     "Ink",
     "Digital Warehousing and Transportations/assets",
-    "Material Flow Systems and Supply Chain Management/pdf/Facilities Planning John A. White Yavuz A. Bozer J. M. A. Tanchoco (James A. Tompkins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "NotesFromGroup/SOSCM exam notes.pdf",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
