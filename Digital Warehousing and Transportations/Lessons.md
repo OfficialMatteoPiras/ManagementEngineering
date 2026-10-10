@@ -171,7 +171,7 @@ Truck cost are measurement in units $[€/km]$.
 
 # Lesson 3
 #### Saturation of the vehicle 
-we can reach the saturation of the vehicle (**auto articulated truck**) in two different ways (considering a *20ft container*):
+we can reach the saturation of the vehicle (**auto articulated truck**) in two different ways:
 1. **weight saturation:** 28 tons
 2. **volume saturation:** $\approx$ 80$m^3$
 We can "predict" the type of saturation comparing these two intervals:
@@ -193,7 +193,7 @@ We can "predict" the type of saturation comparing these two intervals:
 |   Vicenza   |   Turin   | Auto articulated (5 axes) |         450         |                     720                      |
 |   Vicenza   |   Turin   |      Truck (3 axes)       |         220         |                     340                      |
 
-
+![[Lessons-1791626888185.webp]]
 
 
 
