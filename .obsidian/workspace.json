@@ -35,12 +35,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/pluginfile.php/1499383/mod_resource/content/1/Exam%204.pdf",
-                "title": "Exam 4.pdf",
+                "url": "https://stem.elearning.unipd.it/pluginfile.php/1499382/mod_resource/content/1/Lesson%203%20-%206th%20October%202026%20DWT.pdf",
+                "title": "Nuova nota",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Exam 4.pdf"
+              "title": "Nuova nota"
             }
           }
         ]
@@ -307,7 +307,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376bdcea576749fc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Digital Warehousing and Transportations/Lessons.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791624073929.webp",

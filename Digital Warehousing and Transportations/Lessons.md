@@ -33,7 +33,7 @@ Performance pillars in transport are:
 **Secondary Transport**
 It's the sequence of delivery from warehouse to all the customers.
 
- ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=971.3226318359375&aspectRatio=1.465&viewBoxX=-899.571&viewBoxY=-1479.604&viewBoxW=3913.546&viewBoxH=2672.19)
+ ![InkDrawing](<Ink/Drawing/2026.10.8 - 13.13pm.svg>) [Edit Drawing](https://youtu.be/2arL1jh8ihA?type=inkDrawing&width=973.3226318359375&aspectRatio=1.393&viewBoxX=-903.624&viewBoxY=-1552.011&viewBoxW=3922.915&viewBoxH=2817.004)
 
 
 the network could be:
@@ -169,11 +169,13 @@ Truck cost are measurement in units $[€/km]$.
 > >  -> $40 \div 50 \%$ for **frozen goods** from $-25 °C$ 
 
 
-
-
-
-
-
+# Lesson 3
+#### Saturation of the vehicle 
+we can reach the saturation of the vehicle in two different ways:
+1. weight saturation: 28 tons
+2. volume saturation: $\approx$ 80$m^3$
+We can "predict" the type of saturation comparing these two intervals:
+- if the weight of the goods is $< 400 \$
 
 
 
