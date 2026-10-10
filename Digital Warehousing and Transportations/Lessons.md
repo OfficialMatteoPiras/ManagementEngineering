@@ -145,10 +145,10 @@ Truck cost are measurement in units $[€/km]$.
 > d = 500 + 500 km \\
 > c_\text{tot} = 1 000 \cdot 1.4 + 1.5 \cdot 25 = 1 437.5 €/trip
 > $$
-> > [!Attention] pay attention to the right distance!!
+> > [!Important] pay attention to the right distance!!
 > >
-> > ![[Lessons-1791619937676.webp|331x317]]
->
+> > ![[Lessons-1791619937676.webp|499x478]]
+>>
 >>case 1) trip distance of 500 km:
 >>$$ 
 >>c [€/km] = \frac{737.5}{500} \simeq 1.48 €/km
@@ -159,7 +159,15 @@ Truck cost are measurement in units $[€/km]$.
 > >$$
 > >case 3) trip distance of 100 km:
 > >$$
-> >c [€/km]
+> >c [€/km] = \frac{1.4 \cdot 100 + 1.5 \cdot 25}{100} = \frac{177.5}{100} = 1.78 €/km
+> >$$
+> >![[Lessons-1791624073929.webp]]
+>
+> > [!Important] Temperature of transport cost increase
+> > if we have (for example) 100 of a quantity at the temperature of 
+> > 
+
+
 
 
 
