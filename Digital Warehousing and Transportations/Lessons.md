@@ -99,7 +99,13 @@ Truck cost are measurement in units $[€/km]$.
 >  $$
 >  c_{taxes} = \frac{4 000}{250 000} = 0.02 €/km
 >  $$
->  
+>  ```horizontal
+>![[Lessons-1791619919361.webp]]
+>---
+>![[Lessons-1791619937676.webp]]
+>```
+
+
 
 
 
