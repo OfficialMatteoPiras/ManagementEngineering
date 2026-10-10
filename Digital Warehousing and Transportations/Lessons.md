@@ -100,10 +100,18 @@ Truck cost are measurement in units $[€/km]$.
 >  c_{taxes} = \frac{4 000}{250 000} = 0.02 €/km
 >  $$
 >  ```horizontal
->![[Lessons-1791619919361.webp]]
->---
->![[Lessons-1791619937676.webp]]
->```
+> ![[Lessons-1791619919361.webp|331x317]]
+> ---
+> ![[Lessons-1791619937676.webp|331x317]]
+> ```
+> 
+> **5] Maintenance cost:**
+> - record all the costs related to maintenance
+> - % of investment cost 
+> 	-> maintenance cost per year: 
+> 		-> investment cost 4 $\div$ 7 %  is the target value
+> 		-> costs like oil, tires, ordinary maintenance
+> - 160 000€ 
 
 
 
