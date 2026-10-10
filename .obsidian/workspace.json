@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 54.62581025338833,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Warehousing and Transportations/Lessons.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lessons"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6655a8802dabbd53",
-        "type": "tabs",
-        "dimension": 45.37418974661166,
-        "children": [
-          {
-            "id": "376bdcea576749fc",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://stem.elearning.unipd.it/pluginfile.php/1495475/mod_resource/content/1/Lex%202%20-%205th%20October%202026.pdf",
-                "title": "Lex 2 - 5th October 2026",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Lex 2 - 5th October 2026"
+              "title": "Home"
             }
           }
         ]
