@@ -206,7 +206,7 @@ We can "predict" the type of saturation comparing these two intervals:
 - the warehouse is usually close to the city
 - we say customers but could be also supplier
 
-
+![[Lessons-1791629136219.webp|611]]
 
 
 
