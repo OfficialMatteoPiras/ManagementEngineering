@@ -207,7 +207,18 @@ We can "predict" the type of saturation comparing these two intervals:
 - we say customers but could be also supplier
 
 ![[Lessons-1791629136219.webp|611]]
-
+> [!Danger] Max number of deliveries for 1 truck
+> $$
+> N_{max} = \frac{T - T_{a/r}}{t_{stop} + \frac{\bar d}{\bar v}}
+> \\
+> \text{where:} \\
+> T \text{ is the work time} \\
+> T_{a/r} \text{ is the time to go to the region of delivery and come back} \\
+> T - T_{a/r} \text{ is the available time for delivery} \\
+> t_{stop} \text{ is the time stopped to a customer. usually } 5 \div 15 \text{ minutes}\\
+> 
+> \frac{t_{stop}}{\frac{\bar d }{\bar v}} \text{ is the time for one delivery} \\
+> $$
 
 
 

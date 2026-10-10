@@ -12,12 +12,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Ink/Drawing/2026.10.7 - 13.51pm.svg"
+                "file": "Digital Warehousing and Transportations/Lessons.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "2026.10.7 - 13.51pm"
+              "icon": "lucide-file",
+              "title": "Lessons"
             }
           }
         ]
@@ -306,9 +308,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Ink/Drawing/2026.10.7 - 13.51pm.svg",
     "Ink/Drawing/2026.10.8 - 13.13pm.svg",
     "Ink/Drawing/2026.10.8 - 13.36pm.svg",
-    "Ink/Drawing/2026.10.7 - 13.51pm.svg",
     "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
     "Digital Warehousing and Transportations/Lessons.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791629136219.webp",
