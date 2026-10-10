@@ -171,7 +171,7 @@ Truck cost are measurement in units $[€/km]$.
 
 # Lesson 3
 #### Saturation of the vehicle 
-we can reach the saturation of the vehicle in two different ways (considering a *20ft container*):
+we can reach the saturation of the vehicle (**auto articulated truck**) in two different ways (considering a *20ft container*):
 1. **weight saturation:** 28 tons
 2. **volume saturation:** $\approx$ 80$m^3$
 We can "predict" the type of saturation comparing these two intervals:
@@ -181,7 +181,8 @@ We can "predict" the type of saturation comparing these two intervals:
 >[!example] 
 > Washing machine weight is $\approx 100 \frac{kg}{m^3}$ 
 > therefore we reach first the **volume saturation**  
-> thus for a trip from Shanghai to Rotterdam 
+> thus for a trip from Shanghai to Rotterdam with a 40ft container we have $3000 €/trip$
+
 
 
 
