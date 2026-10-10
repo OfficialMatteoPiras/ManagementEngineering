@@ -242,9 +242,15 @@ $$
 $$
 #### Cross Docking Warehouse
 By placing cross docking warehouse we can optimise the delivery time. A cross docking warehouse is a warehouse which doesn't store the goods but it's a place where the goods are removed from a truck (that came from the main warehouse to the cross warehouse) and placed in a new vehicle ready for delivery. 
-By doing so we can optimise the work time of the people and use it more efficiently. The cross docking warehouse is compo
+By doing so we can optimise the work time of the people and use it more efficiently. The cross docking warehouse is a union of different bays where the goods are moved and organized for the delivery.
 
 ![[Lessons-1791630687919.webp|473x391]]
+
+> [!danger] Therefore we can modify the formula above as:
+> $$
+> N_{\text{max deliveries for 1 truck}} = \frac{T - 0 }{t_stop + \frac{\bar d}{\bar v}}
+> $$
+> Obviously the maximum deliveries for one truck increases since we are already in the region of delivery
 
 
 
