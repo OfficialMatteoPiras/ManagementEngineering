@@ -195,7 +195,7 @@ We can "predict" the type of saturation comparing these two intervals:
 
 ![[Lessons-1791626888185.webp]]
 
-
+	 
 
 
 
