@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Marketing and International Management/Lessons - International Management.md",
+                "file": "Digital Marketing and International Management/Summary IM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lessons - International Management"
+              "title": "Summary IM"
             }
           }
         ]
@@ -53,9 +53,9 @@
               "state": {
                 "file": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
                 "page": 47,
-                "left": -12,
+                "left": -49,
                 "top": 305,
-                "zoom": 1.2112575588297358
+                "zoom": 1.091102750889712
               },
               "icon": "lucide-file-text",
               "title": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
@@ -341,8 +341,8 @@
   },
   "active": "0310350b743e53ba",
   "lastOpenFiles": [
-    "Material Flow Systems and Supply Chain Management/Lessons - MFSSCM.md",
     "Digital Marketing and International Management/Lessons - International Management.md",
+    "Material Flow Systems and Supply Chain Management/Lessons - MFSSCM.md",
     "Digital Marketing and International Management/Summary IM.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
