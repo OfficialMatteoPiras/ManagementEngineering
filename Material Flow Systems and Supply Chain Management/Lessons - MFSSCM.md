@@ -7,16 +7,16 @@ https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LE
 
 **Learning Objectives:** 
 1. to acquaint students with the concepts of material flow systems in manufacturing and logistics, 
-2. to learn optimization modeling and analyses of material flow systems, 
+2. to learn optimization modelling and analyses of material flow systems, 
 3. to understand material flow integration issues in flexible and resilient supply networks, 
-4. to apply analytics software tools for case-based problem solving: Software Anylogistix, 50 student licenses and a teamwork during the cours
+4. to apply analytics software tools for case-based problem solving: Software Anylogistix, 50 student licenses and a teamwork during the course
 
 **Description:** 
 1. Analyses of material flows in manufacturing: a particular focus on Assembly To Order systems and their impact on in-house logistics. 
-2. Optimization modeling and analyses of material flow systems: part feeding problems for in-house logistics, Inventory Routing Problems for Outbound and Inbound Logistics. 
+2. Optimization modelling and analyses of material flow systems: part feeding problems for in-house logistics, Inventory Routing Problems for Outbound and Inbound Logistics. 
 3. Material flow structures, physical assets (AGV and LGV fleet design), material handling systems and operational decisions influencing system performance. 
 4. Digitalization of material flow systems, from MES (Manufacturing Execution System) to TMS (Transport Management System) and digital supply networks. 
-5. AnyLogistix laboratory: logistics network design principles, logistic facilities location, transportation flows optimization and dynamic flow simulation. Emphasis is given to problem-based modeling and solving with a team working and real case data. 
+5. AnyLogistix laboratory: logistics network design principles, logistic facilities location, transportation flows optimization and dynamic flow simulation. Emphasis is given to problem-based modelling and solving with a team working and real case data. 
 
 ***Prerequisites:*** Knowledge of industrial facilities design and planning, layout design, manufacturing system dimensioning and production planning and control.
 

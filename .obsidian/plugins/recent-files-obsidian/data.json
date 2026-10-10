@@ -5,6 +5,26 @@
       "path": "Digital Marketing and International Management/Lessons - International Management.md"
     },
     {
+      "basename": "Lessons - MFSSCM",
+      "path": "Material Flow Systems and Supply Chain Management/Lessons - MFSSCM.md"
+    },
+    {
+      "basename": "Summary IM",
+      "path": "Digital Marketing and International Management/Summary IM.md"
+    },
+    {
+      "basename": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)",
+      "path": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    },
+    {
+      "basename": "Summary SOSCM - Macchion",
+      "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md"
+    },
+    {
+      "basename": "Lessons - DWT",
+      "path": "Digital Warehousing and Transportations/Lessons - DWT.md"
+    },
+    {
       "basename": "IM exam notes",
       "path": "NotesFromGroup/IM exam notes.pdf"
     },
@@ -45,10 +65,6 @@
       "path": "Home.md"
     },
     {
-      "basename": "Lessons",
-      "path": "Digital Warehousing and Transportations/Lessons.md"
-    },
-    {
       "basename": "Drawing 2026-10-10 13.04.30.excalidraw",
       "path": "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md"
     },
@@ -73,20 +89,8 @@
       "path": "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
     },
     {
-      "basename": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)",
-      "path": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
-    },
-    {
-      "basename": "Lessons",
-      "path": "Material Flow Systems and Supply Chain Management/Lessons.md"
-    },
-    {
       "basename": "Summary SOSCM - Vinelli",
       "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md"
-    },
-    {
-      "basename": "Summary SOSCM - Macchion",
-      "path": "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md"
     },
     {
       "basename": "Operations-and-Process-Management-–-Gestión-por-Procesos",
@@ -195,10 +199,6 @@
     {
       "basename": "Capitolo 1 - GENERALITÀ SUGLI IMPIANTI INDUSTRIALI",
       "path": "Triennale/Impianti/Capitoli/Capitolo 1 - GENERALITÀ SUGLI IMPIANTI INDUSTRIALI.md"
-    },
-    {
-      "basename": "Pasted image 20260829173715",
-      "path": "Triennale/Impianti/img/Pasted image 20260829173715.png"
     }
   ],
   "omittedPaths": [],

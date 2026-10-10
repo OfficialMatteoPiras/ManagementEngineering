@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "799249efd3b9b969",
         "type": "tabs",
+        "dimension": 48.122317596566525,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0310350b743e53ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,6 +23,60 @@
             }
           }
         ]
+      },
+      {
+        "id": "b096ae8dc4295a87",
+        "type": "tabs",
+        "dimension": 51.877682403433475,
+        "children": [
+          {
+            "id": "17d54d291fdabb6e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 1,
+                "left": -16,
+                "top": 783,
+                "zoom": 0.9583333333333334
+              },
+              "icon": "lucide-file-text",
+              "title": "International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "b05d15f0ce61bbf8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+                "page": 47,
+                "left": -12,
+                "top": 305,
+                "zoom": 1.2112575588297358
+              },
+              "icon": "lucide-file-text",
+              "title": "ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "d57430e3b33ebc69",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://stem.elearning.unipd.it/pluginfile.php/1410571/mod_resource/content/4/2026%20IntMan%20ppt1%20Week%201%20Gen%20intro.pdf",
+                "title": "2026 IntMan ppt1 Week 1 Gen intro.pdf",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "2026 IntMan ppt1 Week 1 Gen intro.pdf"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,7 +248,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Digital Warehousing and Transportations/Lessons.md"
+                "file": "Impianti/Capitoli/Capitolo 2 - STUDIO DI FATTIBILITÀ.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -284,8 +339,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0310350b743e53ba",
   "lastOpenFiles": [
+    "Material Flow Systems and Supply Chain Management/Lessons - MFSSCM.md",
+    "Digital Marketing and International Management/Lessons - International Management.md",
+    "Digital Marketing and International Management/Summary IM.md",
+    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
+    "Digital Warehousing and Transportations/Lessons - DWT.md",
     "NotesFromGroup/IM exam notes.pdf",
     "NotesFromGroup/DM exam notes.pdf",
     "NotesFromGroup/DC exam notes.pdf",
@@ -296,7 +357,6 @@
     "NotesFromGroup/SOM exam notes.pdf",
     "NotesFromGroup/SOSCM exam notes.pdf",
     "Home.md",
-    "Digital Warehousing and Transportations/Lessons.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791630687919.webp",
     "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md",
     "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
@@ -305,16 +365,11 @@
     "Ink/Drawing/2026.10.8 - 13.13pm.svg",
     "Ink/Drawing/2026.10.8 - 13.36pm.svg",
     "Digital Warehousing and Transportations/assets/Lessons-1791629136219.webp",
-    "Excalidraw",
     "Digital Warehousing and Transportations/assets/Lessons-1791628448097.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791628411731.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791626888185.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791624073929.webp",
-    "Digital Marketing and International Management/Lessons - International Management.md",
-    "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
-    "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
