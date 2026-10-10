@@ -253,6 +253,10 @@ By doing so we can optimise the work time of the people and use it more efficien
 > Obviously the maximum deliveries for one truck increases since we are already in the region of delivery
 
 
+| Direct Delivery | "Function" | Cross Docking Delivery |
+| --------------- | ---------- | ---------------------- |
+|                 |            |                        |
+
 
 
 
