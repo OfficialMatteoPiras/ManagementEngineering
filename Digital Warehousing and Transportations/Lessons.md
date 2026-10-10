@@ -73,7 +73,7 @@ Internal cost are like:
 - Loading and unloading cost
 Truck cost are measurement in units $[€/km]$. 
 
-> [!Example] Example
+> [!Example] **EXAMPLE TO EXPLAIN THE FORMULAS (IMPORTANT)**
 > **1] Truck cost:** with measurement unit [€/km] 
 > **2] Driver Cost:** today it's about 25 €/km
 > $$
@@ -114,9 +114,16 @@ Truck cost are measurement in units $[€/km]$.
 > $$
 > \text{remember: truck cost } 160 000 \\
 > \text{assume: 5\% is the target value } \\
-> \text{therefore: } c_{target value} = 160 000 * 5\% = 8 000 €/year \\
+> \text{therefore: } c_{\text{target value}} = 160 000 * 5\% = 8 000 €/year \\
 > c_{maintenance} = \frac{8 000}{250 000} = 0.032 €/km
 > $$
+> 
+> **6] Now we sum all costs:**
+> $$
+> c_{\text{total cost}}(\text{big truck}) = 0.5_\text{driver cost} + 0.54_\text{fuel cost} + 0.13 + 0.02 + 0.2 * 0.5_\text{50\% of the road riute is in the highway} + 0.032 \simeq 1.4 €/km
+> $$
+> 
+> 
 
 
 
