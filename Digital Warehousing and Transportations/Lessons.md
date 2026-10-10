@@ -171,13 +171,17 @@ Truck cost are measurement in units $[€/km]$.
 
 # Lesson 3
 #### Saturation of the vehicle 
-we can reach the saturation of the vehicle in two different ways:
-1. weight saturation: 28 tons
-2. volume saturation: $\approx$ 80$m^3$
+we can reach the saturation of the vehicle in two different ways (considering a *20ft container*):
+1. **weight saturation:** 28 tons
+2. **volume saturation:** $\approx$ 80$m^3$
 We can "predict" the type of saturation comparing these two intervals:
-- if the weight of the goods is $< 400 \$
+- if the weight of the goods is $< 400 \frac{kg}{m^3}$ we reach first the **volume saturation**
+- otherwise if the weight of the goods is $\geq 400 \frac{kg}{m^3}$ we reach first the **weight saturation**
 
-
+>[!example] 
+> Washing machine weight is $\approx 100 \frac{kg}{m^3}$ 
+> therefore we reach first the **volume saturation**  
+> thus for a trip from Shanghai to Rotterdam 
 
 
 
