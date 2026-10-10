@@ -145,13 +145,21 @@ Truck cost are measurement in units $[€/km]$.
 > d = 500 + 500 km \\
 > c_\text{tot} = 1 000 \cdot 1.4 + 1.5 \cdot 25 = 1 437.5 €/trip
 > $$
-> > pay attention to the right distance!!
+> > [!Attention] pay attention to the right distance!!
 > >
 > > ![[Lessons-1791619937676.webp|331x317]]
->> 
-> >
-> 
-
+>
+>>case 1) trip distance of 500 km:
+>>$$ 
+>>c [€/km] = \frac{737.5}{500} \simeq 1.48 €/km
+> >$$
+> >case 2) trip distance of 200 km:
+> >$$
+> >c [€/km] = \frac{1.4 \cdot 200 + 1.5 \cdot 25}{200} = \frac{317.5}{200} = 1.59 €/km
+> >$$
+> >case 3) trip distance of 100 km:
+> >$$
+> >c [€/km]
 
 
 
