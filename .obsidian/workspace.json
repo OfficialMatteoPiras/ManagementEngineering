@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "NotesFromGroup/DWT exam notes.pdf",
+                "file": "NotesFromGroup/IM exam notes.pdf",
                 "page": 1,
                 "left": -7,
                 "top": 842,
                 "zoom": 2.4916107382550337
               },
               "icon": "lucide-file-text",
-              "title": "DWT exam notes"
+              "title": "IM exam notes"
             }
           }
         ]
@@ -288,6 +288,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "NotesFromGroup/DM exam notes.pdf",
+    "NotesFromGroup/DC exam notes.pdf",
+    "NotesFromGroup/BADM exam notes.pdf",
+    "NotesFromGroup/DO exam notes.pdf",
+    "NotesFromGroup/DWT exam notes.pdf",
     "NotesFromGroup/MFSLN exam notes.pdf",
     "NotesFromGroup/SOM exam notes.pdf",
     "NotesFromGroup/SOSCM exam notes.pdf",
@@ -312,11 +317,6 @@
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
-    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
-    "Ink/Drawing",
-    "Ink",
-    "Digital Warehousing and Transportations/assets",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",

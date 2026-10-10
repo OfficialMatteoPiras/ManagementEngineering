@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "IM exam notes",
+      "path": "NotesFromGroup/IM exam notes.pdf"
+    },
+    {
+      "basename": "DM exam notes",
+      "path": "NotesFromGroup/DM exam notes.pdf"
+    },
+    {
+      "basename": "DC exam notes",
+      "path": "NotesFromGroup/DC exam notes.pdf"
+    },
+    {
+      "basename": "BADM exam notes",
+      "path": "NotesFromGroup/BADM exam notes.pdf"
+    },
+    {
+      "basename": "DO exam notes",
+      "path": "NotesFromGroup/DO exam notes.pdf"
+    },
+    {
       "basename": "DWT exam notes",
       "path": "NotesFromGroup/DWT exam notes.pdf"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Pasted image 20260829173715",
       "path": "Triennale/Impianti/img/Pasted image 20260829173715.png"
-    },
-    {
-      "basename": "Pasted image 20260829132732",
-      "path": "Triennale/Impianti/img/Pasted image 20260829132732.png"
-    },
-    {
-      "basename": "lezioni_organizzate",
-      "path": "Triennale/Qualità&Organizzazione/lezioni_organizzate.md"
-    },
-    {
-      "basename": "lezioni",
-      "path": "Triennale/Qualità&Organizzazione/lezioni.md"
-    },
-    {
-      "basename": "appunti_qualita",
-      "path": "Triennale/Qualità&Organizzazione/appunti_qualita.md"
-    },
-    {
-      "basename": "Riassunto Q&O",
-      "path": "Triennale/Qualità&Organizzazione/Riassunto Q&O.md"
     }
   ],
   "omittedPaths": [],
