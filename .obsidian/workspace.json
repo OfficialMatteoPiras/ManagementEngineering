@@ -11,16 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NotesFromGroup/IM exam notes.pdf",
-                "page": 1,
-                "left": -7,
-                "top": 842,
-                "zoom": 2.4916107382550337
+                "file": "Digital Marketing and International Management/Lessons - International Management.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "IM exam notes"
+              "icon": "lucide-file",
+              "title": "Lessons - International Management"
             }
           }
         ]
@@ -288,6 +286,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "NotesFromGroup/IM exam notes.pdf",
     "NotesFromGroup/DM exam notes.pdf",
     "NotesFromGroup/DC exam notes.pdf",
     "NotesFromGroup/BADM exam notes.pdf",
@@ -311,9 +310,8 @@
     "Digital Warehousing and Transportations/assets/Lessons-1791628411731.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791626888185.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791624073929.webp",
-    "Digital Marketing and International Management/Lessons.md",
+    "Digital Marketing and International Management/Lessons - International Management.md",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
