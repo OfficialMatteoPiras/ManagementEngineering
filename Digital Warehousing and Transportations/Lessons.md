@@ -111,7 +111,12 @@ Truck cost are measurement in units $[€/km]$.
 > 	-> maintenance cost per year: 
 > 		-> investment cost 4 $\div$ 7 %  is the target value
 > 		-> costs like oil, tires, ordinary maintenance
-> - 160 000€ 
+> $$
+> \text{remember: truck cost } 160 000 \\
+> \text{assume: 5\% is the target value } \\
+> \text{therefore: } c_{target value} = 160 000 * 5\% = 8 000 €/year \\
+> c_{maintenance} = \frac{8 000}{250 000} = 0.032 €/km
+> $$
 
 
 
