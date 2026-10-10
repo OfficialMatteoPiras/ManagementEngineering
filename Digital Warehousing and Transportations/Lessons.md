@@ -187,11 +187,11 @@ We can "predict" the type of saturation comparing these two intervals:
 
 #### Outsourced flees (Primary Transport)
 
-| Start Point | End Point |     Type of Transport     | One Way Trip<br>[€] | Double Trip [€]<br>($\approx 60\% increase$) |
-| :---------: | :-------: | :-----------------------: | :-----------------: | :------------------------------------------: |
-|   Vicenza   |   Milan   | Auto articulated (5 axes) |         300         |                     480                      |
-|   Vicenza   |   Turin   | Auto articulated (5 axes) |         450         |                     720                      |
-|   Vicenza   |   Turin   |      Truck (3 axes)       |         220         |                     340                      |
+| Start Point | End Point |     Type of Transport     | One Way Trip<br>[€] | Double Trip [€]<br>($\approx 60\% increase$ big truck)<br>($\approx 54\% increase$ truck) |
+| :---------: | :-------: | :-----------------------: | :-----------------: | :---------------------------------------------------------------------------------------: |
+|   Vicenza   |   Milan   | Auto articulated (5 axes) |         300         |                                            480                                            |
+|   Vicenza   |   Turin   | Auto articulated (5 axes) |         450         |                                            720                                            |
+|   Vicenza   |   Turin   |      Truck (3 axes)       |         220         |                                            340                                            |
 
 ![[Lessons-1791626888185.webp]]
 
