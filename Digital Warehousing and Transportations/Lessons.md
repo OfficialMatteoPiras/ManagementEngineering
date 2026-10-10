@@ -178,12 +178,20 @@ We can "predict" the type of saturation comparing these two intervals:
 - if the weight of the goods is $< 400 \frac{kg}{m^3}$ we reach first the **volume saturation**
 - otherwise if the weight of the goods is $\geq 400 \frac{kg}{m^3}$ we reach first the **weight saturation**
 
+<font color="#ff0000">To optimize at best we need to reach the saturation</font>
+
 >[!example] 
 > Washing machine weight is $\approx 100 \frac{kg}{m^3}$ 
 > therefore we reach first the **volume saturation**  
 > thus for a trip from Shanghai to Rotterdam with a 40ft container we have $3000 €/trip$
 
+#### Outsourced flees (Primary Transport)
 
+| Start Point | End Point | Type of Transport | One Way Trip | Double Trip <br>($\approx 60\% increase$) |
+| :---------: | :-------: | :---------------: | :----------: | :---------------------------------------: |
+|   Vicenza   |           |                   |              |                                           |
+|   Vicenza   |           |                   |              |                                           |
+|   Vicenza   |           |                   |              |                                           |
 
 
 
