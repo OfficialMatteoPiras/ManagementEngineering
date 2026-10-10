@@ -206,24 +206,36 @@ We can "predict" the type of saturation comparing these two intervals:
 - the warehouse is usually close to the city
 - we say customers but could be also supplier
 
-![[Lessons-1791629136219.webp|611]]
+
+
 > [!Danger] Max number of deliveries for 1 truck
 > $$
 > N_{max} = \frac{T - T_{a/r}}{t_{stop} + \frac{\bar d}{\bar v}}
-> \\
+> \\ \\
 > \text{where:} \\
 > T \text{ is the work time} \\
 > T_{a/r} \text{ is the time to go to the region of delivery and come back} \\
 > T - T_{a/r} \text{ is the available time for delivery} \\
 > t_{stop} \text{ is the time stopped to a customer. usually } 5 \div 15 \text{ minutes}\\
-> 
+> \bar d \text{ is the average distance between customers} \\
+> \bar v \text{ is the average velocity} \\
 > \frac{t_{stop}}{\frac{\bar d }{\bar v}} \text{ is the time for one delivery} \\
 > $$
 
+>[!Note] Work time:
+> the regulation of driving time / work time of a driver is usually 8 hours / day
 
-
-
-
+**How do we find $\bar d$ and $\bar v$?**
+we use the formulas:
+```horizontal
+$$
+\bar d = 0.9 \frac{\sqrt S}{\sqrt N}
+$$
+---
+$$
+\bar v = 0.9 \sqrt S \cdot \sqrt N
+$$
+```
 
 
 
