@@ -130,15 +130,29 @@ Truck cost are measurement in units $[€/km]$.
 > **7] Final calculations**
 > **Case a:**
 > ![[Lessons-1791622604496.webp]]
-> $$
-> d_\text{trip} = 500 km \\
+> 
+> > The truck at the end of the trip works for another job
 > 
 > $$
+> d_\text{trip} = 500 km \\
+> c_\text{total} = 1.4 \cdot 500 + 1.5 \cdot 25 = 737.5 €/km 
+> $$
+> 
+> **Case b**
+> ![[Lessons-1791622865373.webp]]
+> 
+> $$
+> d = 500 + 500 km \\
+> c_\text{tot} = 1 000 \cdot 1.4 + 1.5 \cdot 25 = 1 437.5 €/trip
+> $$
+> > pay attention to the right distance!!
+> 
+> ![[Lessons-1791619937676.webp|331x317]]
+>
+> 
 
 
 
-
-![[Lessons-1791619937676.webp|331x317]]
 
 
 
