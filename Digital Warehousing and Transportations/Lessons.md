@@ -241,7 +241,9 @@ $$
 \frac{N_T}{N_{max}} = N_{trucks}
 $$
 #### Cross Docking Warehouse
-by placing a 
+By placing cross docking warehouse we can optimise the delivery time. A cross docking warehouse is a warehouse which doesn't store the goods but it's a place where the goods are removed from a truck (that came from the main warehouse to the cross warehouse) and placed in a new vehicle ready for delivery. 
+By doing so we can optimise the work time of the people and use it more efficiently. 
+
 
 
 

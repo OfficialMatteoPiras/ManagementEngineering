@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "4aba271962b0557e",
@@ -306,10 +307,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "floating": {
+    "id": "17ce3081188b1bcb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "06edf6d507665b63",
+        "type": "window",
+        "children": [
+          {
+            "id": "66bdfe08cb71133a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bb9ab7fae83e09e9",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-10-10 13.04.30.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 320,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "bb9ab7fae83e09e9",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
     "Digital Warehousing and Transportations/Lessons.md",
+    "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791629841849.webp",
     "Ink/Drawing/2026.10.7 - 13.51pm.svg",
     "Ink/Drawing/2026.10.8 - 13.13pm.svg",
