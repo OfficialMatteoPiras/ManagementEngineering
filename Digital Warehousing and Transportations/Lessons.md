@@ -205,9 +205,7 @@ We can "predict" the type of saturation comparing these two intervals:
 
 - the warehouse is usually close to the city
 - we say customers but could be also supplier
-
-
-
+![[Lessons-1791629841849.webp|603]]
 > [!Danger] Max number of deliveries for 1 truck
 > $$
 > N_{max} = \frac{T - T_{a/r}}{t_{stop} + \frac{\bar d}{\bar v}}
@@ -225,19 +223,25 @@ We can "predict" the type of saturation comparing these two intervals:
 >[!Note] Work time:
 > the regulation of driving time / work time of a driver is usually 8 hours / day
 
-**How do we find $\bar d$ and $\bar v$?**
+**How do we find $\bar d$ and $D_T$?**
 we use the formulas:
-```horizontal
+
+Average km between customers
 $$
 \bar d = 0.9 \frac{\sqrt S}{\sqrt N}
 $$
----
-$$
-\bar v = 0.9 \sqrt S \cdot \sqrt N
-$$
-```
 
-
+Total km for a round trip:
+$$
+D_T = 0.9 \sqrt S \cdot \sqrt N
+$$
+$N_T$ Total Number of deliveries that we have to do in a region
+Therefore the number of trucks that we need to deliver to all the customers is:
+$$
+\frac{N_T}{N_{max}} = N_{trucks}
+$$
+#### Cross Docking Warehouse
+by placing a 
 
 
 
