@@ -253,9 +253,13 @@ By doing so we can optimise the work time of the people and use it more efficien
 > Obviously the maximum deliveries for one truck increases since we are already in the region of delivery
 
 
-| Direct Delivery | "Function" | Cross Docking Delivery |
-| --------------- | ---------- | ---------------------- |
-|                 |            |                        |
+| Direct Delivery |                 "Function"                 |     Cross Docking Delivery     |
+| :-------------: | :----------------------------------------: | :----------------------------: |
+|   $\Uparrow$    | Truck for Delivery<br>Drivers for Delivery |          $\Downarrow$          |
+|        0        |             Primary Transport              |           $\Uparrow$           |
+|        0        |        Cross Docking Warehouse cost        |           $\Uparrow$           |
+|        0        |  Handling cost in cross docking warehouse  |           $\Uparrow$           |
+|  **$C_{Dir}$**  |                $\leq \geq$                 | **$C_{\text{Transit Point}}$** |
 
 
 

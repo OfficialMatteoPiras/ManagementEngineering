@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 56.15957913195967,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Warehousing and Transportations/Lessons.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lessons"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6655a8802dabbd53",
-        "type": "tabs",
-        "dimension": 43.84042086804033,
-        "children": [
-          {
-            "id": "376bdcea576749fc",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://stem.elearning.unipd.it/pluginfile.php/1499382/mod_resource/content/1/Lesson%203%20-%206th%20October%202026%20DWT.pdf",
-                "title": "Nuova nota",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Nuova nota"
+              "title": "Home"
             }
           }
         ]
@@ -309,9 +287,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Digital Warehousing and Transportations/Lessons.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791630687919.webp",
     "Excalidraw/Drawing 2026-10-10 13.04.30.excalidraw.md",
-    "Digital Warehousing and Transportations/Lessons.md",
     "Excalidraw/Drawing 2026-10-10 12.39.28.excalidraw.md",
     "Digital Warehousing and Transportations/assets/Lessons-1791629841849.webp",
     "Ink/Drawing/2026.10.7 - 13.51pm.svg",
@@ -323,7 +301,6 @@
     "Digital Warehousing and Transportations/assets/Lessons-1791628411731.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791626888185.webp",
     "Digital Warehousing and Transportations/assets/Lessons-1791624073929.webp",
-    "Digital Warehousing and Transportations/assets/Lessons-1791622865373.webp",
     "Home.md",
     "Digital Marketing and International Management/Lessons.md",
     "Digital Marketing and International Management/pdf/International Business Competing in the Global Marketplace, 14e ISE (Charles W. L. Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
