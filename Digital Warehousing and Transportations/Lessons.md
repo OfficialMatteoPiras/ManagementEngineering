@@ -99,11 +99,7 @@ Truck cost are measurement in units $[€/km]$.
 >  $$
 >  c_{taxes} = \frac{4 000}{250 000} = 0.02 €/km
 >  $$
->  ```horizontal
 > ![[Lessons-1791619919361.webp|331x317]]
-> ---
-> ![[Lessons-1791619937676.webp|331x317]]
-> ```
 > 
 > **5] Maintenance cost:**
 > - record all the costs related to maintenance
@@ -123,11 +119,20 @@ Truck cost are measurement in units $[€/km]$.
 > c_{\text{total cost}}(\text{big truck}) = 0.5_\text{driver cost} + 0.54_\text{fuel cost} + 0.13 + 0.02 + 0.2 * 0.5_\text{50\% of the road riute is in the highway} + 0.032 \simeq 1.4 €/km
 > $$
 > 
+> **7] Now we have to add the time for loading and unloading**
+> assume 45min
+> the cost is the cos of the driver, therefore:
+> $$
+> \text{45 min} + \text{45 min} = 1.5 hours/trip \\
+> c_\text{loading and unloading} = 1.5 \cdot 25_\text{cost of the driver per hour} = 37.5 €/trip 
+> $$
+> 
+> **7] Final calculations**
 > 
 
 
 
-
+![[Lessons-1791619937676.webp|331x317]]
 
 
 
