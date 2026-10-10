@@ -195,11 +195,13 @@ We can "predict" the type of saturation comparing these two intervals:
 
 ![[Lessons-1791626888185.webp]]
 
-	 
+#### Secondary Transport
+![[Lessons-1791628411731.webp|705x205]]
 
+![[Lessons-1791628448097.webp|599x520]]
 
-
-
+the warehouse is usually close to the city
+we say customers but could be also supplyers
 
 
 
