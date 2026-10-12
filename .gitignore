@@ -1,0 +1,19 @@
+# Obsidian: stato dell'interfaccia (cambia a ogni apertura)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+
+# Obsidian: cache
+.obsidian/cache
+
+# Plugin: cronologia/stato locale
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/image-converter-image-alignments.json
+
+# Cestino di Obsidian
+.trash/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+desktop.ini
