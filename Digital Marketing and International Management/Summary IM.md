@@ -64,6 +64,7 @@ The 3 phases of the yo-yo:
 
 Coca-Cola has been bouncing between local and global actor with the change of the management.
 ![[Lessons-1791470264827.webp]]
+
 > [!Important] this argument will be surely in the exam
 
 **Globalization and the "yo-yo" effect — a global perspective for firms** (professor's slide):
@@ -112,6 +113,7 @@ While this approach creates complex and impacting global supply chains, it enabl
 
 ### The classic case of the Apple iPhone: A truly global product
 ![[Lessons-1791471285100.webp]]
+
 > [!Note] Apple's iPhone exemplifies the globalization of production in action (with more than 100 dependencies along the production and the supply chain).
 > - Design and software: developed in California, USA
 > - Semiconductors: various countries, incl. Germany, Taiwan
