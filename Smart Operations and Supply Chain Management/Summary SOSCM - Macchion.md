@@ -94,4 +94,45 @@ Generally, an organization’s vertical integration strategy can be defined in t
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 5. LOSS OF FOCUS Vertical integration, by definition, means doing more things, which can distract from the (few) particularly important things (core activities).                                                                                                                                                                                                                                                                                                                                                                                           |
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	 
