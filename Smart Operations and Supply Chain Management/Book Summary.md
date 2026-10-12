@@ -144,7 +144,6 @@ The input-transformation-output concept is the **first idea** that defines OPM; 
 ### Triple bottom line
 
 > [!quote] 📖 p. 47
-
 > "One idea that tries to capture the idea of a broader approach to assessing an organisation's performance is the **'triple bottom line'** (TBL, or 3BL), also known as **'people, planet and profit'**. (…) organisations should measure themselves not just on the traditional economic profit that they generate for their owners, but also on the impact their operations have on society (…) and the ecological impact on the environment. (…) A sustainable business is one that creates an acceptable profit for its owners, but minimises the damage to the environment and enhances the existence of the people with whom it has contact. (…) This gives the organisation its **'license to operate'** in society."
 
 🎯 The operations principle (flagged "need to mention for the exam" in your notes, slide p. 12):
@@ -158,21 +157,14 @@ The input-transformation-output concept is the **first idea** that defines OPM; 
 The ability of OPM to impact the strategic success of any kind of enterprise is increasingly recognized, and it shows up on five levers (slide p. 13):
 
 1. **Cost** — operations can reduce the costs of producing products and services by being efficient: the more productive the operation at transforming inputs into outputs, the lower the cost per unit of output.
-
 2. **Revenue** — it can increase revenue by increasing customer satisfaction through quality, service and innovation: existing customers are more likely to be retained and new customers attracted if products are error-free and appropriately designed, if the operation is fast and responsive, keeps its delivery promises and can be flexible.
-
 3. **Risk** — it can reduce the risk of operational failure, because well-designed and well-run operations are less likely to fail and, if they fail, should recover faster and with less disruption (**resilience**).
-
 4. **Investment** —
-
-   > [!quote] 📖 p. 48
-
+> [!quote] 📖 p. 48
    > "It can ensure effective investment (capital employed) to produce its products and services. Eventually all businesses in the commercial world are judged by the return that they produce for their investors. This is a function of profit (the difference between costs and revenues) and the amount of money invested in the business's operations resources. (…) What is sometimes overlooked is the role of operations in reducing the investment required per unit of output. It does this by increasing the effective capacity of the operation and by being innovative in how it uses its physical resources."
 
 5. **Capability** —
-
-   > [!quote] 📖 p. 48
-
+> [!quote] 📖 p. 48
    > "It can build capabilities that will form the basis for future innovation by building a solid base of operations skills and knowledge within the business. Every time an operation produces a product or a service it has the opportunity to accumulate knowledge about how that product or service is best produced. This accumulation of knowledge should be used as a basis for learning and improvement. (…) Conversely, if an operations function is simply seen as the mechanical and routine fulfilment of customer requests, then it is difficult to build the knowledge base that will allow future innovation."
 
 💡 **The Bottega Veneta aside** (from your notes): why do big luxury brands stay in Italy instead of relocating? Because here they find a **concentration of capabilities** — productive knowledge embodied in people. It is the capability→competitiveness link made geographic, and it foreshadows the *inside-out* perspective of Chapter 2.
@@ -186,13 +178,9 @@ The ability of OPM to impact the strategic success of any kind of enterprise is 
 Judging operations at the *operational* level means asking how well the network of processes serves its internal and external customers. Five aspects, all affecting customer satisfaction and business competitiveness:
 
 1. **Quality** — doing things *right*: error-free goods and services that are 'fit for their purpose'.
-
 2. **Speed** — doing things *fast*: minimising the time between a customer asking and receiving the goods and services in full.
-
 3. **Dependability** — doing things *on time*: keeping the delivery promises made to customers. *(Your notes' examples: Zara with its many collections per year, Amazon with its delivery volumes.)*
-
 4. **Flexibility** — changing *what* you do or *how* you do it: adapting to unexpected circumstances, giving customers individual treatment, introducing new products or services.
-
 5. **Cost** — doing things *cheaply*: producing at a cost that enables an appropriate market price while still allowing a return to the organisation (or, in a not-for-profit, good value to taxpayers or funders).
 
 > 📖 **Operations Principle** (p. 49) — Operations and process performance at an operational level can be grouped together as **quality, speed, dependability, flexibility and cost**.
@@ -209,26 +197,18 @@ All processes differ, so all need managing differently. 'Technical' differences 
 
 The matrix transcribed from the slide (know this: **the expensive side is "high" for three Vs out of four; volume is the only V where the high end is the efficient one**):
 
-| V | "High" end → implications | "Low" end → implications |
-
-| --- | --- | --- |
-
-| **Volume** | high repeatability → specialisation, systemisation, capital intensive, **low unit cost** | low repetition → multi-task staff, less systemisation, **high unit cost** |
-
-| **Variety** | flexible, complex, matches customer needs, **high unit cost** | well defined, routine, standardised, regular, **low unit cost** |
-
-| **Variation** | capacity changes over time, anticipation, flexibility, cushion for the unexpected, **high unit cost** | stable, routine, predictable, high utilisation, **low unit cost** |
-
+| V              | "High" end → implications                                                                                                        | "Low" end → implications                                                                                                                 |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Volume**     | high repeatability → specialisation, systemisation, capital intensive, **low unit cost**                                         | low repetition → multi-task staff, less systemisation, **high unit cost**                                                                |
+| **Variety**    | flexible, complex, matches customer needs, **high unit cost**                                                                    | well defined, routine, standardised, regular, **low unit cost**                                                                          |
+| **Variation**  | capacity changes over time, anticipation, flexibility, cushion for the unexpected, **high unit cost**                            | stable, routine, predictable, high utilisation, **low unit cost**                                                                        |
 | **Visibility** | short waiting tolerance, satisfaction governed by perception, customer contact skills, high received variety, **high unit cost** | time lag between production and consumption, standardised, low contact skills, high staff utilisation, centralisation, **low unit cost** |
 
 Detail for each V (from the book via your notes):
 
 - **Volume** — high volume = high repeatability: it makes sense for staff to specialize in the tasks they perform, to systemize activities with standard procedures, and to develop specialized technology for higher processing efficiency. Low volume = less repetition, staff performing a wide range of tasks. *(Vinelli's example: **Fincantieri** = low volume, one ship at a time; **McDonald's** = high volume, burgers really fast.)*
-
 - **Variety** — high variety = a wide range of different activities, changing frequently; a wide range of skills and technologies; the extra complexity of matching customer requirements to appropriate products or services. High-variety processes are **invariably** more complex and costly than low-variety ones.
-
 - **Variation in demand** — constant, predictable demand = resources geared to just the right level, everything plannable, no extra safety capacity → lower costs. Variable/unpredictable demand = resources adjusted over time, extra capacity cushion to absorb unexpected demand → higher costs.
-
 - **Visibility** — indicates how much of the process is experienced directly by customers. Processes that act directly *on customers* (retail, healthcare) expose more of their activities; the customer interface needs managing → higher costs than low-visibility processes.
 
 💡 **The expensive pair**: notice that three Vs out of four have the high cost on the "left" end (low volume, high variety, high variation, high visibility). In practice an operation's 4V *profile* almost always explains its unit cost — and that is why volume is the "good" V: McDonald's has high volume *and* low variety, and the two reinforce each other (from your notes: *"fast-food has high volume since it has low variety → standardised chain of work"*).
@@ -246,11 +226,8 @@ Detail for each V (from the book via your notes):
 Operations management activities group into four broad categories:
 
 - **Directing** the overall strategy of the operation — understanding its strategic purpose, how it is translated into reality, how innovation is incorporated into products and services, and how much of the total value-adding process should be kept in-house and outsourced.
-
 - **Designing** the operation's processes — determining the physical form, shape and composition of operations and processes, together with the types of resources they contain.
-
 - **Delivery** (planning and controlling) — planning and controlling the delivery of products and services from suppliers, through the total operation, to customers.
-
 - **Developing** process performance — developing the capabilities of the processes to improve process performance.
 
 ![[Summary SOSCM - Vinelli-1791193380459.webp]]
@@ -262,35 +239,22 @@ Operations management activities group into four broad categories:
 ## 1.9 💡 Analysis and links (Chapter 1)
 
 1. **The common thread is transformation.** Definitions → input-transformation-output model → 4Vs → 4Ds: the whole chapter repeats that an operation is a machine turning resources into value, and that managing it well means understanding *what kind* of transformation it is (4Vs) and *what* directing/designing/delivering/developing require (4Ds).
-
 2. **4Vs ↔ five objectives.** The unit cost the 4V matrix explains (1.7) is the same "cost" of the five objectives (1.6): the 4Vs say *why* a process is expensive, the objectives say *which levers* performance acts on. Visibility ↔ front/back office (1.4) is another internal bridge.
-
 3. **Strategic vs operational.** The five enterprise-level impact levers (cost, revenue, risk, investment, capability) are the strategic "why"; the five process-level objectives are the operational "how". Chapter 2 welds them: process objectives become the *performance objectives* on which strategy is played.
-
 4. **TBL → Chapter 2.** The "people, planet, profit" idea introduces the multi-stakeholder view of performance that Chapter 2 formalizes with stakeholders and CSR.
-
 5. **OSCM → Chapter 4.** The fourth historical stage (supply chain) and the supply network level of Figure 1.7 open directly onto Chapter 4 (scope, structure, vertical integration: see `Summary SOSCM - Macchion.md`).
 
 ## 1.10 🎯 Exam focus (Chapter 1)
 
 - **Literal definitions**: OPM vs OM vs process vs operations (table 1.1) — be able to distinguish each in one line.
-
 - **The "within > between" principle**: be able to explain it with Figure 1.2 (luxury hotel vs value-for-money hotel ≠ hotel sector).
-
 - **The four historical stages**: production → OM → OPM → OSCM, with the scope axis (Figure 1.3).
-
 - **Input-transformation-output**: transformed (materials, information, customers) vs transforming (facilities, people) — with an example.
-
 - **Three levels of analysis**: supply network / operation / process (Figure 1.7).
-
 - **TBL** (p. 47) and the **five enterprise impacts** (cost, revenue, risk, investment, capability — p. 48): the two Operations Principles to quote.
-
 - **Five performance objectives** (p. 49) + examples (Zara, Amazon).
-
 - **4Vs**: be able to build the profile of a known operation (Fincantieri vs McDonald's) and of processes inside the same bank (Figure 1.12); cost implications of every V.
-
 - **4Ds**: directing, designing, delivery, developing — and the role of data/analytics (Figure 1.14).
-
 - **Typical question**: "Take an operation you know and analyse it with the input-transformation-output model and the 4Vs" — the model answer is the retail banking analysis.
 
 ---
@@ -304,7 +268,6 @@ The chapter answers one question: **how do operations produce competitive advant
 ## 2.1 Stakeholders and CSR
 
 > [!quote] 📖 p. 70
-
 > "All operations have stakeholders. They are the people and groups who have a legitimate interest in the operation's strategy. Some are internal (employees); others are external (customers, society or community groups, and a company's shareholders). External stakeholders may have a direct commercial relationship with the organisation (suppliers and customers); others may not (industry regulators). In not-for-profit operations, these stakeholder groups can overlap. (…) it is a responsibility of the operations function to understand the (often conflicting) objectives of its stakeholders and set its objectives accordingly. Yet, although all stakeholder groups, to different extents, will be interested in operations performance, they are likely to have very different views on which aspect of performance is important."
 
 ![[Summary SOSCM - Vinelli-1791193646521.webp]]
@@ -326,11 +289,8 @@ An operations strategy should **articulate a vision** for the operations functio
 *🖼️ **Figure 2.2** — The H&W four-stage model: from "Stage 1 – correct the worst problems" ("holding the organisation back") to "Stage 4 – give an operations advantage" ("redefining industry expectations"). Axes: strategic impact (vertical) and operations capabilities (horizontal). The arrows between stages: implementing → supporting → driving strategy. (An identical second copy of this figure exists in the repo: `…-1791193953052.webp`.)*
 
 - **Stage 1 — Internal neutrality.** The very poorest level of contribution: the other functions see operations as holding them back from competing effectively. Its goal (vision) is *to be ignored*: avoiding the bigger mistakes.
-
 - **Stage 2 — External neutrality.** Operations start comparing themselves with similar companies in the outside market: adopt best practice ideas and norms of performance from others. Not setting the trend, just copying the best to achieve the best possible market position.
-
 - **Stage 3 — Internally supportive.** They may not be better than competitors on every aspect of performance, but they are broadly up there. They gain a clear view of the company's competitive and strategic goals and develop appropriate operations resources to **excel in the areas where the company needs to compete effectively**. Vision: be clearly the very best in the market.
-
 - **Stage 4 — Externally supportive.** Operations look to the long term and develop the operations-based capabilities that will be required to compete in future market conditions; they are creative, innovative and capable of adaptation as markets change. **Operations themselves drive the company strategy.** Vision: provide the foundation for competitive success.
 
 💡 *"It's the apotheosis of the operations manager"* (from your notes): at Stage 4 it is no longer the business strategy telling operations what to do — it is the operation (its capabilities) *creating* the strategy. Examples to quote: **IKEA**, **Toyota** with the TPS (Toyota Production System), **Southwest Airlines** which invented a new way of flying — later copied (Ryanair).
@@ -344,9 +304,7 @@ An operations strategy should **articulate a vision** for the operations functio
 A classic distinction (popularised by the strategy academic **Andrew Pettigrew**, from his eight-year study of a single firm over time) separates three aspects of operations strategy:
 
 - **Context** — the set of circumstances under which a strategy is formed: the environment in which strategy is shaped (sudden disruptions to supply, labour shortages, currency fluctuations, changes in ownership, technological disruption, new services offered by rivals). The answer to "what should we do?" is always *"it depends"* — on factors outside any individual organisation's control (geopolitical turbulence) and on internal ones (availability of the skills needed to implement a strategy).
-
 - **Content** — the collection of strategic decisions (deliberate or by default) that shape and develop the long-term direction of the operation: capacity strategy, supply network strategy, technology strategy, and so on.
-
 - **Process** — the way in which operations strategies are (or can be) formulated; it reflects what operations managers should do in practice.
 
 ![[Summary SOSCM - Vinelli-1791195131226.webp|670]]
@@ -366,7 +324,6 @@ The **top-down** perspective starts from the business strategy and translates it
 *🖼️ **Figure 2.4** — Top to bottom: business strategy → functional strategies (HR, marketing, **operations**, finance, IT) → operations decision areas (product/service innovation, operations structure and scope, process design, supply chain management, capacity management…). Vertical = **correspondence** between levels; horizontal = **coherence** across functions and across decision areas.*
 
 - **Correspondence** — the vertical match: the operations strategy must correspond to the business strategy, and the operational decisions to the operations strategy.
-
 - **Coherence** — the horizontal consistency: the functional strategies must reinforce each other, and the operations decisions (process design ↔ capacity ↔ supply chain…) must not contradict one another.
 
 💡 "All operations are done to achieve the planned goal" (from your notes): top-down works only if the vertical chain is intact and the horizontal one does not contradict itself. A capacity KPI rewarding maximum saturation can *kill* the flexibility the business strategy requires: the textbook example of broken coherence.
@@ -382,21 +339,13 @@ Two concepts useful for understanding the top-down perspective:
 The literature synthesis gives **nine common elements** of the business model:
 
 1. The **value proposition** of what is offered to the market.
-
 2. The **target customer segments** addressed by the value proposition.
-
 3. The **communication and distribution channels** to reach customers.
-
 4. The **relationships** established with customers.
-
 5. The **core capabilities** needed to make the business model possible.
-
 6. The **configuration of activities** to implement it.
-
 7. The **partners** and their motivations for coming together.
-
 8. The **revenue streams** generated (→ the revenue model).
-
 9. The **cost structure** resulting from the business model.
 
 The **operating model** instead describes *how the business model will be achieved*. Typical elements (no universal list exists):
