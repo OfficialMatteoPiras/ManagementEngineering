@@ -100,13 +100,13 @@ Generally, an organization’s vertical integration strategy can be defined in t
 
 
 
-| Performance Objective |                        in House                        |                       Outsourced Supply                        |
-| :-------------------: | :----------------------------------------------------: | :------------------------------------------------------------: |
-|        Quality        |         Keep the know how <br>find the workers         | cannot afford machinery<br>partner has more knowledge than you |
-|         Speed         | higher level of control <br>coordination of operations |                    depends on the suppliers                    |
-|     Dependability     |                                                        |                                                                |
-|      Flexibility      |                                                        |       we can decide how much we order from the supplier        |
-|         Cost          |               cheaper <br>more efficent                |                                                                |
+| Performance Objective |                           in House                           |                                     Outsourced Supply                                     |
+| :-------------------: | :----------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+|        Quality        |            Keep the know how <br>find the workers            |              cannot afford machinery<br>partner has more knowledge than you               |
+|         Speed         |    higher level of control <br>coordination of operations    |                             depends on the suppliers<br><br>                              |
+|     Dependability     |                                                              |                                 affordability of product                                  |
+|      Flexibility      | you choose the line and the order of the products to produce | we can decide how much we order from the supplier<br>higher variability in the demand<br> |
+|         Cost          |                  cheaper <br>more efficent                   |                                                                                           |
 
 
 ![[Summary SOSCM - Macchion-1791795777555.webp]]
