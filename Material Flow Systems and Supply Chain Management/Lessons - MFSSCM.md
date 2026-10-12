@@ -7,16 +7,16 @@ https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LE
 
 **Learning Objectives:** 
 1. to acquaint students with the concepts of material flow systems in manufacturing and logistics, 
-2. to learn optimization modeling and analyses of material flow systems, 
+2. to learn optimization modelling and analyses of material flow systems, 
 3. to understand material flow integration issues in flexible and resilient supply networks, 
-4. to apply analytics software tools for case-based problem solving: Software Anylogistix, 50 student licenses and a teamwork during the cours
+4. to apply analytics software tools for case-based problem solving: Software Anylogistix, 50 student licenses and a teamwork during the course
 
 **Description:** 
 1. Analyses of material flows in manufacturing: a particular focus on Assembly To Order systems and their impact on in-house logistics. 
-2. Optimization modeling and analyses of material flow systems: part feeding problems for in-house logistics, Inventory Routing Problems for Outbound and Inbound Logistics. 
+2. Optimization modelling and analyses of material flow systems: part feeding problems for in-house logistics, Inventory Routing Problems for Outbound and Inbound Logistics. 
 3. Material flow structures, physical assets (AGV and LGV fleet design), material handling systems and operational decisions influencing system performance. 
 4. Digitalization of material flow systems, from MES (Manufacturing Execution System) to TMS (Transport Management System) and digital supply networks. 
-5. AnyLogistix laboratory: logistics network design principles, logistic facilities location, transportation flows optimization and dynamic flow simulation. Emphasis is given to problem-based modeling and solving with a team working and real case data. 
+5. AnyLogistix laboratory: logistics network design principles, logistic facilities location, transportation flows optimization and dynamic flow simulation. Emphasis is given to problem-based modelling and solving with a team working and real case data. 
 
 ***Prerequisites:*** Knowledge of industrial facilities design and planning, layout design, manufacturing system dimensioning and production planning and control.
 
@@ -140,4 +140,229 @@ When a company has a “good” material flow, materials at different stage move
 >Def. Flow system: flows in the supply network are movements of goods, materials, energy, information and workers. We can have two kind of flows: - Discrete flow process: discrete items move through the flow process. These is the most used flow in the industrial system. Ex. automotive, textile products, mechanical parts, home appliances, etc - Continuous flow process: products continuously move through successive productions states. Ex. chemical plants, oil productions plants, electric current flow, etc.
 > 
 > 
+
+
+# Lesson 2 - AN INTRODUCTION TO LEARNING CURVES
+
+> What do we mean by “learning” in the field of industrial engineering and operations management?
+
+**Learning effect:** the phenomenon in which humans or human organizations gain experience through the repetition of the same activity. Experience takes the form of either or both improved manipulative skills and in process procedures. (adapted from Dar-El, 2000)
+
+**Human learning** has developed almost independently in four areas: 
+- *Individual learning*: I study myself the things i need to learn
+- *Product learning:* the focus is on integrating the efforts of individual learning together with improvements in all aspects of materials and information flow involved in putting the whole product together 
+- *Product development learning:* product design changes are the essential ingredients in this type of learning, with an emphasis on design quality. Change the product to become better. 
+- *Learning Organizations*: how companies gets better at realizing multiple products and how fust they learn to change it. 
+
+**Learning curve:** a graphical/mathematical representation of the empirical relationship between performance in completing an activity and experience, where increased repetition of a task leads to efficiency improvements
+![[Lessons-1791363294221.webp]]
+
+> *Learning curve synonyms:* progress function, cost-quantity relationship, cost curve, product acceleration curve, improvement curve, performance curve, experience curve, efficiency curve
+
+### Why are learning curves important?
+Learning curves provide several benefits at different levels of decision-making: 
+1. At the **planning/operations level**: 
+	1. setting more accurate labor standards and monitoring realistic production objectives 
+	2. forecasting the available working time of a process 
+	3. predicting production output and non-conforming units 
+2. At the **management decision support systems/tactical level**: 
+	1. more accurate inventory management and lot-sizing models 
+	2. better supplier selection 
+	3. more accurate vehicle routing algorithms 
+	4. improved manual order picking procedures 
+3. At the **strategic level**: 
+	1. optimal timing of new product introductions
+	2. competitive pricing decisions 
+	3. determining investment levels to stimulate process and product innovations
+	4. vertical integration decisions
+
+> amazon: has a lot of temporary workers thus it has to change continuously the work flow.
+> We need to know how fast the workers are to coordinate at its beast the work flow.
+
+we need to ask ourself how fast the flow is and how we could seed it up by changing (e.g.) from linear to batch production.
+
+Factors influencing learning at individual level: 
+1. Methods improvements: you do things slightly more efficiently 
+2. Worker Selection 
+	1. Differences between workers: every worker has its own speed. ideally for the company we would like to have all the same speed.
+	2. Variations within each operator 
+3. Previous experience 
+4. Training
+5. Motivation: even in the same day a worker could be more ore less motivated. for example before and after lunch.
+6. Job Complexity 
+7. Number of Repetitions 
+	1. Does learning continue forever? 
+	2. How many cycles to reach Time Standard? 
+	3. The size of job orders 
+8. Length of Task 
+9. Errors 
+10. Forgetting 
+11. Continuous Improvement
+
+### 1) The Power Model
+The Power Model was first introduced in 1936 by T. P. Wright while studying aircraft production. He discovered that as output doubles, the time required to produce each unit reduced by a constant percentage (20%)![[Lessons-1791364050157.webp]]
+the more aircraft you produce the less time it takes. eg producing 4 instead of 2 is 20% faster.
+Also known as Wright’s Learning Curve (WLC), follows this formula:
+$$
+t_n = t_1 \cdot n^{-b} \space{} [sec] 
+\\ \\
+\text{where:} \\ 
+- n \text{ is the number of cycles (or repetitions) completed} \\ 
+- t_n \text{ is the performance time to complete the n-th cycle} \\
+- t_1 \text{ is the performance time to complete the first cycle} \\
+- b \text{ is the learning constant}\\
+$$
+> b is the most important parameter since it tells how fast we are learning.
+
+The WLC can also be expressed in terms of cost:
+$$
+C_n = C_1 \cdot n^{-b} \space{} [sec] 
+\\ \\
+\text{where:} \\ 
+- n, b \text{ are defined as before} \\
+- C_n { is the cost for producing the n-th unit} \\
+- C_1 { is the cost for producing the first unit} \\
+$$
+Taking the logarithm of both sides of the WLC results in a linear equation. Thus:
+$$
+t_n = t_1 \cdot n^{-b} \\
+\ln(t_n) = \ln(t_1 \cdot n^{-b}) \\
+\ln(t_n) = \ln(t_1) - b \cdot \ln(n) \\ 
+\ln(C_n) = \ln(C_1) - b \ln(n)
+$$
+![[Lessons-1791364651586.webp]]
+
+An interesting characteristic of the Power Model is that each time production is doubled, the performance time is reduced by a fraction that depends from the value of the learning constant, b. 
+
+Consider two different number of cycles, $n_1$ and $n_2$ , such as:
+
+$$ n_2 = 2 n_1$$
+
+Substituting these two values into the Power Model:
+$$
+t_{n_2} = t_1 \cdot (2n_1) ^ {-b} \\
+t_{n_1} = t_1 \cdot (n_1) ^ {-b} 
+$$
+
+Dividing the first by the second equation gives:
+$$
+\frac{t_{n_2}}{t_{n_1}} = 2^{-b}
+$$
+
+Therefore, we can derive a new parameter called Φ, the Learning Rate (LR or Learning Slope):
+$$
+\Phi = 100 \cdot 2^{-b}
+$$
+$\Phi$ can be interpreted as the «percent learning» that occurs each time output is doubled. In fitting data from the aircraft industry, Wright empirically found $\Phi$ to equal 80% (hence the 20% rule), with its equivalent b value of 0.322. 
+
+> Although there is a tendency to consider the 80% learning rate as a fixed value, $\Phi$ varies depending on job complexity, ranging from **65% up to 95%** (see next slides)
+
+In the image on the right we change $\Phi$ keeping $t_1$ constant. Vice versa on the right we keep $\Phi$ constant but change $t_1$
+
+![[Lessons-1791364981913.webp]]
+
+![[Lessons-1791365406344.webp]]
+
+This table shows the learning slope based on different skills starting on the same point
+
+![[Lessons-1791365529068.webp]]
+
+```horizontal
+Learning **Slopes for machining operations**
+![[Lessons-1791365703249.webp|322]]
+---
+Learning Slopes for **various activities in the defense sector**
+![[Lessons-1791365720851.webp|394x406]]
+```
+
+
+#### Example
+![[Lessons-1791365838242.webp]]
+
+![[Lessons-1791365936386.webp]]![[Lessons-1791365854967.webp]]
+
+![[Lessons-1791365879363.webp]]
+
+How to calculate the total time Tm to complete m cycles? Let’s assume that the number of repetitions is a continuous variable (the assumption is more exact for n>=15). Then, we can integrate the power model between 0 and m:
+![[Lessons-1791366282377.webp|518]]
+> m is the m-th unit. this integral tells us how much time it takes to go from unit 1 to unit m
+
+### 1b) The Cumulative Average Power Model
+
+This is the original version of the WLC, as Wright analysed the relationship between the direct labour man hours and the cumulative number of units produced:
+
+$$
+\hat{t_n} = t_1 \cdot n^{-b} \quad [\text{sec}]
+$$
+
+**where:**
+
+- $n$ is the number of cycles (or repetitions) completed
+- $t_1$ is the performance time to complete the first cycle
+- $b$ is the learning constant
+
+**and:**
+
+- $\hat{t_n}$ is the cumulative average time for completing $n$ cycles
+
+With this formulation, it is slightly more difficult to calculate $t_n$, the performance time for the $n$-th repetition:
+
+$$
+t_n = T_n - T_{n-1}
+$$
+
+$$
+t_n = t_1 \cdot \left[n^{(1-b)} - (n-1)^{(1-b)}\right]
+$$
+
+This version of the WLC is generally used when regression values with the Power Model are too low. The cumulative average, in fact, dampens out the effect of outliers.
+
+The Stanford B-model proposes a modification of the Power Model, introducing the parameter B:
+
+![[Lessons-1791366837820.webp]]
+
+![[Lessons-1791366862945.webp]]
+
+
+#### 3) Plateau Learning Model
+The main issue with the WLC and its derived models is that, for an infinite number of cycles, the execution time goes to zero. That is not realistic. The Plateau Model tries to avoid this problem:
+
+![[Lessons-1791367044462.webp]]
+$𝐴$ represents the **plateau (Threshold / limit / asymptote)**, the performance time of highly experienced workers under nominal motivating conditions.
+
+![[Lessons-1791367026169.webp]]
+> This model is way more realistic since it introduce a limit to the learning curve. The more you learn the less it's likely you find something new to learn.
+
+#### 4) De Jong’s Learning Model
+De Jong (1957) proposed a model that can account for both manual and machine-controlled tasks. While the manual parts are compressible with respect to experience, the machine part is not. Production time is split in two parts: one is subject to the traditional power learning process, while the other remains constant and represents the incompressible part of the task:
+![[Lessons-1791367305988.webp]]
+> This model works for bot human and machine. M = % of the work done by the machine.
+
+![[Lessons-1791367398103.webp]]
+
+```horizontal
+
+![[Lessons-1791367653881.webp]]
+---
+![[Lessons-1791367662826.webp]]
+
+```
+
+![[Lessons-1791367703187.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

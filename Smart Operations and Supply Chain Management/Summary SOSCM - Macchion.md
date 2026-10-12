@@ -94,4 +94,87 @@ Generally, an organization’s vertical integration strategy can be defined in t
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 5. LOSS OF FOCUS Vertical integration, by definition, means doing more things, which can distract from the (few) particularly important things (core activities).                                                                                                                                                                                                                                                                                                                                                                                           |
 
 
+#### Making the outsourcing decision
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=151&selection=45,0,56,30&color=note|p.151]]
+> Outsourcing is rarely a simple decision. Operations in different circumstances with different objectives are likely to make different decisions. Yet the question itself is relatively simple, even if the decision is not: ‘Is it in-house or outsourced supply in a particular set of circumstances that gives the company the appropriate performance objectives that it requires to compete more effectively in its markets?’ For example, if the main performance objectives for an operation are dependable delivery and meeting short-term changes in customers’ delivery requirements, the key question should be: ‘How does in-house or outsourcing give better dependability and delivery flexibility performance?’ This means judging two sets of opposing factors – those that give the potential to improve performance, and those that work against this potential being realised. Table 4.1 summarises some arguments for in-house supply versus outsourcing in terms of each performance objective.
+
+
+
+| Performance Objective |                           in House                           |                                     Outsourced Supply                                     |
+| :-------------------: | :----------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+|        Quality        |            Keep the know how <br>find the workers            |              cannot afford machinery<br>partner has more knowledge than you               |
+|         Speed         |    higher level of control <br>coordination of operations    |                             depends on the suppliers<br><br>                              |
+|     Dependability     |                                                              |                                 affordability of product                                  |
+|      Flexibility      | you choose the line and the order of the products to produce | we can decide how much we order from the supplier<br>higher variability in the demand<br> |
+|         Cost          |                  cheaper <br>more efficent                   |                                                                                           |
+
+
+![[Summary SOSCM - Macchion-1791795777555.webp]]
+
+![[Summary SOSCM - Macchion-1791797223921.webp]]
+
+#### Incorporating strategic factors into the outsourcing decision
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=153&selection=65,0,71,95&color=note|p.153]]
+> Although the effect of outsourcing on the operation’s performance objectives is important, there are other factors that companies take into account when deciding if outsourcing an activity is a sensible option. For example, if an activity has long-term strategic importance to a company, it is unlikely to outsource it. A retailer might choose to keep the design and development of its website in-house for example, because it plans to move into web-based retailing at some point in the future, even though specialists could perform the activity at less cost. Nor would a company usually outsource an activity for which it had specialised skills or knowledge.
+
+
+![[Summary SOSCM - Macchion-1791797290965.webp]]
+> [!Danger] OPERATIONS PRINCIPLE
+> Assessing the advisability of outsourcing should include consideration of the strategic importance of the activity and the relative operations performance.
+
+
+#### 4.4 Diagnostic question: What configuration should a supply network have?
+##### Disintermediation
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=155&selection=27,0,37,45&color=note|p.155]]
+> Another trend in some supply networks is that of companies within a network bypassing customers or suppliers to make contact directly with customers’ customers or suppliers’ suppliers. ‘Cutting out the middle men’ in this way is called disintermediation. An obvious example of this is the way the internet has allowed some suppliers to ‘disintermediate’ traditional retailers in supplying goods and services to consumers. So, for example, many services in the travel industry that used to be sold through retail outlets (travel agents) are now also available direct from the suppliers. The option of purchasing the individual components of a vacation through the websites of the airline, hotel, car-hire operation and so on, is now easier for consumers. Of course, they may still wish to purchase an ‘assembled’ product from retail travel agents, which can have the advantage of convenience. Nevertheless, the process of disintermediation has developed new linkages in the supply network.
+
+##### Co-opetition
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=155&selection=41,0,47,32&color=note|p.155]]
+> One approach to thinking about supply networks sees any business as being surrounded by four types of players: suppliers, customers, competitors and complementors. Complementors enable one’s products or services to be valued more by customers because they can also have the complementor’s products or services, as opposed to when they have yours alone. Competitors are the opposite; they make customers value your product or service less when they can have the competitor’s product or service, rather than yours alone. Competitors can also be complementors and vice versa.
+
+##### The idea of the ‘business ecosystem’
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=156&selection=17,0,34,70&color=note|p.156]]
+> An idea that is closely related to that of co-opetition in supply networks is that of the ‘business ecosystem’. It can be defined as: ‘An economic community supported by a foundation of interacting organizations and individuals – the organisms of the business world. The economic community produces goods and services of value to customers, who are themselves members of the ecosystem. The member organisms also include suppliers, lead producers, competitors, and other stakeholders. Over time, they coevolve their capabilities and roles, and tend to align themselves with the directions set by one or more central companies.’ 5 One of the main differences between this idea and that of the supply network generally is the inclusion in the idea of the ecosystem of businesses that may have little or no direct relationship with the main supply network, yet exist only because of that network. They interact with each other, predominantly complementing or contributing significant components of the value proposition for customers. Many examples come from the technology industries. The innovative products and services that are developed in the technology sectors cannot evolve in a vacuum
+
+#### Structural complexity in supply networks
+![[Summary SOSCM - Macchion-1791799196599.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	 
