@@ -99,6 +99,16 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > Outsourcing is rarely a simple decision. Operations in different circumstances with different objectives are likely to make different decisions. Yet the question itself is relatively simple, even if the decision is not: ‘Is it in-house or outsourced supply in a particular set of circumstances that gives the company the appropriate performance objectives that it requires to compete more effectively in its markets?’ For example, if the main performance objectives for an operation are dependable delivery and meeting short-term changes in customers’ delivery requirements, the key question should be: ‘How does in-house or outsourcing give better dependability and delivery flexibility performance?’ This means judging two sets of opposing factors – those that give the potential to improve performance, and those that work against this potential being realised. Table 4.1 summarises some arguments for in-house supply versus outsourcing in terms of each performance objective.
 
 
+
+| performance objective |                in HOUSE                |                       Outsourced supplu                        |
+| :-------------------: | :------------------------------------: | :------------------------------------------------------------: |
+|        Quality        | Keep the know how <br>find the workers | cannot afford machinery<br>partner has more knowledge than you |
+|         Speed         |                                        |                                                                |
+|     Dependibility     |                                        |                                                                |
+|      Flexibility      |                                        |                                                                |
+|         Cost          |                                        |                                                                |
+
+
 ![[Summary SOSCM - Macchion-1791795777555.webp]]
 
 

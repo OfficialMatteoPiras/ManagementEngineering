@@ -6,7 +6,7 @@
       {
         "id": "799249efd3b9b969",
         "type": "tabs",
-        "dimension": 48.122317596566525,
+        "dimension": 54.95283018867924,
         "children": [
           {
             "id": "8f402bdc74c87f45",
@@ -42,7 +42,7 @@
       {
         "id": "b096ae8dc4295a87",
         "type": "tabs",
-        "dimension": 51.877682403433475,
+        "dimension": 45.04716981132076,
         "children": [
           {
             "id": "d57430e3b33ebc69",
@@ -66,9 +66,9 @@
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
                 "page": 151,
-                "left": 65,
-                "top": 472,
-                "zoom": 1.1012658227848102
+                "left": 67,
+                "top": 46,
+                "zoom": 0.9439421338155516
               },
               "icon": "lucide-file-text",
               "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
