@@ -385,7 +385,6 @@ The **outside-in** perspective starts from the market: what must the operation b
 ### Order-winners and qualifiers
 
 > [!quote] 📖 p. 81
-
 > "**Order-winners** are those things that directly and significantly contribute to winning business. They are regarded by customers as key reasons for purchasing the product or service. Raising performance in an order-winner will either result in more business or improve the chances of gaining more business. (…) **Qualifiers** may not be the major competitive determinants of success, but are important in another way. They are those aspects of competitiveness where the operation's performance has to be above a particular level just to be considered by the customer. Performance below this 'qualifying' level of performance may disqualify the operation from being considered by customers. But any further improvement above the qualifying level is unlikely to gain the company much competitive benefit. Qualifiers are those things that are generally expected by customers. Being great at them is unlikely to excite customers, but being bad at them can disadvantage the competitive position of the operation."
 
 ![[Summary SOSCM - Vinelli-1791377748814.webp]]
@@ -393,7 +392,6 @@ The **outside-in** perspective starts from the market: what must the operation b
 *⚠️ 🖼️ **Figure 2.6** — The order-winner vs qualifier curves (auto-transcription failed): on the horizontal axis the operation's performance, on the vertical its contribution to competitiveness. The order-winner curve rises steadily and significantly as performance improves; the qualifier curve is flat above the qualifying threshold and penalising below it.*
 
 - **Order-winners**: raising the level → more business (or better chances of getting it).
-
 - **Qualifiers**: below a threshold you are *excluded* from the customer's consideration; above the threshold, further improvement brings little appreciable competitive benefit.
 
 🎯 **Operations Principle** (p. 80) — Operations strategy should reflect the requirements of the business's markets.
@@ -405,11 +403,8 @@ The **outside-in** perspective starts from the market: what must the operation b
 One way of generalising the market requirements is to link them to the **life cycle** of the products or services — introduction, growth, maturity, decline:
 
 - **Introduction** — the product or service is likely to offer something new in design or performance; market uncertainty is high → the operation needs **flexibility** (to cope with changes) and **quality** (to maintain product/service performance).
-
 - **Growth** — standardised designs emerge that allow the operation to supply the rapidly growing market; keeping up with demand through rapid and dependable response while maintaining quality helps keep market share as competition starts to increase.
-
 - **Maturity** — demand levels off, the market is dominated by a few larger companies with standardised designs; competition probably emphasises price or value for money → operations must **get costs down** (with dependable supply) to maintain profits or allow price-cutting, or both.
-
 - **Decline** — sales decline; a residual market may remain, but if capacity lags demand the market is dominated by price competition → **cost-cutting remains important**.
 
 ![[Summary SOSCM - Vinelli-1791379072444.webp]]
@@ -479,23 +474,14 @@ Two lessons from the figure:
 ## 2.9 🎯 Exam focus (Chapter 2)
 
 - **Stakeholders** (p. 70): who they are, internal/external, overlapping in not-for-profits, conflicting objectives — plus the principle on CSR and stakeholders.
-
 - **The H&W four-stage model** (Figure 2.2): name the four stages (internal/external neutrality, internal/external supportive), their visions and the progression implementing → supporting → driving. Examples: IKEA, Toyota (TPS), Southwest Airlines.
-
 - **Context / content / process**: definitions (Pettigrew) + be able to draw the diagram and quote MacLennan on the failure rate of planned strategies.
-
 - **Top-down**: correspondence vs coherence (Figure 2.4).
-
 - **Business model (9 elements, p. 75) vs operating model** (typical elements + TOM) and their overlap (Figure 2.5).
-
 - **Outside-in**: order-winners vs qualifiers (p. 81, Figure 2.6) with the qualifying threshold; the p. 80 principle (market requirements).
-
 - **Life cycle** (Figure 2.7): memorise the *dominant process performance objectives* per stage (introduction: flexibility+quality → growth: speed+dependability+quality → maturity: cost+dependability → decline: cost) and be able to link it to the 4Vs.
-
 - **Inside-out**: capability as the basis of future innovation (p. 48) — the Bottega Veneta example.
-
 - **The diagnostic question** ("are the four perspectives reconciled?"): answer it with the Micraytech case (Figure 2.9), the operations strategy matrix (Figure 2.10), the line of fit (Figure 2.11) and the efficient frontier (Figure 2.12).
-
 - **Typical question**: "Take a company and describe the four perspectives of its operations strategy" — answer structure: stakeholders/market → H&W stage → four perspectives → reconciliation.
 
 ---
@@ -504,39 +490,23 @@ Two lessons from the figure:
 
 ## Framework cheat-sheet (Chapters 1–2)
 
-| Framework | Ch. | What it is for | Components |
-
-| --- | --- | --- | --- |
-
-| Input-transformation-output | 1 | seeing every operation as a system | transformed (materials, information, customers) + transforming (facilities, people) → output |
-
-| Three levels of analysis | 1 | positioning every analysis | supply network / operation / process (Figure 1.7) |
-
-| TBL | 1 | sustainable performance | people, planet, profit ("license to operate") |
-
-| 5 strategic impact levers | 1 | operations' impact on the enterprise | cost, revenue, risk, investment, capability |
-
-| 5 performance objectives | 1–2 | measuring process performance | quality, speed, dependability, flexibility, cost |
-
-| 4Vs | 1 | process diagnostic | volume, variety, variation, visibility (+ cost implications) |
-
-| 4Ds | 1 | the operations manager's activities | directing, designing, delivery, developing (+ analytics, Figure 1.14) |
-
-| H&W four-stage model | 2 | strategic maturity of operations | internal neutral → external neutral → internally supportive → externally supportive |
-
-| Context-content-process | 2 | anatomy of strategy | where/how it forms (context), what is decided (content), how it is decided (process) |
-
-| Correspondence/coherence | 2 | top-down requirements | vertical between levels / horizontal across functions and decisions |
-
-| Business model vs operating model | 2 | translating strategy into organisation | 9 elements / KPIs+processes+systems+responsibilities (+TOM) |
-
-| Order-winners/qualifiers | 2 | prioritising objectives | wins orders vs above-threshold-necessary |
-
-| Life cycle | 2 | making the objectives dynamic | introduction, growth, maturity, decline |
-
-| 4 perspectives | 2 | formulating strategy | top-down, bottom-up, outside-in, inside-out → reconciled (line of fit) |
-
-| Efficient frontier | 2 | real vs presumed trade-offs | effectiveness (inside the frontier) vs innovation (frontier shifted) |
+| Framework                         | Ch. | What it is for                         | Components                                                                                   |
+| --------------------------------- | --- | -------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Input-transformation-output       | 1   | seeing every operation as a system     | transformed (materials, information, customers) + transforming (facilities, people) → output |
+| Three levels of analysis          | 1   | positioning every analysis             | supply network / operation / process (Figure 1.7)                                            |
+| TBL                               | 1   | sustainable performance                | people, planet, profit ("license to operate")                                                |
+| 5 strategic impact levers         | 1   | operations' impact on the enterprise   | cost, revenue, risk, investment, capability                                                  |
+| 5 performance objectives          | 1–2 | measuring process performance          | quality, speed, dependability, flexibility, cost                                             |
+| 4Vs                               | 1   | process diagnostic                     | volume, variety, variation, visibility (+ cost implications)                                 |
+| 4Ds                               | 1   | the operations manager's activities    | directing, designing, delivery, developing (+ analytics, Figure 1.14)                        |
+| H&W four-stage model              | 2   | strategic maturity of operations       | internal neutral → external neutral → internally supportive → externally supportive          |
+| Context-content-process           | 2   | anatomy of strategy                    | where/how it forms (context), what is decided (content), how it is decided (process)         |
+| Correspondence/coherence          | 2   | top-down requirements                  | vertical between levels / horizontal across functions and decisions                          |
+| Business model vs operating model | 2   | translating strategy into organisation | 9 elements / KPIs+processes+systems+responsibilities (+TOM)                                  |
+| Order-winners/qualifiers          | 2   | prioritising objectives                | wins orders vs above-threshold-necessary                                                     |
+| Life cycle                        | 2   | making the objectives dynamic          | introduction, growth, maturity, decline                                                      |
+| 4 perspectives                    | 2   | formulating strategy                   | top-down, bottom-up, outside-in, inside-out → reconciled (line of fit)                       |
+| Efficient frontier                | 2   | real vs presumed trade-offs            | effectiveness (inside the frontier) vs innovation (frontier shifted)                         |
 
 ## The "Operations Principles" of the chapters (the book's boxes)
 
@@ -554,66 +524,40 @@ Two lessons from the figure:
 
 # Glossary EN → IT
 
-| English | Italiano |
-
-| --- | --- |
-
-| shareholders | azionisti |
-
-| stakeholders | portatori di interessi |
-
-| order-winners | fattori che fanno vincere l'ordine (left in English) |
-
-| qualifiers | fattori di qualificazione (minimum threshold to be considered) |
-
-| dependability | affidabilità (on-time, promises kept) |
-
-| flexibility | flessibilità |
-
-| supply network | rete di fornitura |
-
-| triple bottom line (TBL) | triple bottom line ("persone, pianeta, profitto") |
-
-| license to operate | licenza sociale di operare |
-
-| resilience | resilienza (ability to recover from failure) |
-
-| front office / back office | (left in English) high / low customer visibility |
-
-| business model | modello di business |
-
-| operating model / TOM | modello operativo / target operating model |
-
-| correspondence / coherence | corrispondenza (vertical) / coerenza (horizontal) |
-
-| top-down / bottom-up / outside-in / inside-out | the four perspectives of operations strategy |
-
-| line of fit | linea di congruenza mercato↔capability |
-
-| efficient frontier | frontiera efficiente |
-
-| repeatability | ripetitività |
-
-| systemisation | sistematizzazione |
-
-| capacity cushion | margine di capacità per absorbing the unexpected |
-
-| transformed / transforming resources | risorse trasformate / che trasformano |
+| English                                        | Italiano                                                       |
+| ---------------------------------------------- | -------------------------------------------------------------- |
+| shareholders                                   | azionisti                                                      |
+| stakeholders                                   | portatori di interessi                                         |
+| order-winners                                  | fattori che fanno vincere l'ordine (left in English)           |
+| qualifiers                                     | fattori di qualificazione (minimum threshold to be considered) |
+| dependability                                  | affidabilità (on-time, promises kept)                          |
+| flexibility                                    | flessibilità                                                   |
+| supply network                                 | rete di fornitura                                              |
+| triple bottom line (TBL)                       | triple bottom line ("persone, pianeta, profitto")              |
+| license to operate                             | licenza sociale di operare                                     |
+| resilience                                     | resilienza (ability to recover from failure)                   |
+| front office / back office                     | (left in English) high / low customer visibility               |
+| business model                                 | modello di business                                            |
+| operating model / TOM                          | modello operativo / target operating model                     |
+| correspondence / coherence                     | corrispondenza (vertical) / coerenza (horizontal)              |
+| top-down / bottom-up / outside-in / inside-out | the four perspectives of operations strategy                   |
+| line of fit                                    | linea di congruenza mercato↔capability                         |
+| efficient frontier                             | frontiera efficiente                                           |
+| repeatability                                  | ripetitività                                                   |
+| systemisation                                  | sistematizzazione                                              |
+| capacity cushion                               | margine di capacità per absorbing the unexpected               |
+| transformed / transforming resources           | risorse trasformate / che trasformano                          |
+|                                                |                                                                |
 
 # Links
 
 - [[Summary SOSCM - Vinelli]] — the base of this document (Ch. 1–2, with PDF anchors to the book pages)
-
 - [[Summary SOSCM - Macchion]] — Chapter 4: operations scope and structure (supply network, vertical integration, outsourcing, scope/structure)
-
 - `Operations-and-Process-Management-–-Gestión-por-Procesos.pdf` — the book (Ch. 1–2: pp. 47–49, 70, 75, 80–81 cited; the file in the repo is a Git LFS pointer)
-
 - `Teoria_SOSCM 2.pdf` — course slides (pp. 12–13 cited: TBL and enterprise impact)
-
 - Related by topic: `Impianti Meccanici Magistrale/` (levels of analysis and capacity), `NotesFromGroup/` (group exam notes)
 
 ---
 
 > [!warning] Limits of this analysis (transparency)
-
 > The book's full PDF in the repo is a **Git LFS pointer** (133 bytes) that was not downloaded during the writing of this document: the "pp. 47–81" quotes come from the PDF anchors in your notes (verbatim, reliable), but the text *between* the quotes is reconstructed from summary + slides. Four slides (CSR, post-H&W capabilities, Figure 2.6, Figure 2.11 — marked ⚠️) could not be auto-transcribed: their captions are reconstructed from context. The other 18 figures are transcribed directly from the images.
