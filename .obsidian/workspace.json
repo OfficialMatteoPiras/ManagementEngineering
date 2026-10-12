@@ -65,10 +65,10 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 155,
-                "left": 112,
-                "top": 506,
-                "zoom": 1.1
+                "page": 156,
+                "left": 55,
+                "top": 56,
+                "zoom": 0.9
               },
               "icon": "lucide-file-text",
               "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
@@ -355,10 +355,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2d38d87652d5741",
+  "active": "9eb30461ae26e804",
   "lastOpenFiles": [
-    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
+    "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
+    "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791799196599.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797290965.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797289543.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797223921.webp",
@@ -384,7 +385,6 @@
     "Ink/Drawing/2026.10.7 - 13.51pm.svg",
     "Ink/Drawing/2026.10.8 - 13.13pm.svg",
     "Ink/Drawing/2026.10.8 - 13.36pm.svg",
-    "Digital Warehousing and Transportations/assets/Lessons-1791629136219.webp",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Vinelli.md",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Untitled Kanban.md",

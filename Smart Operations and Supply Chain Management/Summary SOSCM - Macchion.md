@@ -132,8 +132,12 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=155&selection=41,0,47,32&color=note|p.155]]
 > One approach to thinking about supply networks sees any business as being surrounded by four types of players: suppliers, customers, competitors and complementors. Complementors enable one’s products or services to be valued more by customers because they can also have the complementor’s products or services, as opposed to when they have yours alone. Competitors are the opposite; they make customers value your product or service less when they can have the competitor’s product or service, rather than yours alone. Competitors can also be complementors and vice versa.
 
+##### The idea of the ‘business ecosystem’
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=156&selection=17,0,34,70&color=note|p.156]]
+> An idea that is closely related to that of co-opetition in supply networks is that of the ‘business ecosystem’. It can be defined as: ‘An economic community supported by a foundation of interacting organizations and individuals – the organisms of the business world. The economic community produces goods and services of value to customers, who are themselves members of the ecosystem. The member organisms also include suppliers, lead producers, competitors, and other stakeholders. Over time, they coevolve their capabilities and roles, and tend to align themselves with the directions set by one or more central companies.’ 5 One of the main differences between this idea and that of the supply network generally is the inclusion in the idea of the ecosystem of businesses that may have little or no direct relationship with the main supply network, yet exist only because of that network. They interact with each other, predominantly complementing or contributing significant components of the value proposition for customers. Many examples come from the technology industries. The innovative products and services that are developed in the technology sectors cannot evolve in a vacuum
 
-
+#### Structural complexity in supply networks
+![[Summary SOSCM - Macchion-1791799196599.webp]]
 
 
 
