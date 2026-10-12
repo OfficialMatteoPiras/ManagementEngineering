@@ -111,6 +111,16 @@ Generally, an organization’s vertical integration strategy can be defined in t
 
 ![[Summary SOSCM - Macchion-1791795777555.webp]]
 
+![[Summary SOSCM - Macchion-1791797223921.webp]]
+
+#### Incorporating strategic factors into the outsourcing decision
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=153&selection=65,0,71,95&color=note|p.153]]
+> Although the effect of outsourcing on the operation’s performance objectives is important, there are other factors that companies take into account when deciding if outsourcing an activity is a sensible option. For example, if an activity has long-term strategic importance to a company, it is unlikely to outsource it. A retailer might choose to keep the design and development of its website in-house for example, because it plans to move into web-based retailing at some point in the future, even though specialists could perform the activity at less cost. Nor would a company usually outsource an activity for which it had specialised skills or knowledge.
+
+
+![[Summary SOSCM - Macchion-1791797290965.webp]]
+> [!Danger] OPERATIONS PRINCIPLE
+> Assessing the advisability of outsourcing should include consideration of the strategic importance of the activity and the relative operations performance.
 
 
 
