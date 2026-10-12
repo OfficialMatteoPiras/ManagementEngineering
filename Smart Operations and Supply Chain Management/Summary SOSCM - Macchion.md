@@ -118,9 +118,21 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > Although the effect of outsourcing on the operation’s performance objectives is important, there are other factors that companies take into account when deciding if outsourcing an activity is a sensible option. For example, if an activity has long-term strategic importance to a company, it is unlikely to outsource it. A retailer might choose to keep the design and development of its website in-house for example, because it plans to move into web-based retailing at some point in the future, even though specialists could perform the activity at less cost. Nor would a company usually outsource an activity for which it had specialised skills or knowledge.
 
 
-mkoplol uc ![[Summary SOSCM - Macchion-1791797290965.webp]]
+![[Summary SOSCM - Macchion-1791797290965.webp]]
 > [!Danger] OPERATIONS PRINCIPLE
 > Assessing the advisability of outsourcing should include consideration of the strategic importance of the activity and the relative operations performance.
+
+
+#### 4.4 Diagnostic question: What configuration should a supply network have?
+##### Disintermediation
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=155&selection=27,0,37,45&color=note|p.155]]
+> Another trend in some supply networks is that of companies within a network bypassing customers or suppliers to make contact directly with customers’ customers or suppliers’ suppliers. ‘Cutting out the middle men’ in this way is called disintermediation. An obvious example of this is the way the internet has allowed some suppliers to ‘disintermediate’ traditional retailers in supplying goods and services to consumers. So, for example, many services in the travel industry that used to be sold through retail outlets (travel agents) are now also available direct from the suppliers. The option of purchasing the individual components of a vacation through the websites of the airline, hotel, car-hire operation and so on, is now easier for consumers. Of course, they may still wish to purchase an ‘assembled’ product from retail travel agents, which can have the advantage of convenience. Nevertheless, the process of disintermediation has developed new linkages in the supply network.
+
+##### Co-opetition
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=155&selection=41,0,47,32&color=note|p.155]]
+> One approach to thinking about supply networks sees any business as being surrounded by four types of players: suppliers, customers, competitors and complementors. Complementors enable one’s products or services to be valued more by customers because they can also have the complementor’s products or services, as opposed to when they have yours alone. Competitors are the opposite; they make customers value your product or service less when they can have the competitor’s product or service, rather than yours alone. Competitors can also be complementors and vice versa.
+
+
 
 
 
