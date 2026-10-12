@@ -100,13 +100,13 @@ Generally, an organization’s vertical integration strategy can be defined in t
 
 
 
-| performance objective |                in HOUSE                |                       Outsourced supplu                        |
-| :-------------------: | :------------------------------------: | :------------------------------------------------------------: |
-|        Quality        | Keep the know how <br>find the workers | cannot afford machinery<br>partner has more knowledge than you |
-|         Speed         |                                        |                                                                |
-|     Dependibility     |                                        |                                                                |
-|      Flexibility      |                                        |                                                                |
-|         Cost          |                                        |                                                                |
+| performance objective |                          in HOUSE                           |                       Outsourced supply                        |
+| :-------------------: | :---------------------------------------------------------: | :------------------------------------------------------------: |
+|        Quality        |           Keep the know how <br>find the workers            | cannot afford machinery<br>partner has more knowledge than you |
+|         Speed         | faster internal communication<br>coordination of operations |                    depends on the suppliers                    |
+|     Dependability     |                                                             |                       we can decide how                        |
+|      Flexibility      |                                                             |                                                                |
+|         Cost          |                                                             |                                                                |
 
 
 ![[Summary SOSCM - Macchion-1791795777555.webp]]
