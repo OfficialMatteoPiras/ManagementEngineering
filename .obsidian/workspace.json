@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "42c1ae89620fff62",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7cecebea1899771c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "RequiredKnowledge/IMPIANTI MECCANICI/Impianti Calzavara.pdf",
-                "page": 1,
-                "left": 0,
-                "top": 842,
-                "zoom": 2.7753976390180677
-              },
-              "icon": "lucide-file-text",
-              "title": "Impianti Calzavara"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -296,8 +290,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "686bebb0fdf95394",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "RequiredKnowledge/IMPIANTI MECCANICI/Impianti Calzavara.pdf",
     "RequiredKnowledge/OPSL1/Quiz_OPSL.pdf",
     "RequiredKnowledge/OPSL1/Quaderno OPSL.pdf",
     "RequiredKnowledge/OPSL1/Eserciziario OPSL.pdf",
@@ -308,7 +303,6 @@
     "RequiredKnowledge/OPSL1/Esercizi riassuntivi/3)ES. RIASSUNTIVO PIANIFICAZIONE DI MEDIO BREVE.pdf",
     "RequiredKnowledge/OPSL1/Esercizi riassuntivi/2)ES. RIASSUNTIVO PIANIFICAZIONE DI MEDIO LUNGO.pdf",
     "RequiredKnowledge/OPSL1/Esercizi riassuntivi/1)ES. RIASSUNTIVO MPS E MRP.pdf",
-    "RequiredKnowledge/OPSL1/Esercizi riassuntivi",
     "Material Flow Systems and Supply Chain Management/DEFINING REQUIREMENTS.md",
     "Material Flow Systems and Supply Chain Management/Lessons.md",
     "Material Flow Systems and Supply Chain Management/assets/Lessons-1791034104821.webp",
