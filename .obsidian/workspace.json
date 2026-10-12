@@ -6,7 +6,7 @@
       {
         "id": "799249efd3b9b969",
         "type": "tabs",
-        "dimension": 54.95283018867924,
+        "dimension": 48.122317596566525,
         "children": [
           {
             "id": "8f402bdc74c87f45",
@@ -42,7 +42,7 @@
       {
         "id": "b096ae8dc4295a87",
         "type": "tabs",
-        "dimension": 45.04716981132076,
+        "dimension": 51.877682403433475,
         "children": [
           {
             "id": "d57430e3b33ebc69",
@@ -50,12 +50,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://stem.elearning.unipd.it/course/view.php?id=16800",
-                "title": "Corso: INTERNATIONAL MANAGEMENT 2026-2027 - INQ5109531 | STEM",
-                "mode": "error"
+                "url": "https://stem.elearning.unipd.it/?redirect=0",
+                "title": "Home | STEM",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Corso: INTERNATIONAL MANAGEMENT 2026-2027 - INQ5109531 | STEM"
+              "title": "Home | STEM"
             }
           },
           {
@@ -65,10 +65,10 @@
               "type": "pdf",
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
-                "page": 156,
-                "left": 55,
-                "top": 56,
-                "zoom": 0.9
+                "page": 1,
+                "left": -9,
+                "top": 752,
+                "zoom": 1.6695298372513563
               },
               "icon": "lucide-file-text",
               "title": "Operations-and-Process-Management-–-Gestión-por-Procesos"
@@ -82,7 +82,7 @@
               "state": {
                 "file": "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
                 "page": 19,
-                "left": 3,
+                "left": -103,
                 "top": 45,
                 "zoom": 1.19
               },
@@ -90,8 +90,7 @@
               "title": "Teoria_SOSCM 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +115,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora file"
             }
           },
           {
@@ -330,18 +329,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Apri selettore rapido": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota giornaliera": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false,
+      "bases:Crea nuova Base": false,
+      "obsidian-importer:Importa note": false,
       "quickadd:QuickAdd": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Import notes": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -355,18 +354,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9eb30461ae26e804",
+  "active": "d57430e3b33ebc69",
   "lastOpenFiles": [
+    "Smart Operations and Supply Chain Management/pdf/Teoria_SOSCM 2.pdf",
     "Smart Operations and Supply Chain Management/Summary SOSCM - Macchion.md",
+    "Digital Marketing and International Management/Lessons - International Management.md",
+    "Digital Marketing and International Management/Summary IM.md",
+    "Home.md",
     "Smart Operations and Supply Chain Management/pdf/Operations-and-Process-Management-–-Gestión-por-Procesos.pdf",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791799196599.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797290965.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797289543.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791797223921.webp",
     "Smart Operations and Supply Chain Management/assets/Summary SOSCM - Macchion-1791795777555.webp",
-    "Digital Marketing and International Management/Summary IM.md",
-    "Home.md",
-    "Digital Marketing and International Management/Lessons - International Management.md",
     "Material Flow Systems and Supply Chain Management/Lessons - MFSSCM.md",
     "Digital Marketing and International Management/pdf/ISE International Business Competing in the Global Marketplace (Charles Hill) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Digital Warehousing and Transportations/Lessons - DWT.md",
