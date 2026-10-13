@@ -155,10 +155,19 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > All types of operations exhibit economy-of-scale effects where operating costs reduce as the scale of capacity increases
 
 
+## The timing of capacity change
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=161&selection=49,0,74,26&color=note|p.161]]
+> Changing the capacity of any operation in a supply network is not just a matter of deciding on its optimum capacity. The operation also needs to decide when to bring ‘on-stream’ new capacity. For example, Figure 4.9 shows the forecast demand for a manufacturer’s new product. In deciding when new capacity is to be introduced the company can mix three strategies:
+> 1. Capacity is introduced to generally lead demand, timing the introduction of capacity in such a way that there is always sufficient capacity to meet forecast demand. 
+> 2. Capacity is introduced to generally lag demand, timing the introduction of capacity so that demand is always equal to or greater than capacity. 
+> 3. Capacity is introduced to sometimes lead and sometimes lag demand, but inventory built up during the ‘lead’ times is used to help meet demand during the ‘lag’ times. This is called ‘smoothing with inventory’
 
 
+![[Summary SOSCM - Macchion-1791889263354.webp]]
 
-
+> [!Important] OPERATIONS PRINCIPLE 
+> Capacity-leading strategies increase opportunities to meet demand. Capacity-lagging strategies increase capacity utilisation
 
 
 
