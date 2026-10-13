@@ -139,6 +139,12 @@ Generally, an organization’s vertical integration strategy can be defined in t
 #### Structural complexity in supply networks
 ![[Summary SOSCM - Macchion-1791799196599.webp]]
 
+## Case Example: Amazon and Bonobos move to include bricks and mortar
+
+> [!PDF|important] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=159&selection=22,12,22,13&color=important|p.159]]
+> Case example: Amazon and Bonobos move to include bricks and mortar
+
+
 
 
 
