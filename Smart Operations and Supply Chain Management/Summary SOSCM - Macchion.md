@@ -145,10 +145,14 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > Case example: Amazon and Bonobos move to include bricks and mortar
 
 
+## The optimum capacity level
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=160&selection=20,0,34,34&color=note|p.160]]
+> Most organisations have decisions to make about how big (in terms of capacity) they want to be. A chain of truck service centres, for example, might operate centres that have various capacities. The effective cost of running each centre will depend on the average service-bay occupancy. Low occupancy, because of few customers, will result in a high cost per customer served because the fixed costs of the operation are being shared between few customers. As demand, and therefore service-bay occupancy, increases, the cost per customer will reduce. However, operating at very high levels of capacity utilisation (occupancy levels close to capacity) can mean longer customer waiting times and reduced customer service. There may also be less-obvious penalties for operating centres at levels close to their nominal capacity. For example, long periods of overtime may reduce productivity levels, as well as costing more in extra payments to staff; utilising bays at very high levels reduces the time available for maintenance and cleaning, which may increase the number of breakdowns, reduce effective life, and so on. This usually means that average costs start to increase after a point that will often be lower than the theoretical capacity of the operation.
 
+![[Summary SOSCM - Macchion-1791888923909.webp]]
 
-
-
+> [!important] OPERATIONS PRINCIPLE
+> All types of operations exhibit economy-of-scale effects where operating costs reduce as the scale of capacity increases
 
 
 
