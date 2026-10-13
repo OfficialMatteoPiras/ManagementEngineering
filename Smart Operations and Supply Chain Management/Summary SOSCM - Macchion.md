@@ -182,14 +182,29 @@ Generally, an organization’s vertical integration strategy can be defined in t
 ## 4.6 Diagnostic question: Where should operations be located?
 ### Why relocate?
 #### Changes in demand
-If customer demand shifts it may prompt a change in location. For example, as garment manufacturers moved to Asia, suppliers of zips, threads and so on started to follow them. Changes in the volume of demand can also prompt relocation. To meet higher demand,
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=164&selection=197,0,199,81&color=note|p.164]]
+> If customer demand shifts it may prompt a change in location. For example, as garment manufacturers moved to Asia, suppliers of zips, threads and so on started to follow them. Changes in the volume of demand can also prompt relocation. To meet higher demand, an operation could expand its existing site, or choose a larger site in another location, or keep its existing location and find a second location for an additional operation; the last two options will involve a location decision. High-visibility operations may not have the choice of expanding on the same site to meet rising demand. A dry-cleaning service may attract only marginally more business by expanding an existing site because it offers a local, and therefore convenient, service. Finding a new location for an additional operation is probably its only option for expansion.
+
+#### Changes in supply
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=165&selection=67,0,70,75&color=note|p.165]]
+> The other stimulus for relocation is changes in the cost, or availability, of the supply of inputs to the operation. For example, a mining or oil company will need to relocate as the minerals it is extracting become depleted. The reason why so many software companies located in India was the availability of talented, well-educated but relatively cheap staff.
 
 
+### Evaluating potential changes in location
+set location evaluation criteria:
+- capital requirements
+- market factors
+- cost factors
+- future flexibility
+- risk factors
 
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=165&selection=74,0,82,17&color=note|p.165]]
+> Evaluating possible locations is almost always a complex task because the number of location options, the criteria against which they could be evaluated and the comparative rarity of a single location that clearly dominates all others, make the decision strategically sensitive. Furthermore, the decision often involves high levels of uncertainty. Neither the relocation activity itself, nor the operating characteristics of the new site could be as assumed when the decision was originally made. Because of this, it is useful to be systematic in terms of 
+> a. identifying alternative options, and 
+> b. evaluating each option against a set of rational criteria
 
-
-
-
+> [!Important] OPERATIONS PRINCIPLE 
+> An operation should only change its location if the benefits of moving outweigh the costs of operating in the new location plus the cost of the move itself.
 
 
 
