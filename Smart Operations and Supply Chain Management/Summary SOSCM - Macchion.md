@@ -170,9 +170,14 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > Capacity-leading strategies increase opportunities to meet demand. Capacity-lagging strategies increase capacity utilisation
 
 
+## Break-even analysis of capacity expansion
 
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=163&selection=8,0,23,10&color=note|p.163]]
+> An alternative view of capacity expansion can be gained by examining the cost implications of adding increments of capacity on a break-even basis. Figure 4.10 shows how increasing capacity can move an operation from profitability to loss. Each additional unit of capacity results in a fixed-cost break that is a further lump of expenditure that will have to be incurred before any further activity can be undertaken in the operation. The operation is unlikely to be profitable at very low levels of output. Eventually, assuming that prices are greater than marginal costs, revenue will exceed total costs. However, the level of profitability at the point where the output level is equal to the capacity of the operation may not be sufficient to absorb all the extra fixed costs of a further increment in capacity. This could make the operation unprofitable in some stages of its expansion.
 
-
+![[Summary SOSCM - Macchion-1791890237997.webp]]
+> [!Important]OPERATIONS PRINCIPLE 
+> Using inventories to overcome demand–capacity imbalance tends to increase working capital requirements.
 
 
 
