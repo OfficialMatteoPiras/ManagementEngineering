@@ -139,13 +139,13 @@ Generally, an organization’s vertical integration strategy can be defined in t
 #### Structural complexity in supply networks
 ![[Summary SOSCM - Macchion-1791799196599.webp]]
 
-## Case Example: Amazon and Bonobos move to include bricks and mortar
+### Case Example: Amazon and Bonobos move to include bricks and mortar
 
 > [!PDF|important] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=159&selection=22,12,22,13&color=important|p.159]]
 > Case example: Amazon and Bonobos move to include bricks and mortar
 
 
-## The optimum capacity level
+### The optimum capacity level
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=160&selection=20,0,34,34&color=note|p.160]]
 > Most organisations have decisions to make about how big (in terms of capacity) they want to be. A chain of truck service centres, for example, might operate centres that have various capacities. The effective cost of running each centre will depend on the average service-bay occupancy. Low occupancy, because of few customers, will result in a high cost per customer served because the fixed costs of the operation are being shared between few customers. As demand, and therefore service-bay occupancy, increases, the cost per customer will reduce. However, operating at very high levels of capacity utilisation (occupancy levels close to capacity) can mean longer customer waiting times and reduced customer service. There may also be less-obvious penalties for operating centres at levels close to their nominal capacity. For example, long periods of overtime may reduce productivity levels, as well as costing more in extra payments to staff; utilising bays at very high levels reduces the time available for maintenance and cleaning, which may increase the number of breakdowns, reduce effective life, and so on. This usually means that average costs start to increase after a point that will often be lower than the theoretical capacity of the operation.
 
@@ -155,7 +155,7 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > All types of operations exhibit economy-of-scale effects where operating costs reduce as the scale of capacity increases
 
 
-## The timing of capacity change
+### The timing of capacity change
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=161&selection=49,0,74,26&color=note|p.161]]
 > Changing the capacity of any operation in a supply network is not just a matter of deciding on its optimum capacity. The operation also needs to decide when to bring ‘on-stream’ new capacity. For example, Figure 4.9 shows the forecast demand for a manufacturer’s new product. In deciding when new capacity is to be introduced the company can mix three strategies:
@@ -170,18 +170,19 @@ Generally, an organization’s vertical integration strategy can be defined in t
 > Capacity-leading strategies increase opportunities to meet demand. Capacity-lagging strategies increase capacity utilisation
 
 
-## Break-even analysis of capacity expansion
+### Break-even analysis of capacity expansion
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=163&selection=8,0,23,10&color=note|p.163]]
 > An alternative view of capacity expansion can be gained by examining the cost implications of adding increments of capacity on a break-even basis. Figure 4.10 shows how increasing capacity can move an operation from profitability to loss. Each additional unit of capacity results in a fixed-cost break that is a further lump of expenditure that will have to be incurred before any further activity can be undertaken in the operation. The operation is unlikely to be profitable at very low levels of output. Eventually, assuming that prices are greater than marginal costs, revenue will exceed total costs. However, the level of profitability at the point where the output level is equal to the capacity of the operation may not be sufficient to absorb all the extra fixed costs of a further increment in capacity. This could make the operation unprofitable in some stages of its expansion.
 
 ![[Summary SOSCM - Macchion-1791890237997.webp]]
-> [!Important]OPERATIONS PRINCIPLE 
+> [!Important] OPERATIONS PRINCIPLE 
 > Using inventories to overcome demand–capacity imbalance tends to increase working capital requirements.
 
-
-
-
+## 4.6 Diagnostic question: Where should operations be located?
+### Why relocate?
+#### Changes in demand
+If customer demand shifts it may prompt a change in location. For example, as garment manufacturers moved to Asia, suppliers of zips, threads and so on started to follow them. Changes in the volume of demand can also prompt relocation. To meet higher demand,
 
 
 
