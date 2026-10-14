@@ -293,8 +293,11 @@ ne way of generalising the market requirements that operations need to fulfil is
 
 
 
+# Chapter 5: Process design 1 – Positioning
+## 5.2 Diagnostic question: Do processes match volume– variety requirements?
 
-
+![[Summary SOSCM - Vinelli-1791980573802.webp]]
+![[Summary SOSCM - Vinelli-1791980537339.webp]]
 
 
 
