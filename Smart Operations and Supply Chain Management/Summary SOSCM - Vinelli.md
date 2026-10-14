@@ -343,8 +343,8 @@ Mass services have many customer transactions and little customisation. Such ser
 
 ![[Summary SOSCM - Vinelli-1791982906967.webp]]
 
-
-
+## 5.3 Diagnostic question: Are process layouts appropriate?
+![[Summary SOSCM - Vinelli-1791984429619.webp]]
 
 
 
