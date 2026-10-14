@@ -303,8 +303,21 @@ ne way of generalising the market requirements that operations need to fulfil is
 >  The design of any process should be governed by the volume and variety it is required to produce.
 
 
-### Process types
+### The ‘product–process’ matrix
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=189&selection=18,1,29,76&color=note|p.189]]
+> he most common method of illustrating the relationship between a process’s volume–variety position and its design characteristics is shown in Figure 5.3. Often called the ‘product–process’ matrix, it can in fact be used for any type of process, whether producing products or services. The underlying idea of the product–process matrix is that many of the more important elements of process design are strongly related to the volume–variety position of the process. So, for any process, the tasks that it undertakes, the flow of items through the process, the layout of its resources, the technology it uses and the design of jobs, are all strongly influenced by its volume–variety position. This means that most processes should lie close to the diagonal of the matrix that represents the ‘fit’ between the process and its volume–variety position. This is called the ‘natural’ diagonal.
+
 ![[Summary SOSCM - Vinelli-1791980537339.webp]]
+
+### Process types
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=189&selection=33,0,34,95&color=note|p.189]]
+> Processes that inhabit different points on the diagonal of the product–process matrix are sometimes referred to as ‘process types’. Each process type implies differences in the set of tasks performed by the process and in the way materials information, or customers, flow through the process. Different terms are sometimes used to identify process types depending on whether they are predominantly manufacturing or service processes and there is some variation in how the names are used. This is especially so in service process types. It is not uncommon to find manufacturing terms used also to describe service processes. Perhaps most importantly, there is some degree of overlap between process types. The different process types are shown in Figure 5.4.
+
+
+![[Summary SOSCM - Vinelli-1791981164429.webp]]
+
+example: fincantieri 
 
 
 
