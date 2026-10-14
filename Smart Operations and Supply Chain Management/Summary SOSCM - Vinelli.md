@@ -295,8 +295,15 @@ ne way of generalising the market requirements that operations need to fulfil is
 
 # Chapter 5: Process design 1 – Positioning
 ## 5.2 Diagnostic question: Do processes match volume– variety requirements?
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=188&selection=59,1,61,90&color=note|p.188]]
+> wo factors are particularly important in process design: these are the volume and variety of the products and services that it processes. Moreover, volume and variety are related, in so much as low-volume operations processes often have a high variety of products and services, and high-volume operations processes often have a narrow variety of products and services. So, we can position processes on a continuum from those that operate under conditions of low volume and high variety, through to those that operate under conditions of high volume and low variety. The volume–variety position of a process influences almost every aspect of its design. Processes with different volume–variety positions will be arranged in different ways, have different flow characteristics and have different technology and jobs. So, a first step in process design is to understand how volume and variety shape process characteristics, and to check whether processes have been configured in a manner that is appropriate for their volume–variety position.
 
 ![[Summary SOSCM - Vinelli-1791980573802.webp]]
+> [!Important] OPERATIONS PRINCIPLE:
+>  The design of any process should be governed by the volume and variety it is required to produce.
+
+
+### Process types
 ![[Summary SOSCM - Vinelli-1791980537339.webp]]
 
 
