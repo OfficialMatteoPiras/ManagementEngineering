@@ -337,9 +337,8 @@ Service shops are characterised by levels of customer contact, customisation, vo
 #### Mass services 
 Mass services have many customer transactions and little customisation. Such services are often predominantly equipment based and ‘product’ oriented, with most value added in the back office, sometimes with comparatively little judgement needed by front-office staff, who may have a closely defined job and follow set procedures. Mass services include supermarkets, a national rail network, an airport and many call centres. For example, airlines move a large number of passengers on their networks. Passengers pick a journey from the range offered. The airline can advise passengers on the quickest or cheapest way to get from A to B, but they cannot ‘customise’ the service by putting on special flights just for them.
 
- 
-
-
+## Moving off the natural diagonal
+![[Summary SOSCM - Vinelli-1791982906967.webp]]
 
 
 
