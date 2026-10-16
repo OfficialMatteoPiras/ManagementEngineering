@@ -54,6 +54,8 @@ def ensure_dependencies():
         needed.append("sounddevice")
     if not has_module("imageio_ffmpeg"):
         needed.append("imageio-ffmpeg")
+    if not has_module("numpy"):
+        needed.append("numpy")
     if needed:
         pip_install(*needed)
     try:
