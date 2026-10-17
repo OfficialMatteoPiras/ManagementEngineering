@@ -411,27 +411,40 @@ $$
 
 ### Linkage criterion
 
-| Criteria Name    | Formula                        |
-| ---------------- | ------------------------------ |
-| complete linkage | $\max{d(a,b) : a\in A, b\in B$ |
-|                  |                                |
+| Criteria Name              | Formula                         |
+| -------------------------- | ------------------------------- |
+| complete linkage           | $\max{d(a,b) : a\in A, b\in B}$ |
+| Minimum or single distance | $\min{d(a,b) : a\in A, b\in B}$ |
+**Single Linkage**
+Clustering criterion based on the shortest distance
+![[Lessons - MFSSCM-1792254532625.webp]]
+**Complete Linkage**
+Clustering criterion based on the longest distance
+![[Lessons - MFSSCM-1792254576679.webp]]
+>[!Note] Important note
+> By applying one or the other most of the times we obtain similar solutions
+
+### Bottom up agglomerative clustering
+- each point is initially considered as a cluster
+- closest clusters are iteratively merged
+- single linkage criterion $dist(C_i,C_j) = \min_{a\in C_i b \in C_j}{d(a.b)}$
+- "It's A tree upside down"
+
+![[Lessons - MFSSCM-1792254631560.webp]]
 
 
+### A simple Example to understand the concept better
+![[Lessons - MFSSCM-1792254823469.webp]]
+![[Lessons - MFSSCM-1792254832499.webp]]
 
+![[Lessons - MFSSCM-1792254844065.webp|651]]
 
+![[Lessons - MFSSCM-1792254858490.webp|669]]
 
-
-
-
-
-
-
-
-
-
-
-
-
+## Process constraints (internal supply chain):
+Installation sequence: installed in shingle fashion, starting either from the bottom or top of the building and going around each floor until the whole building is dressed up
+Pre-defined assembly sequence: determined by the packing and the installing sequence (constrained by the project)
+![[Lessons - MFSSCM-1792254923028.webp]]
 
 
 
