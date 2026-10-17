@@ -317,13 +317,116 @@ $$D_{\substack{T\\ \text{VANS}\\ \text{YEAR}\\ \text{BOLO}}}=\underbrace{\left[(
 
 $$C_{\substack{T\\ \text{FUEL}\\ \text{BOLO}\\ \text{YEAR}}}=579\,600\cdot\frac{7}{100}\cdot 1{,}2=48\,603\ \text{€/YEAR}$$
 
----
+**Van delivery — cross docking & savings (segue dell'esercizio Milano/Bologna)**
+
+> *(in cima alla pagina, tagliato dal bordo: si legge solo «(YEARS)» — coda di una formula della pagina precedente)*
+
+9) 
+
+$$N_{\text{max del}}=\frac{T-T_{A/R}}{\ldots}=$$
+
+- freccia rossa da $T_{A/R}$ verso uno **0** scritto in rosso: col cross docking la van parte dal cross docking point → $T_{A/R}=0$
+- sotto la linea di frazione: due trattini verdi (evidenziazione)
+
+**schema** (in alto a destra):
+
+- triangolo nero con dentro **VR**
+- freccia nera verso destra, etichetta: **1 TRIP/DAY (MASSIVE)**
+- linea tratteggiata **verde** parallela, da VR verso Bologna
+- grande cerchio con scritta **BOLOGNA** sopra; al centro un punto **rosso** con frecce rosse attorno = cross docking point
+- **4 VANS** scritto in rosso dentro un ovale blu
+
+$$\frac{\text{MAX DELIVERIES}}{\text{VAN}}=\frac{\ldots}{t_{\text{stop}}+\frac{\bar{d}}{\bar{v}}}=\frac{8-0}{\frac{10}{60}+\frac{5}{30}}=\left[\frac{8}{0{,}333}\right]=[24{,}024]=24$$
+
+- annotazione in rosso sopra la frazione: «CROSS DOCKING POINT»
+
+$$N_{\text{VANS CROSS}}=\left\lceil\frac{85}{24}\right\rceil=\lceil 3{,}54\rceil=4\ \text{VANS}$$
+
+in basso a margine:
+
+- EVERY DAY → 85 CUSTOMERS
+- → 85 · 1 <u>TOTE</u>
+
+**disegno:** scatola (parallelepipedo 3D) con dentro **2 kg** — quote: **400 mm**, **500 mm**, **600 mm**
+
+**WEIGHT PRIMARY TRANSPORT**
+
+$$2\cdot 85=170\ \frac{\text{kg}}{\text{DAY}}$$
+
+**VOLUME PRIMARY TRANSPORT**
+
+$$(0{,}4\cdot 0{,}6\cdot 0{,}5)\cdot 85=10{,}2\ \frac{\text{m}^3}{\text{DAY}}$$
+
+**disegno:** furgone in profilо, due linee che portano a:
+
+- VOLUME CAPACITY **12 m³**
+- WEIGHT CAPACITY **1500 kg**
+
+$$\Rightarrow\ \underline{1}\ \text{VAN IS ENOUGH FOR PRIMARY TRANSPORT}$$
+
+*(scritta tagliata sopra il titolo: «TIME …» — coda del punto precedente, es. «1) TIME SAVING»)*
+
+2) DRIVERS SAVING
+
+**schema:** $[\text{AS-IS}]$ — *7 DRIVERS* $\longrightarrow$ $[\text{TO-BE}]$ — *4 + 1 DRIVERS*
+
+$$S_{\text{DRIVERS}}=\underbrace{(8\cdot 220)}_{\substack{\text{HOURS}\\ \text{YEAR DRIVER}}}\cdot(7-5)\cdot\underbrace{30}_{\text{€/HOUR}}=$$
+
+$$=105.600\ \frac{€}{\text{YEAR}}$$
+
+*(risultato cerchiato in verde)*
+
+
+
+c) TRAVELLED DISTANCE : SAVING (FUEL)
+
+*(«SAVING (FUEL)» cerchiato in verde)*
+
+- TO-BE: 85 → 4 VANS — $21{,}25\ \frac{\text{DELIVERIES}}{\text{VAN}}$ — MAX 24
+- 1 VAN → 22 DELIVERIES
+- 3 VANS → 21 DELIVERIES
+
+$$d_{\substack{\text{SECONDARY}\\ \text{TRANSPORT}}}=1\,(22-1)\cdot 5+3\,(21-1)\,5=405\ \frac{\text{Km}}{\text{day}}$$
+
+annotazioni a margine: **DISTANCE PER DAY** (in alto a sinistra), **1 DAY** (sopra «= 160 + 160»)
+
+$$d_{\substack{\text{PRIMARY}\\ \text{TRANSPORT}}}=160+160=320\ \frac{\text{Km}}{\text{day}}$$
+
+$$d_{\substack{T\\ \text{PRI+SEC}}}=320+405=725\ \frac{\text{Km}}{\text{day}}$$
+
+$$\text{TO-BE } D_T=725\cdot 220=159\,500\ \frac{\text{Km}}{\text{YEAR}}$$
+
+*(159 500 sottolineato in rosso)*
+
+in basso: riquadri **[AS-IS]** **[TO-BE]** (inizio dello schema riepilogo)
+
+*(titolo del punto tagliato dal bordo superiore, illeggibile)*
+
+$$\text{SAVING FUEL}=\left(\underset{\text{AS-IS}}{578\,600}-\underset{\text{TO-BE}}{159\,500}\right)\frac{7}{100}\cdot 1{,}2=$$
+
+$$=35\,204\ \frac{€}{\text{YEAR}}$$
+
+*(risultato cerchiato in verde e sottolineato in rosso)*
+
+**tabella riepilogo:**
+
+|              | AS-IS                                 | TO-BE                                        |
+| ------------ | ------------------------------------- | -------------------------------------------- |
+|              | NETWORK DIRECT TRANSPORTS FROM VR      | NETWORK WITH CROSS DOCKING POINT AT BOLOGNA  |
+|              | SAVINGS                               | SAVINGS                                      |
+| DRIVERS      |                                       | 105'600                                      |
+| VANS         |                                       | 20'200                                       |
+| FUEL         |                                       | 35 204                                       |
+| HIGHWAY      | · · ·                                 | ~ ~ ~                                        |
+| CROSS DOCKING WAREHOUS | · · ·                     | ~ ~ ~                                        |
+
+*(i tre valori della colonna TO-BE sono scritti in verde; «WAREHOUS» è senza la E finale sul foglio)*
 
 > **⚠ Note di verifica (non sono sul foglio):**
-> - Il punto 5) non compare nelle due foto (si passa da 4] a 6)).
-> - Punto 8: $[(380\cdot 1)+(375\cdot 6)]\cdot 220=578\,600$, ma sul foglio è scritto $577\,600$; la riga successiva riporta poi $579\,600$ (svista di trascrizione) e con quel valore si otterrebbe $48\,686$, mentre sul foglio è scritto $48\,603$. Ho lasciato tutto pari pari.
-> - Punto 7: il conto esatto sarebbe $46\,126{,}08$ €, sul foglio c'è $46\,127$.
-> - Notazione: $[\,15.8\,]$, $[\,13{,}34\,]$ = troncamento all'intero; $\lceil\ \rceil$ = arrotondamento per eccesso.
+> - In questo blocco i conti tornano tutti: $8/(10/60+5/30)=24{,}02$ → 24; $85/24=3{,}54$ → 4 vans; $22+3\cdot 21=85$ ✓; $(578\,600-159\,500)\cdot\frac{7}{100}\cdot 1{,}2=35\,204{,}4$ → sul foglio 35 204; $8\cdot 220\cdot 2\cdot 30=105\,600$ ✓.
+> - Qui come AS-IS è usato il valore **corretto** $578\,600$ km/anno (nella prima parte il foglio aveva scritto 577 600, con svista).
+> - «g)» è stato letto come lettera g minuscola in entrambe le verifiche OCR (occhiello + coda curva a sinistra); se nei tuoi appunti è «9)» correggi pure.
+> - Volume: $10{,}2 \le 12\ \text{m}^3$ e peso: $170 \le 1500\ \text{kg}$ → conferma che 1 van basta per il primary transport.
 
 
 
