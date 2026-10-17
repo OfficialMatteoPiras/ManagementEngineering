@@ -363,71 +363,46 @@ $$(0{,}4\cdot 0{,}6\cdot 0{,}5)\cdot 85=10{,}2\ \frac{\text{m}^3}{\text{DAY}}$$
 
 $$\Rightarrow\ \underline{1}\ \text{VAN IS ENOUGH FOR PRIMARY TRANSPORT}$$
 
-*(scritta tagliata sopra il titolo: «TIME …» — coda del punto precedente, es. «1) TIME SAVING»)*
-
 2) DRIVERS SAVING
 
 **schema:** $[\text{AS-IS}]$ — *7 DRIVERS* $\longrightarrow$ $[\text{TO-BE}]$ — *4 + 1 DRIVERS*
 
+| AS-IS     | TO-BE         |
+| --------- | ------------- |
+| 7 drivers | 4 + 1 drivers |
+
+
 $$S_{\text{DRIVERS}}=\underbrace{(8\cdot 220)}_{\substack{\text{HOURS}\\ \text{YEAR DRIVER}}}\cdot(7-5)\cdot\underbrace{30}_{\text{€/HOUR}}=$$
 
 $$=105.600\ \frac{€}{\text{YEAR}}$$
-
-*(risultato cerchiato in verde)*
-
-
-
 c) TRAVELLED DISTANCE : SAVING (FUEL)
-
-*(«SAVING (FUEL)» cerchiato in verde)*
-
 - TO-BE: 85 → 4 VANS — $21{,}25\ \frac{\text{DELIVERIES}}{\text{VAN}}$ — MAX 24
 - 1 VAN → 22 DELIVERIES
 - 3 VANS → 21 DELIVERIES
 
 $$d_{\substack{\text{SECONDARY}\\ \text{TRANSPORT}}}=1\,(22-1)\cdot 5+3\,(21-1)\,5=405\ \frac{\text{Km}}{\text{day}}$$
-
-annotazioni a margine: **DISTANCE PER DAY** (in alto a sinistra), **1 DAY** (sopra «= 160 + 160»)
+ **DISTANCE PER DAY** (in alto a sinistra), **1 DAY** (sopra «= 160 + 160»)
 
 $$d_{\substack{\text{PRIMARY}\\ \text{TRANSPORT}}}=160+160=320\ \frac{\text{Km}}{\text{day}}$$
 
 $$d_{\substack{T\\ \text{PRI+SEC}}}=320+405=725\ \frac{\text{Km}}{\text{day}}$$
 
 $$\text{TO-BE } D_T=725\cdot 220=159\,500\ \frac{\text{Km}}{\text{YEAR}}$$
-
-*(159 500 sottolineato in rosso)*
-
-in basso: riquadri **[AS-IS]** **[TO-BE]** (inizio dello schema riepilogo)
-
-*(titolo del punto tagliato dal bordo superiore, illeggibile)*
-
 $$\text{SAVING FUEL}=\left(\underset{\text{AS-IS}}{578\,600}-\underset{\text{TO-BE}}{159\,500}\right)\frac{7}{100}\cdot 1{,}2=$$
 
 $$=35\,204\ \frac{€}{\text{YEAR}}$$
 
-*(risultato cerchiato in verde e sottolineato in rosso)*
+|                        | AS-IS                             | TO-BE                                       |
+| ---------------------- | --------------------------------- | ------------------------------------------- |
+|                        | NETWORK DIRECT TRANSPORTS FROM VR | NETWORK WITH CROSS DOCKING POINT AT BOLOGNA |
+|                        | SAVINGS                           | SAVINGS                                     |
+| DRIVERS                |                                   | 105'600                                     |
+| VANS                   |                                   | 20'200                                      |
+| FUEL                   |                                   | 35 204                                      |
+| HIGHWAY                | $\dots$                           | $\dots$                                     |
+| CROSS DOCKING WAREHOUS | $\dots$                           | $\dots$                                     |
 
-**tabella riepilogo:**
-
-|              | AS-IS                                 | TO-BE                                        |
-| ------------ | ------------------------------------- | -------------------------------------------- |
-|              | NETWORK DIRECT TRANSPORTS FROM VR      | NETWORK WITH CROSS DOCKING POINT AT BOLOGNA  |
-|              | SAVINGS                               | SAVINGS                                      |
-| DRIVERS      |                                       | 105'600                                      |
-| VANS         |                                       | 20'200                                       |
-| FUEL         |                                       | 35 204                                       |
-| HIGHWAY      | · · ·                                 | ~ ~ ~                                        |
-| CROSS DOCKING WAREHOUS | · · ·                     | ~ ~ ~                                        |
-
-*(i tre valori della colonna TO-BE sono scritti in verde; «WAREHOUS» è senza la E finale sul foglio)*
-
-> **⚠ Note di verifica (non sono sul foglio):**
-> - In questo blocco i conti tornano tutti: $8/(10/60+5/30)=24{,}02$ → 24; $85/24=3{,}54$ → 4 vans; $22+3\cdot 21=85$ ✓; $(578\,600-159\,500)\cdot\frac{7}{100}\cdot 1{,}2=35\,204{,}4$ → sul foglio 35 204; $8\cdot 220\cdot 2\cdot 30=105\,600$ ✓.
-> - Qui come AS-IS è usato il valore **corretto** $578\,600$ km/anno (nella prima parte il foglio aveva scritto 577 600, con svista).
-> - «g)» è stato letto come lettera g minuscola in entrambe le verifiche OCR (occhiello + coda curva a sinistra); se nei tuoi appunti è «9)» correggi pure.
-> - Volume: $10{,}2 \le 12\ \text{m}^3$ e peso: $170 \le 1500\ \text{kg}$ → conferma che 1 van basta per il primary transport.
-
-
+# Lesson 4
 
 
 
