@@ -372,11 +372,20 @@ The method link parts and machines but also we can say products and workstations
 ### Bottleneck machines - Example 2
 Possible solutions:
 - locate the bottleneck machines close to each other:
-	- 
+	- in different cells 
+	- at the boundary between cells
+- redesign the parts
+- outsource the parts
+- duplicate machines and place the min each cell
+### Direct clustering algorithm "bottleneck machines"
+![[Lessons - MFSSCM-1792252736374.webp|439]]
+- Duplicate machines and place them in each cell 2a and 2b
+- Duplicate machines and place them in each cell 3a and 3b
+![[Lessons - MFSSCM-1792252778399.webp]]
 
-
-
-
+![[Lessons - MFSSCM-1792252857340.webp|636]]
+ 
+## Hierarchical Clustering method: single and complete linkage
 
 
 
