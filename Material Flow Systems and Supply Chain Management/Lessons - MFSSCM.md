@@ -442,11 +442,10 @@ Clustering criterion based on the longest distance
 ![[Lessons - MFSSCM-1792254858490.webp|669]]
 
 ## Process constraints (internal supply chain):
-Installation sequence: installed in shingle fashion, starting either from the bottom or top of the building and going around each floor until the whole building is dressed up
-Pre-defined assembly sequence: determined by the packing and the installing sequence (constrained by the project)
+**Installation sequence:** installed in shingle fashion, starting either from the bottom or top of the building and going around each floor until the whole building is dressed up
+Pre-defined **assembly sequence:** determined by the packing and the installing sequence (constrained by the project)
 ![[Lessons - MFSSCM-1792254923028.webp]]
-
-
+The binary $A(=a_{ij})$ PTIM is defin
 
 
 
