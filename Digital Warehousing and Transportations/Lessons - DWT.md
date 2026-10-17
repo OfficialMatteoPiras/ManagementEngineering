@@ -299,6 +299,7 @@ $$d_{\substack{\text{VAN}\\ \text{MIL.}\\ \text{DAY}}}=2\cdot 135+(15-1)\,\bar{d
 $$D_{\substack{T\\ \text{VAN}\\ \text{YEAR}\\ \text{MILAN}}}=\underbrace{312}_{\substack{\text{km/VAN}\\ \text{DAY}}}\cdot\underbrace{8}_{\substack{\#\ \text{VAN MILAN}\\ \text{REQ.}}}\cdot\underbrace{220}_{\text{DAY/YEAR}}=549\,120\ \text{km/YEAR}$$
 
 $$C_{\substack{\text{FUEL}\\ \text{COST}\\ \text{MILAN}}}=549\,120\cdot\frac{7}{100}\cdot 1{,}2=46\,127\ \text{€/YEAR}$$
+![[Lessons - DWT-1792231098565.webp]]
 
 8) ANNUAL COST OF FUEL FOR DEL. IN BOLOGNA AREA
 
@@ -347,7 +348,7 @@ in basso a margine:
 - EVERY DAY → 85 CUSTOMERS
 - → 85 · 1 <u>TOTE</u>
 
-**disegno:** scatola (parallelepipedo 3D) con dentro **2 kg** — quote: **400 mm**, **500 mm**, **600 mm**
+![[Lessons - DWT-1792231141853.webp]]
 
 **WEIGHT PRIMARY TRANSPORT**
 
@@ -357,9 +358,7 @@ $$2\cdot 85=170\ \frac{\text{kg}}{\text{DAY}}$$
 
 $$(0{,}4\cdot 0{,}6\cdot 0{,}5)\cdot 85=10{,}2\ \frac{\text{m}^3}{\text{DAY}}$$
 
-**disegno:** furgone in profilо, due linee che portano a:
-
-- VOLUME CAPACITY **12 m³**
+![[Lessons - DWT-1792231172388.webp]]- VOLUME CAPACITY **12 m³**
 - WEIGHT CAPACITY **1500 kg**
 
 $$\Rightarrow\ \underline{1}\ \text{VAN IS ENOUGH FOR PRIMARY TRANSPORT}$$
