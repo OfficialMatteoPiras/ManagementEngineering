@@ -388,9 +388,20 @@ Possible solutions:
 ## Hierarchical Clustering method: single and complete linkage
 Values = effective processing times [min], learning effect included
 ![[Lessons - MFSSCM-1792253320864.webp]]
-Where do these numbers come from? We get the numbers but taking the pieces 
+***Where do these numbers come from?***
+We get the numbers by taking the pieces. we measure the time between start and end of the task. this is called the **chrono tecnique**
 
+1. Stopwatch time study: each product model was timed on each workstation over the first units produced.
+2. First units are slower: operators are still learning the task.
+3. Learning curve 80%: every time output doubles, processing time drops by 20%.
+4. The value in the matrix is the effective time at the learning plateau, not the first
 
+They are the processing time (we use the Euclidian distance):
+![[Lessons - MFSSCM-1792253896053.webp]]
+By putting the close distances before we get:
+$$
+d_{ab} = \sqrt{(b_{a1} - b_{b1})^2 + (b_{a2} - b_{b2})^2 + \dots + (b_{an} - b_{bn})^2}
+$$
 
 
 
