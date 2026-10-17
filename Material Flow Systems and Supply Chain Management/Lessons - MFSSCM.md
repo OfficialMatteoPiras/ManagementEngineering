@@ -469,8 +469,44 @@ A supply chain is a system of organizations, processes, activities, information,
 ![[Lessons - MFSSCM-1792255636974.webp]]
 
 ## Supply Network
-We need a sw to optimise the network and it has to be intended even for people who don't have a backgro
+We need a sw to optimise the network and it has to be intended even for people who don't have a background
 ![[Lessons - MFSSCM-1792255661581.webp]]
+
+## Supply Network Challenges
+We need to consider location, size, tactical decisions etc. Therefore we need to have the informations before the simulation even starts.
+- **Strategic:** size and location of manufacturing plants or distribution centres, the structure of service networks and designing the supply chain. 
+- **Tactical:** production, transportation and inventory planning.
+- **Operative:** production scheduling and control, inventory control and vehicle routing.
+
+## Your Supply Chain Is Being Constantly Evaluated (Common questions)
+![[Lessons - MFSSCM-1792255884371.webp]]
+> [!Danger] From here the slides show the Anylogistic Software. It's best to directly see them to understand at best how it works
+
+## What is GreenfieldAnalysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
