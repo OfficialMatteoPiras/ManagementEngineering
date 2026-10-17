@@ -349,7 +349,7 @@ De Jong (1957) proposed a model that can account for both manual and machine-con
 ```
 
 ![[Lessons-1791367703187.webp]]
-
+# LECTURE 3: CLUSTERING METHODS
 
 
 
