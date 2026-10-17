@@ -354,7 +354,7 @@ De Jong (1957) proposed a model that can account for both manual and machine-con
 The DCA (Direct Clustering Algorithm) was introduced in 1982 by H.M. Chan and D.A. Milner. The algorithm restructures the existing machine / component (product) matrix of a job shop layout by switching the rows and columns in such a way that a resulting matrix shows component families (groups) with corresponding machine groups.
 The method link parts and machines but also we can say products and workstations. It build and incidence matrix (*binary matrix*) and find clusters in order to process products as a family.
 ![[Lessons - MFSSCM-1792234942250.webp]]
-## DCA method: 7 steps
+## DCA method: 7 steps - Example 1
 1. Form machine part matrix -> **incidence matrix**
 2. Sum the 1s in each column and row
 ![[Lessons - MFSSCM-1792234991939.webp]]
@@ -369,7 +369,9 @@ The method link parts and machines but also we can say products and workstations
 
 7. Form sells -> Final Solution
 ![[Lessons - MFSSCM-1792235248110.webp]]
-### Bottleneck machines
+### Bottleneck machines - Example 2
+Possible solutions:
+- locate the bottleneck
 
 
 
