@@ -283,7 +283,16 @@ $$N_{\substack{\text{MAX}\\ \text{BO}}}=\frac{T-T_{A/R}}{\underset{h}{t_{\text{s
 4) 
 
 $$N_{\text{VAN}}=\frac{N_{\text{DELIV.}}}{N_{\substack{\text{MAX DEL}\\ \text{VAN}}}}=\left\lceil\frac{85}{13}\right\rceil=7\ \text{VAN}$$
+5) ANNUAL COST OF DRIVERS FOR DELIVERIES IN MILAN
 
+- 8 VANS → 8 DRIVERS
+- DRIVER'S COST → 30 €/HOUR
+- COMPANY WORKS 220 DAYS/YEAR
+
+$$C_{\substack{\text{DRIVERS}\\ \text{MILAN}}}=N_{\text{VAN}}\cdot\underbrace{T}_{\substack{\text{HOURS}\\ \text{DAY}}}\cdot\underbrace{D}_{\substack{\text{DAYS}\\ \text{YEAR}}}\cdot\underbrace{C_{\substack{\text{DRIV}\\ \text{COST}}}}_{\substack{\text{€}\\ \text{HOUR}}}=$$
+
+$$=8\cdot 8\cdot 220\cdot 30=$$
+$$=422\,400\ \frac{€}{\text{YEAR}}$$
 6) ANNUAL COST OF DRIVERS FOR DELIVERY IN BOLOGNA \*VAN
 
 $$C_{\substack{\text{DRIVERS}\\ \text{BOLO}}}=7\cdot 8\cdot 220\cdot 30=369\,600\ \text{€/year}$$
@@ -295,9 +304,7 @@ $$C_{\substack{\text{DRIVERS}\\ \text{BOLO}}}=7\cdot 8\cdot 220\cdot 30=369\,600
 - schema: deposito ($\text{WH}$) → 15 punti di consegna numerati ($1,\dots,15$); andata e ritorno $135\ \text{km}$ ciascuna
 
 $$d_{\substack{\text{VAN}\\ \text{MIL.}\\ \text{DAY}}}=2\cdot 135+(15-1)\,\bar{d}_{\text{CUSTOMERS}}=2\cdot 135+14\cdot 3=312\ \text{km/DAY}\ \text{(VAN MILAN)}$$
-
 $$D_{\substack{T\\ \text{VAN}\\ \text{YEAR}\\ \text{MILAN}}}=\underbrace{312}_{\substack{\text{km/VAN}\\ \text{DAY}}}\cdot\underbrace{8}_{\substack{\#\ \text{VAN MILAN}\\ \text{REQ.}}}\cdot\underbrace{220}_{\text{DAY/YEAR}}=549\,120\ \text{km/YEAR}$$
-
 $$C_{\substack{\text{FUEL}\\ \text{COST}\\ \text{MILAN}}}=549\,120\cdot\frac{7}{100}\cdot 1{,}2=46\,127\ \text{€/YEAR}$$
 ![[Lessons - DWT-1792231098565.webp]]
 
@@ -311,11 +318,8 @@ annotazioni a margine:
 - schema: 85 DELIV. → 6 VAN (every van does) → 12 DELIV.
 
 $$d_{\substack{\text{VAN}\\ \text{BOLO}\\ \text{DAY}}}\ (\text{1 VAN})=2\cdot 160+(13-1)\cdot 5=380\ \text{km/DAY}$$
-
 $$d_{\substack{\text{VAN}\\ \text{BOLO}\\ \text{DAY}}}\ (\text{6 VANS})=2\cdot 160+(12-1)\cdot 5=375\ \text{km/DAY}$$
-
 $$D_{\substack{T\\ \text{VANS}\\ \text{YEAR}\\ \text{BOLO}}}=\underbrace{\left[(380\cdot 1)+(375\cdot 6)\right]}_{\text{km/DAY}}\cdot 220=577\,600\ \text{km/YEAR}$$
-
 $$C_{\substack{T\\ \text{FUEL}\\ \text{BOLO}\\ \text{YEAR}}}=579\,600\cdot\frac{7}{100}\cdot 1{,}2=48\,603\ \text{€/YEAR}$$
 
 **Van delivery — cross docking & savings (segue dell'esercizio Milano/Bologna)**
@@ -360,7 +364,6 @@ $$(0{,}4\cdot 0{,}6\cdot 0{,}5)\cdot 85=10{,}2\ \frac{\text{m}^3}{\text{DAY}}$$
 
 ![[Lessons - DWT-1792231172388.webp]]- VOLUME CAPACITY **12 m³**
 - WEIGHT CAPACITY **1500 kg**
-
 $$\Rightarrow\ \underline{1}\ \text{VAN IS ENOUGH FOR PRIMARY TRANSPORT}$$
 
 2) DRIVERS SAVING
@@ -371,9 +374,7 @@ $$\Rightarrow\ \underline{1}\ \text{VAN IS ENOUGH FOR PRIMARY TRANSPORT}$$
 | --------- | ------------- |
 | 7 drivers | 4 + 1 drivers |
 
-
 $$S_{\text{DRIVERS}}=\underbrace{(8\cdot 220)}_{\substack{\text{HOURS}\\ \text{YEAR DRIVER}}}\cdot(7-5)\cdot\underbrace{30}_{\text{€/HOUR}}=$$
-
 $$=105.600\ \frac{€}{\text{YEAR}}$$
 c) TRAVELLED DISTANCE : SAVING (FUEL)
 - TO-BE: 85 → 4 VANS — $21{,}25\ \frac{\text{DELIVERIES}}{\text{VAN}}$ — MAX 24
@@ -382,11 +383,8 @@ c) TRAVELLED DISTANCE : SAVING (FUEL)
 
 $$d_{\substack{\text{SECONDARY}\\ \text{TRANSPORT}}}=1\,(22-1)\cdot 5+3\,(21-1)\,5=405\ \frac{\text{Km}}{\text{day}}$$
  **DISTANCE PER DAY** (in alto a sinistra), **1 DAY** (sopra «= 160 + 160»)
-
 $$d_{\substack{\text{PRIMARY}\\ \text{TRANSPORT}}}=160+160=320\ \frac{\text{Km}}{\text{day}}$$
-
 $$d_{\substack{T\\ \text{PRI+SEC}}}=320+405=725\ \frac{\text{Km}}{\text{day}}$$
-
 $$\text{TO-BE } D_T=725\cdot 220=159\,500\ \frac{\text{Km}}{\text{YEAR}}$$
 $$\text{SAVING FUEL}=\left(\underset{\text{AS-IS}}{578\,600}-\underset{\text{TO-BE}}{159\,500}\right)\frac{7}{100}\cdot 1{,}2=$$
 
