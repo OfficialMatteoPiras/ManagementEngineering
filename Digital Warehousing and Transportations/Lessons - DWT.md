@@ -453,7 +453,7 @@ PLAN THE TRIPS (ROUTES) FOR EVERY TRUCK
 **Moreover:** 
 **a)** CONSIDER A SPECIFIC DAY, THERE ARE SOME USUAL DESTINATIONS RELATED TO IMPORTANT CUSTOMERS
 
-*(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
+![[Lessons - DWT-1792233760086.webp]]*(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
 
 STARTING FROM THESE ROUTES (EG PADOVA-PESCH.) WE TRY TO ADD THE OTHER CUSTOMERS OF THE DAY AS LONG AS POSSIBLE
 
@@ -475,30 +475,17 @@ INPUT DATA: EVERY DAY LOAD
 - OWN FLEET DESCRIPTION
 
 ### HEURISTIC SAVING [METHOD] *(in arancione)*
-
-*(disegno: deposito = triangolo con W dentro; clienti sparsi; i e j in azzurro; frecce viola andata/ritorno deposito→clienti; arco azzurro tratteggiato i–j; freccia viola tratteggiata "FOR EVERY CUST."; a margine in verticale: CUSTOMERS)*
-
-**STEP 0)** IT STARTS WITH DEDICATED ROUND TRIPS FOR EVERY CUSTOMERS
-
+![[Lessons - DWT-1792233743317.webp]]**STEP 0)** IT STARTS WITH DEDICATED ROUND TRIPS FOR EVERY CUSTOMERS
 COST FUNCTION *(in arancione)*:
 
 $$F_0 \sim D$$
-
-*(frecce verdi verso l'alto: ↳ TO SIMPLIFY THE CALCULAT.)*
-
-$$D_0 = 2\,d[\Pi - i] + 2\,d[\Pi - j]$$
+*(TO SIMPLIFY THE CALCULATIONS)*
+$$D_0 = 2\,d[M - i] + 2\,d[M - j]$$
 
 **STEP 1)** FOR EACH COUPLE OF CUSTOMERS CALCULATES THE SAVING RESULTING FROM THEIR AGGREGATION $i, j$
-
-$$D_1 = d[\Pi - i] + d[i - j] + d[\Pi - j]$$
-
-$$\text{SAVING}\quad S_{ij} = D_0 - D_1 = 2\,d[\Pi - i] + 2\,d[\Pi - j] - [d[\Pi - i] + d[i - j] + d[\Pi - j]]$$
-
-$$= d[\Pi - i] - d[i - j] + d[\Pi - j]$$
-
-*(riga evidenziata in giallo)*
-
-$S_{ij}$ MAX → CONSOLIDATE CUSTOMERS $[i]\,[j]$ INTO SINGLE ROUTE
+$$D_1 = d[M - i] + d[i - j] + d[M - j]$$
+$$\text{SAVING}\quad S_{ij} = D_0 - D_1 = 2\,d[M - i] + 2\,d[M - j] - [d[M - i] + d[i - j] + d[M - j]]$$
+$$= d[M - i] - d[i - j] + d[M - j]$$$S_{ij}$ MAX → CONSOLIDATE CUSTOMERS $[i]\,[j]$ INTO SINGLE ROUTE
 
 $$S_{ij} > 0$$
 
@@ -506,9 +493,9 @@ $$S_{ij} > 0$$
 
 **CONSIDERATION 1 :**
 
-$$\uparrow S(i-j) = d[\Pi - i] + d[\Pi - j] - d[i - j]$$
+$$\uparrow S(i-j) = d[M - i] + d[M - j] - d[i - j]$$
 
-*(sotto i termini: 9 in verde sotto $d[\Pi - i]$, 4 in verde sotto $d[\Pi - j]$, 6 in rosso sotto $d[i - j]$)*
+*(sotto i termini: 9 in verde sotto $d[M - i]$, 4 in verde sotto $d[M - j]$, 6 in rosso sotto $d[i - j]$)*
 
 *(disegno a destra: deposito = triangolo con Π, etichetta VR sopra; punti i con scritta FURTHEST e j sotto)*
 
@@ -529,24 +516,15 @@ $$\beta = 1 \xrightarrow{\hspace{1.8cm}} F_0 = d$$
 $$\beta = 0{,}2\ \text{IS THE MOST COMMON VALUE}$$
 ### EXTRA MILE *(in arancione)* [GOOD BUT NOT AS GOOD AS HEURISTIC]
 
-*(disegno: griglia di clienti; deposito triangolo Π etichettato VR; nodo i in alto + nodo j; tratteggiato magenta andata/ritorno deposito↔i; linea blu deposito→j→i→deposito)*
-
+![[Lessons - DWT-1792233943804.webp]]
 **STEP 0)** EXTRA MILE STARTS FROM FURTHEST CUSTOMER AND EVALUATE DISTANCE
-
-$$D_i = 2d[\Pi - i]$$
-
+$$D_i = 2d[M - i]$$
 **STEP 1)** EXTRA DISTANCE RESULTING FROM THIS AGGREGATION OF CUSTOMER "j" WITH CUSTOMER "i":
-
-$$E_1 = d[\Pi - i] + d[\Pi - j] + d[i - j] - 2d[\Pi - i]$$
-
-*(freccia che punta al termine $-2d[\Pi - i]$: WE CALCULATE THE EXTRA MILE THUS REMOVE Π-i DISTANCE)*
-
+$$E_1 = d[M - i] + d[M - j] + d[i - j] - 2d[M - i]$$
+*(freccia che punta al termine $-2d[M - i]$: WE CALCULATE THE EXTRA MILE THUS REMOVE Π-i DISTANCE)*
 $$E_1\ \text{MINIMUM} \qquad E_1 \le E_{\text{TARGET}}$$
-
 *(disegno sotto: 3 rotte a petali dal deposito triangolare)*
-
 ## OUTSOURCED FLEET BUT DONE BY OUTSOURCED FLEET [IMPORTANT FOR EXAM] *(in arancione)*
-
 - TRANSPORT RATES → RATES ARE LINKED TO DIFFERENT UNITS OF MEASURMENTS:
   - PALLETS [UNIT LOADS]
   - BOXES [TOTES, PARCELS]
@@ -565,31 +543,13 @@ $$E_1\ \text{MINIMUM} \qquad E_1 \le E_{\text{TARGET}}$$
 ### Delivery spectrum — confronto provider
 
 I HAVE TO KNOW MY DELIVERY SPECTRUM FOR A DAY
-
-*(istogramma: asse Y "# DELIVERY PER DAY", asse X "PALLETS FOR DELIVERY (TO ZONE)" da 1 a 10; barre: 1→15, 2→7, 3→3, 4→9, 5→5, 6→2; nessuna barra da 7 a 10)*
-
+![[Lessons - DWT-1792233998902.webp]]
 **PROVIDER 1:**
-
 $$C_1 = 15 \cdot 30 + \overbrace{(7 \cdot 2)}^{\substack{\text{\# OF}\\ \text{PALLETS}}} \cdot 25 + 3 \cdot 3 \cdot 20 + 9 \cdot 4 \cdot 16 + 5 \cdot 5 \cdot 16 + 2 \cdot 6 \cdot 14 = 2\,124\ \text{€/DAY}$$
-
 **PROVIDER 2:**
+$$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \text{€/DAY}$$![[Lessons - DWT-1792234006052.webp]]
 
-$$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \text{€/DAY}$$
 
-*(stesso istogramma ridisegnato con annotazioni arancioni: linee verticali tra 3|4 e tra 6|7; due frecce a doppia punta che coprono le colonne 1-3 e 4-6; ovale attorno a 1 2 3 sotto l'asse, con scritta: AGGREGATE 1-2-3)*
-
-> ⚠ **Note di verifica (non sono sul foglio)**
-> - **(16 + 160)**: sul foglio il primo numero è scritto senza zero; il conto è inteso con 160: $(160+160)\cdot 220 \cdot 1 = 320 \cdot 220 = 70\ 400$ ✓
-> - **D_T = 578 600 €/year**: sul foglio c'è €/year ma è una distanza annua — refuso per km/year
-> - **TOT (Σ) TO-BE = 184 802**: la somma reale dei savings è $105\ 600 + 20\ 000 + 35\ 204 + 24\ 002 = 184\ 806$ — svista di 4 sul foglio
-> - **BOCO AREA**: quasi certamente refuso per **BOLO AREA** (Bologna) — la sigla BOLO è usata più sotto nella tabella tariffe, e il PROVIDER 2 usa BO
-> - **VANS = 20 000**: nella tabella della parte precedente c'era 20'200 — i due fogli discordano, trascritti entrambi pari pari
-> - **EXTRATILE METHOD**: refuso per **EXTRA MILE** (scritto correttamente nella pagina successiva)
-> - **CONSIDERS OF HEURISTIC SOFTWARE**: probabile refuso per "CONSISTS OF HEURISTIC SOFTWARE"; **OUTSOURCED FLEET BUT DONE BY OUTSOURCED FLEET** suona tautologico (forse "SECONDARY TRANSPORT BUT DONE BY...") ma è scritto così, verificato lettera per lettera 3 volte
-> - **MEASURMENTS**: refuso per MEASUREMENTS, lasciato pari pari
-> - Esempio numerico di CONSIDERATION 1: $9 + 4 - 6 = 7$
-> - Conti verificati: $578\ 600 \cdot 0{,}5 \cdot 0{,}1 = 28\ 930$ ✓ · $70\ 400 \cdot 0{,}7 \cdot 0{,}1 = 4\ 928$ ✓ · $28\ 930 - 4\ 928 = 24\ 002$ ✓ · $184\ 802 - 80\ 000 = 104\ 802$ ✓ · $7 \cdot 12 = 84$ ✓ · $50\ 000/84 = 595{,}2 \approx 600$ ✓ · $C_1 = 2\ 124$ ✓ · $C_2 = 2\ 199$ ✓
-> - Deposito: simbolo Π greca dentro il triangolo, etichettato VR; le formule usano $d[\Pi - i]$
 
 
 
