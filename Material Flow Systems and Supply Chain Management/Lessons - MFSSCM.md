@@ -350,10 +350,12 @@ De Jong (1957) proposed a model that can account for both manual and machine-con
 
 ![[Lessons-1791367703187.webp]]
 # LECTURE 3: CLUSTERING METHODS
-
-
-
-
+### Create a group layout: clustering methods
+The DCA (Direct Clustering Algorithm) was introduced in 1982 by H.M. Chan and D.A. Milner. The algorithm restructures the existing machine / component (product) matrix of a job shop layout by switching the rows and columns in such a way that a resulting matrix shows component families (groups) with corresponding machine groups.
+The method link parts and machines but also we can say products and workstations. It build and incidence matrix (*binary matrix*) and find clusters in order to process products as a family.
+![[Lessons - MFSSCM-1792234942250.webp]]
+## DCA method: 7 steps
+1. Form machine part matrix -> 
 
 
 
