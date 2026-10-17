@@ -355,9 +355,21 @@ The DCA (Direct Clustering Algorithm) was introduced in 1982 by H.M. Chan and D.
 The method link parts and machines but also we can say products and workstations. It build and incidence matrix (*binary matrix*) and find clusters in order to process products as a family.
 ![[Lessons - MFSSCM-1792234942250.webp]]
 ## DCA method: 7 steps
-1. Form machine part matrix -> 
+1. Form machine part matrix -> **incidence matrix**
+2. Sum the 1s in each column and row
+![[Lessons - MFSSCM-1792234991939.webp]]
 
+3. Order the rows in **descending order**
+4. Order the columns in **ascending order**
+![[Lessons - MFSSCM-1792235060783.webp]]
+5. Sort the **columns** -> 1 in the first row moves left then the second row etc
+![[Lessons - MFSSCM-1792235114586.webp]]
+6. Sort the **rows** -> 1 in the first column moves upwards then the second column etc
+![[Lessons - MFSSCM-1792235204207.webp]]
 
+7. Form sells -> Final Solution
+![[Lessons - MFSSCM-1792235248110.webp]]
+### Bottleneck machines
 
 
 
