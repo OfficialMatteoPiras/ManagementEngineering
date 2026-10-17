@@ -18,7 +18,7 @@
   "customHighlightFormat": false,
   "highlightFormat": "[{CONTENT}]({URL})",
   "highlightInSameTab": false,
-  "openInSameTab": true,
+  "openInSameTab": false,
   "showRefreshButton": false,
   "openInObsidianWeb": false,
   "useCustomIcons": false,
