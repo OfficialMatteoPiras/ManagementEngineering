@@ -371,7 +371,8 @@ The method link parts and machines but also we can say products and workstations
 ![[Lessons - MFSSCM-1792235248110.webp]]
 ### Bottleneck machines - Example 2
 Possible solutions:
-- locate the bottleneck
+- locate the bottleneck machines close to each other:
+	- 
 
 
 
