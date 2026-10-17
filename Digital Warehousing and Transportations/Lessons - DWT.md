@@ -403,10 +403,6 @@ $$=35\,204\ \frac{€}{\text{YEAR}}$$
 # Lesson 4
 ### Van delivery — highway, warehouse & routing (segue)
 
-*(angolo in alto a sinistra, in rosso: L4)*
-
-Tabella riepilogo AS-IS vs TO-BE
-
 | WE HAVE TO EVALUATE | AS-IS [PRESENT SITUATION] | TO-BE [FUTURE SITUATION] |
 |---|---|---|
 | DRIVERS | | 105 600 €/year |
@@ -416,69 +412,45 @@ Tabella riepilogo AS-IS vs TO-BE
 | CROSS DOCKING / WAREHOUSE | 80 000 | |
 | **TOT (Σ)** | **80 000** | **184 802** |
 
-BOCO AREA :
-
+BOLO AREA :
 - WITHOUT CROSS DOCKING POINT: $D_T = 578\ 600$ €/year  *(annotato a destra: 7 VANS)*
 - HIGHWAY % → $H_W = 50\%$
 - COST HIGHWAY → $C_W = 0{,}1$ €/km $\Big\}$ *(graffa che raccoglie le due righe)*
 
-$$C_{\substack{HW\\ \text{AS-IS}}} = 578\ 600 \cdot 0{,}5 \cdot 0{,}1 = 28\ 930\ \text{€/year}$$
-
-*(evidenziato in giallo; freccia curva che sale da 0,5 a 50%)*
-
+$$C_{\substack{HW\\ \text{AS-IS}}} = 578\ 600 \cdot 0{,}5_{50\%} \cdot 0{,}1 = 28\ 930\ \text{€/year}$$
 - WITH CROSS DOCKING POINT:
 
 $$D_T = \underbrace{(16 + 160)}_{\substack{\uparrow\\ \text{TOT DIST.}}} \cdot \underbrace{220}_{\text{DAYS/YEAR}} \cdot \underbrace{1}_{\text{VAN}} = 70\ 400\ \text{km/year}$$
-
-*(evidenziato in giallo)*
-
 - 70% DIST ON HIGHWAY WITH CROSS DOCKING
 - 0,1 €/km
 
 $$C_{\substack{HW\\ \text{TO-BE}}} = 70\ 400 \cdot 0{,}7 \cdot 0{,}1 = 4928\ \text{€/year}$$
-
-*(evidenziato in giallo)*
-
 - SAVING HIGHWAY:
 
 $$S_{HW} = 28\ 930 - 4928 = 24\ 002\ \text{€/year}$$
 
-*(evidenziato in giallo)*
-
 - COST OF WAREHOUSE CROSS DOCKING POINT: **80 000 €/year** [RENTAL]
-
 - SCENARIO WITH CROSS DOCKING PERMITS SAVING OF ABOUT:
 
 $$S_{\text{TO-BE vs AS-IS}} = 184\ 802 - 80\ 000 = 104\ 802 \approx 100\ 000\ \text{€/year}$$
-
-*(evidenziato in giallo)*
-
-≈ 10% SAVE
+which is about ≈ 10% SAVE
 
 - TODAY WAREHOUSE COST $(6 \div 8)$ €/(m² · month) ⇒ 80 000 €/year ⇒ 50 000 €/year
   *(nota sotto la seconda freccia: LABOR COST 30 000 €/year)*
 
 $$7 \cdot 12 = 84\ \text{€/m}^2 \qquad \frac{50\ 000}{84} \simeq 600\ \text{m}^2$$
-
----
-
-## SECONDARY TRANSPORT *(in rosso)*
-### (OWN FLEET) *(in arancione)*
-
+**SECONDARY TRANSPORT *(in rosso)* ->(OWN FLEET)** 
 $$N_{MAX} \Rightarrow N_{TRUCKS}$$
 
 PLAN THE TRIPS (ROUTES) FOR EVERY TRUCK
 
 2 APPROACHES TO PLAN TRANSPORT EVALUATED DAILY:
-
 **a) CONSOLIDATION METHOD:** [WIDELY USED]
-
 **b) HEURISTIC METHODS:**
 1. SAVING METHOD
 2. EXTRATILE METHOD
 
----
-
+**Moreover:** 
 **a)** CONSIDER A SPECIFIC DAY, THERE ARE SOME USUAL DESTINATIONS RELATED TO IMPORTANT CUSTOMERS
 
 *(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
@@ -502,9 +474,7 @@ INPUT DATA: EVERY DAY LOAD
 - CUSTOMERS DELIVERIES [PRODUCTS QUANTITY]
 - OWN FLEET DESCRIPTION
 
----
-
-## HEURISTIC SAVING [METHOD] *(in arancione)*
+### HEURISTIC SAVING [METHOD] *(in arancione)*
 
 *(disegno: deposito = triangolo con W dentro; clienti sparsi; i e j in azzurro; frecce viola andata/ritorno deposito→clienti; arco azzurro tratteggiato i–j; freccia viola tratteggiata "FOR EVERY CUST."; a margine in verticale: CUSTOMERS)*
 
@@ -534,9 +504,7 @@ $$S_{ij} > 0$$
 
 *(disegno: 3 rotte a "petali" dal deposito triangolare — ROUTE 1 sopra, ROUTE 2 a destra, ROUTE 3 a sinistra; punto azzurro isolato con freccia: EXCLUDED CUSTOMER)*
 
----
-
-## CONSIDERATION 1 :
+**CONSIDERATION 1 :**
 
 $$\uparrow S(i-j) = d[\Pi - i] + d[\Pi - j] - d[i - j]$$
 
@@ -544,7 +512,7 @@ $$\uparrow S(i-j) = d[\Pi - i] + d[\Pi - j] - d[i - j]$$
 
 *(disegno a destra: deposito = triangolo con Π, etichetta VR sopra; punti i con scritta FURTHEST e j sotto)*
 
-## CONSIDERATION 2 :
+**CONSIDERATION 2 :**
 
 $$F_0 = \beta d + (1 - \beta)t$$
 
@@ -559,10 +527,7 @@ $$\beta = 1 \xrightarrow{\hspace{1.8cm}} F_0 = d$$
 *(la prima riga sta fisicamente sopra la lunga freccia della seconda)*
 
 $$\beta = 0{,}2\ \text{IS THE MOST COMMON VALUE}$$
-
----
-
-## EXTRA MILE *(in arancione)* [GOOD BUT NOT AS GOOD AS HEURISTIC]
+### EXTRA MILE *(in arancione)* [GOOD BUT NOT AS GOOD AS HEURISTIC]
 
 *(disegno: griglia di clienti; deposito triangolo Π etichettato VR; nodo i in alto + nodo j; tratteggiato magenta andata/ritorno deposito↔i; linea blu deposito→j→i→deposito)*
 
@@ -579,8 +544,6 @@ $$E_1 = d[\Pi - i] + d[\Pi - j] + d[i - j] - 2d[\Pi - i]$$
 $$E_1\ \text{MINIMUM} \qquad E_1 \le E_{\text{TARGET}}$$
 
 *(disegno sotto: 3 rotte a petali dal deposito triangolare)*
-
----
 
 ## OUTSOURCED FLEET BUT DONE BY OUTSOURCED FLEET [IMPORTANT FOR EXAM] *(in arancione)*
 
@@ -599,10 +562,7 @@ $$E_1\ \text{MINIMUM} \qquad E_1 \le E_{\text{TARGET}}$$
 |---|---|---|---|---|---|---|---|---|
 | PROVIDER 1 | VICENZA → BOLO | 30 | 25 | 20 | 16 | 14 | 12 | €/PALLET |
 | PROVIDER 2 | VI → BO | 27 *(1-2 PALL.)* | | 18 *(3-5 PALL.)* | | | 13 *(>5)* | €/PALLET |
-
----
-
-## Delivery spectrum — confronto provider
+### Delivery spectrum — confronto provider
 
 I HAVE TO KNOW MY DELIVERY SPECTRUM FOR A DAY
 
