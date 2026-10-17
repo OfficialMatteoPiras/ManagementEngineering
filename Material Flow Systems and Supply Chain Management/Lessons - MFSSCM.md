@@ -447,7 +447,11 @@ Pre-defined **assembly sequence:** determined by the packing and the installing 
 ![[Lessons - MFSSCM-1792254923028.webp]]
 The binary $A(=a_{ij})$ PTIM is defined as follows:
 $$
-
+a_{ij} =
+\begin{cases}
+1 & \text{if assembly task } j \text{ is required by product } i \\
+0 & \text{otherwise}
+\end{cases}
 $$
 
 Project-Task incidence matrix (33 projects x 146 tasks)
@@ -483,8 +487,9 @@ We need to consider location, size, tactical decisions etc. Therefore we need to
 > [!Danger] From here the slides show the Anylogistic Software. It's best to directly see them to understand at best how it works
 
 ## What is GreenfieldAnalysis
-
-
+Greenfield analysis is an analytical type of experiment that uses the center-of- gravity approach to find optimal locations for new site(s) that will be managing the given demand of the supply chain.
+Objective: Find the number and potential areas to locate supply chain facilities
+Criteria: Minimizing "transportation flows"
 
 
 
