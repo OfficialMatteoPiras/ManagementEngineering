@@ -1,12 +1,12 @@
 
 > [!Important] https://stem.elearning.unipd.it/course/view.php?id=16780
 
-# Lesson 1 
+# Lesson 0
 
 **Why DW&T:** because goods has to arrive to destination. The delivery 
 networks contains warehouses and tansport system
 
-# Lesson 2
+# Lesson 1
 **Transport Classification**
 - *Primary Transport:* BTB Transport
 - *Secondary Transport:* BTC Transport
@@ -169,7 +169,7 @@ Truck cost are measurement in units $[€/km]$.
 > >  -> $40 \div 50 \%$ for **frozen goods** from $-25 °C$ 
 
 
-# Lesson 3
+# Lesson 2
 #### Saturation of the vehicle 
 we can reach the saturation of the vehicle (**auto articulated truck**) in two different ways:
 1. **weight saturation:** 28 tons
@@ -263,9 +263,9 @@ By doing so we can optimise the work time of the people and use it more efficien
 
 
 
+# Lesson 3 - Exam Exercise
 
-
-
+![[Lessons - DWT-1792228978936.webp]]
 
 
 
