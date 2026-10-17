@@ -388,7 +388,7 @@ Possible solutions:
 ## Hierarchical Clustering method: single and complete linkage
 Values = effective processing times [min], learning effect included
 ![[Lessons - MFSSCM-1792253320864.webp]]
-Where do these numbers come from? 
+Where do these numbers come from? We get the numbers but taking the pieces 
 
 
 
