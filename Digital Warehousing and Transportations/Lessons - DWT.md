@@ -265,7 +265,65 @@ By doing so we can optimise the work time of the people and use it more efficien
 
 # Lesson 3 - Exam Exercise
 
-![[Lessons - DWT-1792228978936.webp]]
+![[Lessons - DWT-1792228978936.webp]]**Van delivery — Milano & Bologna**
+1) MILAN
+
+$$N_{\substack{\text{MAX}\\ \text{MI}}}=\frac{\overset{\text{8h}}{T}-T_{A/R}}{\underset{h}{t_{\text{stop}}}+\bar{d}/\bar{v}}=\frac{8-\overbrace{\frac{2\cdot 135\ \text{km}}{90\ \text{km/h}}}^{=3}}{\underbrace{\frac{10}{60}}_{t_{\text{stop in hours}}}+\frac{3}{20}}=\frac{5}{0.3166}=[15.8]=15\ \frac{\text{DELIVERIES}}{\text{VAN}}$$
+
+- $T = 8\,\text{h}$, $t_{\text{stop}}$ misurato in ore ($h$ sotto), $T_{A/R}$ = andata/ritorno
+
+2) \* VAN DELIVERY IN MILAN
+
+$$N_{\text{VAN}}=\frac{N_{\text{DELIV.}}}{N_{\substack{\text{MAX DEL}\\ \text{VAN}}}}=\left\lceil\frac{120}{15}\right\rceil=8\ \text{VANS}$$
+
+3) 
+
+$$N_{\substack{\text{MAX}\\ \text{BO}}}=\frac{T-T_{A/R}}{\underset{h}{t_{\text{stop}}}+\bar{d}/\bar{v}}=\frac{8-\frac{2\cdot 160}{90}}{\frac{10}{60}+\frac{5}{30}}=\frac{4.44}{0.333}=[13{,}34]=13\ \text{DEL.}$$
+
+4) 
+
+$$N_{\text{VAN}}=\frac{N_{\text{DELIV.}}}{N_{\substack{\text{MAX DEL}\\ \text{VAN}}}}=\left\lceil\frac{85}{13}\right\rceil=7\ \text{VAN}$$
+
+6) ANNUAL COST OF DRIVERS FOR DELIVERY IN BOLOGNA \*VAN
+
+$$C_{\substack{\text{DRIVERS}\\ \text{BOLO}}}=7\cdot 8\cdot 220\cdot 30=369\,600\ \text{€/year}$$
+
+7) ANNUAL COST OF FUEL FOR DELIV. IN MILAN AREA
+
+- FUEL CONSUMPTION: $7\ \text{l}/100\ \text{km}$
+- FUEL COST: $1{,}2\ \text{€/litre}$
+- schema: deposito ($\text{WH}$) → 15 punti di consegna numerati ($1,\dots,15$); andata e ritorno $135\ \text{km}$ ciascuna
+
+$$d_{\substack{\text{VAN}\\ \text{MIL.}\\ \text{DAY}}}=2\cdot 135+(15-1)\,\bar{d}_{\text{CUSTOMERS}}=2\cdot 135+14\cdot 3=312\ \text{km/DAY}\ \text{(VAN MILAN)}$$
+
+$$D_{\substack{T\\ \text{VAN}\\ \text{YEAR}\\ \text{MILAN}}}=\underbrace{312}_{\substack{\text{km/VAN}\\ \text{DAY}}}\cdot\underbrace{8}_{\substack{\#\ \text{VAN MILAN}\\ \text{REQ.}}}\cdot\underbrace{220}_{\text{DAY/YEAR}}=549\,120\ \text{km/YEAR}$$
+
+$$C_{\substack{\text{FUEL}\\ \text{COST}\\ \text{MILAN}}}=549\,120\cdot\frac{7}{100}\cdot 1{,}2=46\,127\ \text{€/YEAR}$$
+
+8) ANNUAL COST OF FUEL FOR DEL. IN BOLOGNA AREA
+
+annotazioni a margine:
+
+- $\frac{85}{7}=12{,}14\ \frac{\text{DEL}}{\text{VAN}}$
+- km BETWEEN CUSTOM. $\to \bar{d}=5\ \text{km}$
+- schema: 85 DELIV. → 1 VAN → 13 DELIV.
+- schema: 85 DELIV. → 6 VAN (every van does) → 12 DELIV.
+
+$$d_{\substack{\text{VAN}\\ \text{BOLO}\\ \text{DAY}}}\ (\text{1 VAN})=2\cdot 160+(13-1)\cdot 5=380\ \text{km/DAY}$$
+
+$$d_{\substack{\text{VAN}\\ \text{BOLO}\\ \text{DAY}}}\ (\text{6 VANS})=2\cdot 160+(12-1)\cdot 5=375\ \text{km/DAY}$$
+
+$$D_{\substack{T\\ \text{VANS}\\ \text{YEAR}\\ \text{BOLO}}}=\underbrace{\left[(380\cdot 1)+(375\cdot 6)\right]}_{\text{km/DAY}}\cdot 220=577\,600\ \text{km/YEAR}$$
+
+$$C_{\substack{T\\ \text{FUEL}\\ \text{BOLO}\\ \text{YEAR}}}=579\,600\cdot\frac{7}{100}\cdot 1{,}2=48\,603\ \text{€/YEAR}$$
+
+---
+
+> **⚠ Note di verifica (non sono sul foglio):**
+> - Il punto 5) non compare nelle due foto (si passa da 4] a 6)).
+> - Punto 8: $[(380\cdot 1)+(375\cdot 6)]\cdot 220=578\,600$, ma sul foglio è scritto $577\,600$; la riga successiva riporta poi $579\,600$ (svista di trascrizione) e con quel valore si otterrebbe $48\,686$, mentre sul foglio è scritto $48\,603$. Ho lasciato tutto pari pari.
+> - Punto 7: il conto esatto sarebbe $46\,126{,}08$ €, sul foglio c'è $46\,127$.
+> - Notazione: $[\,15.8\,]$, $[\,13{,}34\,]$ = troncamento all'intero; $\lceil\ \rceil$ = arrotondamento per eccesso.
 
 
 
