@@ -488,12 +488,21 @@ We need to consider location, size, tactical decisions etc. Therefore we need to
 
 ## What is GreenfieldAnalysis
 Greenfield analysis is an analytical type of experiment that uses the center-of- gravity approach to find optimal locations for new site(s) that will be managing the given demand of the supply chain.
-Objective: Find the number and potential areas to locate supply chain facilities
-Criteria: Minimizing "transportation flows"
+- Objective: Find the number and potential areas to locate supply chain facilities
+- Criteria: Minimizing "transportation flows" which is calculated as \<distance\> * \<product amount\>
+- Assumptions: routes are straight
+**GFA allows you to:**
+- Find the optimal locations for the specified number of sites (DCs by default)
+- Calculate the optimal number of sites considering the specified maximum distance to a customer
+**GFA considers the following data:**
+- Products
+- Demand
+- Supply Sources
+- Customer Locations
+- Service distance constraints ($x_{ij} \leq 200km$)
+- Number of potential facilities (example: from historical data)
 
-
-
-
+### Center-of-gravity analysis \[$\approx$ GFA is almost the same\]
 
 
 
