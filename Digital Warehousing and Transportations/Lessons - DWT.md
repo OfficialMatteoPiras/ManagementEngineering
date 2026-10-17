@@ -401,6 +401,235 @@ $$=35\,204\ \frac{€}{\text{YEAR}}$$
 | CROSS DOCKING WAREHOUS | $\dots$                           | $\dots$                                     |
 
 # Lesson 4
+### Van delivery — highway, warehouse & routing (segue)
+
+*(angolo in alto a sinistra, in rosso: L4)*
+
+Tabella riepilogo AS-IS vs TO-BE
+
+| WE HAVE TO EVALUATE | AS-IS [PRESENT SITUATION] | TO-BE [FUTURE SITUATION] |
+|---|---|---|
+| DRIVERS | | 105 600 €/year |
+| VANS | | 20 000 " |
+| FUEL | | 35 204 " |
+| HIGHWAY | | 24 002 |
+| CROSS DOCKING / WAREHOUSE | 80 000 | |
+| **TOT (Σ)** | **80 000** | **184 802** |
+
+BOCO AREA :
+
+- WITHOUT CROSS DOCKING POINT: $D_T = 578\ 600$ €/year  *(annotato a destra: 7 VANS)*
+- HIGHWAY % → $H_W = 50\%$
+- COST HIGHWAY → $C_W = 0{,}1$ €/km $\Big\}$ *(graffa che raccoglie le due righe)*
+
+$$C_{\substack{HW\\ \text{AS-IS}}} = 578\ 600 \cdot 0{,}5 \cdot 0{,}1 = 28\ 930\ \text{€/year}$$
+
+*(evidenziato in giallo; freccia curva che sale da 0,5 a 50%)*
+
+- WITH CROSS DOCKING POINT:
+
+$$D_T = \underbrace{(16 + 160)}_{\substack{\uparrow\\ \text{TOT DIST.}}} \cdot \underbrace{220}_{\text{DAYS/YEAR}} \cdot \underbrace{1}_{\text{VAN}} = 70\ 400\ \text{km/year}$$
+
+*(evidenziato in giallo)*
+
+- 70% DIST ON HIGHWAY WITH CROSS DOCKING
+- 0,1 €/km
+
+$$C_{\substack{HW\\ \text{TO-BE}}} = 70\ 400 \cdot 0{,}7 \cdot 0{,}1 = 4928\ \text{€/year}$$
+
+*(evidenziato in giallo)*
+
+- SAVING HIGHWAY:
+
+$$S_{HW} = 28\ 930 - 4928 = 24\ 002\ \text{€/year}$$
+
+*(evidenziato in giallo)*
+
+- COST OF WAREHOUSE CROSS DOCKING POINT: **80 000 €/year** [RENTAL]
+
+- SCENARIO WITH CROSS DOCKING PERMITS SAVING OF ABOUT:
+
+$$S_{\text{TO-BE vs AS-IS}} = 184\ 802 - 80\ 000 = 104\ 802 \approx 100\ 000\ \text{€/year}$$
+
+*(evidenziato in giallo)*
+
+≈ 10% SAVE
+
+- TODAY WAREHOUSE COST $(6 \div 8)$ €/(m² · month) ⇒ 80 000 €/year ⇒ 50 000 €/year
+  *(nota sotto la seconda freccia: LABOR COST 30 000 €/year)*
+
+$$7 \cdot 12 = 84\ \text{€/m}^2 \qquad \frac{50\ 000}{84} \simeq 600\ \text{m}^2$$
+
+---
+
+## SECONDARY TRANSPORT *(in rosso)*
+### (OWN FLEET) *(in arancione)*
+
+$$N_{MAX} \Rightarrow N_{TRUCKS}$$
+
+PLAN THE TRIPS (ROUTES) FOR EVERY TRUCK
+
+2 APPROACHES TO PLAN TRANSPORT EVALUATED DAILY:
+
+**a) CONSOLIDATION METHOD:** [WIDELY USED]
+
+**b) HEURISTIC METHODS:**
+1. SAVING METHOD
+2. EXTRATILE METHOD
+
+---
+
+**a)** CONSIDER A SPECIFIC DAY, THERE ARE SOME USUAL DESTINATIONS RELATED TO IMPORTANT CUSTOMERS
+
+*(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
+
+STARTING FROM THESE ROUTES (EG PADOVA-PESCH.) WE TRY TO ADD THE OTHER CUSTOMERS OF THE DAY AS LONG AS POSSIBLE
+
+ADVANTAGE OF THESE APPROACH:
+- RELATIVELY LITTLE PLANNING WORK
+- SAME DRIVER OVER THE TIME ON THE SAME ROUTE
+  - ↳ LEARNING EFFECT: DRIVER LEARNS ROUTES, DELIVERY POINT...
+- LONGER DISTANCES COULD OCCUR
+
+**b)** CONSIDERS OF HEURISTIC SOFTWARE
+
+*(margine in alto a destra, con frecce: MAPPING SW / GEOGRAPHIC SW ↳ MOST FAMOUS METHOD IS CALLED SAVING AND SW NAME "PTV")*
+
+INPUT DATA: EVERY DAY LOAD
+- CUSTOMERS ADDRESSES AND CONSTRAINTS
+- DELIVERY WINDOWS
+- CONSTRAINTS ARE LIKE NARROW ROADS, SMALL UNLOADING AREA
+- CUSTOMERS DELIVERIES [PRODUCTS QUANTITY]
+- OWN FLEET DESCRIPTION
+
+---
+
+## HEURISTIC SAVING [METHOD] *(in arancione)*
+
+*(disegno: deposito = triangolo con W dentro; clienti sparsi; i e j in azzurro; frecce viola andata/ritorno deposito→clienti; arco azzurro tratteggiato i–j; freccia viola tratteggiata "FOR EVERY CUST."; a margine in verticale: CUSTOMERS)*
+
+**STEP 0)** IT STARTS WITH DEDICATED ROUND TRIPS FOR EVERY CUSTOMERS
+
+COST FUNCTION *(in arancione)*:
+
+$$F_0 \sim D$$
+
+*(frecce verdi verso l'alto: ↳ TO SIMPLIFY THE CALCULAT.)*
+
+$$D_0 = 2\,d[\Pi - i] + 2\,d[\Pi - j]$$
+
+**STEP 1)** FOR EACH COUPLE OF CUSTOMERS CALCULATES THE SAVING RESULTING FROM THEIR AGGREGATION $i, j$
+
+$$D_1 = d[\Pi - i] + d[i - j] + d[\Pi - j]$$
+
+$$\text{SAVING}\quad S_{ij} = D_0 - D_1 = 2\,d[\Pi - i] + 2\,d[\Pi - j] - [d[\Pi - i] + d[i - j] + d[\Pi - j]]$$
+
+$$= d[\Pi - i] - d[i - j] + d[\Pi - j]$$
+
+*(riga evidenziata in giallo)*
+
+$S_{ij}$ MAX → CONSOLIDATE CUSTOMERS $[i]\,[j]$ INTO SINGLE ROUTE
+
+$$S_{ij} > 0$$
+
+*(disegno: 3 rotte a "petali" dal deposito triangolare — ROUTE 1 sopra, ROUTE 2 a destra, ROUTE 3 a sinistra; punto azzurro isolato con freccia: EXCLUDED CUSTOMER)*
+
+---
+
+## CONSIDERATION 1 :
+
+$$\uparrow S(i-j) = d[\Pi - i] + d[\Pi - j] - d[i - j]$$
+
+*(sotto i termini: 9 in verde sotto $d[\Pi - i]$, 4 in verde sotto $d[\Pi - j]$, 6 in rosso sotto $d[i - j]$)*
+
+*(disegno a destra: deposito = triangolo con Π, etichetta VR sopra; punti i con scritta FURTHEST e j sotto)*
+
+## CONSIDERATION 2 :
+
+$$F_0 = \beta d + (1 - \beta)t$$
+
+$$0 \le \beta \le 1$$
+
+*(annotazione in arancione con freccia alla formula: OBJ FUNCTION THAT CONSIDERS DISTANCE AND TIME)*
+
+$$\beta = 0 \rightarrow \text{FOR SMALL QTY} \rightarrow F_0 = t$$
+
+$$\beta = 1 \xrightarrow{\hspace{1.8cm}} F_0 = d$$
+
+*(la prima riga sta fisicamente sopra la lunga freccia della seconda)*
+
+$$\beta = 0{,}2\ \text{IS THE MOST COMMON VALUE}$$
+
+---
+
+## EXTRA MILE *(in arancione)* [GOOD BUT NOT AS GOOD AS HEURISTIC]
+
+*(disegno: griglia di clienti; deposito triangolo Π etichettato VR; nodo i in alto + nodo j; tratteggiato magenta andata/ritorno deposito↔i; linea blu deposito→j→i→deposito)*
+
+**STEP 0)** EXTRA MILE STARTS FROM FURTHEST CUSTOMER AND EVALUATE DISTANCE
+
+$$D_i = 2d[\Pi - i]$$
+
+**STEP 1)** EXTRA DISTANCE RESULTING FROM THIS AGGREGATION OF CUSTOMER "j" WITH CUSTOMER "i":
+
+$$E_1 = d[\Pi - i] + d[\Pi - j] + d[i - j] - 2d[\Pi - i]$$
+
+*(freccia che punta al termine $-2d[\Pi - i]$: WE CALCULATE THE EXTRA MILE THUS REMOVE Π-i DISTANCE)*
+
+$$E_1\ \text{MINIMUM} \qquad E_1 \le E_{\text{TARGET}}$$
+
+*(disegno sotto: 3 rotte a petali dal deposito triangolare)*
+
+---
+
+## OUTSOURCED FLEET BUT DONE BY OUTSOURCED FLEET [IMPORTANT FOR EXAM] *(in arancione)*
+
+- TRANSPORT RATES → RATES ARE LINKED TO DIFFERENT UNITS OF MEASURMENTS:
+  - PALLETS [UNIT LOADS]
+  - BOXES [TOTES, PARCELS]
+  - kg
+  - m³
+
+- EXAMPLE OF RATES:
+  - PALLETS
+  - STARTING POINT → VICENZA WAREHOUSE
+  - GEOG AREA : DELIVERY ZONE
+
+| PROVIDER | FROM → TO | 1 PALLET | 2 | 3 PALL. | 4-5 | 6-10 | >10 | |
+|---|---|---|---|---|---|---|---|---|
+| PROVIDER 1 | VICENZA → BOLO | 30 | 25 | 20 | 16 | 14 | 12 | €/PALLET |
+| PROVIDER 2 | VI → BO | 27 *(1-2 PALL.)* | | 18 *(3-5 PALL.)* | | | 13 *(>5)* | €/PALLET |
+
+---
+
+## Delivery spectrum — confronto provider
+
+I HAVE TO KNOW MY DELIVERY SPECTRUM FOR A DAY
+
+*(istogramma: asse Y "# DELIVERY PER DAY", asse X "PALLETS FOR DELIVERY (TO ZONE)" da 1 a 10; barre: 1→15, 2→7, 3→3, 4→9, 5→5, 6→2; nessuna barra da 7 a 10)*
+
+**PROVIDER 1:**
+
+$$C_1 = 15 \cdot 30 + \overbrace{(7 \cdot 2)}^{\substack{\text{\# OF}\\ \text{PALLETS}}} \cdot 25 + 3 \cdot 3 \cdot 20 + 9 \cdot 4 \cdot 16 + 5 \cdot 5 \cdot 16 + 2 \cdot 6 \cdot 14 = 2\,124\ \text{€/DAY}$$
+
+**PROVIDER 2:**
+
+$$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \text{€/DAY}$$
+
+*(stesso istogramma ridisegnato con annotazioni arancioni: linee verticali tra 3|4 e tra 6|7; due frecce a doppia punta che coprono le colonne 1-3 e 4-6; ovale attorno a 1 2 3 sotto l'asse, con scritta: AGGREGATE 1-2-3)*
+
+> ⚠ **Note di verifica (non sono sul foglio)**
+> - **(16 + 160)**: sul foglio il primo numero è scritto senza zero; il conto è inteso con 160: $(160+160)\cdot 220 \cdot 1 = 320 \cdot 220 = 70\ 400$ ✓
+> - **D_T = 578 600 €/year**: sul foglio c'è €/year ma è una distanza annua — refuso per km/year
+> - **TOT (Σ) TO-BE = 184 802**: la somma reale dei savings è $105\ 600 + 20\ 000 + 35\ 204 + 24\ 002 = 184\ 806$ — svista di 4 sul foglio
+> - **BOCO AREA**: quasi certamente refuso per **BOLO AREA** (Bologna) — la sigla BOLO è usata più sotto nella tabella tariffe, e il PROVIDER 2 usa BO
+> - **VANS = 20 000**: nella tabella della parte precedente c'era 20'200 — i due fogli discordano, trascritti entrambi pari pari
+> - **EXTRATILE METHOD**: refuso per **EXTRA MILE** (scritto correttamente nella pagina successiva)
+> - **CONSIDERS OF HEURISTIC SOFTWARE**: probabile refuso per "CONSISTS OF HEURISTIC SOFTWARE"; **OUTSOURCED FLEET BUT DONE BY OUTSOURCED FLEET** suona tautologico (forse "SECONDARY TRANSPORT BUT DONE BY...") ma è scritto così, verificato lettera per lettera 3 volte
+> - **MEASURMENTS**: refuso per MEASUREMENTS, lasciato pari pari
+> - Esempio numerico di CONSIDERATION 1: $9 + 4 - 6 = 7$
+> - Conti verificati: $578\ 600 \cdot 0{,}5 \cdot 0{,}1 = 28\ 930$ ✓ · $70\ 400 \cdot 0{,}7 \cdot 0{,}1 = 4\ 928$ ✓ · $28\ 930 - 4\ 928 = 24\ 002$ ✓ · $184\ 802 - 80\ 000 = 104\ 802$ ✓ · $7 \cdot 12 = 84$ ✓ · $50\ 000/84 = 595{,}2 \approx 600$ ✓ · $C_1 = 2\ 124$ ✓ · $C_2 = 2\ 199$ ✓
+> - Deposito: simbolo Π greca dentro il triangolo, etichettato VR; le formule usano $d[\Pi - i]$
 
 
 
