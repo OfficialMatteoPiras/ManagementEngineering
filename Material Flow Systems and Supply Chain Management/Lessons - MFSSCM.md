@@ -391,11 +391,14 @@ Values = effective processing times [min], learning effect included
 ***Where do these numbers come from?***
 We get the numbers by taking the pieces. we measure the time between start and end of the task. this is called the **chrono tecnique**
 
-1. Stopwatch time study: each product model was timed on each workstation over the first units produced.
-2. First units are slower: operators are still learning the task.
-3. Learning curve 80%: every time output doubles, processing time drops by 20%.
-4. The value in the matrix is the effective time at the learning plateau, not the first
+1. *Stopwatch time study:* each product model was timed on each workstation over the first units produced.
+![[Lessons - MFSSCM-1792254390764.webp|248]]
+2. *First units are slower:* operators are still learning the task.
+3. *Learning curve 80%:* every time output doubles, processing time drops by 20%.
+![[Lessons - MFSSCM-1792254415742.webp|356]]
+4. The value in the matrix is the effective time at the *learning plateau*, not the first measured time.
 
+Example: product a, workstation 1 → 4.9 min (1st unit) → 2.0 min (plateau)
 They are the processing time (we use the Euclidian distance):
 ![[Lessons - MFSSCM-1792253896053.webp]]
 By putting the close distances before we get:
@@ -403,7 +406,15 @@ $$
 d_{ab} = \sqrt{(b_{a1} - b_{b1})^2 + (b_{a2} - b_{b2})^2 + \dots + (b_{an} - b_{bn})^2}
 $$
 
+**Important:** if we had put the first measured time (4.9 min) in the matrix, we would have more than doubled the real workload of the 
+ workstation, and the clustering would have grouped the products incorrectly.
 
+### Linkage criterion
+
+| Criteria Name    | Formula                        |
+| ---------------- | ------------------------------ |
+| complete linkage | $\max{d(a,b) : a\in A, b\in B$ |
+|                  |                                |
 
 
 
