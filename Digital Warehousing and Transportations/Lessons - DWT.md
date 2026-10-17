@@ -323,10 +323,10 @@ $$C_{\substack{T\\ \text{FUEL}\\ \text{BOLO}\\ \text{YEAR}}}=579\,600\cdot\frac{
 
 9) 
 
-$$N_{\text{max del}}=\frac{T-T_{A/R}}{\ldots}=$$
+$$N_{\text{max deliveries}/\text{van}}=\frac{T-T_{A/R}}{T_\text{stop} + d / v}= \frac{8 - 0 }{10/60 + 5/30} = 8/0.333 = 24.024 = 24$$
 
-- freccia rossa da $T_{A/R}$ verso uno **0** scritto in rosso: col cross docking la van parte dal cross docking point → $T_{A/R}=0$
-- sotto la linea di frazione: due trattini verdi (evidenziazione)
+![[Lessons - DWT 2026-10-17 11.53.53.excalidraw]]
+
 
 **schema** (in alto a destra):
 
