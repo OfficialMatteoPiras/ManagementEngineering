@@ -2,7 +2,7 @@
 > moodle: https://stem.elearning.unipd.it/course/view.php?id=17225
 > 
 
-# L1 - Introduction
+# L0 - Introduction
 https://stem.elearning.unipd.it/pluginfile.php/1464599/mod_resource/content/1/LECTURE%201-introduction.pdf
 
 **Learning Objectives:** 
@@ -115,7 +115,7 @@ INDUSTRY 5.0: Promoted by the European commission and other governmental bodies 
 
 ```
 
-# Lesson 2
+# Lesson 1
 ***<font color="#ff0000">Three important consideration in Logistics:</font>***
 
 ```horizontal
@@ -445,7 +445,34 @@ Clustering criterion based on the longest distance
 **Installation sequence:** installed in shingle fashion, starting either from the bottom or top of the building and going around each floor until the whole building is dressed up
 Pre-defined **assembly sequence:** determined by the packing and the installing sequence (constrained by the project)
 ![[Lessons - MFSSCM-1792254923028.webp]]
-The binary $A(=a_{ij})$ PTIM is defin
+The binary $A(=a_{ij})$ PTIM is defined as follows:
+$$
+
+$$
+
+Project-Task incidence matrix (33 projects x 146 tasks)
+![[Lessons - MFSSCM-1792255437376.webp]]
+
+```horizontal
+![[Lessons - MFSSCM-1792255474784.webp]]
+---
+![[Lessons - MFSSCM-1792255503714.webp]]
+```
+
+Design of 3 new assembly lines dedicated to the 3 product families:
+![[Lessons - MFSSCM-1792255523210.webp]]
+
+# LESSON 4 
+
+## Supply chain
+A supply chain is a system of organizations, processes, activities, information, and resources involved in supplying a product or service to a consumer.
+![[Lessons - MFSSCM-1792255636974.webp]]
+
+## Supply Network
+We need a sw to optimise the network and it has to be intended even for people who don't have a backgro
+![[Lessons - MFSSCM-1792255661581.webp]]
+
+
 
 
 
