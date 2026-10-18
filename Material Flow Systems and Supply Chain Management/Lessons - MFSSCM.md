@@ -536,6 +536,49 @@ $$
 
 We first consider the case in which all customers have equal demand, i.e. $D_i=1$ for all i.
 
+![[Lessons - MFSSCM-1792318711422.webp]]
+![[Lessons - MFSSCM-1792318722472.webp]]
+![[Lessons - MFSSCM-1792318734702.webp]]
+
+## Miehle algorithm
+To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an approximation approach. The basic idea of the Miehle algorithm comprises the consecutive calculation of a sequence of solutions $(a_0;b_0), (a_1;b_1), (a_2;b2_), ... of (1)$. The values of $(a_{i-1};b_{i-1})$ are used as $p_x$- and $p_y$-values in the right-hand part of  he Eqs. (6) and (7) and they are used to calculate the next solution (ai ;bi). This approach represents an example of a recursive calculation. If we calculate the coordinate pairs in this way, then the sequence of objective function values Z(a0;b0), Z(a1;b1), Z(a2;b2), ... decreases and converges towards the minimal possible performance value. Therefore, the sequence of calculated coordinates approximates the optimal pair of coordinates of the new warehouse with respect to the minimization of the overall required transport performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
