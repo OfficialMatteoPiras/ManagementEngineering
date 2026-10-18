@@ -509,6 +509,12 @@ Greenfield analysis is an analytical type of experiment that uses the center-of-
 In technical terms, an ordered pair of ($x;y$)-coordinates represents each customer location. You can’t change these data; they are input data or problem parameters. 
 - By contrast, your new warehouse’s ($x;y$)-coordinates ($p_x;p_y$) are variable. We will determine them after it calculates the data you provide in a way that matches the parameters you set. As a result, we say $p_x$ and $p_y$ are this scenario’s decision variables.
 - We also assume our transportation cost is linearly proportional to the distance and the transportation volume (that is, the demand). We can see the total transportation costs will depend on the coordinates ($p_x;_py$) of our prospective warehouses and distances. We assume the transportation costs from the prospective warehouse ($p_x;p_y$) to a customer location ($x_i;y_i$) is more or less equal to the distance and demand.
+We need to determine the distances d((px; py); (xi;yi)) between the i customer location and the warehouse to calculate transportation costs. To minimize payments to the forwarding company, you must vary px and py as long as Z(px, py) becomes minimal. 
+Total costs Z(px;py) is a determinant in GFA since we seek to find the optimal location of a warehouse subject to total costs minimization to serve all customer demands from the warehouse. We assume that the total transportation cost sum is proportional to the distance and the transportation volume (i.e., the demand). This leads us to the formulation of the objective function, as shown in below equation:
+$$
+Z(p_x,p_y) = \sum_{i=1}^{N} d((p_x,p_y),(x_i,y_i))\cdot D \rightarrow \min
+$$
+
 
 
 
