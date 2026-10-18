@@ -555,7 +555,7 @@ To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an 
 > - Start: determine an initial pair of coordinates ($a_0;b_0$) by applying Eq. (4) to determine a0 and Eq. (5) to determine b0.
 > - Iteration: Use ($a_i; b_i$) in Eqs. (6) and (7) to calculate the new coordinates ($a_{i+1};b_{i+1}$). Repeat the calculation until the distance between two consecutive solutions is smaller than a predefined threshold. The final coordinates approximate the optimal facility location.
 
-
+#### Rectilinear distance
 
 
 
