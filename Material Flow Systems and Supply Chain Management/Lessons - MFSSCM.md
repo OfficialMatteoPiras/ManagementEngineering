@@ -514,23 +514,27 @@ Total costs Z(px;py) is a determinant in GFA since we seek to find the optimal l
 $$
 Z(p_x,p_y) = \sum_{i=1}^{N} d((p_x,p_y),(x_i,y_i))\cdot D \rightarrow \min
 $$
->  [!Important] this is the center of gravity model of location analysis
+> [!Important] this is the center of gravity model of location analysis
 
 
+**Objective function**
+$$
+Z(p_x,p_y) = \sum_{i=1}^{N} d((p_x,p_y),(x_i,y_i))\cdot D \rightarrow \min(1)
+$$
+![[Lessons - MFSSCM-1792318272280.webp]]
 
+![[Lessons - MFSSCM-1792318283079.webp|682]]
 
+#### Euclidian Distance
+The following consecutive steps have to be executed in the given order.
+- The partial derivatives of Z with respect to px and py are determined.
+- The partial derivatives are set equal to zero to determine the optimal location.
+$$
+Z(p_x,p_y) = \sum_{i=1}^{N} d((p_x,p_y),(x_i,y_i))\cdot D \rightarrow \min(1)
+$$
+![[Lessons - MFSSCM-1792318525269.webp|540]]
 
-
-
-
-
-
-
-
-
-
-
-
+We first consider the case in which all customers have equal demand, i.e. $D_i=1$ for all i.
 
 
 
