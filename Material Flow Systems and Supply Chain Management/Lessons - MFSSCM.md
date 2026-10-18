@@ -484,6 +484,7 @@ We need to consider location, size, tactical decisions etc. Therefore we need to
 
 ## Your Supply Chain Is Being Constantly Evaluated (Common questions)
 ![[Lessons - MFSSCM-1792255884371.webp]]
+
 > [!Danger] From here the slides show the Anylogistic Software. It's best to directly see them to understand at best how it works
 
 ## What is GreenfieldAnalysis
@@ -503,7 +504,11 @@ Greenfield analysis is an analytical type of experiment that uses the center-of-
 - Number of potential facilities (example: from historical data)
 
 ### Center-of-gravity analysis \[$\approx$ GFA is almost the same\]
+> Location of the customers are the input parameters
 
+In technical terms, an ordered pair of ($x;y$)-coordinates represents each customer location. You can’t change these data; they are input data or problem parameters. 
+- By contrast, your new warehouse’s ($x;y$)-coordinates ($p_x;p_y$) are variable. We will determine them after it calculates the data you provide in a way that matches the parameters you set. As a result, we say $p_x$ and $p_y$ are this scenario’s decision variables.
+- We also assume our transportation cost is linearly proportional to the distance and the transportation volume (that is, the demand). We can see the total transportation costs will depend on the coordinates ($p_x;_py$) of our prospective warehouses and distances. We assume the transportation costs from the prospective warehouse ($p_x;p_y$) to a customer location ($x_i;y_i$) is more or less equal to the distance and demand.
 
 
 
