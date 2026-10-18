@@ -556,20 +556,32 @@ To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an 
 > - Iteration: Use ($a_i; b_i$) in Eqs. (6) and (7) to calculate the new coordinates ($a_{i+1};b_{i+1}$). Repeat the calculation until the distance between two consecutive solutions is smaller than a predefined threshold. The final coordinates approximate the optimal facility location.
 
 #### Rectilinear distance
+$$
+\begin{equation*}
+p_x = \frac{\sum_{i=1}^{N} D_i \cdot x_i}{\sum_{i=1}^{N} D_i}
+\qquad
+p_y = \frac{\sum_{i=1}^{N} D_i \cdot y_i}{\sum_{i=1}^{N} D_i}
+\end{equation*}
+$$
 
 ![[Lessons - MFSSCM-1792320338002.webp]]
 
 $$
 p_x = \frac{30-45+39+157.5-150}{11} = 7.5 \\
-py 
+py = \frac{-240-30+75-363.5+160}{11} = -27
 $$
+## Greenfield Analysis Experiment
+Greenfield Analysis considers the following data that we will specify during the tutorial steps:
+- Customers
+- Locations of the customers -> Latitude (x) and Longitude (y)
+- Products
+- Demand for each customer and product
+- Direct distance between customers and DCs/Warehouses
 
+anyLogistix uses GIS (Geographic Information System) data provided by OpenStreetMap. The GIS map displays the elements of the supply chain scenario and their connections. Once you create a new element (e.g. a customer) or alter an existing connection, the GIS map will be instantly updated.
 
-
-
-
-
-
+**What is GreenfieldAnalysis with Roads?**
+GFA does not take into account roads, cities, peculiarities of geographical areas etc., that is why it may suggest putting DCs on top of a mountain or in the middle of a sea. To consider actual roads and population of the cities, use the GFA with road experiment. In contrast to GFA, the GFA with roads experiment considers actual roads and population of cities, which allows it to suggest more accurate DC locations.
 
 
 
