@@ -672,13 +672,25 @@ $c = \text{cycle time (takt time)}$
 $c = (460 \text{ min/day} * 60 \text{ s/min}) / (920 \text{ pcs/day}) = (27600 \text{ s/day}) / (920 \text{ pcs/day}) = 30 \text{ s/pcs}$
 ![[Lessons - MFSSCM-1792322255589.webp]]
 
+**UNPACED ASSEMBLY SYSTEMS** _(Handwritten: INSERT BUFFERS BETWEEN WORKSTATION)_
+While an "un-paced line" is equipped with buffers located between stations (the decoupling buffers can be realized between groups of stations or between single stations), and in this case the cycle time serves as maximal possible average station time.
+c realized -> work load of the bottleneck station, that is S2
+$\text{Assembly Flow Time} = \text{Assembly Lead Time} = \sum t_j$
 
+> EACH STATION INDEPENDENT TALK OF CYCLE TIME ALWAYS LOWER THAN C OBJECTIVE
+  
+![[Lessons - MFSSCM-1792322456497.webp]]
 
+#### ASSEMBLY LINE BALANCING PROBLEMS: ALBP
+The assembly line balancing problem (ALBP) consists of assigning tasks to an ordered sequence of stations such that the precedence relations among the tasks are satisfied and some performance measure is optimized.
 
+![[Lessons - MFSSCM-1792322558827.webp]]
 
+#### ASSEMBLY LINE BALANCING PROBLEMS: CLASSIFICATION
 
+![[Lessons - MFSSCM-1792322582219.webp]]
 
-
+# LECTURE 7: METHODS FOR ASSEMBLY LINE BALANCING HEURISTIC PROCEDURES
 
 
 
