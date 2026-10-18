@@ -557,9 +557,12 @@ To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an 
 
 #### Rectilinear distance
 
+![[Lessons - MFSSCM-1792320338002.webp]]
 
-
-
+$$
+p_x = \frac{30-45+39+157.5-150}{11} = 7.5 \\
+py 
+$$
 
 
 
