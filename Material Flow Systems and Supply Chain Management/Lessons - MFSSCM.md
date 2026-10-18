@@ -691,22 +691,45 @@ The assembly line balancing problem (ALBP) consists of assigning tasks to an ord
 ![[Lessons - MFSSCM-1792322582219.webp]]
 
 # LECTURE 7: METHODS FOR ASSEMBLY LINE BALANCING HEURISTIC PROCEDURES
+Consider the example reported in Dolgui and Proth (2010): a manufacturing process consisting of 15 tasks denoted $A, B, \dots, O$. The manufacturing times and the direct predecessors of the tasks are given in the following table. The cycle time (or takt time) is $c=40$.
+
+## **The Largest Candidate Rule (LCR)**
+
+![[Lessons - MFSSCM-1792322642764.webp]]
+**Procedure:**
+Step 1) List all elements in descending order of $T$ value, starting with the largest $T$ at the top of the list.
+Step 2) Assign elements to the first workstation starting at the top of the list and selecting the first feasible element for placement in the station. A feasible element is one that satisfies the precedence requirements and does not cause the sum of the $T$ values at each station to exceed the cycle time.
+Step 3) Repeat step 2.
+
+![[Lessons - MFSSCM-1792322799561.webp]]
+## ***5.2.3 Ranked Positional Weights Method (RPW)***
+This heuristic approach was introduced by Helgeson and Birnie in 1961 and it can be easily used manually to solve small-size problems, since it takes into account both the T value of the element and its position in the precedence diagram. According to this algorithm the tasks are assigned to workstations in the general order of their RPW values that are used as task weights and computed as follows:
+
+$$RPW_j = t_j + \sum_{h \in F_j^*} t_h$$
+Step 1) Calculate the RPW for each task by adding the task time and the time values for all the tasks that follow it in the arrow chain of the precedence diagram (the followers).
+Step 2) List the elements in the order of their RPW, starting with the largest RPW, include the task value and immediate predecessors for each element, for convenience.
+Step 3) Consider the set A of available tasks for each workstation and assign tasks to stations in the decreasing order of their RPW value, avoiding cycle time violations.
+
+By applying the heuristic procedure to the numerical example done before we obtain the following RPW weights:
+
+| TASKs | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RPW | 101 | 79 | 74 | 91 | 67 | 51 | 77 | 47 | 60 | 51 | 41 | 22 | 26 | 17 | 9 |
+
+
+![[Lessons - MFSSCM-1792322854759.webp]]
 
 
 
+![[Lessons - MFSSCM-1792322904124.webp]]
 
+## ***5.2.4 Kilbridge and Wester’s Method (KWM)***
+In the heuristic approach presented in Kilbridge and Wester (1961), tasks are organized into levels according to their position in the precedence diagram. This overcomes one of the difficulties with the largest candidate rule (LCR), with which elements at the end of the precedence diagram might be the first candidates to be considered, simply because their task time values are large.
 
-
-
-
-
-
-
-
-
-
-
-
+Procedure:
+Step 1) Construct the precedence diagram so those nodes representing work elements of identical precedence are arranged vertically in columns.
+Step 2) List the elements in order of their columns, where the first column represents level 1, which is composed by tasks without predecessors. More generally, level $i$ represents tasks with at least a direct predecessor at level $i - 1$. If one task can be located in more than one level, list all levels by the element to show the transferability of the element.
+Step 3) To assign elements to workstations, start with the first level and continue the assignment procedure in order of level number until the cycle time is reached.
 
 
 
