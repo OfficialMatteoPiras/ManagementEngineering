@@ -633,8 +633,58 @@ Once the products to be produced in-house have been defined, decisions are neede
 **Assembly cycle definition** involves the following steps:
 1. Define elemental operations: called TASK
 2. Identify alternative processes
-3. Analyze task precedences based on technological constraints
+3. Analyse task precedence (by understanding the technical constraint) based on technological constraints
 4. Define an assembly chart and a precedence diagram
+![[Lessons - MFSSCM-1792322026579.webp]]
+
+The easiest method of understanding the assembly cycle and constructing an assembly chart is to begin with the completed product and to trace the product disassembly back to its basic components.
+
+![[Lessons - MFSSCM-1792322055582.webp]]![[Lessons - MFSSCM-1792322061623.webp]]
+
+#### PRECEDENCE DIAGRAM DEFINITION
+A second viewpoint, based on graph and network theory, is to interpret the charts as network representations, and generate the so-called PRECEDENCE DIAGRAM. A precedence diagram shows assembly task in the circles and precedence relations between tasks by arrows/arcs
+--> ALTERNATIVE ASSEMBLY SEQUENCES In some cases, industrial engineers report also the parts codes on the arcs.
+
+![[Lessons - MFSSCM-1792322094012.webp|608]]
+
+
+```horizontal
+![[Lessons - MFSSCM-1792322102562.webp|593]]
+---
+![[Lessons - MFSSCM-1792322132584.webp]]
+---
+![[Lessons - MFSSCM-1792322141266.webp]]
+```
+
+![[Lessons - MFSSCM-1792322152481.webp]]
+
+# LECTURE 6: ASSEMBLY SYSTEMS LAYOUT AND BALANCING PROBLEM
+![[Lessons - MFSSCM-1792322177182.webp|1073]]
+
+![[Lessons - MFSSCM-1792322188824.webp]]
+
+#### PACED ASSEMBLY SYSTEMS
+In a “paced line”, the handling system is periodically moving from station to station and a product stays at a station for a fixed time period c, and this period is the same for all stations. The cycle time is defined also as the maximal amount of time a product can be worked by a station.
+If $n$ stations are involved: 
+$n * c = \text{Assembly Flow Time}$ 
+$\text{Assembly Lead Time} = \sum t_j$ 
+$c = \text{cycle time (takt time)}$
+$c = (460 \text{ min/day} * 60 \text{ s/min}) / (920 \text{ pcs/day}) = (27600 \text{ s/day}) / (920 \text{ pcs/day}) = 30 \text{ s/pcs}$
+![[Lessons - MFSSCM-1792322255589.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
