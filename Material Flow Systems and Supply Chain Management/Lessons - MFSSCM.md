@@ -514,7 +514,7 @@ Total costs Z(px;py) is a determinant in GFA since we seek to find the optimal l
 $$
 Z(p_x,p_y) = \sum_{i=1}^{N} d((p_x,p_y),(x_i,y_i))\cdot D \rightarrow \min
 $$
-
+>  [!Important] this is the center of gravity model of location analysis
 
 
 
