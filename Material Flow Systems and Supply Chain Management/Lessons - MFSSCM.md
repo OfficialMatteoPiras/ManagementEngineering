@@ -585,22 +585,44 @@ GFA does not take into account roads, cities, peculiarities of geographical area
 
 > [!Important] Summary
 > Greenfield analysis is used to find the NUMBER and AREAS to locate facilities
+> To conduct a GFA experiment you need to define: 
+> - Customers/Market Node Locations
+> - Products 
+> - Demand 
+>
+> Criteria: Minimize transportation flows which is calculated as \<distance\> * \<product amount\>
+> 
+> GFA Results: 
+> - Areas to locate the facilities 
+> - Flows between facilities and customers 
+> - Customer center of gravity & service distances
+> 
+> Options: 
+> -  The GFA experiment can calculate locations based on direct distance or leveraging actual road pathways
+> - Inbound supply nodes and flows can be considered
 
-To conduct a GFA experiment you need to define:
-- Customers/Market Node Locations
-- Products
-- Demand
+# LECTURE 5: ASSEMBLY SYSTEMS DESIGN
+## Wortmann classification 
+WHY DO WE USE THIS CLASSIF ? TO UNDERSTAND WHERE 20 POL INVEGORY [Stocks]
+Example: Fincantieri  -> a Designed To Customers Specifications
 
-Criteria: Minimize transportation flows which is calculated as <distance> * <product amount>
 
-GFA Results:
-Areas to locate the facilities
-Flows between facilities and customers
-Customer center of gravity & service distances
-• Options:
-̶ The GFA experiment can calculate locations based on direct distance or leveraging
-actual road pathways
-̶ Inbound supply nodes and flows can be considered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
