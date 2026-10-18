@@ -541,14 +541,19 @@ We first consider the case in which all customers have equal demand, i.e. $D_i=1
 ![[Lessons - MFSSCM-1792318734702.webp]]
 
 ## Miehle algorithm
-To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an approximation approach. The basic idea of the Miehle algorithm comprises the consecutive calculation of a sequence of solutions $(a_0;b_0), (a_1;b_1), (a_2;b2_), ... of (1)$. The values of $(a_{i-1};b_{i-1})$ are used as $p_x$- and $p_y$-values in the right-hand part of  he Eqs. (6) and (7) and they are used to calculate the next solution (ai ;bi). This approach represents an example of a recursive calculation. If we calculate the coordinate pairs in this way, then the sequence of objective function values Z(a0;b0), Z(a1;b1), Z(a2;b2), ... decreases and converges towards the minimal possible performance value. Therefore, the sequence of calculated coordinates approximates the optimal pair of coordinates of the new warehouse with respect to the minimization of the overall required transport performance.
+To break the circulation in the formulas (6) and (7), Miehle (1958) proposes an approximation approach. The basic idea of the Miehle algorithm comprises the consecutive calculation of a sequence of solutions $(a_0;b_0), (a_1;b_1), (a_2;b2_), ... of (1)$. The values of $(a_{i-1};b_{i-1})$ are used as $p_x$- and $p_y$-values in the right-hand part of  he Eqs. (6) and (7) and they are used to calculate the next solution (ai ;bi). This approach represents an example of a recursive calculation. If we calculate the coordinate pairs in this way, then the sequence of objective function values $Z(a_0;b_0), Z(a_1;b_1), Z(a_2;b_2), \cdots$ decreases and converges towards the minimal possible performance value. Therefore, the sequence of calculated coordinates approximates the optimal pair of coordinates of the new warehouse with respect to the minimization of the overall required transport performance.
 
+**Iterations of the Miehle algorithm applied to the TT Profi data**
+![[Lessons - MFSSCM-1792318885018.webp]]
 
+**Graphic representation of the progress of the Miehle algorithm**
 
+![[Lessons - MFSSCM-1792318903764.webp]]
 
-
-
-
+> [!Danger] Summary of Miehle algorithm
+> The main steps of the Miehle approach:
+> - Start: determine an initial pair of coordinates ($a_0;b_0$) by applying Eq. (4) to determine a0 and Eq. (5) to determine b0.
+> - Iteration: Use ($a_i; b_i$) in Eqs. (6) and (7) to calculate the new coordinates ($a_{i+1};b_{i+1}$). Repeat the calculation until the distance between two consecutive solutions is smaller than a predefined threshold. The final coordinates approximate the optimal facility location.
 
 
 
