@@ -731,6 +731,25 @@ Step 1) Construct the precedence diagram so those nodes representing work elemen
 Step 2) List the elements in order of their columns, where the first column represents level 1, which is composed by tasks without predecessors. More generally, level $i$ represents tasks with at least a direct predecessor at level $i - 1$. If one task can be located in more than one level, list all levels by the element to show the transferability of the element.
 Step 3) To assign elements to workstations, start with the first level and continue the assignment procedure in order of level number until the cycle time is reached.
 
+At each level, if the tasks cannot be assigned together at a station, they can be selected using a rule: decreasing order of task time, decreasing order of weights as in the RPW method, or others).
+Following a balancing solution is provided applying the KWM heuristic approach and using the task weights according to RPW method in case of several assignment possibilities.![[Lessons - MFSSCM-1792322973847.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
