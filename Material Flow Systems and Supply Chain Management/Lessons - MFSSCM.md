@@ -603,22 +603,38 @@ GFA does not take into account roads, cities, peculiarities of geographical area
 
 # LECTURE 5: ASSEMBLY SYSTEMS DESIGN
 ## Wortmann classification 
-WHY DO WE USE THIS CLASSIF ? TO UNDERSTAND WHERE 20 POL INVEGORY [Stocks]
+WHY DO WE USE THIS CLASSIFICATION? TO UNDERSTAND WHERE TO PUT THE INVENTORY [Stocks]
 Example: Fincantieri  -> a Designed To Customers Specifications
+![[Lessons - MFSSCM-1792321720193.webp]]
+
+> [!Definition] FLOW LINE
+> A transfer line is a manufacturing system with a very special structure. It is a linear network of service stations or machines ($M_1, M_2, \dots, M_n$) separated by buffer storages ($B_0, B_1, \dots, B_n$). Material flows from outside the system to $B_0$, then to $M_1$, then to $B_1$, and so forth until it reaches $B_n$ after which it leaves. Figure 1 depicts a two-machine transfer line. The squares represent machines and the triangles represent buffers.
 
 
+![[Lessons - MFSSCM-1792321738768.webp]]
 
+DEFINITION OF ASSEMBLY LINE (SYSTEM)
+An assembly line is one of the subsystems in a manufacturing system where the individual components of a product are joined together and thus integrated into a semi-finished or into the final product.
 
+THIS IS A CONVERGENT PROCESS: from several parts to a final finished product
 
+![[Lessons - MFSSCM-1792321907652.webp]]
 
+**Inputs, outputs and resources of an assembly system**
 
+![[Lessons - MFSSCM-1792321925183.webp]]![[Lessons - MFSSCM-1792321932636.webp]]
 
+![[Lessons - MFSSCM-1792321941909.webp]]
 
+![[Lessons - MFSSCM-1792321948392.webp]]
 
-
-
-
-
+### Assembly cycle and assembly chart definition
+Once the products to be produced in-house have been defined, decisions are needed as to how the products will be assembled. 
+**Assembly cycle definition** involves the following steps:
+1. Define elemental operations: called TASK
+2. Identify alternative processes
+3. Analyze task precedences based on technological constraints
+4. Define an assembly chart and a precedence diagram
 
 
 
