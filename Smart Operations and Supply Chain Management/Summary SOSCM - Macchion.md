@@ -271,6 +271,13 @@ As we examine each of these design factors, we will be using a number of terms t
 
 
 ## 6.4 Diagnostic question: Are process tasks and capacity configured appropriately?
+Process maps show how the activities of any particular process are currently arranged and help to suggest how they can be reconfigured. But there are also some general issues that must be understood before processes can be analysed. These relate to how the total task can be divided up within the process and determining how capacity is allocated. This, in turn, determines the flow through the process. 
+Getting to grips with process capacity means understanding the following issues: 
+- task precedence; 
+- series and parallel configurations;
+- cycle time and process capacity –> bottlenecks; 
+- process balancing; 
+- throughput, cycle time and work-in-process.
 ![[Summary SOSCM - Macchion-1792404459641.webp]]
 
 
