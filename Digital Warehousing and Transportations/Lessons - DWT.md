@@ -4,7 +4,7 @@
 # Lesson 0
 
 **Why DW&T:** because goods has to arrive to destination. The delivery 
-networks contains warehouses and tansport system
+networks contains warehouses and transport system
 
 # Lesson 1
 **Transport Classification**

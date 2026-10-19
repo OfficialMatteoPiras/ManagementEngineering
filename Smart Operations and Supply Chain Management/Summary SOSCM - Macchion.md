@@ -221,6 +221,89 @@ set location evaluation criteria:
 > 5. Risk factors – closely related to the concept of future flexibility, is the idea of evaluating the risk factors associated with possible locations. Long-term risks could include damaging changes in input factors such as exchange rates or labour costs, but can also include more fundamental security risks to staff or property.
 
 
+# Process design 2 – Analysis
+### The very idea of ‘process design’ can be controversial
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=220&selection=46,0,50,101&color=note|p.220]]
+> The whole idea of detailed process design can polarise opinion among operations managers. Two very opposing views are often expressed. But both can be simplistic. The first view is that everyone and everything is a process. And, if all work is a process, one should strive to apply a standardised set of disciplines and rules that can make what we do both more effective and more efficient. The objective, it is argued, is to find the best sequence of activities that describe the way things should be done, then preserve it in a formal set of rules that will ensure the same result ‘every time, all the time’. The advantage of formal processes is the discipline it imposes. The opposing view believes that effective management must always rely on understanding, imagination and insight. You can’t, according to this view, reduce everything to a standardised set of steps. People are the most important element in any processes, and people can’t be treated like cogs in a machine. Processes, they say, describe everything as a machine-like set of mindless routine activities. But everything is about people, and effective management must always rely on the quality of people and how they are led with inspiration and imagination. Constraining all activities into a process straitjacket kills the essential humanity of working life. Of course, both of these rather stereotyped views are extreme, but they do represent the two ends of a spectrum of attitudes commonly expressed. A process is a set of resources and activities that produces value. That is exactly what we mean here by a process – no more and no less. Yes, everyone is part of a process. But that does not imply that all processes should be highly specified so jobs are deskilled, or that jobs should always be done in the same way. Some may need to be, but not all. The argument, sometimes referred to as ‘people versus process’, is based on a false distinction. People are the most important element in most processes, and ‘process’ is simply how we do things. In other words, not all processes are the same, nor should they be treated in the same way. ‘Processes’ need not consist of highly defined instructions. They can be looser than that. Described colloquially, processes are simply ‘how you do things’. If appropriate, they could be defined in great detail, but they could also simply require adherence to a set of broad performance objectives and leave the details to someone’s professional judgement (as in many professional service processes for example). The way processes are designed should depend on what we want them to do
+
+![[Summary SOSCM - Macchion-1792400270714.webp]]
+### Who should be involved in process design?
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=222&selection=10,0,28,93&color=note|p.222]]
+> The decisions covered in the previous chapter would be taken at a relatively senior level. Deciding on operations layouts, the nature of the technology to be used, and the approach to employees’ jobs, all have a clear strategic element. But who should be involved in the detailed analysis of processes! In many (or most) organisations, process design is the province of some combination of technical experts and more junior staff. But there is a good case for regarding this as a mistake. As we implied earlier, process design is much more than a mere technical activity. It is important because it determines the actual performance of an operation’s processes – and the performance of process networks makes up the performance of the total operation. Any operations manager surely must carry responsibility for how their processes are put together, which means that delegating total responsibility for the design of processes entirely to junior staff, or to internal ‘experts’ (although they have their role), is neglecting an important opportunity to improve performance. Certainly, operations managers will (and should) be held accountable if the processes go wrong. Of course, there is a difference between being engaged with, taking responsibility for and understanding process design, and getting bogged down in the minutiae.
+
+![[Summary SOSCM - Macchion-1792401853557.webp]]
+![[Summary SOSCM - Macchion-1792401864757.webp]]
+
+## 6.2 Diagnostic question: Are process performance objectives clear?
+![[Summary SOSCM - Macchion-1792402146068.webp]]
+
+### Process flow objectives
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=224&selection=76,21,110,65&color=note|p.224]]
+> The flow objectives are: 
+> - Throughput rate (or flow rate) – the rate at which units emerge from the process, i.e. the number of units passing through the process per unit of time. 
+> - Throughput time – the average elapsed time taken for inputs to move through the process and become outputs. 
+> - The number of units in the process (also called the ‘work-in-process’, or ‘in-process inventory’), as an average over a period of time. 
+> - The utilisation of process resources – the proportion of available time that the resources within the process are performing useful work. 
+> The design factors that will influence the flow objectives are the:
+> - variability of input arrival to the process; 
+> - configuration of the resources and activities within the process;
+> - capacity of the resources at each point in the process; and 
+> - variability of the activities within the process.
+
+
+![[Summary SOSCM - Macchion-1792402504886.webp]]
+
+As we examine each of these design factors, we will be using a number of terms that, although commonly used within process design, need some explanation. These terms will be described in the course of the chapter, but Table 6.2 summarises them for reference.
+![[Summary SOSCM - Macchion-1792402881378.webp]]
+### Different levels of process mapping
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=227&selection=8,0,33,89&color=note|p.227]]
+> For a large process, drawing process maps at this level of detail can be complex. This is why processes are often mapped at a more aggregated level, called high-level process mapping, before more detailed maps are drawn. Figure 6.5 illustrates this for the total ‘supply-and-install-lighting’ process in the theatre lighting operation. At the highest level the process can be drawn simply as an input–transformation–output process with materials and customers as its input resources and lighting services as outputs. No details of how inputs are transformed into outputs are included. At a slightly lower or more detailed level, what is sometimes called an outline process map (or chart) identifies the sequence of activities but only in a general way. So the process of ‘enquiry to delivery’ that is shown in detail in Figure 6.4 is here reduced to a single activity. At the more detailed level in Figure 6.5, all the activities are shown in a ‘detailed process map’ (the activities within the process ‘install and test’ are shown). Although not shown in Figure 6.5, an even more micro set of process activities could be mapped within each of the detailed process activities. Such a micro detailed process map could specify every single motion involved in each activity. Some quick-service restaurants, for example, do exactly that. In the lighting hire company example, most activities would not be mapped in any more detail than that shown in Figure 6.5. Some activities, such as ‘return to base’, are probably too straightforward to be worth mapping any further. Other activities, such as ‘rectify faulty equipment’, may rely on the technician’s skills and discretion to the extent that the activity has too much variation and is too complex to map in detail. Some activities, however, may need mapping in more detail to ensure quality or to protect the company’s interests. 
+
+![[Summary SOSCM - Macchion-1792404015097.webp]]
+
+### Process visibility
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=228&selection=14,1,33,82&color=note|p.228]]
+> It is sometimes useful to map such processes in a way that makes the degree of visibility of each part of the process obvious. This allows those parts of the process with high visibility to be designed so that they enhance the customer’s perception of the process. Figure 6.6 shows yet another part of the lighting equipment company’s operation: the ‘collect-and-check’ process. The process is mapped to show the visibility of each activity to the customer. Here four levels of visibility are used. There is no hard and fast rule about this; many processes simply distinguish between those activities that the customer can see and those that they can’t. The boundary between these two categories is often called the ‘line of visibility’. In Figure 6.6 three categories of visibility are shown. At the very highest level of visibility, above the ‘line of interaction’, are those activities that involve direct interaction between the lighting company’s staff and the customer. Other activities take place at the customer’s site or in the presence of the customer but involve less or no direct interaction. Yet further activities (the two transport activities in this case) have some degree of visibility because they take place away from the company’s base and are visible to potential customers, but are not visible to the immediate customer.
+
+![[Summary SOSCM - Macchion-1792404053649.webp]]
+
+
+## 6.4 Diagnostic question: Are process tasks and capacity configured appropriately?
+![[Summary SOSCM - Macchion-1792404459641.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

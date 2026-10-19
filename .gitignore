@@ -20,4 +20,5 @@ desktop.inivoice_recorder/registrazioni/
 voice_recorder/impostazioni.json
 voice_recorder/dist/
 voice_recorder/build/
+voice_recorder/
 __pycache__/
