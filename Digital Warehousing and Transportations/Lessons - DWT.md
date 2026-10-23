@@ -556,9 +556,9 @@ $$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \t
 
 # Lesson 5 - Packaging
 
+![[Lessons - DWT-1792784790859.webp]]
 
-
-
+## Primary Transport
 
 
 
