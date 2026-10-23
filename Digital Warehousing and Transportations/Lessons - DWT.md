@@ -576,10 +576,21 @@ In a 20ft container:
 
 If we want to saturate in a very good way we have to overlap with the border of the pallet -> **perfect saturation**
 The target values of the secondary packaging footprint are:
+|  |
+| :--- |
+|  |
+|  |
+|  |
+|  |
+|  |
+| |
 
 
 
-
-
-
-
+| Dimensions    |
+| ------------- |
+| 800 x 600     |
+| 400 x 600     |
+| 400 x 300 / 2 |
+| 200 x 300 / 2 |
+| 200 x 150     |
