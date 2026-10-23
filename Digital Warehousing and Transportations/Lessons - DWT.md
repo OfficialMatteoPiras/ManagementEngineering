@@ -560,16 +560,22 @@ $$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \t
 
 ## Primary Transport
 Auto articulated truck
-![[Lessons - DWT-1792785432503.webp|738]]
+![[Lessons - DWT-1792785636647.webp]]
 
 If we suppose to load the truck with ISO1 pallets this truck it could transport **33 unit load / layer** 
 -> 15 rows for 2.
 In a 20ft container:
+![[Lessons - DWT-1792785669938.webp]]
 
+## Secondary Packaging
 
+> [!IMPORTANT] First consideration:
+> The $2^{nd}-ary$ packaging  on pallet have to avoid **overhanging of materials with respect to the surface of the food pallet** 
 
+![[Lessons - DWT-1792785797112.webp]]
 
-
+If we want to saturate in a very good way we have to overlap with the border of the pallet -> **perfect saturation**
+The target values of the secondary packaging footprint are:
 
 
 
