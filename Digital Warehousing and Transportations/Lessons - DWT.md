@@ -453,7 +453,9 @@ PLAN THE TRIPS (ROUTES) FOR EVERY TRUCK
 **Moreover:** 
 **a)** CONSIDER A SPECIFIC DAY, THERE ARE SOME USUAL DESTINATIONS RELATED TO IMPORTANT CUSTOMERS
 
-![[Lessons - DWT-1792233760086.webp]]*(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
+![[Lessons - DWT-1792233760086.webp]]
+
+*(disegno — mappa: triangolo deposito con scritta VI sopra; 3 rette tratteggiate arancioni a ventaglio. Nodi in verde: TREVISO, GRISIGNANO, MONSELICE, ROVIGO, VERONA, MONTEBELLO; in nero: PADOVA, VENICE, FERRARA, BOLOGNA, PESCHIERA, MANTOVA)*
 
 STARTING FROM THESE ROUTES (EG PADOVA-PESCH.) WE TRY TO ADD THE OTHER CUSTOMERS OF THE DAY AS LONG AS POSSIBLE
 
@@ -475,7 +477,9 @@ INPUT DATA: EVERY DAY LOAD
 - OWN FLEET DESCRIPTION
 
 ### HEURISTIC SAVING [METHOD] *(in arancione)*
-![[Lessons - DWT-1792233743317.webp]]**STEP 0)** IT STARTS WITH DEDICATED ROUND TRIPS FOR EVERY CUSTOMERS
+![[Lessons - DWT-1792233743317.webp]]
+
+**STEP 0)** IT STARTS WITH DEDICATED ROUND TRIPS FOR EVERY CUSTOMERS
 COST FUNCTION *(in arancione)*:
 
 $$F_0 \sim D$$
@@ -550,7 +554,7 @@ $$C_1 = 15 \cdot 30 + \overbrace{(7 \cdot 2)}^{\substack{\text{\# OF}\\ \text{PA
 $$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \text{€/DAY}$$![[Lessons - DWT-1792234006052.webp]]
 
 
-
+# Lesson 5 - Packaging
 
 
 
