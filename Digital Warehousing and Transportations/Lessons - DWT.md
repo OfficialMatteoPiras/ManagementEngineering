@@ -559,10 +559,12 @@ $$C_2 = (15 + 7 \cdot 2) \cdot 27 + (9 + 36 + 25)\,18 + 12 \cdot 13 = 2\,199\ \t
 ![[Lessons - DWT-1792784790859.webp]]
 
 ## Primary Transport
+Auto articulated truck
+![[Lessons - DWT-1792785432503.webp|738]]
 
-
-
-
+If we suppose to load the truck with ISO1 pallets this truck it could transport **33 unit load / layer** 
+-> 15 rows for 2.
+In a 20ft container:
 
 
 
