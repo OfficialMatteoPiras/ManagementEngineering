@@ -16,9 +16,10 @@
 # File di sistema
 .DS_Store
 Thumbs.db
-desktop.inivoice_recorder/registrazioni/
+voice_recorder/registrazioni/
 voice_recorder/impostazioni.json
 voice_recorder/dist/
 voice_recorder/build/
 voice_recorder/
 __pycache__/
+*.mp3

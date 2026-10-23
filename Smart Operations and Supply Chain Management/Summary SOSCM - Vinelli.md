@@ -346,14 +346,34 @@ Mass services have many customer transactions and little customisation. Such ser
 ## 5.3 Diagnostic question: Are process layouts appropriate?
 ![[Summary SOSCM - Vinelli-1791984429619.webp]]
 
+### Layout selection
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=200&selection=29,0,48,54&color=note|p.200]]
+> Getting the process layout right is important, if only because of the cost, difficulty and disruption of making any layout change. It is not an activity many businesses would want to repeat very often. Also, an inappropriate layout could mean that extra cost is incurred every time an item is processed. But more than this, an effective layout gives clarity and transparency to the flow of items through a process. There is no better way of emphasising that everyone’s activities are really part of an overall process than by making the flow between activities evident to all participants in the process. One of the main influences on which type of layout will be appropriate is the nature of the process itself, as summarised in its ‘process type’. There is often some confusion between process types and layout types, but they are not the same thing. Process types were described earlier in the chapter and indicate a broad approach to the organisation and operation of a process. Layout is a narrower concept but is very clearly linked to process type. Just as process type is governed by volume and variety, so is layout. But for any given process type there are usually at least two alternative layouts. Table 5.1 summarises the alternative layouts for particular process types. Which of these is selected, or whether some hybrid layout is chosen, depends on the relative importance of the performance objectives of the process, especially cost and flexibility. Table 5.2 summarises the advantages and disadvantages.
 
+![[Summary SOSCM - Vinelli-1792493139220.webp]]
+![[Summary SOSCM - Vinelli-1792493395029.webp]]
 
+## New technology is changing the diagonal
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=204&selection=51,0,63,90&color=note|p.204]]
+> Figure 5.8 illustrates these three dimensions of process technology and the implied ‘diagonal’ between low volume–high variety, and high volume–low variety. It also shows how some developments in technology have, to some extent, overcome the implied trade-off between flexibility and cost. Specifically, digitisation and the vastly increased computing power embedded in many new technologies has made it easier to achieve lower costs while not having to sacrifice the ability to provide variety. For example, the IT systems, databases and algorithms behind internet banking services allow customers to access a very wide variety of customised services, while retaining or enhancing back-office efficiency. Similarly, so-called 3D knitting machines can produce an entire garment including the arms, collars and other parts that would normally be produced separately and sewn on, using a single machine with a single thread. Not only does this allow a wide variety of garments to be produced at relatively low cost, it reduces the waste of material. The effect of this is to ‘bend’ what has hitherto been accepted as the ‘natural’ diagonal.
 
+![[Summary SOSCM - Vinelli-1792493409185.webp]]
 
+### The division of labour – how should tasks be allocated?
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=206&selection=27,0,34,93&color=note|p.206]]
+> The most obvious aspect of any individual’s job is how big it is; that is, how many of the tasks within any process are allocated to an individual. Should a single individual perform all the process! Alternatively, should separate individuals or teams perform each task! Separating tasks into smaller parts between individuals is called the division of labour. Perhaps its epitome is the assembly line, where products move along a single path and are built up by operators continually repeating a single task. This is the predominant model of job design in most high-volume, low-variety processes. For such a process there are some real advantages in division-of-labour principles:
+> - It promotes faster learning. It is obviously easier to learn how to do a relatively short and simple task than a long and complex one, so new members of staff can be quickly trained and assigned to their tasks. 
+> - Automation becomes easier. Substituting technology for labour is considerably easier for short and simple tasks than for long and complex ones. 
+> - Non-productive work is reduced. In large, complex tasks the proportion of time between individual value-adding elements can be very high; for example, in manufacturing, picking up tools and materials, putting them down again and generally searching and positioning.
+> There are also serious drawbacks to a highly divided job:
+> - It is monotonous. Repeating the same task, eight hours a day and five days a week, is not fulfilling. This may lead to an increased likelihood of absenteeism, staff turnover and error rates. 
+> - It can cause physical injury. The continued repetition of a very narrow range of movements can, in extreme cases, lead to physical injury. The over-use of some parts of the body (especially the arms, hands and wrists) can result in pain and a reduction in physical capability, called repetitive strain injury (RSI). 
+> - It can mean low flexibility. Dividing up a task into many small parts often gives the job design a rigidity that is difficult to adapt under changing circumstances. For example, if an assembly line has been designed to make one particular product but then has to change to manufacture a quite different product, the whole line will need redesigning. This will probably involve changing every operator’s set of tasks. 
+> - It can mean poor robustness. Highly divided jobs imply items passing between several stages. If one of these stages is not working correctly, for example because some equipment is faulty, the whole operation is affected. On the other hand, if each person is performing the whole of the job, any problems will affect only that one person’s output.
 
+![[Summary SOSCM - Vinelli-1792494197095.webp]]
 
-
-
+# Chapter 8: Capacity management
 
 
 

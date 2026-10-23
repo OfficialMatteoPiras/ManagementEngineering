@@ -280,24 +280,81 @@ Getting to grips with process capacity means understanding the following issues:
 - throughput, cycle time and work-in-process.
 ![[Summary SOSCM - Macchion-1792404459641.webp]]
 
+### Series and parallel configurations
+![[Summary SOSCM - Macchion-1792586003781.webp]]
+
+![[Summary SOSCM - Macchion-1792586009949.webp]]
+
+![[Summary SOSCM - Macchion-1792586142044.webp]]
+![[Summary SOSCM - Macchion-1792586817215.webp]]
+
+![[Summary SOSCM - Macchion-1792586803528.webp]]
+![[Summary SOSCM - Macchion-1792586999436.webp]]
+
+### Process balancing
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=236&selection=24,0,34,96&color=note|p.236]]
+> Balancing a process involves attempting to allocate activities to each stage as equally as possible. Because the cycle time of the whole process is limited by the longest allocation of activity times to an individual stage, the more equally work is allocated the less time will be ‘wasted’ at the other stages in the process. In practice it is nearly always impossible to achieve perfect balance, so some degree of imbalance in work allocation between stages will occur. The effectiveness of the balancing activity is measured by balancing loss. This is the time wasted through the unequal allocation of activities as a percentage of the total time invested in processing. The stage of a process that has the longest allocation of work is known as the bottleneck. It is the bottleneck stage that will dictate the output of the whole process. This is illustrated in Figure 6.12. Here the computer test and repair task is used to illustrate balancing loss for the ‘long–thin’ arrangement of four sequential stages and the ‘intermediate’ arrangement of two parallel two-stage arrangements. Figure 6.12(a) shows the ideal allocation of activities with each stage perfectly balanced. Here exactly a quarter of the total work content (10.75 minutes) has been allocated to each of the four stages. Every 10.75 minutes each stage performs its activities and passes a computer on to the next stage, or out of the process in the case of stage 4. No stage suffers any idle time and, because the stages are perfectly balanced, balancing loss = 0. However, because of the actual times of each activity, it is not possible to equally allocate work to each stage. Figure 6.12(b) shows the best allocation of activities. Most work is allocated to stage 2, so that stage will dictate the cycle time of the whole process. Stage 1 has only 11 minutes of work and so will be idle for (12 -11) = 1 minute every cycle (or alternatively will keep processing one computer every 11 minutes and the build-up of inventory between stage 1 and stage 2 would grow to infinity). Similarly, stages 3 and 4 have idle time, in this case both have (12 -10) = 2 minutes idle time. They can only process one computer every 12 minutes because stage 2 will only pass forward a computer to them every 12 minutes. So, they are being starved of work for 2 minutes every 12 minutes. In practice, stages that are not the bottleneck stage may not actually be idle for a period of time every cycle. Rather they will slow down the pace of work to match the time of the bottleneck stage. Nevertheless, this is still effectively idle time because under conditions of perfect balance they could be performing useful work. So, every cycle, all four stages are investing an amount of time equivalent to the cycle time to produce one completed computer. The total amount of invested time therefore is the number of stages in the process multiplied by the cycle time. In this case, total invested time = 4 * 12 = 48 minutes. The total idle time for every computer processed is the sum of the idle times at the non-bottleneck stages, in this case 5 minutes.
+
+
+![[Summary SOSCM - Macchion-1792587086777.webp]]
+
+
+![[Summary SOSCM - Macchion-1792587451370.webp]]
+
+### Little's Law
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=239&selection=25,1,198,19&color=note|p.239]]
+> The mathematical relationship that relates cycle time to work-in-process and throughput time is called Little's Law. It is simple but very useful, and it works for any stable process.
+Little's Law can be stated as:
+$$\text{Throughput time} = \text{Work-in-process} \times \text{Cycle time}$$
+> 
+> Or:
+> $$\text{Work-in-process} = \text{Throughput time} \times (1/\text{Cycle time})$$
+> 
+That is:
+> $$\text{Work-in-process} = \text{Throughput time} \times \text{Throughput rate}$$
+> For example, in the case of the computer test and repair process with four stages:
+> Cycle time = 12 minutes (loading on the bottleneck station)
+> 
+> Work-in-process = 4 units (one at each stage of the process assuming there is no space for inventory to build up between stages)
+>
+> Therefore, $\text{Throughput time} = \text{Work-in-process} \times \text{Cycle time}$
+>
+> $= 12 \times 4 = 48 \text{ minutes}$
+>
+> Similarly, for the worked example of the passport office earlier, suppose the office has a 'clear desk' policy that means that all desks must be clear of work by the end of the day. How many applications should be loaded onto the process in the morning in order to ensure that every one is completed and desks are clear by the end of the day?
+>
+> From before: Cycle time = 1.5 minutes, and assuming 7.5 hour (450-minute) working day, from Little's Law:
+>
+> $$\text{Throughput time} = \text{Work-in-process} \times \text{Cycle time}$$
+>
+$$450 \text{ minutes} = \text{Work-in-process} \times 1.5$$
+> Therefore 
+>
+> $$\text{Work-in-process} = 450/1.5 = 300$$
+> 
+> So, 300 applications can be loaded onto the process in the morning and be cleared by the end of the working day.
+
+#### Little’s Law at an IT support unit
+![[Summary SOSCM - Macchion-1792587983865.webp]]
+
+
+![[Summary SOSCM - Macchion-1792588577747.webp]]
 
 
 
+![[Summary SOSCM - Macchion-1792588698612.webp]]
 
+### Activity time variability
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=241&selection=71,0,80,98&color=note|p.241]]
+> The effects of variability within a process will depend on whether the movements of units between stages, and hence the inter-arrival times of units at stages, are synchronised or not. For example, consider the computer test and repair process described previously. Figure 6.14 shows the average activity time at each stage of the process, but also the variability around the average time. Suppose that it was decided to synchronise the flow between the four stages by using an indexing conveyor or a simple traffic light system that ensured all movement between the stages happened simultaneously. The interval between each synchronised movement would have to be set at an interval that would allow all stages to have finished their activities irrespective of whether they had experienced a particularly fast or particularly slow activity time. In this case from Figure 6.14, that synchronised indexing time would have to be set at 15 minutes. This then becomes the effective cycle time of the process. Note that the effective bottleneck stage is now stage 1 rather than stage 2. Although stage 2 has the longer average activity time (12 minutes), stage 1 with an average activity time of 11 minutes has a degree of variability that results in a maximum activity of 15 minutes. Note also that every stage will experience some degree of idle time, the average idle time at each station being the cycle time minus the average activity time at that station. This reduction in the efficiency of the process is only partly a result of its imbalance. The extra lost time is as a result of activity time variability. This type of effect is not at all uncommon. For example, automobiles are assembled using a moving belt assembly line whose speed is set to achieve a cycle time that can accommodate activity time variability. However, a more common arrangement, especially when processing information or customers, is to move units between stages as soon as the activities performed by each stage are complete. Here, units move through the process in an unsynchronised manner rather than having to wait for an imposed movement time. This means that each stage may spend less time waiting to move its unit forward, but it does introduce more variation in the demand placed on subsequent stations. When movement is synchronised, the inter-arrival time of units at each stage is fixed at the cycle time. Without synchronisation, the inter-arrival time at each stage will itself be variable.
 
+![[Summary SOSCM - Macchion-1792588891127.webp]]
 
+### Arrival time variability
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=242&selection=35,0,53,94&color=note|p.242]]
+> To understand the effect of arrival variability on process performance it is first useful to examine what happens to process performance in a very simple process as arrival time changes under conditions of no variability. For example, the simple process shown in Figure 6.15 comprises one stage that performs exactly 10 minutes of work. Units arrive at the process at a constant and predictable rate. If the arrival rate is one unit every 30 minutes, then the process will be utilised for only 33.33 per cent of the time, and the units will never have to wait to be processed. This is shown as point A in Figure 6.15. If the arrival rate increases to one arrival every 20 minutes, the utilisation increases to 50 per cent, and again the units will not have to wait to be processed. This is point B in Figure 6.15. If the arrival rate increases to one arrival every 10 minutes, the process is now fully utilised, but, because a unit arrives just as the previous one has finished being processed, no unit has to wait. This is point C in Figure 6.15. However, if the arrival rate ever exceeded one unit every 10 minutes, the waiting line in front of the process activity would build up indefinitely, as is shown as point D in Figure 6.15. So, in a perfectly constant and predictable world, the relationship between process waiting time and utilisation is a rectangular function–as shown by the dotted line in Figure 6.15.
 
-
-
-
-
-
-
-
-
-
-
-
+![[Summary SOSCM - Macchion-1792589585791.webp]]
 
 
 
