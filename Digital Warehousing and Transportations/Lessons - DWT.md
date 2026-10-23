@@ -607,7 +607,9 @@ if we meet the saturation:
 ![[Lessons - DWT-1792786518260.webp|464]]
 
 $$\frac{0.8(0.1+0.1)}{1.2 \cdot 0.8} = 0.166 = 16,6\%$$
-Means that the costs will be 16.
+Means that the costs will be 16.6% higher than with the optimal solution (complete overlap)
+
+## Carboard Boxes
 
 
 
