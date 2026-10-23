@@ -610,6 +610,25 @@ $$\frac{0.8(0.1+0.1)}{1.2 \cdot 0.8} = 0.166 = 16,6\%$$
 Means that the costs will be 16.6% higher than with the optimal solution (complete overlap)
 
 ## Carboard Boxes
+![[Lessons - DWT-1792787821705.webp]]
+
+## Type of boxes
+Boxes with folders
+![[Lessons - DWT-1792787996558.webp]]
+Telescopic Boxes 
+![[Lessons - DWT-1792788014453.webp]]
+
+0400 : FOLDER BOXES (for documents)
+0500: SLICING BEXES
+0600: RIGID CASES
+0700: AUTOMATIC BOTTOM BOXES
+
+
+
+
+
+
+
 
 
 
