@@ -576,21 +576,44 @@ In a 20ft container:
 
 If we want to saturate in a very good way we have to overlap with the border of the pallet -> **perfect saturation**
 The target values of the secondary packaging footprint are:
-|  |
-| :--- |
-|  |
-|  |
-|  |
-|  |
-|  |
-| |
+
+| Dimensions |       |
+| ---------- | ----- |
+| 800 x 600  | 800/2 |
+| 400 x 600  | 600/2 |
+| 400 x 300  | 400/2 |
+| 200 x 300  | 300/2 |
+| 200 x 150  | 200/2 |
+| 100 x 150  |       |
+
+**OTHE DIMENSIONS**
+
+| **Dimensioni** |
+| -------------- |
+| 266 x 400 mm   |
+| 266 x 300 mm   |
+| 266 x 196 mm   |
+| 133 x 150 mm   |
+  
+**EXAMPLE**
+320 x 220 x 120 are *not good dimensions*
+
+| **Categoria**      | **Calcoli**                           | **Risultato / Note**           |
+| ------------------ | ------------------------------------- | ------------------------------ |
+| **Disposizione 1** | 1200 / 320 = 3.75<br>800 / 220 = 3.63 | 3 x 3<br>= 9 boxes per layer   |
+| **ROTATE THE BOX** | 800 / 320 = 2.50<br>1200 / 220 = 5.45 | 2 x 5 <br>= 10 boxes per layer |
+
+if we meet the saturation:
+![[Lessons - DWT-1792786518260.webp|464]]
+
+$$\frac{0.8(0.1+0.1)}{1.2 \cdot 0.8} = 0.166 = 16,6\%$$
+Means that the costs will be 16.
 
 
 
-| Dimensions    |
-| ------------- |
-| 800 x 600     |
-| 400 x 600     |
-| 400 x 300 / 2 |
-| 200 x 300 / 2 |
-| 200 x 150     |
+
+
+
+
+
+
