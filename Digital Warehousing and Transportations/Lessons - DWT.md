@@ -623,18 +623,24 @@ Telescopic Boxes
 0600: RIGID CASES
 0700: AUTOMATIC BOTTOM BOXES
 
+![[Lessons - DWT-1792788098606.webp]]
 
+$$
+S = (2L + 2B)\cdot (H+B) = 2LB + 2BH + 2LB + 2B^2 
+$$
 
+![[Lessons - DWT-1792788305274.webp|464]]
 
+If B increases the box cost increases even more (a lot)
+usually costs of box:
+$$
+C_{box} \approx 1.2 \cdot S
+$$
+where:
+- 1.2: $€/m^2$ of the typical cardboard material
+- S: surface of rectangle that contains the development box
 
-
-
-
-
-
-
-
-
+# Lesson 6
 
 
 
