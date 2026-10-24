@@ -677,6 +677,12 @@ We have to compare 4 types of boxes
 ![[Lessons - DWT-1792835575507.webp|529x536]]
 
 **BOX (a)**
+$$
+S = (2L+2B)(H+B) = 0.6728 m^2 \\
+C_{type (a)} = 0.6728 \cdot 1.2 = 0.81 \text{ €/box}
+$$
+
+**BOX (b)**
 
 ```horizontal
 ![[Lessons - DWT-1792835619514.webp|519x290]]
@@ -688,7 +694,7 @@ C_{\text{type (c)}} = 0.783 \cdot 1.2 = 0.94 €/box \space m^2 \\
 $$
 ```
 
-
+**BOX (c)**
 
 ```horizontal
 ![[Lessons - DWT-1792836096027.webp]]
@@ -700,6 +706,26 @@ C_{\text{type (c)}} = 0.894 \cdot 1.2 = 1.08 €/box \\
 $$
 
 ```
+
+**BOX (d)**
+
+```horizontal
+
+---
+$$
+B^* = B + 5mm \\
+H^* = H + 5mm \\
+L^* = L + 5mm \\
+$$
+for the sake of the calculations we don't consider the 5mm
+$$
+S = 2[(L+2H)(B+2H)] = 2.26 m^2 \\
+C_{\text{}}
+$$
+```
+
+
+
 
 
 
