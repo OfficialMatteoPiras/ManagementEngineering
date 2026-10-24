@@ -725,8 +725,12 @@ C_{\text{type d}} = 2.26 \cdot 1.2 = 2.75 \text{ €/box} \\
 $$
 ```
 
+---
+> [!important] It's important to conduct an integrated study of packaging
 
+Having a bag with snaks:
+![[Lessons - DWT-1792837112175.webp]]
 
-
+we have to decide the $2^nd-ary$ packaging
 
 
