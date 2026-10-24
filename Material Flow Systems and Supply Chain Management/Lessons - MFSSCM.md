@@ -736,11 +736,18 @@ Following a balancing solution is provided applying the KWM heuristic approach a
 
 ![[Lessons - MFSSCM-1792322973847.webp]]
 
-#
+# LECTURE 7: ASSEMBLY SYSTEM BALANCING WITH A MATHEMATICAL METHOD
+The following mathematical formulation is based on the Patterson and Albracht algorithm (1975), and considers the following assumptions:
+- Single-product assembly line
+- Fixed cycle time
+- Deterministic and integral operation times
+- No assignment restrictions beside the precedence constraints
+- Serial line layout with one-sided stations
+- All stations are equally equipped
 
+> the points above are the **assumptions of the model**
 
-
-
+## Steps to the solution
 
 
 
