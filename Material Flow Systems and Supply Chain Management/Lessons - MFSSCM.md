@@ -797,6 +797,41 @@ When the cycle time c is fixed and we want to minimize the number of stations m 
 1) Minimize the maximum station idle time as:
 $$ o.f. = \min \left\{ \max_k \left( c - \sum_{j \in b_k} t_j \cdot x_{jk} \right) \right\} $$
 2) Minimize the station smoothness as:
+$$ o.f. = \min \sum_k \left| \sum_{j \in b_k} t_j \cdot x_{jk} - \frac{\sum_j t_j}{m} \right| $$
+
+> WHERE: Both objective functions also subject to the constraints sets 1, 2 and 3 on step 4
+
+#### Objective functions for SALBP-2
+When the number of stations m is fixed and the cycle time needs to be minimized, the following objective function should be added to the previous SALBP-F algorithm:
+$$
+O.F. = \min Z = c
+$$
+Where c is a variable in the model and not a fixed numerical value, and constraints sets 1, 2 and 3 introduced in the previous paragraph assure the respect of the basic assembly line requirements and in particular, the constraint set 3 ensures that the total task processing time assigned to workstation k does not exceed the cycle time c.
+![[Lessons - MFSSCM-1792849263881.webp]]
+
+Using these parameters, we can now write all the equations about the constraints:
+1) Occurrence Constraints (one equation for each task):
+$$ \sum_{k \in si_j} x_{jk} = 1 \quad \text{for } j = 1, \dots, n $$
+$$ \begin{cases} x_{a1} = 1 \\ x_{b1} + x_{b2} = 1 \\ x_{c1} + x_{c2} = 1 \\ x_{d1} + x_{d2} = 1 \\ x_{e1} + x_{e2} = 1 \\ x_{f2} + x_{f3} = 1 \\ x_{g2} + x_{g3} = 1 \\ x_{h3} = 1 \end{cases} $$
+2) Cycle time constraints (one inequality formula for each station):
+$$ \sum_{j \in b_k} t_j \cdot x_{jk} \le c \quad \text{for } k = 1, \dots, m $$$$ \begin{cases} t_a \cdot x_{a1} + t_b \cdot x_{b1} + t_c \cdot x_{c1} + t_d \cdot x_{d1} + t_e \cdot x_{e1} \le 10 \\ t_b \cdot x_{b2} + t_c \cdot x_{c2} + t_d \cdot x_{d2} + t_e \cdot x_{e2} + t_f \cdot x_{f2} + t_g \cdot x_{g2} \le 10 \\ t_f \cdot x_{f3} + t_g \cdot x_{g3} \le 10 \end{cases} $$
+3) Precedence constraints (one inequality formula for each arc in the precedence diagram)
+$$ \sum_{k \in si_h} k \cdot x_{hk} \le \sum_{k \in si_j} k \cdot x_{jk} \quad \text{for } (h,j) \in a \text{ and } l_h \ge e_j $$
+$$ \begin{cases} 1 \cdot x_{a1} \le 1 \cdot x_{b1} + 2 \cdot x_{b2} \\ 1 \cdot x_{a1} \le 1 \cdot x_{c1} + 2 \cdot x_{c2} \\ 1 \cdot x_{a1} \le 1 \cdot x_{d1} + 2 \cdot x_{d2} \\ 1 \cdot x_{b1} + 2 \cdot x_{b2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 1 \cdot x_{c1} + 2 \cdot x_{c2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 1 \cdot x_{d1} + 2 \cdot x_{d2} \le 1 \cdot x_{e1} + 2 \cdot x_{e2} \\ 1 \cdot x_{e1} + 2 \cdot x_{e2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 2 \cdot x_{f2} + 3 \cdot x_{f3} \le 2 \cdot x_{g2} + 3 \cdot x_{g3} \\ 2 \cdot x_{g2} + 3 \cdot x_{g3} \le 3 \cdot x_{h3} \end{cases} $$
+![[Lessons - MFSSCM-1792849386595.webp]]
+
+
+```horizontal
+![[Lessons - MFSSCM-1792849428722.webp|504x401]]
+---
+![[Lessons - MFSSCM-1792849437877.webp]]
+```
+
+
+
+
+
+
 
 
 
