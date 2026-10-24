@@ -647,12 +647,25 @@ $Q_{boxes} = 30 000 \text{ boxes/month}$
 
 ![[Pasted image 20261024110921.png]]
 
+Company asked us the study related to packing:
+$$ S_{BOX} = (2L + 2B)(H + B) = 2LH + 2BH + 2LB + 2B^2 $$
+We want to lower B. We can do that with the perfect shape of the card box:
+$$ L = H \qquad B = \frac{L}{2} = \frac{H}{2} $$
+
+To-Be solution:
 
 
 
+AS-IS:
+in meters
+$$ S = (2B + 2L)(H + B) = (0.39 \cdot 2 + 0.39 \cdot 2)(0.28 + 0.39) = 1.05 \text{ m}^2 $$
 
+IF WE CONSIDER SPECIFIC COST OF CARDBOARD
+$$ C_{\text{CARDBOARD}} = 1.2 \text{ €/m}^2 $$
 
+$$ C_{\text{BOX}} = 1.05 \cdot 1.2 = 1.26 \text{ €/BOX} $$
 
+$$ C_{\text{BOX YEAR}} = 1.26 \left(\frac{\text{€}}{\text{BOX}}\right) \cdot 30000 \left(\frac{\text{BOX}}{\text{MONTH}}\right) \cdot 12 \left(\frac{\text{MONTH}}{\text{YEAR}}\right) = 453600 \text{ €/YEAR} $$
 
 
 
