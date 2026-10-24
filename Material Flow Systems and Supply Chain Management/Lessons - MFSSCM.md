@@ -748,12 +748,44 @@ The following mathematical formulation is based on the Patterson and Albracht al
 > the points above are the **assumptions of the model**
 
 ## Steps to the solution
+Generally, starting from the data regarding the tasks operation time, the precedence diagram and the required production rate, the balancing procedure follows these phases:
+1. calculation of cycle time (c)
+2. definition of number of stations (m)
+3. identification of earliest and latest stations
+4. definition of constraints
+5. optimization of solution
 
+### Step 1
+in step 1, the calculation of cycle time is very simple and it is related to the required production rate by this formula:
+$$ c = \frac{60}{p} $$expressed in \[min\] if p is measured in \[pcs/h\] or:
+$$ c = \frac{3600}{p} $$expressed in \[sec\] if p is measured in \[pcs/h\]
 
+### Step 2
+Next, to define the number of stations, the theoretical value m∗ is calculated as the ratio between the total time to assemble the products and the cycle time:
+$$ m^* = \left\lceil \frac{\sum_j t_j}{c} \right\rceil $$
+Usually the next higher integer is chosen to define the real number of stations m, but in some cases it could be higher, mainly due to the operation time and precedence diagram.
+### Step 3
+In step 3, the precedence relations are used to restrict the number of stations to which a task can be assigned, delimited by the earliest possible workstation for task j ($E_j$ ) and the latest possible workstation for task j ($L_j$ ) using the following equations:
 
+$$ x_{jk} = \begin{cases} 1 & \text{if task } j \text{ assigned to work station } k \\ 0 & \text{if task } j \text{ not assigned to work station } k \end{cases} $$
 
+$$ e_j = \left\lceil \frac{t_j + \sum_{h \in p_j^*} t_h}{c} \right\rceil $$
 
+slide before (riferito a $m$) latest station index (riferito a $l_j$)
 
+$$ l_j = m + 1 - \left\lceil \frac{t_j + \sum_{h \in f_j^*} t_h}{c} \right\rceil $$
+
+eg
+- 10 task
+- 4 ws
+- $4 \cdot 10 = 40$ \text{ variables \[binary\]}
+
+resolution time is lower
+
+The first one considers that a task j must not start before all its preceding tasks are performed, while the second formula delimits the latest station to which the same task j can be allocated based on its successors and the total number of stations. As a result, the range of workstations \[$E_j, L_j$\] to which each task can be assigned is obtained and the number of binary variables is reduced, this range is called the Station Interval of task j ($SI_j$).
+### Step 4
+
+### Step 5
 
 
 
