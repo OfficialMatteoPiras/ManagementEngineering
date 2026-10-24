@@ -731,6 +731,20 @@ $$
 Having a bag with snaks:
 ![[Lessons - DWT-1792837112175.webp]]
 
-we have to decide the $2^nd-ary$ packaging
+we have to decide the $2^nd-ary$ packaging 
+
+![[Lessons - DWT-1792837389127.webp|557]]
+
+Quantity shipped per month: $Q_{\text{shipped/month}} = 280800 \text{ bags/month}$
+Let's say we ship from the UK:
+$$
+C_{transport} = 1600 \text{ €/trip} 
+$$
+
+
+
+
+
+
 
 
