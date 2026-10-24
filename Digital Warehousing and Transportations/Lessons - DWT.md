@@ -738,11 +738,15 @@ we have to decide the $2^nd-ary$ packaging
 Quantity shipped per month: $Q_{\text{shipped/month}} = 280800 \text{ bags/month}$
 Let's say we ship from the UK:
 $$
-C_{transport} = 1600 \text{ €/trip} 
+C_{transport} = 1600 \text{ €/trip} \\
+33 \times 2 = 66 \text{  unitt load / trip} \\
+\rightarrow \text{max  } H_{\text{unit laod}} = 1.35 m \\
+C_{\text{corrugated cardboard}} = 1.2€/m^2
 $$
 
+![[Lessons - DWT-1792838311203.webp|642]]
 
-
+Evaluate:
 
 
 
