@@ -678,12 +678,28 @@ We have to compare 4 types of boxes
 
 **BOX (a)**
 
+```horizontal
 ![[Lessons - DWT-1792835619514.webp|519x290]]
+---
+$$
+S = (2L+2B)(H+1.5B) = 0.783 \\
+C_{\text{type (c)}} = 0.783 \cdot 1.2 = 0.94 €/box \space m^2 \\
+\rightarrow +16%
+$$
+```
 
 
 
+```horizontal
+![[Lessons - DWT-1792836096027.webp]]
+---
+$$
+S = (SL+SB)(H+2B) = 0.894 m^2 \\
+C_{\text{type (c)}} = 0.894 \cdot 1.2 = 1.08 €/box \\
+\rightarrow \space +33% \text{  wrt american} 
+$$
 
-
+```
 
 
 
