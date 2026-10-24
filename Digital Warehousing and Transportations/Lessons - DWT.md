@@ -672,11 +672,13 @@ $$ \frac{\text{to-be}}{\text{as-is}} = \frac{388800}{453600} = 0.8571 \Rightarro
 
 ![[Lessons - DWT-1792834753126.webp|536x328]]
 
+Example: focus is the choice of the right box
+We have to compare 4 types of boxes
+![[Lessons - DWT-1792835575507.webp|529x536]]
 
+**BOX (a)**
 
-
-
-
+![[Lessons - DWT-1792835619514.webp|519x290]]
 
 
 
