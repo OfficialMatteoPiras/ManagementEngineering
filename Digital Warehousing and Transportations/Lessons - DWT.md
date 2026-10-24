@@ -776,11 +776,18 @@ $$
 ![[Lessons - DWT-1792839001265.webp|395x353]]
 
 $$
-N_{\text{}}
+N_{\text{unit loads (b)}} = \frac{23400}{36} = 650 \text{  unit load}\\
+C_{\text{transport (b)}} = 9.85 \cdot 1600 = 15760 \text{ €/month}
 $$
 
+| **cases** | **a**          | **b**          |
+| --------- | -------------- | -------------- |
+| packaging | 17 691         | 20 124         |
+| transport | 17 760         | 15 760         |
+| tot       | 35 451 €/month | 35 884 €/month |
+|           |                | 1.1% higher    |
 
-
+# Lesson 7
 
 
 
