@@ -665,18 +665,10 @@ $$ C_{\text{BOX}} = 1.05 \cdot 1.2 = 1.26 \text{ €/BOX} $$
 $$ C_{\text{BOX YEAR}} = 1.26 \left(\frac{\text{€}}{\text{BOX}}\right) \cdot 30000 \left(\frac{\text{BOX}}{\text{MONTH}}\right) \cdot 12 \left(\frac{\text{MONTH}}{\text{YEAR}}\right) = 453600 \text{ €/YEAR} $$
 
 to-be:
-$$ s = (2 \cdot 0.39 + 2 \cdot 0.28)(0.39 + 0.28) = 0.8978 \text{ m}^2 $$[cite: 34]
-
-$$ c_{\text{box to-be}} = 0.8978 \cdot 1.2 = 1.08 \text{ €/box} $$[cite: 34]
-
-$$ c_{\text{box to-be year}} = 1.08 \cdot 30000 \cdot 12 = 388800 \text{ €/year} $$[cite: 34]
-
-$$ \frac{\text{to-be}}{\text{as-is}} = \frac{388800}{453600} = 0.8571 \Rightarrow 86\% $$[cite: 34]
-
-$$ \Rightarrow \text{saving } 14\% $$[cite: 34]
-
-not taking consideration of optimization of boxes[cite: 34]
-
+$$ s = (2 \cdot 0.39 + 2 \cdot 0.28)(0.39 + 0.28) = 0.8978 \text{ m}^2 $$
+$$ c_{\text{box to-be}} = 0.8978 \cdot 1.2 = 1.08 \text{ €/box} $$
+$$ c_{\text{box to-be year}} = 1.08 \cdot 30000 \cdot 12 = 388800 \text{ €/year} $$
+$$ \frac{\text{to-be}}{\text{as-is}} = \frac{388800}{453600} = 0.8571 \Rightarrow 86\% $$$$ \Rightarrow \text{saving } 14\% $$
 
 
 
