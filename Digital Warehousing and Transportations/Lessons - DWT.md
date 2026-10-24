@@ -747,7 +747,18 @@ $$
 ![[Lessons - DWT-1792838311203.webp|642]]
 
 Evaluate:
+(a)
 
+$$ s = (2l + 2b)(h + b) = 1.26 \text{ m}^2 $$
+$$ l = 0.5 \quad b = 0.4 \quad h = 0.3 $$
+
+$$ c_a = 1.26 \cdot 1.2 = 1.512 \text{ €/box} $$
+
+$$ n_{\text{box/month}} = \frac{280800 \text{ bags}}{24 \text{ bags/box}} = 11700 \text{ boxes/month} $$
+
+$$ c_{\text{box a}} = 117000 \cdot 1.512 = 17691 \text{ €/month} $$
+
+sol (a) -> transport cost (50% pallet)
 
 
 
