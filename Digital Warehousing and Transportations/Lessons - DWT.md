@@ -641,9 +641,9 @@ where:
 - S: surface of rectangle that contains the development box
 
 # Lesson 6
+![[Lessons - DWT-1792833775263.webp]]
 
-
-
+$Q_{boxes} = 30 000 \text{ boxes/month}$
 
 ![[Pasted image 20261024110921.png]]
 
