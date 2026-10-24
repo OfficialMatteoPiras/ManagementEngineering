@@ -710,7 +710,7 @@ $$
 **BOX (d)**
 
 ```horizontal
-
+![[Lessons - DWT-1792836671118.webp]]
 ---
 $$
 B^* = B + 5mm \\
@@ -720,7 +720,8 @@ $$
 for the sake of the calculations we don't consider the 5mm
 $$
 S = 2[(L+2H)(B+2H)] = 2.26 m^2 \\
-C_{\text{}}
+C_{\text{type d}} = 2.26 \cdot 1.2 = 2.75 \text{ €/box} \\
+\rightarrow +333% \text{  wrt american}
 $$
 ```
 
