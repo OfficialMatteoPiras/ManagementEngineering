@@ -768,28 +768,35 @@ Usually the next higher integer is chosen to define the real number of stations 
 In step 3, the precedence relations are used to restrict the number of stations to which a task can be assigned, delimited by the earliest possible workstation for task j ($E_j$ ) and the latest possible workstation for task j ($L_j$ ) using the following equations:
 
 $$ x_{jk} = \begin{cases} 1 & \text{if task } j \text{ assigned to work station } k \\ 0 & \text{if task } j \text{ not assigned to work station } k \end{cases} $$
-
 $$ e_j = \left\lceil \frac{t_j + \sum_{h \in p_j^*} t_h}{c} \right\rceil $$
 
-slide before (riferito a $m$) latest station index (riferito a $l_j$)
+slide before (riferito a $m$). Latest station index (riferito a $l_j$)
 
 $$ l_j = m + 1 - \left\lceil \frac{t_j + \sum_{h \in f_j^*} t_h}{c} \right\rceil $$
 
-eg
+example:
 - 10 task
 - 4 ws
 - $4 \cdot 10 = 40$ \text{ variables \[binary\]}
-
-resolution time is lower
+resolution time is lower.
 
 The first one considers that a task j must not start before all its preceding tasks are performed, while the second formula delimits the latest station to which the same task j can be allocated based on its successors and the total number of stations. As a result, the range of workstations \[$E_j, L_j$\] to which each task can be assigned is obtained and the number of binary variables is reduced, this range is called the Station Interval of task j ($SI_j$).
 ### Step 4
-
+Then, based on the formulation developed by Patterson & Albracth (1975), with the binary variable $x_{jk}$ as 1, if task j is assigned to station k and 0 otherwise, the following constraints are introduced:
+1. Occurrence constraints (ensuring that each task is assigned to exactly one stations in its interval.
+$$ \sum_{k \in si_j} x_{jk} = 1 \quad \text{for } j = 1, \dots, n $$
+2. Cycle time constraints (guaranteeing the respect of cycle time in each station)
+$$ \sum_{j \in b_k} t_j \cdot x_{jk} \le c \quad \text{for } k = 1, \dots, m $$
+3. Precedence constraints (assuring that no task is assigned to an earlier station than its predecessor)
+$$ \sum_{k \in si_h} k \cdot x_{hk} \le \sum_{k \in si_j} k \cdot x_{jk} \quad \text{for } (h,j) \in a \text{ and } l_h \ge e_j $$
+Based on these constraints, the algorithm will find all the existing feasible solutions for m=m* and a fixed and known cycle time c. If none feasible solution exist, the algorithm will be reiterated for m=m*+1, and so on until it will find at least one feasible solution. Without defining an objective function to minimize or maximize, the model is a so-called SALBP-F, since the aim is not to find an optimal solution but all the existing feasible solution for fixed values of m and c.
+![[Lessons - MFSSCM-1792849037250.webp]]
 ### Step 5
-
-
-
-
+#### Objective functions for SALBP-1
+When the cycle time c is fixed and we want to minimize the number of stations m opened in the system in order to reduce the labour costs, we need to add to the previous algorithm an objective function. The analyst according to the specific objectives to reach in the system design can define different objective functions. The most used objective functions have the final scope to smooth the workload among the workstations. This can be achieved in several ways, two most used objectives functions are the following.
+1) Minimize the maximum station idle time as:
+$$ o.f. = \min \left\{ \max_k \left( c - \sum_{j \in b_k} t_j \cdot x_{jk} \right) \right\} $$
+2) Minimize the station smoothness as:
 
 
 
