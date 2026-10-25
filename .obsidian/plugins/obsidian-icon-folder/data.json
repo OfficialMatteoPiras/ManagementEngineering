@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiChartLine",
       "LiMap",
       "LiWarehouse",
@@ -35,5 +36,6 @@
   },
   "Digital Marketing and International Management": "LiMap",
   "Digital Warehousing and Transportations": "LiWarehouse",
-  "Material Flow Systems and Supply Chain Management": "LiChartLine"
+  "Material Flow Systems and Supply Chain Management": "LiChartLine",
+  "Smart Operations and Supply Chain Management": "LiActivity"
 }
