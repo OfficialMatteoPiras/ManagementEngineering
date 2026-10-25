@@ -130,23 +130,23 @@ Why not a smaller, fully shared fleet: every floor change occupies a lift for ab
 
 ### 4.5 Summary
 
-| Item             | Choice                                                                          |
-| ---------------- | ------------------------------------------------------------------------------- |
-| Tiers            | 10 (u\_h = 1.85 $m, 1$8.5 m height)                                             |
-| Lanes            | N\_C = 6 deep, N\_L = 44 per side, one cross-aisle per tier along the 45 m side |
-| Positions        | 4740 net (790 SKUs), about 4000 at 84% fill                                     |
-| Lifts            | 3, at 6.2 / 18.7 / 31.2 m along the aisle                                       |
-| Shuttles         | 11 (4 on tiers 1–2, 3 on tiers 3–5, 2 roaming, 2 spare)                         |
-| Shuttle cycle    | about 82 s, about 44 tx/h per shuttle                                           |
-| Peak utilization | Lifts 46% (25% with ABC), shuttles 23% uniform                                  |
+| Item             | Choice                                                                             |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| Tiers            | 10 ($u_h$ = 1.85 m, 18.5 m height)                                                 |
+| Lanes            | $N_{}C$ = 6 deep, N\_L = 44 per side, one cross-aisle per tier along the 45 m side |
+| Positions        | 4740 net (790 SKUs), about 4000 at 84% fill                                        |
+| Lifts            | 3, at 6.2 / 18.7 / 31.2 m along the aisle                                          |
+| Shuttles         | 11 (4 on tiers 1–2, 3 on tiers 3–5, 2 roaming, 2 spare)                            |
+| Shuttle cycle    | about 82 s, about 44 tx/h per shuttle                                              |
+| Peak utilization | Lifts 46% (25% with ABC), shuttles 23% uniform                                     |
 
 ## 5. Parametric model (first expected result)
 
 ### 5.1 Best shape
 
-With mean cross-aisle distance ā = κ·L (L = N\_L·u\_w) and capacity per tier fixed (N\_C·N\_L constant), the shuttle cycle is minimal when
+With mean cross-aisle distance $ā = κ·L (L = N_L·u_w)$ and capacity per tier fixed ($N_C·N_L$ constant), the shuttle cycle is minimal when
 
-**D/W\* = (N\_C·u\_d)/(N\_L·u\_w) = 2κ / (1 + f)**
+$$D/W\* = (N\_C·u\_d)/(N\_L·u\_w) = 2κ / (1 + f)$$
 
 The coefficient κ depends only on the lift positions: 1/2 with one lift at the aisle end, 1/4 with one lift at the centre, **1/(4n)** with n equally spaced lifts.
 
