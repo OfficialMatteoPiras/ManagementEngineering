@@ -831,10 +831,13 @@ Let's solve the example:
 -  For the box number 1:
 $$
 S = (2L + 2B)(H+B) = 0.84 m^2
+\\
+C_{\text{expected cost}} = S \cdot \bar c = 0.84 \cdot 1.2 = 1 €/box
 $$
+and since its the same value as $c_1$ we can say that the **price is correct**
 ![[Lessons - DWT-1793025938445.webp|299x235]]
 
-
+- For the box number 2:
 
 
 
