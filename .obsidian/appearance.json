@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Velocity",
+  "cssTheme": "Catppuccin",
   "showRibbon": true,
-  "accentColor": "#d51bee",
+  "accentColor": "#701bee",
   "theme": "obsidian",
   "baseFontSizeAction": false
 }

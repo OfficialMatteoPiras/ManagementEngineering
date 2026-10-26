@@ -20,7 +20,6 @@
   "advanced-canvas",
   "canvas-mindmap",
   "obsidian-citation-plugin",
-  "obsidian-custom-attachment-location",
   "dataview",
   "heading-level-indent",
   "obsidian-hover-editor",
@@ -37,5 +36,8 @@
   "ink",
   "link-iframe",
   "image-converter",
-  "web-browser"
+  "web-browser",
+  "advanced-rename-and-delete-handler",
+  "obsidian-latex-suite",
+  "obsidian-annotator"
 ]

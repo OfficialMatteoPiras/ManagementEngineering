@@ -732,20 +732,103 @@ Step 2) List the elements in order of their columns, where the first column repr
 Step 3) To assign elements to workstations, start with the first level and continue the assignment procedure in order of level number until the cycle time is reached.
 
 At each level, if the tasks cannot be assigned together at a station, they can be selected using a rule: decreasing order of task time, decreasing order of weights as in the RPW method, or others).
-Following a balancing solution is provided applying the KWM heuristic approach and using the task weights according to RPW method in case of several assignment possibilities.![[Lessons - MFSSCM-1792322973847.webp]]
+Following a balancing solution is provided applying the KWM heuristic approach and using the task weights according to RPW method in case of several assignment possibilities.
+
+![[Lessons - MFSSCM-1792322973847.webp]]
+
+# LECTURE 7: ASSEMBLY SYSTEM BALANCING WITH A MATHEMATICAL METHOD
+The following mathematical formulation is based on the Patterson and Albracht algorithm (1975), and considers the following assumptions:
+- Single-product assembly line
+- Fixed cycle time
+- Deterministic and integral operation times
+- No assignment restrictions beside the precedence constraints
+- Serial line layout with one-sided stations
+- All stations are equally equipped
+
+> the points above are the **assumptions of the model**
+
+## Steps to the solution
+Generally, starting from the data regarding the tasks operation time, the precedence diagram and the required production rate, the balancing procedure follows these phases:
+1. calculation of cycle time (c)
+2. definition of number of stations (m)
+3. identification of earliest and latest stations
+4. definition of constraints
+5. optimization of solution
+
+### Step 1
+in step 1, the calculation of cycle time is very simple and it is related to the required production rate by this formula:
+$$ c = \frac{60}{p} $$expressed in \[min\] if p is measured in \[pcs/h\] or:
+$$ c = \frac{3600}{p} $$expressed in \[sec\] if p is measured in \[pcs/h\]
+
+### Step 2
+Next, to define the number of stations, the theoretical value m∗ is calculated as the ratio between the total time to assemble the products and the cycle time:
+$$ m^* = \left\lceil \frac{\sum_j t_j}{c} \right\rceil $$
+Usually the next higher integer is chosen to define the real number of stations m, but in some cases it could be higher, mainly due to the operation time and precedence diagram.
+### Step 3
+In step 3, the precedence relations are used to restrict the number of stations to which a task can be assigned, delimited by the earliest possible workstation for task j ($E_j$ ) and the latest possible workstation for task j ($L_j$ ) using the following equations:
+
+$$ x_{jk} = \begin{cases} 1 & \text{if task } j \text{ assigned to work station } k \\ 0 & \text{if task } j \text{ not assigned to work station } k \end{cases} $$
+$$ e_j = \left\lceil \frac{t_j + \sum_{h \in p_j^*} t_h}{c} \right\rceil $$
+
+slide before (riferito a $m$). Latest station index (riferito a $l_j$)
+
+$$ l_j = m + 1 - \left\lceil \frac{t_j + \sum_{h \in f_j^*} t_h}{c} \right\rceil $$
+
+example:
+- 10 task
+- 4 ws
+- $4 \cdot 10 = 40$ \text{ variables \[binary\]}
+resolution time is lower.
+
+The first one considers that a task j must not start before all its preceding tasks are performed, while the second formula delimits the latest station to which the same task j can be allocated based on its successors and the total number of stations. As a result, the range of workstations \[$E_j, L_j$\] to which each task can be assigned is obtained and the number of binary variables is reduced, this range is called the Station Interval of task j ($SI_j$).
+### Step 4
+Then, based on the formulation developed by Patterson & Albracth (1975), with the binary variable $x_{jk}$ as 1, if task j is assigned to station k and 0 otherwise, the following constraints are introduced:
+1. Occurrence constraints (ensuring that each task is assigned to exactly one stations in its interval.
+$$ \sum_{k \in si_j} x_{jk} = 1 \quad \text{for } j = 1, \dots, n $$
+2. Cycle time constraints (guaranteeing the respect of cycle time in each station)
+$$ \sum_{j \in b_k} t_j \cdot x_{jk} \le c \quad \text{for } k = 1, \dots, m $$
+3. Precedence constraints (assuring that no task is assigned to an earlier station than its predecessor)
+$$ \sum_{k \in si_h} k \cdot x_{hk} \le \sum_{k \in si_j} k \cdot x_{jk} \quad \text{for } (h,j) \in a \text{ and } l_h \ge e_j $$
+Based on these constraints, the algorithm will find all the existing feasible solutions for m=m* and a fixed and known cycle time c. If none feasible solution exist, the algorithm will be reiterated for m=m*+1, and so on until it will find at least one feasible solution. Without defining an objective function to minimize or maximize, the model is a so-called SALBP-F, since the aim is not to find an optimal solution but all the existing feasible solution for fixed values of m and c.
+![[Lessons - MFSSCM-1792849037250.webp]]
+### Step 5
+#### Objective functions for SALBP-1
+When the cycle time c is fixed and we want to minimize the number of stations m opened in the system in order to reduce the labour costs, we need to add to the previous algorithm an objective function. The analyst according to the specific objectives to reach in the system design can define different objective functions. The most used objective functions have the final scope to smooth the workload among the workstations. This can be achieved in several ways, two most used objectives functions are the following.
+1) Minimize the maximum station idle time as:
+$$ o.f. = \min \left\{ \max_k \left( c - \sum_{j \in b_k} t_j \cdot x_{jk} \right) \right\} $$
+2) Minimize the station smoothness as:
+$$ o.f. = \min \sum_k \left| \sum_{j \in b_k} t_j \cdot x_{jk} - \frac{\sum_j t_j}{m} \right| $$
+
+> WHERE: Both objective functions also subject to the constraints sets 1, 2 and 3 on step 4
+
+#### Objective functions for SALBP-2
+When the number of stations m is fixed and the cycle time needs to be minimized, the following objective function should be added to the previous SALBP-F algorithm:
+$$
+O.F. = \min Z = c
+$$
+Where c is a variable in the model and not a fixed numerical value, and constraints sets 1, 2 and 3 introduced in the previous paragraph assure the respect of the basic assembly line requirements and in particular, the constraint set 3 ensures that the total task processing time assigned to workstation k does not exceed the cycle time c.
+![[Lessons - MFSSCM-1792849263881.webp]]
+
+Using these parameters, we can now write all the equations about the constraints:
+1) Occurrence Constraints (one equation for each task):
+$$ \sum_{k \in si_j} x_{jk} = 1 \quad \text{for } j = 1, \dots, n $$
+$$ \begin{cases} x_{a1} = 1 \\ x_{b1} + x_{b2} = 1 \\ x_{c1} + x_{c2} = 1 \\ x_{d1} + x_{d2} = 1 \\ x_{e1} + x_{e2} = 1 \\ x_{f2} + x_{f3} = 1 \\ x_{g2} + x_{g3} = 1 \\ x_{h3} = 1 \end{cases} $$
+2) Cycle time constraints (one inequality formula for each station):
+$$ \sum_{j \in b_k} t_j \cdot x_{jk} \le c \quad \text{for } k = 1, \dots, m $$$$ \begin{cases} t_a \cdot x_{a1} + t_b \cdot x_{b1} + t_c \cdot x_{c1} + t_d \cdot x_{d1} + t_e \cdot x_{e1} \le 10 \\ t_b \cdot x_{b2} + t_c \cdot x_{c2} + t_d \cdot x_{d2} + t_e \cdot x_{e2} + t_f \cdot x_{f2} + t_g \cdot x_{g2} \le 10 \\ t_f \cdot x_{f3} + t_g \cdot x_{g3} \le 10 \end{cases} $$
+3) Precedence constraints (one inequality formula for each arc in the precedence diagram)
+$$ \sum_{k \in si_h} k \cdot x_{hk} \le \sum_{k \in si_j} k \cdot x_{jk} \quad \text{for } (h,j) \in a \text{ and } l_h \ge e_j $$
+$$ \begin{cases} 1 \cdot x_{a1} \le 1 \cdot x_{b1} + 2 \cdot x_{b2} \\ 1 \cdot x_{a1} \le 1 \cdot x_{c1} + 2 \cdot x_{c2} \\ 1 \cdot x_{a1} \le 1 \cdot x_{d1} + 2 \cdot x_{d2} \\ 1 \cdot x_{b1} + 2 \cdot x_{b2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 1 \cdot x_{c1} + 2 \cdot x_{c2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 1 \cdot x_{d1} + 2 \cdot x_{d2} \le 1 \cdot x_{e1} + 2 \cdot x_{e2} \\ 1 \cdot x_{e1} + 2 \cdot x_{e2} \le 2 \cdot x_{f2} + 3 \cdot x_{f3} \\ 2 \cdot x_{f2} + 3 \cdot x_{f3} \le 2 \cdot x_{g2} + 3 \cdot x_{g3} \\ 2 \cdot x_{g2} + 3 \cdot x_{g3} \le 3 \cdot x_{h3} \end{cases} $$
+![[Lessons - MFSSCM-1792849386595.webp]]
 
 
+```horizontal
+![[Lessons - MFSSCM-1792849428722.webp|504x401]]
+---
+![[Lessons - MFSSCM-1792849437877.webp]]
+```
 
 
-
-
-
-
-
-
-
-
-
+# 
 
 
 
