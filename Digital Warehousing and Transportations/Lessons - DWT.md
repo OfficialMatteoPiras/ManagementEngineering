@@ -847,6 +847,7 @@ but the value of $c_2$ is higher we can say that the **price is NOT correct**
 
 - For the box number 3:
 the type is different from the two before 
+![[Lessons - DWT-1793027753390.webp]]
 
 
 
