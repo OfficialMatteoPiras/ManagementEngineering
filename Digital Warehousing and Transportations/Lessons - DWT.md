@@ -846,8 +846,13 @@ $$
 but the value of $c_2$ is higher we can say that the **price is NOT correct**
 
 - For the box number 3:
-the type is different from the two before 
-![[Lessons - DWT-1793027753390.webp]]
+the type is different from the two before thus we need to change the formula to compute the surface
+$$
+S_3 = (2L+2B)(H+1.5B) = 1.15 m^3\\
+C_{\text{3 - expected cost}} = S_3 \cdot \bar c = 1.38 €/box
+$$
+but the value of $c_3$ is higher we can say that the **price is NOT correct**
+![[Lessons - DWT-1793027753390.webp|456x257]]
 
 
 
