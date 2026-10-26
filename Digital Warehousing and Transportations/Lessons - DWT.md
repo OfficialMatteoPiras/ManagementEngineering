@@ -787,8 +787,11 @@ $$
 | tot       | 35 451 €/month | 35 884 €/month |
 |           |                | 1.1% higher    |
 
-# Lesson 7
-
+# Lesson 
+In which ways is it possible to understand if the price is correct or not?
+Let's see and example:
+> [!Example]
+> 
 
 
 
