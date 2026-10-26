@@ -791,7 +791,8 @@ $$
 In which ways is it possible to understand if the price is correct or not?
 Let's see and example:
 > [!Example]
-> 
+>  ![[Lessons - DWT-1793025431076.webp]]
+>  
 
 
 
