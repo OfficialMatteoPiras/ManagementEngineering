@@ -832,13 +832,21 @@ Let's solve the example:
 $$
 S = (2L + 2B)(H+B) = 0.84 m^2
 \\
-C_{\text{expected cost}} = S \cdot \bar c = 0.84 \cdot 1.2 = 1 €/box
+C_{\text{1 - expected cost}} = S \cdot \bar c = 0.84 \cdot 1.2 = 1 €/box
 $$
 and since its the same value as $c_1$ we can say that the **price is correct**
 ![[Lessons - DWT-1793025938445.webp|299x235]]
 
 - For the box number 2:
+$$
+S = (2L + 2B)(H+B) = 1.8m^2
+\\
+C_{\text{2 - expected cost}} = \bar c \times S = 2.16 €/box
+$$
+but the value of $c_2$ is higher we can say that the **price is NOT correct**
 
+- For the box number 3:
+the type is different from the two before 
 
 
 
