@@ -791,8 +791,38 @@ $$
 In which ways is it possible to understand if the price is correct or not?
 Let's see and example:
 > [!Example]
+> -  Box number 1:
 >  ![[Lessons - DWT-1793025431076.webp]]
->  
+>  $$
+>  L = 0.4m \\
+>  H = 0.3m \\
+>  B = 0.3m \\
+>  \\
+>  Q_1 = 60 000 boxes/year \\
+>  C_1 = 1 €/year  
+> $$
+> 
+> - Box number 2:
+> ![[Lessons - DWT-1793025637439.webp]]
+>  $$
+>  L = 0.6m \\
+>  B = 0.4m \\
+>  H = 0.5m \\
+>  \\
+>  Q_1 = 60 000 boxes/year \\
+>  C_1 = 1 €/year  
+> $$
+> 
+> - Box number 3:
+>  ![[Lessons - DWT-1793025671532.webp]]
+>  $$
+>  L = 0.4m \\
+>  H = 0.3m \\
+>  B = 0.3m \\
+>  \\
+>  Q_1 = 60 000 boxes/year \\
+>  C_1 = 1 €/year  
+> $$> 
 
 
 
