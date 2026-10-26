@@ -791,8 +791,11 @@ $$
 In which ways is it possible to understand if the price is correct or not?
 Let's see and example:
 > [!Example]
+> $$
+> \bar c = 1.2 €/boxes 
+> $$
 > -  Box number 1:
->  ![[Lessons - DWT-1793025431076.webp]]
+>  ![[Lessons - DWT-1793025431076.webp|283x283]]
 >  $$
 >  L = 0.4m \\
 >  H = 0.3m \\
@@ -803,26 +806,35 @@ Let's see and example:
 > $$
 > 
 > - Box number 2:
-> ![[Lessons - DWT-1793025637439.webp]]
+> ![[Lessons - DWT-1793025637439.webp|264x264]]
 >  $$
 >  L = 0.6m \\
 >  B = 0.4m \\
 >  H = 0.5m \\
 >  \\
->  Q_1 = 60 000 boxes/year \\
->  C_1 = 1 €/year  
+>  Q_2 = 180 000 boxes/year \\
+>  C_2 = 2.4 €/year  
 > $$
 > 
 > - Box number 3:
->  ![[Lessons - DWT-1793025671532.webp]]
+>  ![[Lessons - DWT-1793025671532.webp|268x200]]
 >  $$
->  L = 0.4m \\
->  H = 0.3m \\
->  B = 0.3m \\
+>  L = 0.6m \\
+>  B = 0.25m \\
+>  H = 0.5m \\
 >  \\
->  Q_1 = 60 000 boxes/year \\
->  C_1 = 1 €/year  
-> $$> 
+>  Q_3 = 250 000 boxes/year \\
+>  C_3 = 1.5 €/year  
+> $$
+
+Let's solve the example:
+-  For the box number 1:
+$$
+S = (2L + 2B)(H+B) = 0.84 m^2
+$$
+![[Lessons - DWT-1793025938445.webp|299x235]]
+
+
 
 
 
