@@ -394,8 +394,8 @@ In addition to the costs incurred within each operation to transform its inputs 
 ### Sustainability
 Any organisation that subscribes to sustainability objectives will want to make sure that it purchases its input products and services from suppliers that are similarly responsible. This may involve, for example, buying from local suppliers where possible, sourcing supplies from suppliers with ethical practices, choosing environmentally friendly products and services, using minimal packaging and transporting products by ground transport rather than air.
 
-
-
+## Efficient VS Responsive Supply Chain
+![[Summary SOSCM - Macchion-1793010246137.webp]]
 
 
 
