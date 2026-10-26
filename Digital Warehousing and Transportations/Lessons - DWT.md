@@ -863,7 +863,7 @@ it's very important to reduce the cartoon types to:
 - reduce safety stock
 - reduce the cartons damaged
 - for obtaining lower prices by increasing quantity
-- for automated for
+- for automated for.
 
 ![[Lessons - DWT-1793029376471.webp]]
 
