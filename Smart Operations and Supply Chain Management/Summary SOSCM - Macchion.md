@@ -371,7 +371,7 @@ $$450 \text{ minutes} = \text{Work-in-process} \times 1.5$$
 > ![[Summary SOSCM - Macchion-1793009092506.webp]]
 
 
-
+![[Summary SOSCM - Macchion-1793009598482.webp]]
 
 
 
