@@ -357,8 +357,12 @@ $$450 \text{ minutes} = \text{Work-in-process} \times 1.5$$
 ![[Summary SOSCM - Macchion-1792589585791.webp]]
 
 
+# Chapter 7: Supply chain management
+## Managing supply chains and supply networks
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=262&selection=27,0,43,48&color=note|p.262]]
+> Supply chain management (SCM) is the management of the relationships and flows between the ‘string’ (or chain) of operations and processes that deliver value in the form of products and services to the ultimate consumer. It is a holistic approach to managing across the boundaries of companies and of processes. As illustrated in Figure 7.2, supply chains are technically different to supply networks. A supply network is all the operations that are linked together so as to provide products and services through to end customers. In large supply networks there can be many hundreds of supply chains of linked operations passing through a single operation. Confusingly, the terms supply network and supply chain are often (mistakenly) used interchangeably. It is also worth noting that the ‘flows’ in supply chains are not restricted to the downstream flow of products and services from suppliers through to customers. Although the most obvious failures in supply chain management occur when downstream product or service flows fail to meet customer requirements, the root causes may be failures in the upstream flows of information. As such, supply chain management is as much concerned with managing information flows (upstream and downstream) as it is with managing the flow of products and services.
 
-
+![[Summary SOSCM - Macchion-1793008730335.webp]]
 
 
 
