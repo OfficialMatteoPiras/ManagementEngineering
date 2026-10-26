@@ -853,13 +853,16 @@ C_{\text{3 - expected cost}} = S_3 \cdot \bar c = 1.38 €/box
 $$
 but the value of $c_3$ is higher we can say that the **price is NOT correct**
 ![[Lessons - DWT-1793027753390.webp|456x257]]
-Now we can compare the boxes and find which is the best for us. We can plot the results we've found with the prices
+Now we can compare the boxes and find which is the best for us. We can plot the results we've found with the prices given from the problem statement:
 ![[Lessons - DWT-1793029071143.webp]]
 
+## Standardization of the Packaging
+it's very important to reduce the cartoon types to:
+- reduce safety stock
+- reduce the cartons damaged
+- 
 
-
-
-
+![[Lessons - DWT-1793029376471.webp]]
 
 
 
