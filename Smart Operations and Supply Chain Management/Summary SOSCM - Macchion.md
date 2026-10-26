@@ -358,7 +358,7 @@ $$450 \text{ minutes} = \text{Work-in-process} \times 1.5$$
 
 
 # Chapter 7: Supply chain management
-## Managing supply chains and supply networks
+### Managing supply chains and supply networks
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=262&selection=27,0,43,48&color=note|p.262]]
 > Supply chain management (SCM) is the management of the relationships and flows between the ‘string’ (or chain) of operations and processes that deliver value in the form of products and services to the ultimate consumer. It is a holistic approach to managing across the boundaries of companies and of processes. As illustrated in Figure 7.2, supply chains are technically different to supply networks. A supply network is all the operations that are linked together so as to provide products and services through to end customers. In large supply networks there can be many hundreds of supply chains of linked operations passing through a single operation. Confusingly, the terms supply network and supply chain are often (mistakenly) used interchangeably. It is also worth noting that the ‘flows’ in supply chains are not restricted to the downstream flow of products and services from suppliers through to customers. Although the most obvious failures in supply chain management occur when downstream product or service flows fail to meet customer requirements, the root causes may be failures in the upstream flows of information. As such, supply chain management is as much concerned with managing information flows (upstream and downstream) as it is with managing the flow of products and services.
 
@@ -372,33 +372,36 @@ $$450 \text{ minutes} = \text{Work-in-process} \times 1.5$$
 
 ![[Summary SOSCM - Macchion-1793009598482.webp]]
 
-## Supply chain objectives
+### Supply chain objectives
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=264&selection=59,0,63,59&color=note|p.264]]
 > The objectives of supply chain management are similar to those for individual operations – to deliver services and products to end customers that meet their expectations in terms of quality, speed, dependability, flexibility, cost and sustainability.
 
-### Quality
+#### Quality
 The quality of a product or service when it reaches the customer is a function of the quality performance of every operation in the chain that supplied it. The implication of this is that errors in each stage of the chain can multiply in their effect on end-customer service. For example, if each of seven stages in a supply chain has a 1 per cent error rate, only 93.2 per cent of products or services will be of good quality on reaching the end customer (0.997). This is why only by every stage taking some responsibility for its own and its suppliers’ performance can a supply chain achieve high end-customer quality
 
-### Speed
+#### Speed
 Speed has two meanings in a supply chain context. The first is how fast customers can be served (the elapsed time between a customer requesting a product or service and receiving it in full). However, fast customer response can be achieved simply by over-resourcing or overstocking within the supply chain. For example, very large stocks in a retail operation can reduce the chances of stock-out to almost zero, thus reducing customer waiting time virtually to zero. Similarly, an accounting firm may be able to respond quickly to customer demand by having a very large number of accountants on standby waiting for demand that may occur. An alternative perspective on speed is the time taken for goods and services to move through the chain. So, for example, products that move quickly down a supply chain from raw material suppliers through to retailers will spend little time as inventory because to achieve fast throughput time, material cannot dwell for significant periods as inventory. This in turn reduces the working capital requirements and other inventory costs in the supply chain, so reducing the overall cost of delivering to the end customer. Achieving a balance between speed as responsiveness to customers’ demands and speed as fast throughput (although they are not incompatible) will depend on how the supply chain is choosing to compete.
 
-### Dependability
+#### Dependability
 Dependability in a supply chain context is similar to speed in so much as one can almost guarantee ‘on-time’ delivery by keeping excessive resources within the chain. However, dependability of throughput time is a much more desirable aim because it reduces uncertainty within the chain. If the individual operations in a chain do not deliver as promised on time, there will be a tendency for customers to over-order, or order early, in order to provide some kind of insurance against late delivery. The same argument applies if there is uncertainty regarding the quantity of products or services delivered. This is why delivery dependability is often measured as ‘on-time, in-full’ in supply chains
 
-### Flexibility
+#### Flexibility
 In a supply chain context, flexibility is usually taken to mean the chain’s ability to cope with changes and disturbances. Very often this is referred to as supply chain agility. The concept of agility includes previously discussed issues such as focusing on the end customer and ensuring fast throughput and responsiveness to customer needs. But, in addition, agile supply chains are sufficiently flexible to cope with changes, either in the nature of customer demand or in the supply capabilities of operations within the chain
 
-### Cost
+#### Cost
 In addition to the costs incurred within each operation to transform its inputs into outputs, the supply chain as a whole incurs additional costs that derive from each operation in a chain doing business with each other. These ‘transaction’ costs include the costs of finding appropriate suppliers, setting up supplier agreements (e.g. tendering, negotiation and contracting), running ongoing supply (e.g. ordering, expediting, monitoring supply performance, invoicing and payment), dealing with failure, supplier training, and potentially the costs of exiting an unsatisfactory relationship. It is important to consider the transaction costs of trading with a supplier as opposed to simply the price of the service or product, because they can add substantially to the total cost of trading. Many of the recent developments in supply chain management, such as partnership agreements or reducing the number of suppliers, are an attempt to minimise such transaction costs.
 
-### Sustainability
+#### Sustainability
 Any organisation that subscribes to sustainability objectives will want to make sure that it purchases its input products and services from suppliers that are similarly responsible. This may involve, for example, buying from local suppliers where possible, sourcing supplies from suppliers with ethical practices, choosing environmentally friendly products and services, using minimal packaging and transporting products by ground transport rather than air.
 
-## Efficient VS Responsive Supply Chain
+### Efficient VS Responsive Supply Chain
 ![[Summary SOSCM - Macchion-1793010246137.webp]]
+## 7.2 Diagnostic question: What type of supply chain relationship should be adopted?
+### ‘Transactional’ versus ‘partnership’ relationships
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=267&selection=50,0,88,14&color=note|p.267]]
+> Transactional (or contractual) relationships involve purchasing products and services in a ‘pure’ market fashion, often seeking the ‘best’ supplier every time it is necessary to make a purchase. Transactional relationships can be either long or short term, but there is no guarantee of anything beyond the immediate contract. They are appropriate when short-term benefits are important. In contrast, partnership (or collaborative) relationships are longer term and involve a commitment to work together over time to gain mutual advantage. These relationships emphasise cooperation, frequent interaction, information sharing, joint problem solving and sometimes even profit sharing. The concept of mutuality is important here. A supplier does not Figure 7.4 Types of supply network arrangement NothingEverything Relatively unimportant activities Traditional market supply (usually based on contractual arrangements) ‘Partnership’ supply relationships Who supplies the operation What the operation outsources Vertical integration Virtual spot trading Arm’s length with many suppliers Close, with few suppliers become a ‘partner’ merely by being called one. True partnerships imply mutual benefit, and often mutual sacrifice. If it is not in the culture of a business to give up some freedom of action, it is very unlikely to ever make a success of partnerships. Table 7.1 outlines some of the key advantages of the two alternative extremes of supply chain relationships. It is very unlikely that any business will find it sensible to engage exclusively in one type of relationship or another. Most businesses will have a portfolio of, possibly, widely differing relationships. In addition, there are degrees to which any particular relationship can be managed on a transactional or partnership basis. The real question is: where, on the spectrum from transactional to partnership, should each relationship be positioned! While there is no simple formula for choosing the ‘ideal’ form of relationship, there are some important factors that can sway the decision. The most obvious issue will concern how a business intends to compete in its market-place. If price is the main competitive factor, then the relationship could be determined by which approach offers the highest potential savings. On one hand, market-based contractual relationships could minimise the actual price paid for purchased services, while partnerships could minimise the transaction costs of doing business. If a business is competing primarily on product or service innovation, the type of relationship may depend on where innovation is likely to happen. If innovation depends on close collaboration between supplier and customer, partnership relationships are needed. On the other hand, if suppliers are busily competing to out-do each other in terms of their innovations, and especially if the market is turbulent and fast growing (as with many software and internet-based industries), then it may be preferable to retain the freedom to change suppliers quickly using market mechanisms.
 
-
-
+![[Summary SOSCM - Macchion-1793010963414.webp]]
 
 
 
