@@ -398,10 +398,37 @@ Any organisation that subscribes to sustainability objectives will want to make 
 ![[Summary SOSCM - Macchion-1793010246137.webp]]
 ## 7.2 Diagnostic question: What type of supply chain relationship should be adopted?
 ### ‘Transactional’ versus ‘partnership’ relationships
-> [!PDF] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=267&selection=50,0,88,14|p.267]]
-> Transactional (or contractual) relationships involve purchasing products and services in a ‘pure’ market fashion, often seeking the ‘best’ supplier every time it is necessary to make a purchase. Transactional relationships can be either long or short term, but there is no guarantee of anything beyond the immediate contract. They are appropriate when short-term benefits are important. In contrast, partnership (or collaborative) relationships are longer term and involve a commitment to work together over time to gain mutual advantage. These relationships emphasise cooperation, frequent interaction, information sharing, joint problem solving and sometimes even profit sharing. The concept of mutuality is important here. A supplier does not Figure 7.4 Types of supply network arrangement NothingEverything Relatively unimportant activities Traditional market supply (usually based on contractual arrangements) ‘Partnership’ supply relationships Who supplies the operation What the operation outsources Vertical integration Virtual spot trading Arm’s length with many suppliers Close, with few suppliers become a ‘partner’ merely by being called one. True partnerships imply mutual benefit, and often mutual sacrifice. If it is not in the culture of a business to give up some freedom of action, it is very unlikely to ever make a success of partnerships. Table 7.1 outlines some of the key advantages of the two alternative extremes of supply chain relationships. It is very unlikely that any business will find it sensible to engage exclusively in one type of relationship or another. Most businesses will have a portfolio of, possibly, widely differing relationships. In addition, there are degrees to which any particular relationship can be managed on a transactional or partnership basis. The real question is: where, on the spectrum from transactional to partnership, should each relationship be positioned! While there is no simple formula for choosing the ‘ideal’ form of relationship, there are some important factors that can sway the decision. The most obvious issue will concern how a business intends to compete in its market-place. If price is the main competitive factor, then the relationship could be determined by which approach offers the highest potential savings. On one hand, market-based contractual relationships could minimise the actual price paid for purchased services, while partnerships could minimise the transaction costs of doing business. If a business is competing primarily on product or service innovation, the type of relationship may depend on where innovation is likely to happen. If innovation depends on close collaboration between supplier and customer, partnership relationships are needed. On the other hand, if suppliers are busily competing to out-do each other in terms of their innovations, and especially if the market is turbulent and fast growing (as with many software and internet-based industries), then it may be preferable to retain the freedom to change suppliers quickly using market mechanisms.
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=267&selection=50,0,88,14&color=note|p.267]]
+> Transactional (or contractual) relationships involve purchasing products and services in a ‘pure’ market fashion, often seeking the ‘best’ supplier every time it is necessary to make a purchase. Transactional relationships can be either long or short term, but there is no guarantee of anything beyond the immediate contract. They are appropriate when short-term benefits are important. In contrast, partnership (or collaborative) relationships are longer term and involve a commitment to work together over time to gain mutual advantage. These relationships emphasise cooperation, frequent interaction, information sharing, joint problem solving and sometimes even profit sharing. The concept of mutuality is important here. A supplier does not Figure 7.4 Types of supply network arrangement NothingEverything Relatively unimportant activities Traditional market supply (usually based on contractual arrangements) ‘Partnership’ supply relationships Who supplies the operation What the operation outsources Vertical integration Virtual spot trading Arm’s length with many suppliers Close, with few suppliers 
 
 ![[Summary SOSCM - Macchion-1793010963414.webp]]
+![[Summary SOSCM - Macchion-1793011424974.webp]]
+
+## 7.3 Diagnostic question: Has the sourcing configuration been determined?
+
+### Sourcing approaches
+#### Multiple sourcing
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=269&selection=67,1,81,67&color=note|p.269]]
+> ultiple sourcing involves obtaining a product or service component from more than one supplier. It is commonly seen in competitive markets where switching costs are low and performance objectives are primarily focused on price and dependability. Multiple sourcing can help maintain competition in the supply market, reduce supply risk and increase flexibility in the face of supplier failure or changes in customer demand. It can also allow the buyer to tap into a more diverse range of knowledge and expertise. In addition, some firms like to multi-source to prevent supplier dependence, thus allowing for changes in purchase volumes without the risk of supplier bankruptcy. However, the disadvantage of multiple sourcing is that it requires effort to ensure consistent service quality. In addition, it becomes hard to encourage supplier commitment with suppliers who are less willing to invest in new processes in the absence of longer-term contracts.
+
+![[Summary SOSCM - Macchion-1793011578887.webp]]
+
+#### Single sourcing
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270&selection=8,0,18,72&color=note|p.270]]
+> Single sourcing involves buying all of one product or service component from a single supplier. Often these components represent a high proportion of total spend and are of strategic importance. In other cases, however, firms simply prefer the simplicity (and reduced transaction costs) of single sourcing. Many single-source arrangements have a longer-term outlook and focus on a wider range of performance objectives. The mutual dependency effects of single sourcing can encourage more commitment and effort, and ultimately higher-quality service or product provision. However, single-source arrangements can carry an increased risk of lock-in, upward price pressure and a reduction in the firm’s bargaining power. In addition, such relationships are vulnerable to disruption if a failure to supply occurs
+
+![[Summary SOSCM - Macchion-1793011613051.webp]]
+#### Delegated sourcing
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270&selection=20,0,29,43&color=note|p.270]]
+> Delegated sourcing involves a tiered approach to managing supplier relationships. This means that one supplier is responsible for delivering a package of services as opposed to an individual service, or an entire sub-assembly as opposed to a single part. This has the advantage of reducing the number of first-tier suppliers significantly while simultaneously allowing a focus on strategic partners. However, delegated sourcing can alter the dynamics of the supply market and risk creating ‘mega-suppliers’ with significant power in the network.
+
+![[Summary SOSCM - Macchion-1793011634217.webp]]
+
+#### Parallel sourcing
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270&selection=31,0,60,51&color=note|p.270]]
+> Parallel sourcing has the aim of providing the advantages of both multiple sourcing and single sourcing simultaneously. It involves having single-source relationships for a single component for different service packages or product models. If a supplier is deemed unsatisfactory, it is possible to switch to the alternative supplier who currently provides the same component but for a different service package or product model. The advantage of this sourcing approach is that it maintains competition and allows for switching in circumstances of supplier failure. However, managing delegatedsourcing arrangements is a relatively complex task.
+
+![[Summary SOSCM - Macchion-1793011660570.webp]]
 
 
 
@@ -413,4 +440,12 @@ Any organisation that subscribes to sustainability objectives will want to make 
 
 
 
-	 
+
+
+
+
+
+
+
+
+
