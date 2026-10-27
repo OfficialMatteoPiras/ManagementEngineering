@@ -867,6 +867,15 @@ it's very important to reduce the cartoon types to:
 
 ![[Lessons - DWT-1793029376471.webp]]
 
+Method for standardization -> cluster analysis
+
+|     | L    | B    | H    | Q \[boxes/year\] |
+| --- | ---- | ---- | ---- | ---------------- |
+| a   | 0.3  | 0.2  | 0.3  |                  |
+| b   | 0.26 | 0.2  | 0.2  |                  |
+| c   | 0.4  | 0.3  | 0.1  |                  |
+| d   | 0.3  | 0.22 | 0.3  |                  |
+| e   | 0.4  | 0.3  | 0.12 |                  |
 
 
 
