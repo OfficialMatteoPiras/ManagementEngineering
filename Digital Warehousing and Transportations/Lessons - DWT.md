@@ -879,7 +879,14 @@ Method for standardization -> cluster analysis
 
 assume the same carton type therefore the same **grammage** \[$kg/m^2$\]
 
+step 1)
+$$
+d_{ab} = \sqrt{(L_a-L_b)^2 + (B_a-B_b)^2 + (H_a-H_b)^2} = \\
+= \sqrt{(0.3-0.26)^2+(0.2-0.2)^2+(0.3-0.2)^2} \\
+ = 0.107m
+$$
 
+![[Lessons - DWT-1793112043245.webp|427]]
 
 
 
