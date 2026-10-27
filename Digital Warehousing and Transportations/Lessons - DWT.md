@@ -891,8 +891,10 @@ $$
 ![[Lessons - DWT-1793112233719.webp]]
 
 ## How do you choose the right box?
-
-
+Between:
+- single use packaging
+- reusable packaging
+	- 
 
 
 
