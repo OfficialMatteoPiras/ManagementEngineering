@@ -894,8 +894,11 @@ $$
 Between:
 - single use packaging
 - reusable packaging
-	- 
+	- not collapsible
+	- collapsible box:
+		- collapsible index $I_{c}$ -> number of empty boxes folded in the volume of the original one
 
+**Single Use Box**
 
 
 
