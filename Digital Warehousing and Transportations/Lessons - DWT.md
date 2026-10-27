@@ -870,14 +870,14 @@ it's very important to reduce the cartoon types to:
 Method for standardization -> cluster analysis
 
 |     | L    | B    | H    | Q \[boxes/year\] |
-| --- | ---- | ---- | ---- | ---------------- |
-| a   | 0.3  | 0.2  | 0.3  |                  |
-| b   | 0.26 | 0.2  | 0.2  |                  |
-| c   | 0.4  | 0.3  | 0.1  |                  |
-| d   | 0.3  | 0.22 | 0.3  |                  |
-| e   | 0.4  | 0.3  | 0.12 |                  |
+| :-: | ---- | ---- | ---- | ---------------- |
+|  a  | 0.3  | 0.2  | 0.3  | 180 000          |
+|  b  | 0.26 | 0.2  | 0.2  | 30 000           |
+|  c  | 0.4  | 0.3  | 0.1  | 190 000          |
+|  d  | 0.3  | 0.22 | 0.3  | 250 000          |
+|  e  | 0.4  | 0.3  | 0.12 | 120 000          |
 
-
+assume the same carton type therefore the same **grammage** \[$kg/m^2$\]
 
 
 
