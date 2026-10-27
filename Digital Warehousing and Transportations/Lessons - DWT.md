@@ -888,8 +888,9 @@ $$
 
 ![[Lessons - DWT-1793112043245.webp|427]]
 
+![[Lessons - DWT-1793112233719.webp]]
 
-
+## How do you choose the right box?
 
 
 
