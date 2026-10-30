@@ -1,0 +1,39 @@
+!SESSION 2026-10-30 09:41:29.078 -----------------------------------------------
+eclipse.buildId=Build Community Edition
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -data C:\Users\mattp\Desktop\Università\ManagementEngineering\MaterialFlowSystemsAndSupplyChainManagement\cplex
+
+!ENTRY org.eclipse.ui.ide 4 4 2026-10-30 09:41:30.564
+!MESSAGE -data /valid/path, workspace already set:file:/C:/Users/mattp/Desktop/Università/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/
+
+!ENTRY org.eclipse.ui 2 2 2026-10-30 09:41:36.324
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
+
+!ENTRY ilog.odms.ide.ui 1 0 2026-10-30 09:41:36.434
+!MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY ilog.odms.ide.opllang 1 0 2026-10-30 09:42:38.783
+!MESSAGE concert_wrap.IloEndMT
+!SESSION 2026-10-30 09:42:46.864 -----------------------------------------------
+eclipse.buildId=Build Community Edition
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.ui 2 2 2026-10-30 09:43:12.837
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
+
+!ENTRY ilog.odms.ide.ui 1 0 2026-10-30 09:43:13.767
+!MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY ilog.odms.ide.core 1 0 2026-10-30 09:43:37.875
+!MESSAGE ODM Bundle is OFF

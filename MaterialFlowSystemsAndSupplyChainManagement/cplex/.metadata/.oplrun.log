@@ -1,0 +1,38 @@
+!SESSION 2026-10-30 09:43:43.056 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -clean -nl en_GB -configuration C:\Users\mattp\Desktop\Università\ManagementEngineering\MaterialFlowSystemsAndSupplyChainManagement\cplex\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2026-10-30 09:43:43.066
+!MESSAGE Run Configuration1 in C:/Users/mattp/Desktop/Università/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/Exe1
+
+!ENTRY ilog.odms.ide.opllang.remote 4 0 2026-10-30 09:43:43.560
+!MESSAGE load failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: load failed
+	at ilog.odms.ide.opllang.remote.IloOplRunConfigRunner.doSetUpModel(IloOplRunConfigRunner.java:146)
+	at ilog.odms.ide.opllang.remote.IloOplRunConfigRunner.doRun(IloOplRunConfigRunner.java:374)
+	at ilog.odms.ide.opllang.run.IloAbstractRunShell$2.run(IloAbstractRunShell.java:1605)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: ilog.concert.IloException: File "C:/Users/mattp/Desktop/Università/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/Exe1" not found.
+	at ilog.opl.opl_lang_wrapJNI.IloOplRunConfiguration_getCppOplModel(Native Method)
+	at ilog.opl.IloOplRunConfiguration.getCppOplModel(IloOplRunConfiguration.java:240)
+	at ilog.opl.IloOplRunConfiguration.getOplModel(IloOplRunConfiguration.java:139)
+	at ilog.odms.ide.opllang.remote.IloOplRunConfigRunner.doSetUpModel(IloOplRunConfigRunner.java:140)
+	... 3 more
+!SUBENTRY 1 ilog.odms.ide.opllang.remote 4 0 2026-10-30 09:43:43.560
+!MESSAGE load failed
+!STACK 0
+ilog.concert.IloException: File "C:/Users/mattp/Desktop/Università/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/Exe1" not found.
+	at ilog.opl.opl_lang_wrapJNI.IloOplRunConfiguration_getCppOplModel(Native Method)
+	at ilog.opl.IloOplRunConfiguration.getCppOplModel(IloOplRunConfiguration.java:240)
+	at ilog.opl.IloOplRunConfiguration.getOplModel(IloOplRunConfiguration.java:139)
+	at ilog.odms.ide.opllang.remote.IloOplRunConfigRunner.doSetUpModel(IloOplRunConfigRunner.java:140)
+	at ilog.odms.ide.opllang.remote.IloOplRunConfigRunner.doRun(IloOplRunConfigRunner.java:374)
+	at ilog.odms.ide.opllang.run.IloAbstractRunShell$2.run(IloAbstractRunShell.java:1605)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

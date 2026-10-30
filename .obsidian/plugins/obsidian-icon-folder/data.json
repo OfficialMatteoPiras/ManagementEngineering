@@ -34,8 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Digital Marketing and International Management": "LiMap",
-  "Digital Warehousing and Transportations": "LiWarehouse",
-  "Material Flow Systems and Supply Chain Management": "LiChartLine",
-  "Smart Operations and Supply Chain Management": "LiActivity"
+  "MaterialFlowSystemsAndSupplyChainManagement": "LiChartLine",
+  "SmartOperationsAndSupplyChain Management": "LiActivity",
+  "DigitalWarehousingAndTransportations": "LiWarehouse",
+  "DigitalMarketingAndInternationalManagement": "LiMap"
 }
