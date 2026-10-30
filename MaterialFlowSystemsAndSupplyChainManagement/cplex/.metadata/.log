@@ -90,3 +90,103 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
 
 !ENTRY ilog.odms.ide.ui 1 0 2026-10-30 09:50:49.252
 !MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY org.eclipse.help 4 0 2026-10-30 10:02:37.138
+!MESSAGE Error reading help table of contents file /"ilog.odms.cplex.help/toc/refpythoncplex.xml, URL = file:/C:/Program Files/IBM/ILOG/CPLEX_Studio_Community222/opl/oplide/plugins/ilog.odms.cplex.help_22.2.0.202605080826/toc/refpythoncplex.xml at line 4, column 5" (skipping file)
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 4; columnNumber: 5; The element type "toc" must be terminated by the matching end-tag "</toc>".
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.entityresolver.LocalEntityResolver.parse(LocalEntityResolver.java:88)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:36)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:50)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:215)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:203)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:311)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:72)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:477)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:349)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:91)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help 4 0 2026-10-30 10:02:37.140
+!MESSAGE Error reading help table of contents file /"ilog.odms.cplex.help/toc/refmatlabcplex.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:47)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:50)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:215)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:203)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:311)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:72)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:477)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:349)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:91)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:02:39.292
+!MESSAGE Help index declared, but missing for plugin ilog.odms.ide.help.
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:02:39.293
+!MESSAGE Help index declared, but missing for plugin ilog.odms.cplex.help.
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:02:39.293
+!MESSAGE Help index declared, but missing for plugin ilog.odms.cpo.help.
+
+!ENTRY org.eclipse.help.base 2 0 2026-10-30 10:02:39.302
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.jsdt.doc_2.2.0.v202303191832 [1838]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:02:39.302
+!MESSAGE Help index declared, but missing for plugin ilog.odms.studio.help.
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:02:52.912
+!MESSAGE An error occured while pre-processing help XHTML document "/ilog.odms.cpo.help/refcppcpoptimizer/html/macros/ILOBLACKBOX0.html" for search indexing
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 14; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.entityresolver.LocalEntityResolver.parse(LocalEntityResolver.java:88)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.XMLProcessor.process(XMLProcessor.java:52)
+	at org.eclipse.help.internal.xhtml.DynamicXHTMLProcessor.process(DynamicXHTMLProcessor.java:65)
+	at org.eclipse.help.internal.search.XHTMLSearchParticipant.preprocess(XHTMLSearchParticipant.java:101)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:293)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:03:32.795
+!MESSAGE An error occured while pre-processing help XHTML document "/ilog.odms.ide.help/refcppopl/html/macros/ILOBLACKBOX0.html" for search indexing
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 14; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.entityresolver.LocalEntityResolver.parse(LocalEntityResolver.java:88)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.XMLProcessor.process(XMLProcessor.java:52)
+	at org.eclipse.help.internal.xhtml.DynamicXHTMLProcessor.process(DynamicXHTMLProcessor.java:65)
+	at org.eclipse.help.internal.search.XHTMLSearchParticipant.preprocess(XHTMLSearchParticipant.java:101)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:293)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
