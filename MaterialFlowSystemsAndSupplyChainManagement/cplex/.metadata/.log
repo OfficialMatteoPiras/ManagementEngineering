@@ -58,3 +58,35 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
 
 !ENTRY ilog.odms.ide.ui 1 0 2026-10-30 09:44:59.637
 !MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY ilog.odms.ide.opllang 1 0 2026-10-30 09:49:38.008
+!MESSAGE concert_wrap.IloEndMT
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-10-30 09:49:38.349
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: ilog.odms.ide.internal.core.run.IloAbstractRunController$EventDispatchJob RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	 at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	 at java.base/java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+	 at ilog.odms.ide.internal.core.run.IloAbstractLaunchCommunicationQueue.receiveEventWithTimeout(IloAbstractLaunchCommunicationQueue.java:51)
+	 at ilog.odms.ide.internal.core.run.IloAbstractRunController$EventDispatchJob.handleEvents(IloAbstractRunController.java:786)
+	 at ilog.odms.ide.internal.core.run.IloAbstractRunController$EventDispatchJob.run(IloAbstractRunController.java:759)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-10-30 09:50:39.359 -----------------------------------------------
+eclipse.buildId=Build Community Edition
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.ui 2 2 2026-10-30 09:50:47.699
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
+
+!ENTRY ilog.odms.ide.core 1 0 2026-10-30 09:50:48.086
+!MESSAGE ODM Bundle is OFF
+
+!ENTRY ilog.odms.ide.ui 1 0 2026-10-30 09:50:49.252
+!MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
