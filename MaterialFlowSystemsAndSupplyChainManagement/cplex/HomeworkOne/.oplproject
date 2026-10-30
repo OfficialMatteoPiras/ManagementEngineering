@@ -6,7 +6,13 @@
         		
         <config default="true" name="Configuration1" category="opl">
             			
-            <ref name="Exe1.mod" type="model">
+            <ref name="HomeworkOne.mod" type="model">
+			</ref>
+            			
+            <ref name="HomeworkOne.ops" type="setting">
+			</ref>
+            			
+            <ref name="HomeworkOne.dat" type="data">
 			</ref>
             		
         </config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="false" name="Configuration1" category="opl">
+            			
+            <ref name="HomeworkOne.mod" type="model">
+			</ref>
+            			
+            <ref name="HomeworkOne.ops" type="setting">
+			</ref>
+            			
+            <ref name="HomeworkOne.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
