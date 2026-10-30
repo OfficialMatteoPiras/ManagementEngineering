@@ -190,3 +190,253 @@ org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 14; The content of 
 	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
 	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 4 0 2026-10-30 10:04:25.295
+!MESSAGE An error occured while pre-processing help XHTML document "/ilog.odms.cplex.help/refcppcplex/html/macros/ILOBLACKBOX0.html" for search indexing
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 14; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.entityresolver.LocalEntityResolver.parse(LocalEntityResolver.java:88)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.XMLProcessor.process(XMLProcessor.java:52)
+	at org.eclipse.help.internal.xhtml.DynamicXHTMLProcessor.process(DynamicXHTMLProcessor.java:65)
+	at org.eclipse.help.internal.search.XHTMLSearchParticipant.preprocess(XHTMLSearchParticipant.java:101)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:293)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help document /ilog.odms.ide.help/refcppopl/html/classes/IloBarrier.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.635
+!MESSAGE Exception occurred while adding document /ilog.odms.cpo.help/refcppcpoptimizer/html/macros/ILOBLACKBOX0.html to index.
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.util.zip.InflaterInputStream.ensureOpen(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.readAndBuffer(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:294)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloNumSet.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloDataCollection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.cplex.help/cplex_KC_home.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloConcertUtility.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloNumCollection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloColumn.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloAnyCollection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/opl_KC_home.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/opl/IloCplex.Param.DistMIP.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloConversion.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/opl/IloOplResultPublisherWrapper.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Exception occurred while adding document /ilog.odms.ide.help/refcppopl/html/macros/ILOBLACKBOX0.html to index.
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.util.zip.InflaterInputStream.ensureOpen(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.readAndBuffer(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:294)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloSOS2.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.636
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloNumExprArray.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloIntExprArray.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloSemiContVar.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/opl/IloCplex.DistMIPRampupDuration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloIntSet.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/opl/IloCplex.Param.DistMIP.Rampup.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.cpo.help/cpo_KC_home.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloIntVarArray.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloCollectionHelper.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloIntCollection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refcppopl/html/classes/IloSemaphore.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloModelerAdv.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloNumVarArray.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloNumRange.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Exception occurred while adding document /ilog.odms.cplex.help/refcppcplex/html/macros/ILOBLACKBOX0.html to index.
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.util.zip.InflaterInputStream.ensureOpen(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.readAndBuffer(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:294)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:57)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.637
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloSOS1.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloDiscreteDataCollection.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /ilog.odms.ide.help/refjavaopl/html/ilog/concert/IloForAllRange.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /ilog.odms.ide.help/refcppopl/html/classes/IloCondition.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2026-10-30 10:04:58.639
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:05:35.788
+!MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:06:06.828
+!MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
