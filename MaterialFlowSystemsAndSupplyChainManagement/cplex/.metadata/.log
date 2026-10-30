@@ -440,3 +440,9 @@ java.io.IOException: Stream closed
 
 !ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:06:06.828
 !MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:10:02.066
+!MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:10:10.394
+!MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
