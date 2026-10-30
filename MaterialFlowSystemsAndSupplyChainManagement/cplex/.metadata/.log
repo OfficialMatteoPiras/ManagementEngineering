@@ -446,3 +446,69 @@ java.io.IOException: Stream closed
 
 !ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2026-10-30 10:10:10.394
 !MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.
+
+!ENTRY ilog.odms.ide.opllang 1 0 2026-10-30 10:25:23.327
+!MESSAGE concert_wrap.IloEndMT
+!SESSION 2026-10-30 10:25:24.253 -----------------------------------------------
+eclipse.buildId=Build Community Edition
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.ui 2 2 2026-10-30 10:25:58.839
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
+
+!ENTRY ilog.odms.ide.core 1 0 2026-10-30 10:26:01.582
+!MESSAGE ODM Bundle is OFF
+
+!ENTRY ilog.odms.ide.ui 1 0 2026-10-30 10:26:07.705
+!MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY org.eclipse.help 4 0 2026-10-30 10:26:08.137
+!MESSAGE Error reading help table of contents file /"ilog.odms.cplex.help/toc/refpythoncplex.xml, URL = file:/C:/Program Files/IBM/ILOG/CPLEX_Studio_Community222/opl/oplide/plugins/ilog.odms.cplex.help_22.2.0.202605080826/toc/refpythoncplex.xml at line 4, column 5" (skipping file)
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 4; columnNumber: 5; The element type "toc" must be terminated by the matching end-tag "</toc>".
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.entityresolver.LocalEntityResolver.parse(LocalEntityResolver.java:88)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:36)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:50)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:215)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:203)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:311)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:72)
+	at org.eclipse.help.internal.search.SearchResults.getTocForTopic(SearchResults.java:222)
+	at org.eclipse.help.internal.search.SearchResults.addHits(SearchResults.java:89)
+	at org.eclipse.help.internal.search.SearchIndex.search(SearchIndex.java:652)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:543)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:108)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:99)
+	at org.eclipse.help.internal.search.federated.LocalHelp.run(LocalHelp.java:74)
+	at org.eclipse.help.internal.search.federated.FederatedSearchJob.run(FederatedSearchJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help 4 0 2026-10-30 10:26:08.139
+!MESSAGE Error reading help table of contents file /"ilog.odms.cplex.help/toc/refmatlabcplex.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:47)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:50)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:215)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:203)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:311)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:72)
+	at org.eclipse.help.internal.search.SearchResults.getTocForTopic(SearchResults.java:222)
+	at org.eclipse.help.internal.search.SearchResults.addHits(SearchResults.java:89)
+	at org.eclipse.help.internal.search.SearchIndex.search(SearchIndex.java:652)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:543)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:108)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:99)
+	at org.eclipse.help.internal.search.federated.LocalHelp.run(LocalHelp.java:74)
+	at org.eclipse.help.internal.search.federated.FederatedSearchJob.run(FederatedSearchJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
