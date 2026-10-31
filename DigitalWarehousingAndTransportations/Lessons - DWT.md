@@ -898,16 +898,21 @@ Between:
 	- collapsible box:
 		- collapsible index $I_{c}$ -> number of empty boxes folded in the volume of the original one
 
-![[Lessons - DWT-1793114092253.webp]]
+![[Lessons - DWT-1793114092253.webp|511]]
 
 **Single Use Box**
-![[Lessons - DWT-1793114057787.webp]]
+![[Lessons - DWT-1793114057787.webp|479]]
 
 - transport cost
 - packaging cost: $Q \times c_{box}$
 
+**Reusable Packaging $I_{C} = 1$**
 
+![[Lessons - DWT-1793459098569.webp|427]]
 
+cost:
+- transport cost (round box)
+- *packaging cost:* $$N_{\text{box to buy}} = N_{\text{boxes for trip}} \cdot (I_{C} + 2)  $$ 
 
 
 
