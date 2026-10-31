@@ -960,13 +960,18 @@ $$
 > We have: $52 \frac{trips}{year}$
 > Therefore: $(33 \times 2) \times 20 = 1 320 \frac{boxes}{trip}$
 > Transport cost:
-> $
-> \rightarrow \text{direct } 1200 \frac{€}{trip} //
-> \rightarrow \text{direct } 1200 \frac{€}{trip} 
-> $
+> $\rightarrow \text{direct } 1200 \frac{€}{trip} $
+> $\rightarrow \text{round } 2000 \frac{€}{trip} $
+> 
 
 
+compare 3 solutions:
 
+$$ 
+\text{(a) single use packaging} \rightarrow c_{box} = 1.5 \text{ €/box} \\ 
+\text{(b) reusable not collapsable } i_c = 1 \rightarrow c_{box} = 18 \text{ €/box} , c_{life} = 80 \text{ cycles/life} \\
+\text{(c) reusable collapsable } i_c = 4 \rightarrow c_{box} = 30 \text{ €/box} , c_{life} = 50 \text{ cycles/life}
+$$
 
 
 
