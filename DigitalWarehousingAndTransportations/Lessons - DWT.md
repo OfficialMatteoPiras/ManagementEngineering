@@ -973,7 +973,51 @@ $$
 \text{(c) reusable collapsable } i_c = 4 \rightarrow c_{box} = 30 \text{ €/box} , c_{life} = 50 \text{ cycles/life}
 $$
 
+Solution: 
+(a)
+packaging cost
 
+$$
+c_{packaging} = c_{box} \cdot Q = 1.5 \text{ €/box} \cdot 68640 \text{ box/year} = 102960 \text{ €/year}
+$$
+
+transport
+52 direct trip/year
+
+$$
+c_{transport} = 52 \cdot 1200 = 62400 \text{ €/year}
+$$
+
+total cost sol (a):
+
+$$
+c_{t_a} = 102960 + 62400 = 165360
+$$
+
+(b)
+
+$$
+n_{trip} = 1320 \text{ box/trip} = (2 \cdot 33) \cdot 20 \\
+n_{box \text{ (to buy)}} = (i_c + 2) n_t = 3 \cdot 1320 = 3960 \text{ boxes} \\
+c_{invest \text{ (cost)}} = 18 \cdot 3960 = 71280 \text{ €} \\
+c_{year} = \frac{Q}{n_{boxes}} = \frac{68640}{3960} = 17.4 \text{ cycles/year} \\
+l_{year \text{ lifespan}} = \frac{80}{17 \text{ (cycles/year)}} = 4.6 \text{ years} \\
+c_{packaging \text{ (cost) year}} = \frac{71280}{4.6} = 15496 \text{ €/year}
+$$
+
+it's the minimum value to buy
+
+transport cost:
+
+$$
+c_{transport \text{ (cost)}} = 52 \cdot 2000 = 104000 \text{ €/year}
+$$
+
+total cost (b):
+
+$$
+c_{t_b} = 15496 + 104000 = 119496 \text{ €/year}
+$$
 
 
 
