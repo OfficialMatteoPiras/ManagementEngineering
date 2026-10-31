@@ -916,6 +916,7 @@ cost:
 
 where $N_{\text{boxes for trip}}$ is the minimum value quantity of boxes.
 ![[Lessons - DWT-1793459323734.webp|413]]
+
 > [!Example] $I_{C} > 1$  for example $I_{C} = 6$  
 
 ![[Lessons - DWT-1793459689206.webp|289]]
@@ -954,7 +955,7 @@ $$
 $$
 
 > [!Exercise] Real Case
->
+> ![[Lessons - DWT-1793461039454.webp]]
 > **Boxes layer:**
 >
 > $$4 \times 5 = 20 \ \frac{\text{box}}{\text{pallet}}$$
