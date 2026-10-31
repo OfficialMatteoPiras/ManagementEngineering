@@ -914,7 +914,8 @@ cost:
 - transport cost (round box)
 - *packaging cost:* $$N_{\text{box to buy}} = N_{\text{boxes for trip}} \cdot (I_{C} + 2)  $$ 
 
-
+where $N_{\text{boxes for trip}}$ is the minimum value quantity of boxes.
+![[Lessons - DWT-1793459323734.webp|413]]
 
 
 
