@@ -952,75 +952,106 @@ packaging cost per year:
 $$
 \frac{N_{boxes}\times C_{box}}{N_{\text{year, life span}}}
 $$
-> [!Exercise] Real Case 
-> ![[Lessons - DWT-1793461039454.webp]]
-> Boxes layer:
-> $4 \times 5 = 20 \frac{box}{pallet}$
-> $Q = 69 640 \frac{box}{year}$
-> We have: $52 \frac{trips}{year}$
-> Therefore: $(33 \times 2) \times 20 = 1 320 \frac{boxes}{trip}$
+
+> [!Exercise] Real Case
+>
+> **Boxes layer:**
+>
+> $$4 \times 5 = 20 \ \frac{\text{box}}{\text{pallet}}$$
+>
+> $$Q = 68\,640 \ \frac{\text{box}}{\text{year}}$$
+>
+> We have: $52 \ \frac{\text{trips}}{\text{year}}$
+>
+> Therefore:
+>
+> $$(33 \times 2) \times 20 = 1\,320 \ \frac{\text{boxes}}{\text{trip}}$$
+>
+> **Transport cost:**
+>
+> $$\text{direct: } 1\,200 \ \frac{€}{\text{trip}} \qquad \text{round: } 2\,000 \ \frac{€}{\text{trip}}$$
+>
+> **Compare 3 solutions:**
+>
+> $$
+> \begin{aligned}
+> \text{(a)} \ & \text{single use packaging} & c_{box} &= 1.5 \ €/\text{box} \\
+> \text{(b)} \ & \text{reusable not collapsable, } i_c = 1 & c_{box} &= 18 \ €/\text{box}, \quad c_{life} = 80 \ \text{cycles/life} \\
+> \text{(c)} \ & \text{reusable collapsable, } i_c = 4 & c_{box} &= 30 \ €/\text{box}, \quad c_{life} = 50 \ \text{cycles/life}
+> \end{aligned}
+> $$
+>
+> **Solution:**
+>
+> **(a)**
+>
+> Packaging cost:
+>
+> $$c_{packaging} = c_{box} \cdot Q = 1.5 \ €/\text{box} \cdot 68\,640 \ \text{box/year} = 102\,960 \ €/\text{year}$$
+>
+> Transport (52 direct trips/year):
+>
+> $$c_{transport} = 52 \cdot 1\,200 = 62\,400 \ €/\text{year}$$
+>
+> Total cost solution (a):
+>
+> $$c_{t_a} = 102\,960 + 62\,400 = 165\,360 \ €/\text{year}$$
+>
+> **(b)**
+>
+> $$
+> \begin{aligned}
+> n_{trip} &= 1\,320 \ \text{box/trip} = (2 \cdot 33) \cdot 20 \\
+> n_{box \, (to \, buy)} &= (i_c + 2) \cdot n_{trip} = 3 \cdot 1\,320 = 3\,960 \ \text{boxes} \\
+> c_{invest} &= 18 \cdot 3\,960 = 71\,280 \ € \\
+> n_{cycles/year} &= \frac{Q}{n_{box}} = \frac{68\,640}{3\,960} \approx 17.3 \ \text{cycles/year} \\
+> l_{lifespan} &= \frac{80}{17.3} \approx 4.6 \ \text{years} \\
+> c_{packaging/year} &= \frac{71\,280}{4.6} \approx 15\,496 \ €/\text{year}
+> \end{aligned}
+> $$
+>
+> This is the minimum number of boxes to buy.
+>
 > Transport cost:
-> $\rightarrow \text{direct } 1200 \frac{€}{trip} $
-> $\rightarrow \text{round } 2000 \frac{€}{trip} $
-> 
-
-
-compare 3 solutions:
-
-$$ 
-\text{(a) single use packaging} \rightarrow c_{box} = 1.5 \text{ €/box} \\ 
-\text{(b) reusable not collapsable } i_c = 1 \rightarrow c_{box} = 18 \text{ €/box} , c_{life} = 80 \text{ cycles/life} \\
-\text{(c) reusable collapsable } i_c = 4 \rightarrow c_{box} = 30 \text{ €/box} , c_{life} = 50 \text{ cycles/life}
-$$
-
-Solution: 
-(a)
-packaging cost
-
-$$
-c_{packaging} = c_{box} \cdot Q = 1.5 \text{ €/box} \cdot 68640 \text{ box/year} = 102960 \text{ €/year}
-$$
-
-transport
-52 direct trip/year
-
-$$
-c_{transport} = 52 \cdot 1200 = 62400 \text{ €/year}
-$$
-
-total cost sol (a):
-
-$$
-c_{t_a} = 102960 + 62400 = 165360
-$$
-
-(b)
-
-$$
-n_{trip} = 1320 \text{ box/trip} = (2 \cdot 33) \cdot 20 \\
-n_{box \text{ (to buy)}} = (i_c + 2) n_t = 3 \cdot 1320 = 3960 \text{ boxes} \\
-c_{invest \text{ (cost)}} = 18 \cdot 3960 = 71280 \text{ €} \\
-c_{year} = \frac{Q}{n_{boxes}} = \frac{68640}{3960} = 17.4 \text{ cycles/year} \\
-l_{year \text{ lifespan}} = \frac{80}{17 \text{ (cycles/year)}} = 4.6 \text{ years} \\
-c_{packaging \text{ (cost) year}} = \frac{71280}{4.6} = 15496 \text{ €/year}
-$$
-
-it's the minimum value to buy
-
-transport cost:
-
-$$
-c_{transport \text{ (cost)}} = 52 \cdot 2000 = 104000 \text{ €/year}
-$$
-
-total cost (b):
-
-$$
-c_{t_b} = 15496 + 104000 = 119496 \text{ €/year}
-$$
-
-
-
+>
+> $$c_{transport} = 52 \cdot 2\,000 = 104\,000 \ €/\text{year}$$
+>
+> Total cost solution (b):
+>
+> $$c_{t_b} = 15\,496 + 104\,000 = 119\,496 \ €/\text{year}$$
+>
+> **(c)**
+>
+> $$
+> \begin{aligned}
+> N_T &= 1\,320 \ \text{boxes/trip} \\
+> N_{box} &= (i_c + 2) \cdot N_T = (4 + 2) \cdot 1\,320 = 7\,920 \ \text{boxes} \\
+> c_{packaging \, (inv. \, cost)} &= 7\,920 \cdot 30 = 237\,600 \ € \\
+> n_{cycles/year} &= \frac{Q}{N_{box}} = \frac{68\,640}{7\,920} \approx 8.67 \ \text{cycles/year} \\
+> l_{lifespan} &= \frac{50}{8.67} \approx 5.77 \ \text{years} \\
+> c_{packaging/year} &= \frac{237\,600}{5.77} \approx 41\,180 \ €/\text{year}
+> \end{aligned}
+> $$
+>
+> Transport cost, average cost per trip (3 direct trips out of 4, 1 round trip out of 4):
+>
+> $$c_{avg \, trip} = \frac{3 \cdot 1\,200 + 1 \cdot 2\,000}{4} = 0.75 \cdot 1\,200 + 0.25 \cdot 2\,000 = 1\,400 \ €/\text{trip}$$
+>
+> $$c_{transport} = 52 \cdot 1\,400 = 72\,800 \ €/\text{year}$$
+>
+> Total cost solution (c):
+>
+> $$c_{t_c} = 41\,180 + 72\,800 = 113\,980 \ €/\text{year}$$
+>
+> **Summarize:**
+>
+> | | (a) | (b) | (c) |
+> |---|---:|---:|---:|
+> | **Packaging** | 102 960 | 15 496 | 41 180 |
+> | **Transport** | 62 400 | 104 000 | 72 800 |
+> | **Total** | 165 360 | 119 496 | 113 980 |
+>
+> All values in €/year. Solution (c) is the cheapest.
 
 
 
