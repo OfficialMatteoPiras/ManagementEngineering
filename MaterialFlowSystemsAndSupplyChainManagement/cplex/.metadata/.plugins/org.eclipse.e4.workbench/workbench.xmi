@@ -48,7 +48,7 @@
           <tags>persp.actionSet:org.eclipse.debug.ui.debugActionSet</tags>
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_tXh1I9Q9EfG3Xci2s64X_Q" selectedElement="_tXh1LdQ9EfG3Xci2s64X_Q" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_tXh1I9Q9EfG3Xci2s64X_Q" selectedElement="_tXh1JNQ9EfG3Xci2s64X_Q" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_tXh1JNQ9EfG3Xci2s64X_Q" containerData="2191" selectedElement="_tXh1KdQ9EfG3Xci2s64X_Q">
               <children xsi:type="basic:PartStack" xmi:id="_tXh1JdQ9EfG3Xci2s64X_Q" elementId="topLeft" containerData="5000" selectedElement="_tXh1JtQ9EfG3Xci2s64X_Q">
                 <children xsi:type="advanced:Placeholder" xmi:id="_tXh1JtQ9EfG3Xci2s64X_Q" elementId="ilog.odms.ide.ui.navigator.OplProjectExplorer" ref="_tXbHcNQ9EfG3Xci2s64X_Q" closeable="true">
@@ -65,6 +65,7 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_tXh1KdQ9EfG3Xci2s64X_Q" elementId="projBrowser" containerData="5000" selectedElement="_tXh1KtQ9EfG3Xci2s64X_Q">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_tXh1KtQ9EfG3Xci2s64X_Q" elementId="ilog.odms.ide.ui.views.ProblemBrowserView" ref="_tXbHdNQ9EfG3Xci2s64X_Q" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:OPL</tags>
@@ -102,7 +103,6 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_tXh1NtQ9EfG3Xci2s64X_Q" elementId="bottomRight" containerData="2500" selectedElement="_tXh1N9Q9EfG3Xci2s64X_Q">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_tXh1N9Q9EfG3Xci2s64X_Q" elementId="org.eclipse.ui.views.ProblemView" ref="_tXbHddQ9EfG3Xci2s64X_Q" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -144,8 +144,8 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_tStmlNQ9EfG3Xci2s64X_Q" elementId="stickyFolderRight" containerData="2500" selectedElement="_tStmldQ9EfG3Xci2s64X_Q">
-        <children xsi:type="advanced:Placeholder" xmi:id="_tStmldQ9EfG3Xci2s64X_Q" elementId="org.eclipse.help.ui.HelpView" ref="_tSs_gNQ9EfG3Xci2s64X_Q" closeable="true">
+      <children xsi:type="basic:PartStack" xmi:id="_tStmlNQ9EfG3Xci2s64X_Q" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+        <children xsi:type="advanced:Placeholder" xmi:id="_tStmldQ9EfG3Xci2s64X_Q" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_tSs_gNQ9EfG3Xci2s64X_Q" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Help</tags>
         </children>
@@ -165,6 +165,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view activeSet=&quot;Default&quot; expression=&quot;Eclipse Themes&quot; pageId=&quot;fsearch-page&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_ppDQ4NRAEfGaFr3F2sU04Q" elementId="org.eclipse.help.ui.HelpView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -210,7 +211,7 @@
         <children xsi:type="basic:PartStack" xmi:id="_qpOw8dQ_EfGaFr3F2sU04Q" elementId="PartStack@8da44d7b" containerData="5000" selectedElement="_UMxAYNQ-EfGPMZvAhTHlFw">
           <tags>EditorStack</tags>
           <children xsi:type="basic:Part" xmi:id="_UMxAYNQ-EfGPMZvAhTHlFw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HomeworkOne.dat" iconURI="platform:/plugin/ilog.odms.ide.ui/icons/full/obj16/data.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;HomeworkOne.dat&quot; partName=&quot;HomeworkOne.dat&quot; title=&quot;HomeworkOne.dat&quot; tooltip=&quot;HomeworkOne/HomeworkOne.dat&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/HomeworkOne/HomeworkOne.dat&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;322&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;HomeworkOne.dat&quot; partName=&quot;HomeworkOne.dat&quot; title=&quot;HomeworkOne.dat&quot; tooltip=&quot;HomeworkOne/HomeworkOne.dat&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/HomeworkOne/HomeworkOne.dat&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;301&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>ilog.odms.ide.ui.editors.DataEditor</tags>
@@ -266,6 +267,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view problembrowser.constraint=&quot;0&quot; problembrowser.data=&quot;0&quot; problembrowser.dexpr=&quot;0&quot; problembrowser.dvar=&quot;0&quot; problembrowser.post=&quot;0&quot; problembrowser.sort=&quot;1&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:OPL</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_tbdS4NQ9EfG3Xci2s64X_Q" elementId="ilog.odms.ide.ui.views.ProblemBrowserView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -278,8 +281,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;884&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_td_pgNQ9EfG3Xci2s64X_Q" elementId="org.eclipse.ui.views.ProblemView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -1552,7 +1553,7 @@
   <addons xmi:id="_tF7u59Q9EfG3Xci2s64X_Q" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_tF7u6NQ9EfG3Xci2s64X_Q" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_tGFf0NQ9EfG3Xci2s64X_Q" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="__02PkdQ-EfGaFr3F2sU04Q" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_LGIAcdRIEfGh9qz5H5UWNw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_tGRtENQ9EfG3Xci2s64X_Q" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_tGVXcNQ9EfG3Xci2s64X_Q" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
