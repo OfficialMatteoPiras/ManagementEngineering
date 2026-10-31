@@ -938,10 +938,20 @@ $$
 C_{\text{life}} = 50 \text{ life} \\
 C_{\text{year}} = \frac{Q \left[ \frac{boxes}{year} \right]}{N_{\text{box}}} \rightarrow \frac{1}{year}
 $$
-
-
-
-
+where:
+$$
+c_{\text{year}} = \text{ number of cycles per year} \\
+\frac{Q \left[ \frac{boxes}{year} \right]}{N_{\text{box}}} = \text{we obtain a sort of rotation index} \\
+\frac{1}{\text{year}} = \text{is the frequency}
+$$
+now we can define the *life span in years:*
+$$
+\frac{C_{life}}{C_{year}} = N_{\text{year, life span}}
+$$
+packaging cost per year:
+$$
+\frac{N_{boxes}\times C_{box}}{N_{\text{year, life span}}}
+$$
 
 
 
