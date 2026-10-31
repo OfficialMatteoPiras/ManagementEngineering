@@ -952,7 +952,15 @@ packaging cost per year:
 $$
 \frac{N_{boxes}\times C_{box}}{N_{\text{year, life span}}}
 $$
-
+> [!Exercise] Real Case 
+> ![[Lessons - DWT-1793461039454.webp]]
+> Boxes layer:
+> $4 \times 5 = 20 \frac{box}{pallet}$
+> $Q = 69 640 \frac{box}{year}$
+> We have: $52 \frac{trips}{year}$
+> Therefore: $(33 \times 2) \times 20 = 1 320 \frac{boxes}{trip}$
+> Transport cost:
+> 
 
 
 
