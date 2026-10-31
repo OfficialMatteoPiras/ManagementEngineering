@@ -960,7 +960,10 @@ $$
 > We have: $52 \frac{trips}{year}$
 > Therefore: $(33 \times 2) \times 20 = 1 320 \frac{boxes}{trip}$
 > Transport cost:
-> 
+> $
+> \rightarrow \text{direct } 1200 \frac{€}{trip} //
+> \rightarrow \text{direct } 1200 \frac{€}{trip} 
+> $
 
 
 
