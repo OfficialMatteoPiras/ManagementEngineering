@@ -934,7 +934,10 @@ N_{\text{box}} = N_{\text{trip}} \times (I_{C} + 2) \\
 Q = \text{throuput boxes} \left[ \frac{boxes}{year}  \right]
 $$
 when we choose the box (reusable box), it's possible to evaluate its life:
-
+$$
+C_{\text{life}} = 50 \text{ life} \\
+C_{\text{year}} = \frac{Q \left[ \frac{boxes}{year} \right]}{N_{\text{box}}} \rightarrow \frac{1}{year}
+$$
 
 
 
