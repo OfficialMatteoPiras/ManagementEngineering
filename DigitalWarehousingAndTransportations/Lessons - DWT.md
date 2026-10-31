@@ -921,9 +921,19 @@ where $N_{\text{boxes for trip}}$ is the minimum value quantity of boxes.
 ![[Lessons - DWT-1793459689206.webp|289]]
 Packaging:
 $$
-N_{\text{}} = N_{\text{}} \times (I_{C} + 2) = N_{\text{}} = N_{\text{}} \times (6+2)
+N_{\text{box}} = N_{\text{trip}} \times (I_{C} + 2) = N_{\text{trip}} \times (6+2)
 $$
+Transport for 6 trips:
+- 5 direct transport
+- 1 round transport
 
+Packaging cost evaluation:
+$$
+N_{\text{trip}} \left[ \frac{box}{trip} \right] \\
+N_{\text{box}} = N_{\text{trip}} \times (I_{C} + 2) \\
+Q = \text{throuput boxes} \left[ \frac{boxes}{year}  \right]
+$$
+when we choose the box (reusable box), it's possible to evaluate its life:
 
 
 
