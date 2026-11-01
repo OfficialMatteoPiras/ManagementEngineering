@@ -39,5 +39,6 @@
   "pdfplus-exporter",
   "obsidian-annotator",
   "obsidian-zotero-desktop-connector",
-  "pdf-plus"
+  "pdf-plus",
+  "local-pdf-annotator"
 ]
