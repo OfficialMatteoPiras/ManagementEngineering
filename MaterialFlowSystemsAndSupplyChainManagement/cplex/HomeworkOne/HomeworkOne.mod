@@ -44,7 +44,7 @@ execute ShowSolution{
   writeln("Idle time massimo è: " + IT);
   
   for(var j in v){
-    for(var j in w){
+    for(var h in w){
       if(x[j][h]==1)
       	writeln("task" + j + " is assigned to station " + h);
     }
