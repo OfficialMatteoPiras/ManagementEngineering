@@ -15,6 +15,8 @@ pdf: "SmartOperationsAndSupplyChain Management/pdf/Smart operation and supply ch
 
 - **p.1** 🟨 — <mark style="background-color: #FBF719;">That is why operations and process management is of direct relevance to all managers, irrespective of what type of organisation they work for, or which function they work in</mark> ^46de2271
 
+- **p.1** 🟨 — <mark style="background-color: #FBF719;">The core body of knowledge for the subject comes from ‘operations management’, which examines how the ‘operations function’ of an organisation produces products and services for external customers</mark> ^649811f7
+
 
 ```json
 {
@@ -172,6 +174,63 @@ pdf: "SmartOperationsAndSupplyChain Management/pdf/Smart operation and supply ch
       "isPinned": false,
       "setId": "default",
       "note": ""
+    },
+    {
+      "id": "649811f7",
+      "type": "highlight",
+      "page": 0,
+      "color": "#FBF719",
+      "style": "highlight",
+      "text": "The core body of knowledge for the subject comes from ‘operations management’, which examines how\nthe ‘operations function’ of an organisation produces products and services for external customers",
+      "rects": [
+        {
+          "x1": 56.65487797004132,
+          "y1": 491.1524835646457,
+          "x2": 524.8613131940857,
+          "y2": 478.85445580715844
+        },
+        {
+          "x1": 56.65487797004132,
+          "y1": 478.3356327611395,
+          "x2": 71.45151239820748,
+          "y2": 466.0376050036523
+        },
+        {
+          "x1": 71.44569344008265,
+          "y1": 478.3356327611395,
+          "x2": 74.39616800103306,
+          "y2": 466.0376050036523
+        },
+        {
+          "x1": 73.66575736053719,
+          "y1": 478.3356327611395,
+          "x2": 173.79523527287253,
+          "y2": 466.0376050036523
+        },
+        {
+          "x1": 173.78967910640495,
+          "y1": 477.10582998539076,
+          "x2": 176.74015366735537,
+          "y2": 466.49878104455803
+        },
+        {
+          "x1": 173.78967910640495,
+          "y1": 478.3356327611395,
+          "x2": 176.74015366735537,
+          "y2": 466.0376050036523
+        },
+        {
+          "x1": 176.1346816890496,
+          "y1": 478.3356327611395,
+          "x2": 509.02203409494444,
+          "y2": 466.0376050036523
+        }
+      ],
+      "created": "2026-11-01T12:17:29.419Z",
+      "source": "manual",
+      "marginSide": "auto",
+      "isPinned": false,
+      "setId": "default"
     }
   ]
 }
