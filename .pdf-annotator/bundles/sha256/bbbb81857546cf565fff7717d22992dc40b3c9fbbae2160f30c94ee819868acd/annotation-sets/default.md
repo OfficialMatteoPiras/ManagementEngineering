@@ -13,6 +13,8 @@ pdf: "SmartOperationsAndSupplyChain Management/pdf/Smart operation and supply ch
 
 - **p.1** 🟨 — <mark style="background-color: #FBF719;">The operation managers are the people who design, run and improve the processes that produce services and products for their customers.</mark> ^adf55789
 
+- **p.1** 🟨 — <mark style="background-color: #FBF719;">That is why operations and process management is of direct relevance to all managers, irrespective of what type of organisation they work for, or which function they work in</mark> ^46de2271
+
 
 ```json
 {
@@ -124,6 +126,52 @@ pdf: "SmartOperationsAndSupplyChain Management/pdf/Smart operation and supply ch
       "marginSide": "auto",
       "isPinned": false,
       "setId": "default"
+    },
+    {
+      "id": "46de2271",
+      "type": "highlight",
+      "page": 0,
+      "color": "#FBF719",
+      "style": "highlight",
+      "text": "That is why operations and process management is of direct relevance to all managers, irrespective of what\ntype of organisation they work for, or which function they work in",
+      "rects": [
+        {
+          "x1": 56.65487797004132,
+          "y1": 643.1003812089116,
+          "x2": 287.02142346594945,
+          "y2": 632.0321562271731
+        },
+        {
+          "x1": 287.02254971590907,
+          "y1": 643.1003812089116,
+          "x2": 289.8096429493802,
+          "y2": 632.0321562271731
+        },
+        {
+          "x1": 289.25222430268593,
+          "y1": 643.1003812089116,
+          "x2": 435.3218134856421,
+          "y2": 632.0321562271731
+        },
+        {
+          "x1": 435.55539772727275,
+          "y1": 643.1003812089116,
+          "x2": 524.7815746969427,
+          "y2": 632.0321562271731
+        },
+        {
+          "x1": 56.65487797004132,
+          "y1": 630.8984317932798,
+          "x2": 332.5129869193085,
+          "y2": 619.8302068115413
+        }
+      ],
+      "created": "2026-11-01T11:53:15.718Z",
+      "source": "manual",
+      "marginSide": "auto",
+      "isPinned": false,
+      "setId": "default",
+      "note": ""
     }
   ]
 }

@@ -755,3 +755,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
 
 !ENTRY ilog.odms.ide.ui 1 0 2026-11-01 11:37:19.133
 !MESSAGE C:\Program Files\IBM\ILOG\CPLEX_Studio_Community222\cplex\bin\x64_win64\cpxchecklic.exe: Exiting with code 1
+
+!ENTRY ilog.odms.ide.opllang 1 0 2026-11-01 12:55:02.781
+!MESSAGE concert_wrap.IloEndMT
