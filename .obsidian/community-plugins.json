@@ -36,8 +36,6 @@
   "web-browser",
   "advanced-rename-and-delete-handler",
   "obsidian-latex-suite",
-  "obsidian-annotator",
   "pdfplus-exporter",
-  "pdf-plus",
-  "obsidian-zotero-desktop-connector"
+  "pdf-plus"
 ]
