@@ -146,3 +146,15 @@ Command-line arguments:  -clean -nl en_GB -configuration C:\Users\mattp\Desktop\
 
 !ENTRY ilog.odms.ide.opllang.remote 1 0 2026-11-01 11:56:53.857
 !MESSAGE Run Configuration1 in C:/Users/mattp/Desktop/Universita/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/HomeworkOne
+!SESSION 2026-11-01 12:03:40.936 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.18+8
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20260120_1169 (JIT enabled, AOT enabled)
+OpenJ9   - f0754f4102
+OMR      - c8ee95c0c
+JCL      - 080f3b0e3a1 based on jdk-17.0.18+8
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -clean -nl en_GB -configuration C:\Users\mattp\Desktop\Universita\ManagementEngineering\MaterialFlowSystemsAndSupplyChainManagement\cplex\.metadata\workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2026-11-01 12:03:40.946
+!MESSAGE Run Configuration1 in C:/Users/mattp/Desktop/Universita/ManagementEngineering/MaterialFlowSystemsAndSupplyChainManagement/cplex/HomeworkOne
