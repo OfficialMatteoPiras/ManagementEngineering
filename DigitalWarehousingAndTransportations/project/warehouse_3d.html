@@ -1,0 +1,625 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><title>Shuttle Warehouse 3D</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: designer workstation. Dark tool chrome around a light CAD viewport: parameters on the left, 3D model in the centre with a plan inset, results on the right. */
+:root{
+  --bg:#12171d; --panel:#181f27; --panel2:#1e2731; --line:#2c3845; --fg:#e6edf3; --mute:#93a2b1; --dim:#6c7b8a;
+  --accent:#f0a23b; --steel:#6f98c0; --good:#4cc38a; --bad:#ef6b5f; --ink:#12171d; --view:#e4eaf0;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font:13px/1.45 var(--sans)}
+#app{display:grid;grid-template-columns:300px minmax(0,1fr) 312px;grid-template-rows:46px minmax(0,1fr) 30px;grid-template-areas:"bar bar bar" "left view right" "status status status";height:100%;background:var(--bg)}
+#bar{grid-area:bar;display:flex;align-items:center;gap:10px;padding:0 max(12px,env(safe-area-inset-right,0px)) 0 max(12px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);background:var(--panel);min-width:0;overflow-x:auto}
+#bar h1{margin:0;font:600 13px/1 var(--sans);letter-spacing:.02em;white-space:nowrap}
+#design{font:400 11px var(--mono);color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1}
+.grp{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.grp label{color:var(--mute);font-size:11px}
+#left,#right{background:var(--panel);overflow:auto;min-height:0}
+#left{grid-area:left;border-right:1px solid var(--line)}
+#right{grid-area:right;border-left:1px solid var(--line)}
+.pane{padding:12px;display:grid;gap:12px}
+#view{grid-area:view;position:relative;min-width:0;min-height:0;background:var(--view);overflow:hidden}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+#status{grid-area:status;display:flex;align-items:center;gap:18px;padding:0 12px;border-top:1px solid var(--line);background:var(--panel);font:500 11px var(--mono);color:var(--mute);white-space:nowrap;overflow:hidden}
+#status b{color:var(--fg);font-weight:500}
+.tag{position:absolute;pointer-events:none;font:500 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#3d4a57;background:rgba(255,255,255,.82);padding:5px 8px;border:1px solid #c3ccd5;border-radius:3px}
+#split{position:absolute;pointer-events:none;border:1px solid #9aa7b4;background:transparent;border-radius:2px}
+#views{position:absolute;top:10px;right:10px;display:grid;grid-template-columns:repeat(2,auto);gap:4px}
+#views button{background:rgba(255,255,255,.9);color:#2d3945;border-color:#b9c4cf;padding:5px 9px;font-size:11px}
+#views button:hover{border-color:#2d6fb8}
+h2{margin:0 0 2px;font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.box{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.box:last-child{border-bottom:0}
+.row{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center}
+.row label{color:var(--mute);font-size:12px}
+.row output{font:500 12px var(--mono);font-variant-numeric:tabular-nums}
+.row input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--accent);margin:0}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+button,select{font:500 12px var(--sans);color:var(--fg);background:var(--panel2);border:1px solid var(--line);border-radius:4px;padding:6px 10px;cursor:pointer}
+button:hover,select:hover{border-color:var(--steel)}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--steel);outline-offset:2px}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--ink)}
+#bar input[type=range]{width:110px;accent-color:var(--accent)}
+.chk{display:flex;flex-wrap:wrap;gap:6px 14px}
+.chk label{display:flex;align-items:center;gap:6px;color:var(--fg);font-size:12px}
+.chk input{accent-color:var(--accent)}
+table.k{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+table.k td{padding:3px 0;border-top:1px solid var(--line);font-size:12px;vertical-align:top}
+table.k td:first-child{color:var(--mute);padding-right:8px}
+table.k td:last-child{text-align:right;font-family:var(--mono);font-weight:500}
+table.k td small{color:var(--mute);font-weight:400}
+.note{font-size:11px;color:var(--mute);line-height:1.45}
+.legend{display:flex;gap:6px 12px;flex-wrap:wrap;font-size:11px;color:var(--mute)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.sec{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.fgrid{display:grid;grid-template-columns:minmax(0,1fr) 118px;gap:6px 10px;align-items:center}
+.fgrid label{color:var(--mute);font-size:12px;line-height:1.25}
+.fgrid label small{display:block;color:var(--dim);font-size:10.5px}
+.fgrid input,.fgrid select{width:100%;box-sizing:border-box;font:500 12px var(--mono);color:var(--fg);background:#10161c;border:1px solid var(--line);border-radius:4px;padding:5px 7px;text-align:right}
+.fgrid input[type=text]{text-align:left}
+.fgrid input:disabled,.fgrid select:disabled{color:var(--mute);background:transparent;border-style:dashed}
+.fgrid input.bad{border-color:var(--bad)}
+#msg{font-size:12px;min-height:16px}
+#msg.err{color:var(--bad)}#msg.ok{color:var(--good)}
+@media (max-width:1100px){#app{grid-template-columns:260px minmax(0,1fr) 280px}}
+@media (max-width:900px){
+  html,body{height:auto}
+  #app{display:flex;flex-direction:column;height:auto}
+  #bar{order:0}#view{order:1;flex:none}#status{order:2}#right{order:3}#left{order:4}
+  #bar{height:auto;flex-wrap:wrap;padding-block:8px}
+  #view{height:62vh}
+  #left,#right{border:0;border-top:1px solid var(--line)}
+  #status{flex-wrap:wrap;padding-block:6px;white-space:normal}
+}
+</style>
+
+<div id="app">
+  <header id="bar">
+    <h1>Shuttle Warehouse Designer</h1>
+    <div id="design"></div>
+    <div class="grp"><button id="play" class="primary" type="button">Pause</button></div>
+    <div class="grp"><label for="spd">Speed</label><input id="spd" type="range" min="0" max="100" value="48"><output id="spdO" style="font:500 11px var(--mono);min-width:38px">30×</output></div>
+  </header>
+
+  <aside id="left" aria-label="Scenario data">
+    <div class="pane">
+      <div class="note">Change any value or drag the IN and OUT bays in the model: the warehouse is re-optimised and rebuilt. Values that are not possible are refused with the reason.</div>
+      <div class="btns"><button id="apply" class="primary" type="button">Re-optimise</button><button id="sizeNL" type="button">Size N_L (Manual)</button><button id="reset" type="button">Reset</button></div>
+      <div id="msg" role="status"></div>
+      <div id="form" style="display:grid;gap:14px"></div>
+    </div>
+  </aside>
+
+  <main id="view" aria-label="3D model of the warehouse">
+    <canvas id="gl"></canvas>
+    <div id="tagP" class="tag">3D model · orbit, zoom · drag IN / OUT bays</div>
+    <div id="split"></div>
+    <div id="tagT" class="tag">Plan</div>
+    <div id="views"><button id="camA" type="button">Iso</button><button id="camD" type="button">Top</button><button id="camB" type="button">Front</button><button id="camC" type="button">Side</button></div>
+  </main>
+
+  <aside id="right" aria-label="Results and simulation">
+    <div class="pane">
+      <section class="box"><h2>Design</h2><div id="designBox"></div></section>
+      <section class="box"><h2>Flows</h2>
+        <div class="row"><label for="lin">Inbound rate</label><output id="linO">1.00×</output><input id="lin" type="range" min="0" max="100" value="50"></div>
+        <div class="row"><label for="lout">Outbound rate</label><output id="loutO">1.00×</output><input id="lout" type="range" min="0" max="100" value="50"></div>
+        <div class="chk"><label><input id="cDay" type="checkbox" checked>Daily shifts</label></div>
+      </section>
+      <section class="box"><h2>Stock</h2>
+        <canvas id="stockChart" width="560" height="170" style="width:100%;height:100px;display:block" aria-label="Stock level over simulated time"></canvas>
+        <table class="k" id="kpi"></table>
+      </section>
+      <section class="box"><h2>View</h2>
+        <div class="chk">
+          <label><input id="cPal" type="checkbox" checked>Pallets</label>
+          <label><input id="cCut" type="checkbox">Hide front racks</label>
+          <label><input id="cBld" type="checkbox" checked>Building and dimensions</label>
+          <label><input id="cLab" type="checkbox" checked>Shuttle numbers</label>
+        </div>
+        <div class="row"><label for="tierSel">Tiers shown</label><select id="tierSel"></select></div>
+        <div class="row"><label for="aisleSel">Aisles shown</label><select id="aisleSel"></select></div>
+        <div class="legend" id="legend"></div>
+        <div class="note" id="note"></div>
+      </section>
+    </div>
+  </aside>
+
+  <footer id="status" aria-live="off"></footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const Q0 = {"mode": "Auto (optimise)", "sizing": "Required capacity", "liftMode": "Optimised for bays", "cap": 4000.0, "skuPal": 6, "spaceCost": "Footprint used", "maxAisles": 3, "endLifts": "Yes", "shaftW": 2.0, "A": 1, "e": 0, "lanePolicy": "Free (optimise N_C)", "objective": "Total cost", "env": "Yes", "NC": 8, "NL": 40, "NT": 8, "nLift": 2, "liftPos": "", "shutt": "", "uw": 1.0, "ud": 1.3, "uh": 2.15, "aisleW": 1.3, "laneOff": 1.3, "fHc": 0.2, "lamIn": 40.0, "lamOut": 60.0, "fill": 0.85, "hoursIn": 24.0, "hoursOut": 16.0, "dist": "ABC", "nA": 2, "nB": 3, "shareA": 0.8, "shareB": 0.15, "shareC": 0.05, "inX": 5.0, "outX": 40.0, "dy": 5.0, "wConv": 0.3, "bL": 45.0, "bW": 30.0, "bH": 20.0, "rhoMax": 0.75, "rhoFail": 0.95, "redund": "Yes", "minSh": 1.0, "spares": 2, "headroom": 1.5, "cLift": 150000.0, "cShut": 50000.0, "cPos": 100.0, "cM2": 400.0, "cM3": 30.0, "cConv": 600.0, "vSh": 1.4, "aSh": 0.5, "tTurn": 4.0, "tSh": 25.0, "vL": 1.0, "aL": 0.7, "tPos": 1.0, "tCh": 7.0, "tLiftSh": 25.0, "iface": "Shuttle", "vConv": 0.4};
+let dispose=null;
+
+/* ================= design engine ================= */
+const LPL=3, NC_LIST=[2,3,4,5,6,8,10,12,16,20,24];
+const ttq=(l,v,a)=>l<=0?0:(l>=v*v/a?l/v+v/a:2*Math.sqrt(l/a));
+function Gq(q,x){const x0=q.vSh*q.vSh/q.aSh;if(x<=x0)return 4/3*Math.pow(x,1.5)/Math.sqrt(q.aSh);
+  return 4/3*Math.pow(x0,1.5)/Math.sqrt(q.aSh)+(x*x-x0*x0)/(2*q.vSh)+q.vSh/q.aSh*(x-x0)}
+const meanAisle=(q,dmax)=>dmax<=1e-9?ttq(q.laneOff,q.vSh,q.aSh):(Gq(q,q.laneOff+dmax)-Gq(q,q.laneOff))/dmax;
+function tierRaw(q,nt){const out=[];for(let i=1;i<=nt;i++){
+  if(q.dist==="Uniform")out.push(1);else if(i<=q.nA)out.push(q.shareA/q.nA);else if(i<=q.nA+q.nB)out.push(q.shareB/q.nB);
+  else out.push(nt-q.nA-q.nB>0?q.shareC/(nt-q.nA-q.nB):0)}
+  const t=out.reduce((a,b)=>a+b,0);return t<=0?out.map(()=>1/nt):out.map(x=>x/t)}
+const tIface=q=>q.iface==="Chain"?q.tCh:q.tLiftSh;
+function liftLoad(q,nt){const p=tierRaw(q,nt),tI=tIface(q);
+  const cyc=p.map((_,i)=>q.tCh+tI+2*ttq(i*q.uh,q.vL,q.aL)+2*q.tPos);const pl=1-p[0];
+  let S=0;if(pl>1e-12){for(let i=1;i<nt;i++)S+=p[i]*cyc[i];S/=pl}return {p,S,pl}}
+function geom(q,c){const Db=2*c.nc*q.ud+q.aisleW,Lb=c.nl*q.uw,sEnd=q.shaftW+(c.A>1?1.5:0),endsL=c.e>=1?1:0,endsR=c.e>=2?1:0;
+  return {Db,Lb,sEnd,endsL,endsR,Ltot:Lb+(endsL+endsR)*sEnd,Dtot:q.dy+c.A*Db,H:c.nt*q.uh}}
+const tunnelLoss=c=>(c.n-c.e)*(c.A-1)*4*c.nc;
+const netPos=c=>c.A*c.nc*c.nt*(2*c.nl-(c.n-c.e)*LPL)-tunnelLoss(c);
+const nlFor=(q,c)=>Math.max(2,Math.ceil(((q.cap/q.fill+tunnelLoss(c))/(c.A*c.nc*c.nt)+(c.n-c.e)*LPL)/2-1e-9));
+function nlFill(q,c){const s=(c.e>=1?1:0)+(c.e>=2?1:0),se=q.shaftW+(c.A>1?1.5:0);return Math.min(300,Math.floor((q.bL-s*se)/q.uw))}
+const snap=(p,nl,uw)=>(Math.max(0,Math.min(nl-2,Math.round(p/uw)-1))+1)*uw;
+function zonePos(G,c){const nin=c.n-c.e,z=c.n>0?G.Lb/(2*c.n-c.e):G.Lb;return Array.from({length:nin},(_,k)=>(G.endsL?z:0)+z+2*z*k)}
+function liftList(q,G,c,xL,inl){const l=[];
+  if(G.endsL)l.push({x:xL-q.shaftW/2,end:true,side:-1});
+  inl.forEach(p=>l.push({x:xL+p,end:false,side:0}));
+  if(G.endsR)l.push({x:xL+G.Lb+q.shaftW/2,end:true,side:1});
+  l.forEach(o=>o.sx=o.x);return l}
+function assign(q,c,lifts,xL){const lam=Math.max(q.lamIn+q.lamOut,1e-9);let ts=0,J=0;
+  for(let j=0;j<c.nl;j++){const x=xL+(j+.5)*q.uw;let bJ=1e18,bt=0;
+    for(const l of lifts){const t=ttq(Math.abs(x-l.x)+q.laneOff,q.vSh,q.aSh),cv=(q.lamIn*Math.abs(q.inX-l.sx)+q.lamOut*Math.abs(q.outX-l.sx))/lam,v=2*t+q.wConv*cv/q.vConv;
+      if(v<bJ){bJ=v;bt=t}}ts+=bt;J+=bJ}
+  return {ta:ts/c.nl,J:J/c.nl}}
+function convLen(q,c,G,lifts,xL){const yTin=q.dy*.35,yTout=q.dy*.65,ya=a=>q.dy+(a+.5)*G.Db,yfar=ya(c.A-1);
+  const L=lifts.length?lifts:[{x:xL+G.Lb/2,sx:xL+G.Lb/2,end:false,side:0}];const sp=[];
+  L.forEach(l=>{if(!l.end)sp.push({x:l.x,y:c.n>0?yfar:ya(0),stub:0});
+    else for(let a=0;a<c.A;a++){const sx=a===0?l.x:l.x+l.side*(q.shaftW/2+.75);sp.push({x:sx,y:ya(a),stub:Math.abs(sx-l.x)})}});
+  const line=(b,yT)=>{const xs=sp.map(s=>s.x).concat([b]);return Math.max(...xs)-Math.min(...xs)+yT+sp.reduce((s,o)=>s+o.y-yT+o.stub,0)};
+  const a=line(q.inX,yTin),b=line(q.outX,yTout);return {inLen:a,outLen:b,total:a+b,spurs:sp}}
+function evalCfg(q,c,pl){
+  const G=geom(q,c),lam=q.lamIn+q.lamOut,{p,S,pl:pL}=liftLoad(q,c.nt),busyA=lam/c.A*pL*S/3600;
+  const xb=pl?pl.xb:(q.bL-G.Ltot)/2,xL=xb+G.endsL*G.sEnd;
+  let inl=pl&&pl.inl?pl.inl.map(x=>snap(x,c.nl,q.uw)):zonePos(G,c);
+  const lifts=c.n>0?liftList(q,G,c,xL,inl):[];
+  let ta,J=0;
+  if(pl&&lifts.length){const d=assign(q,c,lifts,xL);ta=d.ta;J=d.J}
+  else ta=meanAisle(q,c.n>0?G.Lb/(2*c.n-c.e):G.Lb);
+  const tl=ttq((c.nc-1)*q.ud/2*(1+q.fHc)+q.laneOff,q.vSh,q.aSh),T=2*q.tSh+2*q.tTurn+2*ta+2*tl;
+  const lamA=lam/c.A,need=p.map(x=>Math.max(q.minSh,Math.ceil(lamA*x*T/(3600*q.rhoMax)-1e-9)));
+  const fleet=c.A*need.reduce((a,b)=>a+b,0)+q.spares;
+  const net=netPos(c),eff=net*q.fill,foot=G.Ltot*c.A*G.Db;
+  const conv=convLen(q,c,G,lifts,xL);
+  const bArea=q.spaceCost==="Whole building"?q.bL*q.bW:foot,bVol=q.spaceCost==="Whole building"?q.bL*q.bW*q.bH:foot*(G.H+q.headroom);
+  const costs={lifts:c.A*c.n*q.cLift,shuttles:fleet*q.cShut,rack:Math.max(0,net)*q.cPos,building:bArea*q.cM2+bVol*q.cM3,conveyors:conv.total*q.cConv};
+  const cost=costs.lifts+costs.shuttles+costs.rack+costs.building+costs.conveyors;
+  const util=c.n?busyA/c.n:0,down=c.n>1?busyA/(c.n-1):null;
+  const reasons=[];let viol=0;
+  if(G.H>q.bH){reasons.push("height");viol+=G.H/q.bH-1}
+  if(q.env==="Yes"&&(G.Ltot>q.bL+1e-9||G.Dtot>q.bW+1e-9)){reasons.push("footprint");viol+=Math.max(0,G.Ltot/q.bL-1)+Math.max(0,G.Dtot/q.bW-1)}
+  if(c.nl>300){reasons.push("lanes>300");viol+=c.nl/300-1}
+  if(c.n>6){reasons.push("lifts>6");viol+=1}
+  if(c.n-c.e>0&&c.nl<3*(c.n-c.e)+2){reasons.push("lifts too close");viol+=1}
+  if(busyA>1e-12&&(c.n<1||util>q.rhoMax+1e-9||(q.redund==="Yes"&&(c.n<2||down>q.rhoFail+1e-9)))){reasons.push("lift capacity");viol+=1}
+  if(eff<q.cap-1e-6){reasons.push("capacity");viol+=1-eff/q.cap}
+  if(q.lanePolicy.startsWith("Fixed")&&c.nc!==q.skuPal){reasons.push("lane policy");viol+=1000}
+  if(net<=0){reasons.push("no positions");viol+=1000}
+  const r={c,G,nc:c.nc,nt:c.nt,nl:c.nl,A:c.A,n:c.n,e:c.e,xb,xL,lifts,T,ta,J,need,fleet,net,eff,foot,cost,costs,conv,util,down,busyA,H:G.H,probs:p,reasons,viol,ok:!reasons.length};
+  r.obj=q.sizing==="Fill the building"?-eff:(q.objective==="Shuttle cycle"?T:(q.objective==="Footprint"?foot:cost));
+  return r}
+const cmp=(a,b)=>(a.obj-b.obj)||(a.cost-b.cost)||(a.J-b.J);
+function cdLifts(q,c,G,xL,start){const nin=start.length;if(!nin)return start;let pos=start.slice();
+  const f=ps=>assign(q,c,liftList(q,G,c,xL,ps),xL).J;let cur=f(pos),step=Math.max(G.Lb/8,.5);
+  while(step>.05){let imp=false;for(let k=0;k<nin;k++)for(const d of [-step,step]){const t=pos.slice();t[k]=Math.min(Math.max(t[k]+d,0),G.Lb);t.sort((a,b)=>a-b);const v=f(t);if(v<cur-1e-9){pos=t;cur=v;imp=true}}
+    if(!imp)step/=2}
+  return pos}
+function refine(q,r,manualInl){const c=r.c,G=r.G,span=Math.max(0,q.bL-G.Ltot);
+  const xbs=q.env==="Yes"?Array.from({length:9},(_,i)=>span*i/8):[(q.bL-G.Ltot)/2];let best=null;
+  for(const xb of xbs){const xL=xb+G.endsL*G.sEnd;let inl;
+    if(manualInl)inl=manualInl;else if(q.liftMode==="Equispaced")inl=zonePos(G,c);else inl=cdLifts(q,c,G,xL,zonePos(G,c));
+    const s=evalCfg(q,c,{xb,inl});if(!best||cmp(s,best)<0)best=s}
+  return best}
+function optimize(q,quick){const maxT=Math.min(20,Math.floor(q.bH/q.uh)),ncs=q.lanePolicy.startsWith("Fixed")?[q.skuPal]:NC_LIST,lam=q.lamIn+q.lamOut,all=[];
+  for(const nc of ncs)for(let nt=1;nt<=maxT;nt++){const {S,pl}=liftLoad(q,nt);
+    for(let A=1;A<=q.maxAisles;A++){const busyA=lam/A*pl*S/3600;
+      const nmin=busyA>1e-12?Math.max(1,Math.ceil(busyA/q.rhoMax-1e-9),q.redund==="Yes"?Math.ceil(busyA/q.rhoFail-1e-9)+1:0):0;
+      const nmax=nmin===0?0:Math.min(6,nmin+2);
+      for(let n=nmin;n<=nmax;n++)for(let e=0;e<=(q.endLifts==="Yes"?Math.min(2,n):0);e++){
+        const c={nc,nt,A,n,e};c.nl=q.sizing==="Fill the building"?nlFill(q,c):nlFor(q,c);if(c.nl<2)continue;all.push(evalCfg(q,c))}}}
+  const feas=all.filter(r=>r.ok).sort(cmp);
+  if(quick)return {feas,all};
+  const top=feas.slice(0,10).map(r=>refine(q,r)).filter(r=>r.ok).sort(cmp);
+  return {best:top[0]||null,top,feas,all}}
+
+/* ================= 3D simulation ================= */
+function boot(P){
+"use strict";
+const A=P.A,NL=P.NL,NC=P.NC,NT=P.NT,uw=P.uw,ud=P.ud,uh=P.uh,aw=P.aisleW,Db=P.Db,xL=P.xL,dy=P.dy,L=NL*uw;
+const pw=Math.min(.85,uw-.12),pd=Math.min(1.25,ud-.05),ph=Math.min(1.7,uh-.4),pz0=.15,K=P.kin;
+const yA=a=>dy+(a+.5)*Db,yTin=dy*.35,yTout=dy*.65;
+let bxIn=P.bays.inX,bxOut=P.bays.outX,truckReady=false;
+let rngS=12345;const rnd=()=>{rngS=(rngS*1664525+1013904223)>>>0;return rngS/4294967296};
+const tt=ttq;
+function prof(l,t,v,a){const T=tt(l,v,a);if(t>=T)return l;if(t<=0)return 0;
+  if(l>=v*v/a){const ta=v/a,tc=(l-v*v/a)/v;if(t<ta)return .5*a*t*t;if(t<ta+tc)return v*v/(2*a)+v*(t-ta);return l-.5*a*(T-t)*(T-t)}
+  const h=T/2;return t<h?.5*a*t*t:l-.5*a*(T-t)*(T-t)}
+const expo=r=>-Math.log(1-rnd())/r;
+/* lanes */
+const NLN=A*NT*2*NL,occ=new Uint8Array(NLN*NC),resv=new Uint8Array(NLN*NC),claim=new Uint8Array(NLN*NC),removed=new Uint8Array(NLN);
+const li=(a,t,si,j)=>((a*NT+t)*2+si)*NL+j,laneX=j=>xL+(j+.5)*uw,slotY=(a,si,k)=>yA(a)+(si?1:-1)*(aw/2+(k+.5)*ud);
+const liftDefs=P.lifts.map(l=>{if(l.end)return {x:l.x,end:true,side:l.side};
+  const jc=Math.max(0,Math.min(NL-2,Math.round((l.x-xL)/uw)-1));
+  for(let a=0;a<A;a++)for(let t=0;t<NT;t++){removed[li(a,t,0,jc)]=1;removed[li(a,t,0,jc+1)]=1;removed[li(a,t,1,jc)]=1}
+  for(let b=0;b<A-1;b++){removed[li(b,0,0,jc)]=1;removed[li(b,0,0,jc+1)]=1;removed[li(b,0,1,jc)]=1;removed[li(b,0,1,jc+1)]=1}
+  return {x:xL+(jc+1)*uw,end:false,side:0}});
+const virtualLift=!liftDefs.length;if(virtualLift)liftDefs.push({x:xL+L/2,end:false,side:0,virtual:true});
+for(let l=0;l<NLN;l++){if(removed[l])continue;let c=0;for(let k=0;k<NC;k++)if(rnd()<P.fill)c++;for(let k=NC-c;k<NC;k++)occ[l*NC+k]=1}
+let stock=0,posTot=0;for(let l=0;l<NLN;l++){if(removed[l])continue;posTot+=NC;for(let k=0;k<NC;k++)stock+=occ[l*NC+k]}
+const hist=[[0,stock]];let nextRec=300;
+/* scene */
+const T=THREE;const oldc=$("gl");const cv=document.createElement("canvas");cv.id="gl";oldc.parentNode.replaceChild(cv,oldc);
+const renderer=new T.WebGLRenderer({canvas:cv,antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.setClearColor(0xe4eaf0,1);
+const scene=new T.Scene();scene.add(new T.HemisphereLight(0xffffff,0x8a96a3,.95));
+const fillL=new T.DirectionalLight(0xffffff,.25);fillL.position.set(-P.bld.L,NT*uh*2,-P.bld.W);scene.add(fillL);
+const sun=new T.DirectionalLight(0xffffff,.55);sun.position.set(P.bld.L*.3,NT*uh*3,P.bld.W*1.2);scene.add(sun);
+const V=(x,y,z)=>new T.Vector3(x,z,-y);
+const box=(w,h,d,col,op)=>new T.Mesh(new T.BoxGeometry(w,h,d),new T.MeshLambertMaterial({color:col,transparent:op!==undefined&&op<1,opacity:op===undefined?1:op}));
+function label(txt,col,sc){const c=document.createElement("canvas");c.width=256;c.height=64;const g=c.getContext("2d");
+  g.font="600 32px sans-serif";g.textAlign="center";g.textBaseline="middle";const w=Math.min(250,g.measureText(txt).width+28);
+  g.fillStyle="rgba(255,255,255,.92)";g.fillRect(128-w/2,10,w,44);g.strokeStyle="rgba(60,75,90,.55)";g.lineWidth=2;g.strokeRect(128-w/2,10,w,44);g.fillStyle=col;g.fillText(txt,128,33);
+  const s=new T.Sprite(new T.SpriteMaterial({map:new T.CanvasTexture(c),depthTest:false,transparent:true}));s.scale.set(sc*4,sc,1);s.renderOrder=10;return s}
+const BL=P.bld.L,BW=P.bld.W,BH=P.bld.H;
+const ground=box(BL+60,.1,BW+60,0xf1f4f7);ground.position.copy(V(BL/2,BW/2,-.06));scene.add(ground);
+const grid=new T.GridHelper(Math.max(BL,BW)+60,Math.round((Math.max(BL,BW)+60)/5),0xc3ccd5,0xdbe2e8);grid.position.copy(V(BL/2,BW/2,0));scene.add(grid);
+const bldg=new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(BL,BH,BW)),new T.LineBasicMaterial({color:0x4f5d6a,transparent:true,opacity:.6}));
+bldg.position.copy(V(BL/2,BW/2,BH/2));scene.add(bldg);
+const dims=new T.Group();scene.add(dims);
+(function(){const m=new T.LineBasicMaterial({color:0x2d3945}),seg=(a,b)=>{const g=new T.BufferGeometry().setFromPoints([a,b]);dims.add(new T.Line(g,m))};
+  const yb=-9,xl=-2.2,tk=.6,ls=Math.max(1.4,Math.max(BL,BW)/26);
+  seg(V(0,yb,0),V(BL,yb,0));seg(V(0,yb-tk,0),V(0,yb+tk,0));seg(V(BL,yb-tk,0),V(BL,yb+tk,0));
+  seg(V(xl,0,0),V(xl,BW,0));seg(V(xl-tk,0,0),V(xl+tk,0,0));seg(V(xl-tk,BW,0),V(xl+tk,BW,0));
+  seg(V(xl,BW,0),V(xl,BW,BH));seg(V(xl-tk,BW,BH),V(xl+tk,BW,BH));
+  const l1=label("L = "+BL+" m","#1f2a35",ls);l1.position.copy(V(BL/2,yb-ls*.7,.4));dims.add(l1);
+  const l2=label("W = "+BW+" m","#1f2a35",ls);l2.position.copy(V(xl-ls*2.2,BW/2,.4));dims.add(l2);
+  const l3=label("H = "+BH+" m","#1f2a35",ls);l3.position.copy(V(xl-ls*2.2,BW,BH/2));dims.add(l3)})();
+const tierClass=t=>P.dist==="Uniform"?2:(t<P.nA?0:(t<P.nA+P.nB?1:2));
+const classCol=[0xee9d2c,0xf3c24f,0xecd99a];
+const palGeo=new T.BoxGeometry(pw,ph,pd),palMat=new T.MeshLambertMaterial({color:0xffffff});
+const palMesh=[],plates=[],dum=new T.Object3D();
+function setSlot(a,t,si,j,k){const l=li(a,t,si,j),on=occ[l*NC+k]&&!removed[l];
+  dum.position.copy(V(laneX(j),slotY(a,si,k),t*uh+pz0+ph/2));dum.scale.setScalar(on?1:0);dum.updateMatrix();palMesh[a][t][si].setMatrixAt(j*NC+k,dum.matrix)}
+for(let a=0;a<A;a++){palMesh.push([]);plates.push([]);
+  for(let t=0;t<NT;t++){palMesh[a].push([]);plates[a].push([]);
+    for(let si=0;si<2;si++){const m=new T.InstancedMesh(palGeo,palMat,NL*NC);m.frustumCulled=false;m.userData.base=new T.Color(classCol[tierClass(t)]);palMesh[a][t].push(m);scene.add(m);
+      for(let j=0;j<NL;j++)for(let k=0;k<NC;k++){setSlot(a,t,si,j,k);m.setColorAt(j*NC+k,m.userData.base)}m.instanceMatrix.needsUpdate=true;m.instanceColor.needsUpdate=true;
+      const pl=box(L,.06,NC*ud,0xb3c6d8,.42);pl.position.copy(V(xL+L/2,yA(a)+(si?1:-1)*(aw/2+NC*ud/2),t*uh+.04));scene.add(pl);plates[a][t].push(pl)}
+    const ai=box(L,.05,aw,0x96a9bc,.5);ai.position.copy(V(xL+L/2,yA(a),t*uh+.03));scene.add(ai);plates[a][t].push(ai)}}
+const rackFrame=[];(function(){const xs=[];for(let j=0;j<=NL;j++)xs.push(xL+j*uw);
+  for(let a=0;a<A;a++){const ys=[yA(a)-(aw/2+NC*ud),yA(a)-aw/2,yA(a)+aw/2,yA(a)+aw/2+NC*ud];
+    const up=new T.InstancedMesh(new T.BoxGeometry(.07,NT*uh,.07),new T.MeshLambertMaterial({color:0x7fa6cb}),xs.length*ys.length);let n=0;
+    xs.forEach(x=>ys.forEach(y=>{dum.position.copy(V(x,y,NT*uh/2));dum.scale.setScalar(1);dum.updateMatrix();up.setMatrixAt(n++,dum.matrix)}));scene.add(up);
+    const rl=new T.InstancedMesh(new T.BoxGeometry(L,.07,.07),new T.MeshLambertMaterial({color:0x5b8bba}),(NT+1)*ys.length);n=0;
+    for(let t=0;t<=NT;t++)ys.forEach(y=>{dum.position.copy(V(xL+L/2,y,t*uh+.1));dum.updateMatrix();rl.setMatrixAt(n++,dum.matrix)});scene.add(rl);rackFrame.push(up,rl)}})();
+/* conveyors: separate IN line (blue) and OUT line (orange) */
+const convGroup=new T.Group();scene.add(convGroup);
+const CIN=0x3f7fc4,COUT=0xd9772e;
+function strip(x1,y1,x2,y2,col,w){const m=box(Math.abs(x2-x1)+(w||.6),.12,Math.abs(y2-y1)+(w||.6),col);m.position.copy(V((x1+x2)/2,(y1+y2)/2,.07));convGroup.add(m)}
+function spurX(l,a){return l.end&&a>0?l.x+l.side*(P.shaftW/2+.75):l.x}
+function buildConv(){convGroup.children.slice().forEach(m=>{convGroup.remove(m);m.geometry.dispose();m.material.dispose()});
+  const sx=[];liftDefs.forEach(l=>{for(let a=0;a<(l.end?A:1);a++)sx.push(spurX(l,a))});
+  strip(Math.min(bxIn,...sx),yTin,Math.max(bxIn,...sx),yTin,CIN);strip(Math.min(bxOut,...sx),yTout,Math.max(bxOut,...sx),yTout,COUT);
+  strip(bxIn,0,bxIn,yTin,CIN);strip(bxOut,0,bxOut,yTout,COUT);
+  liftDefs.forEach(l=>{if(!l.end){const yf=yA(virtualLift?0:A-1);strip(l.x-.35,yTin,l.x-.35,yf,CIN,.5);strip(l.x+.35,yTout,l.x+.35,yf,COUT,.5)}
+    else for(let a=0;a<A;a++){const s=spurX(l,a);strip(s-.35,yTin,s-.35,yA(a),CIN,.5);strip(s+.35,yTout,s+.35,yA(a),COUT,.5);if(s!==l.x)strip(s,yA(a),l.x,yA(a),0x5d6b79,.6)}})}
+const bayObj={};
+[["in","IN",0x3a8fd1],["out","OUT",0xe0782f]].forEach(([k,n,c])=>{const m=box(3.4,.7,2.4,c);m.userData.bay=k;scene.add(m);const lb=label(n+" bay",k==="in"?"#1d5a96":"#a8501a",1.1);scene.add(lb);bayObj[k]={mesh:m,lab:lb}});
+function placeBays(){const xs={in:bxIn,out:bxOut};for(const k in bayObj){bayObj[k].mesh.position.copy(V(xs[k],-.9,.35));bayObj[k].lab.position.copy(V(xs[k],-.9,2.8))}if(truckReady)placeTruck()}
+buildConv();placeBays();
+/* lifts (one set per aisle) */
+const lifts=[];
+for(let a=0;a<A;a++)liftDefs.forEach((d,i)=>{
+  if(!d.virtual){[[-.8,-.8],[.8,-.8],[-.8,.8],[.8,.8]].forEach(([u,v])=>{const p=box(.16,NT*uh+.6,.16,0xd23b3b);p.position.copy(V(d.x+u,yA(a)+v,(NT*uh+.6)/2));scene.add(p)});
+    {const top=box(1.9,.18,1.9,0xd23b3b);top.position.copy(V(d.x,yA(a),NT*uh+.6));scene.add(top)}
+    if(a===0){const s=label((d.end?"End lift ":"Lift ")+(i+1),"#b3261e",1.0);s.position.copy(V(d.x,yA(a),NT*uh+1.4));scene.add(s)}}
+  const car=box(1.5,.14,1.5,0x39424c);car.visible=!d.virtual;scene.add(car);
+  lifts.push({a,i,x:d.x,y:yA(a),z:0,mesh:car,plan:[],cur:null,busy:0,jobs:[],kind:"lift",def:d})});
+const liftsOf=a=>lifts.filter(l=>l.a===a);
+/* shuttles */
+const shCol=i=>new T.Color().setHSL((i*.137+.55)%1,.75,.45);
+function makeShuttle(id){const w=Math.min(.9,uw-.1),d=Math.min(1.045,ud-.12),g=new T.Group();
+  const body=new T.Mesh(new T.BoxGeometry(w,.2,d),new T.MeshLambertMaterial({color:0x252c35}));body.position.y=.1;
+  const top=new T.Mesh(new T.BoxGeometry(w*.94,.06,d*.94),new T.MeshLambertMaterial({color:shCol(id)}));top.position.y=.23;
+  const lb=label("S"+(id+1),"#"+shCol(id).getHexString(),.5);lb.material.depthTest=true;lb.renderOrder=0;lb.position.y=ph+.75;
+  g.add(body,top,lb);g.userData.lab=lb;scene.add(g);return g}
+const shuttles=[];let sid=0;
+for(let a=0;a<A;a++){const la=liftsOf(a);
+  P.groups.forEach(g=>{const tiers=g[0],n=g[1];for(let k=0;k<n;k++){const home=tiers[k%tiers.length],w=Math.min(.9,uw-.1);const m=makeShuttle(sid);
+    shuttles.push({id:sid++,a,tiers,x:la[k%la.length].x,y:yA(a),z:home*uh,tier:home,mesh:m,plan:[],cur:null,busy:0})}})}
+for(let k=0;k<P.spares;k++){const a=k%A,la=liftsOf(a),tiers=Array.from({length:NT},(_,i)=>i),home=(k*3)%NT,w=Math.min(.9,uw-.1);const m=makeShuttle(sid);
+  shuttles.push({id:sid++,a,tiers,x:la[0].x,y:yA(a),z:home*uh,tier:home,mesh:m,plan:[],cur:null,busy:0,spare:true})}
+const baseGeo=new T.BoxGeometry(pw+.02,.14,pd),baseMat=new T.MeshLambertMaterial({color:0x9a6b3c}),loadGeo=new T.BoxGeometry(pw-.04,ph-.16,pd-.06),cargos=[];
+const loadMats=classCol.map(c=>new T.MeshLambertMaterial({color:new T.Color(c).lerp(new T.Color(0xffffff),.12)}));
+const makeCargo=t=>{const g=new T.Group(),b=new T.Mesh(baseGeo,baseMat),l=new T.Mesh(loadGeo,loadMats[tierClass(t)]);b.position.y=.07;l.position.y=.14+(ph-.16)/2;g.add(b,l);scene.add(g);return g};
+/* simulation */
+let now=0,evs=[],queue=[],txSeq=0;const stats={inN:0,outN:0,sumS:0,nS:0,sumR:0,nR:0,maxQ:0};
+const cum=[];P.probs.reduce((s,p,i)=>(cum[i]=s+p),0);
+const pickTier=()=>{const r=rnd();for(let i=0;i<cum.length;i++)if(r<=cum[i])return i;return cum.length-1};
+const pathLen=pts=>{let s=0;for(let i=1;i<pts.length;i++)s+=Math.abs(pts[i][0]-pts[i-1][0])+Math.abs(pts[i][1]-pts[i-1][1]);return s};
+function pathIn(lf){const s=spurX(lf.def,lf.a)-(lf.def.end?0:.35);return [[bxIn,0],[bxIn,yTin],[s,yTin],[s,lf.y],[lf.x,lf.y]]}
+function pathOut(lf){const s=spurX(lf.def,lf.a)+(lf.def.end?0:.35);return [[lf.x,lf.y],[s,lf.y],[s,yTout],[bxOut,yTout],[bxOut,0]]}
+function chooseLift(a,x,type){let b=null,bj=1e18;for(const l of liftsOf(a)){const j=2*tt(Math.abs(l.x-x)+.5,K.vSh,K.aSh)+P.wConv*pathLen(type==="S"?pathIn(l):pathOut(l))/K.vConv+14*l.jobs.length;if(j<bj){bj=j;b=l}}return b}
+function newTx(type){const tier=pickTier(),a=Math.floor(rnd()*A);const tx={id:++txSeq,type,tier,a,t0:now};
+  for(let tries=0;tries<60;tries++){const si=rnd()<.5?0:1,j=Math.floor(rnd()*NL),l=li(a,tier,si,j);if(removed[l])continue;
+    let k=-1;if(type==="S"){for(let q=NC-1;q>=0;q--){const id=l*NC+q;if(!occ[id]&&!resv[id]){k=q;break}}if(k<0)continue;resv[l*NC+k]=1}
+    else{for(let q=0;q<NC;q++){const id=l*NC+q;if(occ[id]&&!claim[id]){k=q;break}}if(k<0)continue;claim[l*NC+k]=1}
+    tx.si=si;tx.j=j;tx.k=k;break}
+  if(tx.k===undefined)return;
+  tx.lane=li(a,tier,tx.si,tx.j);tx.x=laneX(tx.j);tx.sy=slotY(a,tx.si,tx.k);
+  const lf=chooseLift(a,tx.x,type);tx.lift=lf;tx.xl=lf.x;
+  tx.ex={shHere:false,liHere:false,started:false,liDur:tier>0?K.tI:0};
+  if(tier>0)tx.ex.onStart=type==="S"?()=>{tx.owner={t:"sh",a:tx.sh}}:()=>{tx.owner={t:"lift",a:lf}};
+  if(type==="S"){tx.cargo=makeCargo(tx.tier);tx.owner={t:"conv",pts:pathIn(lf),t0:now};tx.owner.len=pathLen(tx.owner.pts);
+    evs.push({t:now+tx.owner.len/K.vConv,f:()=>{tx.owner={t:"port",x:lf.x,y:lf.y,z:0};if(tier===0){tx.ex.liHere=true;maybeStart(tx.ex)}else tx.job.elig=now}});
+    if(tier>0){tx.job={tx,type:"S",elig:1e18};lf.jobs.push(tx.job)}}
+  else{tx.owner=null;if(tier>0){tx.job={tx,type:"R",elig:1e18};lf.jobs.push(tx.job)}else tx.ex.liHere=true}
+  cargos.push(tx);queue.push(tx)}
+function maybeStart(ex){if(ex.shHere&&ex.liHere&&!ex.started){ex.started=true;if(ex.onStart)ex.onStart();ex.shEnd=now+K.tSh;ex.liEnd=now+ex.liDur}}
+const FLASH=new T.Color(0x3fbf74),flashes=[],tmpC=new T.Color();
+function flash(m,idx){m.setColorAt(idx,FLASH);m.instanceColor.needsUpdate=true;flashes.push({m,idx,t0:now})}
+function updFlash(){for(let i=flashes.length-1;i>=0;i--){const f=flashes[i],k=(now-f.t0)/240;tmpC.copy(FLASH).lerp(f.m.userData.base,Math.min(1,k));f.m.setColorAt(f.idx,tmpC);f.m.instanceColor.needsUpdate=true;if(k>=1)flashes.splice(i,1)}}
+/* outbound truck at the OUT bay: 26 pallets, leaves when full or after 45 min */
+const TRUCK=26,truck=[];let trucks=0,truckT0=0;
+const truckBox=new T.LineSegments(new T.EdgesGeometry(new T.BoxGeometry(13*1.3+.8,2.7,2.6)),new T.LineBasicMaterial({color:0xc65f1c}));scene.add(truckBox);
+const truckLab=label("Truck","#a24b10",.9);scene.add(truckLab);
+const tDir=()=>bxOut>=xL+L/2?1:-1,truckSlot=i=>[bxOut+tDir()*(2.4+Math.floor(i/2)*1.3),-5.2+(i%2?.62:-.62),1.0];
+function placeTruck(){truckBox.position.copy(V(bxOut+tDir()*(2.4+6*1.3),-5.2,1.0+1.35));truckLab.position.copy(V(bxOut+tDir()*(2.4+13*1.3+1.5),-5.2,3.2));truck.forEach((m,i)=>{const p=truckSlot(i);m.position.copy(V(p[0],p[1],p[2]))})}
+function finish(tx){const d=now-tx.t0;if(tx.type==="S"){stats.inN++;stats.sumS+=d;stats.nS++}else{stats.outN++;stats.sumR+=d;stats.nR++}
+  const m=tx.cargo;tx.done=true;if(!m)return;
+  if(tx.type==="R"){if(!truck.length)truckT0=now;truck.push(m);const p=truckSlot(truck.length-1);m.visible=true;m.position.copy(V(p[0],p[1],p[2]))}else scene.remove(m)}
+truckReady=true;placeTruck();
+function truckCheck(){if(truck.length>=TRUCK||(truck.length&&now-truckT0>2700)){truck.forEach(m=>scene.remove(m));truck.length=0;trucks++}}
+const mv=(ax,to)=>({k:"mv",ax,to}),wt=d=>({k:"wt",d}),exs=(e,role)=>({k:"ex",e,role}),fn=f=>({k:"fn",f});
+function stepAgent(ag){for(let g=0;g<8;g++){
+  if(!ag.cur){if(!ag.plan.length)return;ag.cur=ag.plan.shift();const s=ag.cur;s.t0=now;
+    if(s.k==="mv"){s.from=ag[s.ax];s.l=Math.abs(s.to-s.from);s.dir=Math.sign(s.to-s.from);const kin=s.ax==="z"?[K.vL,K.aL]:[K.vSh,K.aSh];s.v=kin[0];s.a=kin[1];s.T=tt(s.l,s.v,s.a)}
+    else if(s.k==="ex"){s.e[s.role+"Here"]=true;maybeStart(s.e)}
+    else if(s.k==="fn"){s.f();ag.cur=null;continue}}
+  const s=ag.cur;let done=false;
+  if(s.k==="mv"){const t=now-s.t0;ag[s.ax]=s.from+s.dir*prof(s.l,t,s.v,s.a);if(t>=s.T){ag[s.ax]=s.to;done=true}}
+  else if(s.k==="wt")done=now-s.t0>=s.d;else if(s.k==="ex")done=s.e.started&&now>=s.e[s.role+"End"];
+  if(done){ag.cur=null;continue}return}}
+const idle=ag=>!ag.cur&&!ag.plan.length;
+function matAt(tx){dum.position.copy(V(laneX(tx.j),slotY(tx.a,tx.si,tx.k),tx.tier*uh+pz0+ph/2));dum.scale.setScalar(1);dum.updateMatrix();return dum.matrix}
+function toConv(tx){tx.owner={t:"conv",pts:pathOut(tx.lift),t0:now};tx.owner.len=pathLen(tx.owner.pts);evs.push({t:now+tx.owner.len/K.vConv,f:()=>finish(tx)})}
+function planShuttle(sh,tx){const p=[],xl=tx.xl,ya=yA(tx.a);sh.tx=tx;tx.sh=sh;
+  if(sh.tier!==tx.tier)p.push(mv("y",ya),mv("x",xl),wt(K.tI),mv("z",tx.tier*uh),fn(()=>{sh.tier=tx.tier}),wt(K.tI));
+  if(tx.type==="S")p.push(mv("x",xl),exs(tx.ex,"sh"),fn(()=>{tx.owner={t:"sh",a:sh}}),mv("x",tx.x),wt(K.tTurn),mv("y",tx.sy),wt(K.tSh),
+      fn(()=>{const id=tx.lane*NC+tx.k;occ[id]=1;resv[id]=0;stock++;const m=palMesh[tx.a][tx.tier][tx.si];m.setMatrixAt(tx.j*NC+tx.k,matAt(tx));m.instanceMatrix.needsUpdate=true;flash(m,tx.j*NC+tx.k);tx.owner=null;finish(tx)}),
+      mv("y",ya),wt(K.tTurn));
+  else p.push(mv("x",tx.x),wt(K.tTurn),mv("y",tx.sy),wt(K.tSh),
+      fn(()=>{const id=tx.lane*NC+tx.k;occ[id]=0;claim[id]=0;stock--;dum.position.set(0,0,0);dum.scale.setScalar(0);dum.updateMatrix();const m=palMesh[tx.a][tx.tier][tx.si];m.setMatrixAt(tx.j*NC+tx.k,dum.matrix);m.instanceMatrix.needsUpdate=true;
+        tx.cargo=makeCargo(tx.tier);tx.owner={t:"sh",a:sh};if(tx.job)tx.job.elig=now}),
+      mv("y",ya),wt(K.tTurn),mv("x",xl),exs(tx.ex,"sh"),fn(()=>{if(tx.tier>0)tx.owner={t:"lift",a:tx.lift};else toConv(tx)}));
+  sh.plan=p}
+function planLift(lf,job){const tx=job.tx,hz=tx.tier*uh;lf.job=job;
+  lf.plan=job.type==="S"?[mv("z",0),wt(K.tPos),wt(K.tCh),fn(()=>{tx.owner={t:"lift",a:lf}}),mv("z",hz),wt(K.tPos),exs(tx.ex,"li"),fn(()=>{lf.job=null})]
+    :[mv("z",hz),wt(K.tPos),exs(tx.ex,"li"),mv("z",0),wt(K.tPos),wt(K.tCh),fn(()=>{toConv(tx);lf.job=null})]}
+let inMul=1,outMul=1;const shift=()=>{const s=(now/3600)%24,day=$("cDay").checked;return {inOn:!day||s<P.hoursIn,outOn:!day||s<P.hoursOut}};
+function dispatch(){for(let i=0;i<queue.length;i++){const tx=queue[i];let best=null,bd=1e18;
+    for(const sh of shuttles){if(sh.a!==tx.a||!idle(sh)||!sh.tiers.includes(tx.tier))continue;const d=(sh.tier===tx.tier?0:1e4)+(sh.spare?500:0)+Math.abs(sh.x-(tx.type==="S"?tx.xl:tx.x));if(d<bd){bd=d;best=sh}}
+    if(best){queue.splice(i,1);i--;planShuttle(best,tx)}}
+  stats.maxQ=Math.max(stats.maxQ,queue.length);
+  lifts.forEach(lf=>{if(!idle(lf)||lf.job)return;let b=null;for(const j of lf.jobs)if(j.elig<=now&&(!b||j.elig<b.elig))b=j;if(b){lf.jobs.splice(lf.jobs.indexOf(b),1);planLift(lf,b)}})}
+function stepSim(h){now+=h;
+  const sh=shift();
+  for(let r=sh.inOn?P.lamIn*inMul*h/3600:0;r>0;r-=1)if(rnd()<Math.min(1,r))newTx("S");
+  for(let r=sh.outOn?P.lamOut*outMul*h/3600:0;r>0;r-=1)if(rnd()<Math.min(1,r))newTx("R");
+  truckCheck();if(now>=nextRec){hist.push([now,stock]);nextRec+=300;if(hist.length>1200)hist.shift()}
+  for(let i=evs.length-1;i>=0;i--)if(evs[i].t<=now){const e=evs.splice(i,1)[0];e.f()}
+  dispatch();shuttles.forEach(s=>{stepAgent(s);if(!idle(s))s.busy+=h});lifts.forEach(l=>{stepAgent(l);if(!idle(l)||l.job)l.busy+=h});
+  for(let i=cargos.length-1;i>=0;i--)if(cargos[i].done)cargos.splice(i,1)}
+function ownerPos(tx){const o=tx.owner;if(!o)return null;
+  if(o.t==="conv"){let s=Math.min(o.len,K.vConv*(now-o.t0));const q=o.pts;for(let i=1;i<q.length;i++){const d=Math.abs(q[i][0]-q[i-1][0])+Math.abs(q[i][1]-q[i-1][1]);
+      if(s<=d||i===q.length-1){const f=d>0?Math.min(1,s/d):1;return [q[i-1][0]+(q[i][0]-q[i-1][0])*f,q[i-1][1]+(q[i][1]-q[i-1][1])*f,0]}s-=d}}
+  if(o.t==="port")return [o.x,o.y,0];if(o.t==="sh")return [o.a.x,o.a.y,o.a.z];if(o.t==="lift")return [o.a.x,o.a.y,o.a.z];return null}
+function sync(){shuttles.forEach(s=>s.mesh.position.copy(V(s.x,s.y,s.z+.02)));lifts.forEach(l=>l.mesh.position.copy(V(l.x,l.y,l.z+.07)));
+  cargos.forEach(tx=>{if(!tx.cargo)return;const p=ownerPos(tx);if(!p){tx.cargo.visible=false;return}tx.cargo.visible=true;
+    tx.cargo.position.copy(V(p[0],p[1],p[2]+({conv:.14,port:.14,lift:.15,sh:.27}[tx.owner.t]||.14)))})}
+/* cameras */
+const cam=new T.PerspectiveCamera(36,1,.5,3000),tcam=new T.OrthographicCamera(-10,10,10,-10,.1,600);tcam.up.set(0,0,-1);
+const ctl=new T.OrbitControls(cam,cv);ctl.enableDamping=true;ctl.dampingFactor=.08;
+const BB={x0:Math.min(-2.2-Math.max(1.4,Math.max(BL,BW)/26)*4.4,bxIn-2,bxOut-26)-2,x1:Math.max(BL,bxIn+2,bxOut+26)+2,y0:-12,y1:Math.max(BW,dy+A*Db)+2};BB.cx=(BB.x0+BB.x1)/2;BB.cy=(BB.y0+BB.y1)/2;
+function preset(n){const c=V(BB.cx,BB.cy,NT*uh*.4),d=Math.max(BB.x1-BB.x0,(BB.y1-BB.y0)*1.4,NT*uh*2)*1.3;ctl.target.copy(c);
+  if(n==="A")cam.position.set(BB.cx-d*.55,NT*uh*.5+d*.62,-BB.cy+d*.78);
+  if(n==="B")cam.position.set(BB.cx,NT*uh*.5,-BB.cy+d*1.05);
+  if(n==="C")cam.position.set(BB.cx+d*1.1,NT*uh*.5,-BB.cy+d*.1);
+  if(n==="D"){ctl.target.copy(V(BB.cx,BB.cy,0));cam.position.set(BB.cx,d*1.25,-BB.cy+.01)}
+  ctl.update()}
+preset("A");
+const keep=(id,max)=>{const v=$(id).value;const n=v===""?-1:+v;return n<max?n:-1};
+let tierSel=keep("tierSel",NT),aisleSel=keep("aisleSel",A),pv,tv;
+const gscene=new T.Scene(),gcam=new T.PerspectiveCamera(40,1,.1,20);gscene.add(new T.AxesHelper(1));
+[["x",[1.3,0,0],"#c0392b"],["z",[0,1.3,0],"#2f8f3a"],["y",[0,0,-1.3],"#2d6fb8"]].forEach(([t,p,c])=>{const s=label(t,c,.32);s.scale.set(.5,.5,1);s.position.set(...p);gscene.add(s)});
+function layout(){const vw=$("view"),W=vw.clientWidth,H=vw.clientHeight;
+  pv={x:0,y:0,w:W,h:H};const ar=(BB.x1-BB.x0)/(BB.y1-BB.y0);let w=Math.min(W*.3,340),h=w/ar;if(h>H*.42){h=H*.42;w=h*ar}
+  tv={x:Math.round(W-w-12),y:12,w:Math.round(w),h:Math.round(h)};
+  renderer.setSize(W,H,false);
+  $("split").style.cssText=`left:${tv.x-1}px;bottom:${tv.y-1}px;width:${tv.w}px;height:${tv.h}px`;
+  $("tagT").style.cssText=`left:${tv.x-1}px;bottom:${tv.y+tv.h+4}px`;$("tagP").style.cssText="left:12px;top:12px";
+  const asp=tv.w/tv.h,hh=Math.max((BB.y1-BB.y0)/2*1.04,(BB.x1-BB.x0)/2/asp*1.02);
+  tcam.left=-hh*asp;tcam.right=hh*asp;tcam.top=hh;tcam.bottom=-hh;tcam.updateProjectionMatrix();
+  tcam.position.set(BB.cx,300,-BB.cy);tcam.lookAt(BB.cx,0,-BB.cy);cam.aspect=pv.w/pv.h;cam.updateProjectionMatrix()}
+addEventListener("resize",layout);
+function setVis(){const cut=$("cCut").checked,pal=$("cPal").checked;
+  for(let a=0;a<A;a++){const sa=aisleSel<0||aisleSel===a;
+    for(let t=0;t<NT;t++){const show=sa&&(tierSel<0||t<=tierSel);
+      for(let si=0;si<2;si++){palMesh[a][t][si].visible=show&&pal&&!(cut&&si===0);plates[a][t][si].visible=show&&!(cut&&si===0)}plates[a][t][2].visible=show}}
+  shuttles.forEach(s=>s.mesh.visible=(aisleSel<0||aisleSel===s.a)&&(tierSel<0||s.tier<=tierSel));
+  cargos.forEach(tx=>{if(tx.cargo&&tx.owner&&tx.owner.t==="sh"&&!tx.owner.a.mesh.visible)tx.cargo.visible=false});
+  shuttles.forEach(s=>s.mesh.userData.lab.visible=$("cLab").checked);
+  bldg.visible=$("cBld").checked;dims.visible=$("cBld").checked}
+function draw(){sync();setVis();renderer.setScissorTest(true);
+  renderer.setClearColor(0xe4eaf0,1);renderer.setViewport(pv.x,pv.y,pv.w,pv.h);renderer.setScissor(pv.x,pv.y,pv.w,pv.h);renderer.render(scene,cam);
+  renderer.setClearColor(0xf8fafc,1);renderer.setViewport(tv.x,tv.y,tv.w,tv.h);renderer.setScissor(tv.x,tv.y,tv.w,tv.h);renderer.render(scene,tcam);
+  const gs=84;gcam.position.copy(cam.position).sub(ctl.target).normalize().multiplyScalar(3.4);gcam.up.copy(cam.up);gcam.lookAt(0,0,0);
+  renderer.setViewport(8,8,gs,gs);renderer.setScissor(8,8,gs,gs);renderer.autoClear=false;renderer.clearDepth();renderer.render(gscene,gcam);renderer.autoClear=true}
+/* drag the bays */
+const ray=new T.Raycaster(),ndc=new T.Vector2(),plane=new T.Plane(new T.Vector3(0,1,0),0);
+function viewAt(e){const r=cv.getBoundingClientRect(),x=e.clientX-r.left,y=r.height-(e.clientY-r.top);
+  if(x>=tv.x&&x<tv.x+tv.w&&y>=tv.y&&y<tv.y+tv.h)return {c:tcam,v:tv,x,y,top:true};
+  if(x>=pv.x&&x<pv.x+pv.w&&y>=pv.y&&y<pv.y+pv.h)return {c:cam,v:pv,x,y,top:false};return null}
+function castFrom(e){const w=viewAt(e);if(!w)return null;ndc.set((w.x-w.v.x)/w.v.w*2-1,(w.y-w.v.y)/w.v.h*2-1);ray.setFromCamera(ndc,w.c);return w}
+function hitBay(e){if(!castFrom(e))return null;const h=ray.intersectObjects([bayObj.in.mesh,bayObj.out.mesh]);return h.length?h[0].object.userData.bay:null}
+let drag=null;
+function onDown(e){if(e.target.closest&&e.target.closest("#panel"))return;const k=hitBay(e);
+  if(k){drag=k;ctl.enabled=false;cv.style.cursor="grabbing";e.stopPropagation();e.preventDefault();return}const w=viewAt(e);ctl.enabled=!!w&&!w.top}
+function onMove(e){if(drag){if(!castFrom(e))return;const pt=new T.Vector3();if(!ray.ray.intersectPlane(plane,pt))return;
+    const wx=Math.max(0,Math.min(BL,Math.round(pt.x*2)/2));if(drag==="in")bxIn=wx;else bxOut=wx;placeBays();buildConv();if(P.onBay)P.onBay(drag,wx,false);return}
+  if(!e.buttons&&!(e.target.closest&&e.target.closest("#panel")))cv.style.cursor=hitBay(e)?"grab":""}
+function onUp(){if(!drag)return;const k=drag;drag=null;ctl.enabled=true;cv.style.cursor="";if(P.onBay)P.onBay(k,k==="in"?bxIn:bxOut,true)}
+$("view").addEventListener("pointerdown",onDown,true);addEventListener("pointermove",onMove);addEventListener("pointerup",onUp);
+/* panel */
+const fmtT=s=>{s=Math.floor(s);return Math.floor(s/3600)+":"+String(Math.floor(s%3600/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0")};
+let speed=30,playing=$("play").textContent==="Pause";const spdMap=v=>Math.round(Math.pow(10,v/100*Math.log10(600)));
+$("spd").oninput=e=>{speed=spdMap(+e.target.value);$("spdO").textContent=speed+"×"};
+const mulOf=v=>v<=0?0:Math.pow(2,(v-50)/25);
+$("lin").oninput=e=>{inMul=mulOf(+e.target.value);$("linO").textContent=inMul.toFixed(2)+"×"};$("lout").oninput=e=>{outMul=mulOf(+e.target.value);$("loutO").textContent=outMul.toFixed(2)+"×"};
+speed=spdMap(+$("spd").value);$("spdO").textContent=speed+"×";inMul=mulOf(+$("lin").value);$("linO").textContent=inMul.toFixed(2)+"×";outMul=mulOf(+$("lout").value);$("loutO").textContent=outMul.toFixed(2)+"×";
+$("play").onclick=()=>{playing=!playing;$("play").textContent=playing?"Pause":"Play"};
+$("camA").onclick=()=>preset("A");$("camB").onclick=()=>preset("B");$("camC").onclick=()=>preset("C");$("camD").onclick=()=>preset("D");
+const sel=$("tierSel");sel.innerHTML=`<option value="-1">All tiers</option>`+Array.from({length:NT},(_,t)=>`<option value="${t}">${t===0?"Ground tier only":"Tiers 1 to "+(t+1)}</option>`).join("");sel.value=String(tierSel);sel.onchange=()=>{tierSel=+sel.value};
+const asel=$("aisleSel");asel.innerHTML=`<option value="-1">All aisles</option>`+Array.from({length:A},(_,a)=>`<option value="${a}">Aisle ${a+1}${a===0?" (front)":""}</option>`).join("");asel.value=String(aisleSel);asel.onchange=()=>{aisleSel=+asel.value};asel.disabled=A===1;
+$("design").textContent=`Building L ${BL} × W ${BW} × H ${BH} m · ${A} aisle${A>1?"s":""} · N_C ${NC} · N_L ${NL} · N_T ${NT} · ${virtualLift?0:lifts.length} lifts · ${shuttles.length} shuttles`;
+$("legend").innerHTML=[["A tiers","#ee9d2c"],["B tiers","#f3c24f"],["C tiers","#ecd99a"],["Just stored","#3fbf74"],["Rack steel","#7fa6cb"],["Lift","#d23b3b"],["IN line","#3f7fc4"],["OUT line","#d9772e"]].map(([n,c])=>`<span><i style="background:${c}"></i>${n}</span>`).join("");
+$("note").textContent="Every shuttle keeps its number (S1, S2…) and only moves pallets; pallets travel on the conveyors, lifts and shuttles. Daily shifts: inbound runs "+P.hoursIn+" h and outbound "+P.hoursOut+" h a day from 06:00, so the stock rises at night and falls during the day. Collisions between shuttles are not modelled.";
+function kpi(){const el=Math.max(1,now),real=lifts.filter(l=>!l.def.virtual),lu=real.length?Math.round(100*real.reduce((s,l)=>s+l.busy,0)/real.length/el)+"% avg, max "+Math.round(100*Math.max(...real.map(l=>l.busy))/el)+"%":"–";
+  const su=shuttles.reduce((s,x)=>s+x.busy/el,0)/shuttles.length,smax=Math.max(...shuttles.map(x=>x.busy/el)),row=(a,b)=>`<tr><td>${a}</td><td>${b}</td></tr>`;
+  const sh=shift(),hr=(6+now/3600)%24,clock="Day "+(1+Math.floor((now/3600+6)/24))+" · "+String(Math.floor(hr)).padStart(2,"0")+":"+String(Math.floor(hr%1*60)).padStart(2,"0");
+  drawStock();
+  $("kpi").innerHTML=row("Clock",clock+" <small>"+(sh.inOn?"IN on":"IN off")+" · "+(sh.outOn?"OUT on":"OUT off")+"</small>")+
+    row("Stock",stock.toLocaleString("en-US")+" <small>of "+posTot.toLocaleString("en-US")+" positions · "+(100*stock/posTot).toFixed(1)+"%</small>")+
+    row("Trucks dispatched",trucks+" <small>"+truck.length+"/"+TRUCK+" on the dock</small>")+row("Stored / retrieved",stats.inN+" / "+stats.outN)+row("Waiting for a shuttle",queue.length+" <small>max "+stats.maxQ+"</small>")+
+    row("Throughput time in",stats.nS?Math.round(stats.sumS/stats.nS)+" s":"–")+row("Throughput time out",stats.nR?Math.round(stats.sumR/stats.nR)+" s":"–")+
+    row("Lift utilization",lu+(P.ana&&real.length?" <small>model "+P.ana.liftUtil+"%</small>":""))+row("Shuttle utilization",Math.round(100*su)+"% <small>max "+Math.round(100*smax)+"%</small>")+
+    (P.ana?row("Shuttle cycle (model)",P.ana.cycle+" s"):"");
+  $("status").innerHTML=`<span><b>${clock}</b> ${sh.inOn?"IN on":"IN off"} · ${sh.outOn?"OUT on":"OUT off"}</span><span>Stock <b>${stock.toLocaleString("en-US")}</b> (${(100*stock/posTot).toFixed(1)}%)</span><span>Trucks <b>${trucks}</b></span><span>Lifts <b>${lu}</b></span><span>Drag the IN / OUT bays to re-optimise</span>`}
+function drawStock(){const c=$("stockChart");if(!c)return;const dpr=Math.min(devicePixelRatio||1,2),W=c.clientWidth||300,H=c.clientHeight||100;if(c.width!==Math.round(W*dpr)){c.width=Math.round(W*dpr);c.height=Math.round(H*dpr)}const g=c.getContext("2d"),cs=getComputedStyle(document.documentElement);g.setTransform(dpr,0,0,dpr,0,0);
+  const mu=cs.getPropertyValue("--mute").trim()||"#97a6b5",ac=cs.getPropertyValue("--accent").trim()||"#f0a23b",ln=cs.getPropertyValue("--line").trim()||"#2a3744";
+  g.clearRect(0,0,W,H);const pts=hist.concat([[now,stock]]);let lo=Math.min(...pts.map(p=>p[1])),hi=Math.max(...pts.map(p=>p[1]));const pad=Math.max(posTot*.03,(hi-lo)*.15);lo=Math.max(0,lo-pad);hi=Math.min(posTot,hi+pad);
+  const t0=pts[0][0],t1=Math.max(pts[pts.length-1][0],t0+3600),X=t=>40+(W-48)*(t-t0)/(t1-t0),Y=v=>H-16-(H-26)*(v-lo)/Math.max(1,hi-lo);
+  g.font="10px "+(cs.getPropertyValue("--mono").trim()||"monospace");g.fillStyle=mu;g.strokeStyle=ln;g.lineWidth=1;
+  [lo,(lo+hi)/2,hi].forEach(v=>{const y=Y(v);g.beginPath();g.moveTo(40,y);g.lineTo(W-8,y);g.stroke();g.fillText((100*v/posTot).toFixed(0)+"%",4,y+3)});
+  g.fillText("stock over simulated time",40,H-3);
+  g.beginPath();pts.forEach((p,i)=>{const x=X(p[0]),y=Y(p[1]);i?g.lineTo(x,y):g.moveTo(x,y)});g.strokeStyle=ac;g.lineWidth=2;g.stroke();
+  const lp=pts[pts.length-1];g.fillStyle=ac;g.beginPath();g.arc(X(lp[0]),Y(lp[1]),3,0,7);g.fill()}
+let alive=true,last=performance.now(),kt=0;
+function frame(t){if(!alive)return;requestAnimationFrame(frame);const dt=Math.min(.1,(t-last)/1000);last=t;
+  if(playing){let rem=dt*speed;while(rem>0){const h=Math.min(.25,rem);stepSim(h);rem-=h}}kt+=dt;if(kt>.25){kt=0;kpi()}updFlash();ctl.update();draw()}
+layout();kpi();requestAnimationFrame(frame);
+window.__sim={now:()=>now,speed:()=>speed,load:()=>[inMul,outMul],stock:()=>stock,carry:()=>cargos.filter(t=>t.owner&&t.owner.t==="sh"&&t.cargo).map(t=>{const c=t.cargo.position,m=t.owner.a.mesh.position;return Math.hypot(c.x-m.x,c.z-m.z).toFixed(3)+'/'+(c.y-m.y).toFixed(2)}),posTot:()=>posTot,trucks:()=>trucks,truck:()=>truck.length,shuttleIds:()=>shuttles.map(s=>s.mesh.uuid),playing:()=>playing,cam:()=>cam.position.toArray(),tier:()=>tierSel,tx:()=>stats.inN+stats.outN,bays:()=>[bxIn,bxOut],bayScreen:k=>{const v=bayObj[k].mesh.position.clone().project(tcam),r=cv.getBoundingClientRect();return {x:r.left+tv.x+(v.x+1)/2*tv.w,y:r.top+r.height-(tv.y+(v.y+1)/2*tv.h)}},
+  vis:()=>({pal:palMesh[0][0][0].visible,cut:$("cCut").checked,bld:bldg.visible,shuttles:shuttles.length,lifts:lifts.filter(l=>!l.def.virtual).length,NL,NC,NT,A})};
+return ()=>{alive=false;removeEventListener("resize",layout);$("view").removeEventListener("pointerdown",onDown,true);removeEventListener("pointermove",onMove);removeEventListener("pointerup",onUp);
+  try{ctl.dispose()}catch(e){}renderer.dispose();try{renderer.forceContextLoss()}catch(e){}};
+}
+
+/* ================= scenario form ================= */
+const AUTO="Auto (optimise)",FILL="Fill the building";
+const FIELDS=[
+ ["Building dimensions  L × W × H",[["bL","L · length","m · along the cross-aisles",10,500,1],["bW","W · width","m · from the IN/OUT wall to the back wall",10,500,1],["bH","H · height","m · clear height for the racks",3,60,.5]]],
+ ["Design mode",[["mode","Warehouse design","Auto re-optimises everything after each change",["Auto (optimise)","Manual"]],["sizing","Size the warehouse for","",["Required capacity","Fill the building"]],["liftMode","Inline lift positions","",["Optimised for bays","Equispaced","Manual list"]]]],
+ ["Requirements",[["cap","Required capacity","effective pallets (minimum)",100,300000,100],["skuPal","Pallets per SKU","used by the fixed lane policy",1,40,1],["lanePolicy","Lane depth policy","",["Free (optimise N_C)","Fixed = pallets per SKU"]],["objective","Objective","with 'Required capacity' sizing",["Total cost","Shuttle cycle","Footprint"]],["spaceCost","Building cost counted on","",["Footprint used","Whole building"]],["env","Keep inside the building","No = the building grows around the racks",["Yes","No"]]]],
+ ["Optimiser options",[["maxAisles","Max cross-aisles (rack blocks)","blocks one behind the other",1,4,1],["endLifts","Allow lifts at the aisle ends","no lanes lost, longer shuttle trips",["Yes","No"]],["shaftW","Space for an end lift","m beyond the rack block",1.5,5,.1]]],
+ ["Warehouse layout (result in Auto mode)",[["A","Cross-aisles","",1,4,1],["NC","Lane depth N_C","pallets per lane",1,40,1],["NL","Lanes per side N_L","each side of every aisle",2,300,1],["NT","Tiers N_T","",1,20,1],["nLift","Lifts per aisle","0 to 6",0,6,1],["e","of which at the aisle ends","0, 1 or 2",0,2,1],["liftPos","Inline lift positions","m from the start of the block",'text'],["shutt","Shuttles per tier (per aisle)","one number per tier; empty = sized by the model","text"]]],
+ ["Rack geometry",[["uw","Lane pitch u_w","m · pallet 850 mm + clearance",.95,2,.01],["ud","Position pitch u_d","m · pallet 1250 mm + gap",1.3,3,.01],["uh","Tier pitch u_h","m · pallet 1700 mm + rails",1.9,4,.01],["aisleW","Cross-aisle width","m · shuttle 1045 mm",1.1,4,.1],["laneOff","Aisle centre to first slot","m",0,4,.1],["fHc","Honeycombing factor f","",0,1,.01]]],
+ ["Flows",[["lamIn","Inbound rate","pallets/h, peak included",0,1500,1],["lamOut","Outbound rate","pallets/h, peak included",0,1500,1],["fill","Starting fill ratio","also used to size the racks",.3,1,.01],["hoursIn","Inbound hours per day","from 06:00",1,24,1],["hoursOut","Outbound hours per day","from 06:00",1,24,1]]],
+ ["ABC split over tiers",[["dist","Distribution","",["ABC","Uniform"]],["nA","Tiers of class A","lowest tiers",1,20,1],["nB","Tiers of class B","",0,20,1],["shareA","Share of class A","",0,1,.01],["shareB","Share of class B","",0,1,.01],["shareC","Share of class C","",0,1,.01]]],
+ ["IN and OUT bays",[["inX","Inbound bay x","m from the left wall (or drag it)",0,500,.5],["outX","Outbound bay x","m from the left wall (or drag it)",0,500,.5],["dy","Apron in front of the racks","m, holds the IN and OUT lines",2,100,.5],["wConv","Conveyor weight in lift placement","0 = ignore conveyors",0,5,.05]]],
+ ["Design rules",[["rhoMax","Max utilization","normal operation",.2,1,.01],["rhoFail","Max lift utilization, one lift down","",.2,1.5,.01],["redund","N+1 redundancy on lifts","per aisle",["Yes","No"]],["minSh","Minimum shuttles per tier","",0,5,1],["spares","Spare shuttles","roam between tiers",0,20,1],["headroom","Headroom above racks","m",0,10,.5]]],
+ ["Costs (assumptions)",[["cLift","Cost per lift","EUR",0,5000000,1000],["cShut","Cost per shuttle","EUR",0,1000000,1000],["cPos","Cost per pallet position","EUR",0,5000,10],["cM2","Cost per m² of building","EUR",0,10000,10],["cM3","Cost per m³ of building","EUR",0,1000,1],["cConv","Ground conveyor cost","EUR/m",0,10000,10]]],
+ ["Lift, shuttle and conveyor data",[["vSh","Shuttle speed","m/s",.2,4,.05],["aSh","Shuttle acceleration","m/s²",.1,3,.05],["tTurn","Shuttle direction change","s",0,20,.5],["tSh","Shuttle load or unload","s",1,120,1],["vL","Lift speed","m/s",.2,5,.05],["aL","Lift acceleration","m/s²",.1,3,.05],["tPos","Lift positioning","s",0,10,.5],["tCh","Lift load or unload on chain","s",1,60,1],["tLiftSh","Lift load or unload with shuttle","s",1,120,1],["iface","Lift interface at the tiers","",["Shuttle","Chain"]],["vConv","Ground conveyor speed","m/s",.1,3,.05]]]];
+const KEYS=[];FIELDS.forEach(g=>g[1].forEach(f=>KEYS.push(f)));
+(function build(){const host=$("form");host.innerHTML="";
+  FIELDS.forEach(g=>{const d=document.createElement("div");d.innerHTML='<div class="sec" style="margin-bottom:6px">'+g[0]+'</div>';const gr=document.createElement("div");gr.className="fgrid";
+    g[1].forEach(f=>{const [key,lab,hint]=f;const l=document.createElement("label");l.htmlFor="f_"+key;l.innerHTML=lab+(hint?"<small>"+hint+"</small>":"");gr.appendChild(l);
+      let el;if(f[3]==="text"){el=document.createElement("input");el.type="text"}
+      else if(Array.isArray(f[3])){el=document.createElement("select");f[3].forEach(o=>{const op=document.createElement("option");op.value=o;op.textContent=o;el.appendChild(op)})}
+      else{el=document.createElement("input");el.type="number";el.min=f[3];el.max=f[4];el.step=f[5]}
+      el.id="f_"+key;gr.appendChild(el)});d.appendChild(gr);host.appendChild(d)})})();
+function fill(F){KEYS.forEach(f=>{$("f_"+f[0]).value=F[f[0]];$("f_"+f[0]).classList.remove("bad")});lock()}
+function lock(){const auto=$("f_mode").value===AUTO;["A","NC","NL","NT","nLift","e","shutt"].forEach(k=>{$("f_"+k).disabled=auto});
+  $("f_liftPos").disabled=$("f_liftMode").value!=="Manual list";$("f_skuPal").disabled=!$("f_lanePolicy").value.startsWith("Fixed");
+  $("f_objective").disabled=$("f_sizing").value===FILL;$("f_cap").disabled=false;$("f_maxAisles").disabled=!auto;$("f_shaftW").disabled=$("f_endLifts").value==="No"}
+function read(){const F={},bad=[];KEYS.forEach(f=>{const el=$("f_"+f[0]);el.classList.remove("bad");
+  if(f[3]==="text"||Array.isArray(f[3])){F[f[0]]=el.value;return}
+  const v=Number(el.value),ok=el.value!==""&&isFinite(v)&&v>=f[3]&&v<=f[4];if(!ok){el.classList.add("bad");bad.push(f[1]+" ("+f[3]+" to "+f[4]+")")}F[f[0]]=v});return {F,bad}}
+function design(q){const auto=q.mode===AUTO;let r,top=[];
+  if(auto){const o=optimize(q);r=o.best;top=o.top;if(!r)return {fail:o}}
+  else{const c={nc:q.NC,nt:q.NT,A:q.A,n:q.nLift,e:q.e,nl:q.NL};let man=null;
+    if(q.liftMode==="Manual list"){man=q.liftPos.split(/[\s,;]+/).filter(Boolean).map(Number);const Lb=q.NL*q.uw;
+      if(man.length!==c.n-c.e||man.some(x=>!isFinite(x)||x<0||x>Lb))throw new Error("Inline lift positions: give "+(c.n-c.e)+" numbers between 0 and "+Lb.toFixed(1)+" m, or choose another lift mode.")}
+    r=refine(q,evalCfg(q,c),man);if(!r.ok)return {fail:{all:[r],manual:true}}}
+  let groups;
+  if(!auto&&q.shutt.trim()){const c=q.shutt.split(/[\s,;]+/).filter(Boolean).map(Number);
+    if(c.length!==r.nt||c.some(x=>!Number.isInteger(x)||x<0))throw new Error("Shuttles per tier: give "+r.nt+" whole numbers (one per tier), or leave the field empty.");
+    groups=[];c.forEach((k,i)=>{if(k>0)groups.push([[i],k]);else if(r.probs[i]>1e-9)throw new Error("Tier "+(i+1)+" has transactions but no shuttle.")})}
+  else{groups=[];r.need.forEach((k,i)=>{if(k>0)groups.push([[i],k])})}
+  const bld=q.env==="No"?{L:Math.max(q.bL,r.xb+r.G.Ltot+2),W:Math.max(q.bW,r.G.Dtot+2),H:Math.max(q.bH,r.H+q.headroom)}:{L:q.bL,W:q.bW,H:q.bH};
+  const P={A:r.A,NL:r.nl,NC:r.nc,NT:r.nt,uw:q.uw,ud:q.ud,uh:q.uh,aisleW:q.aisleW,Db:r.G.Db,xL:r.xL,dy:q.dy,shaftW:q.shaftW,
+    lifts:r.lifts.map(l=>({x:l.x,end:l.end,side:l.side})),bays:{inX:q.inX,outX:q.outX},bld,groups,spares:q.spares,probs:r.probs,
+    lamIn:q.lamIn,lamOut:q.lamOut,hoursIn:q.hoursIn,hoursOut:q.hoursOut,wConv:q.wConv,fill:q.fill,dist:q.dist,nA:Math.min(q.nA,r.nt),nB:Math.min(q.nB,Math.max(0,r.nt-q.nA)),
+    kin:{vSh:q.vSh,aSh:q.aSh,tTurn:q.tTurn,tSh:q.tSh,vL:q.vL,aL:q.aL,tPos:q.tPos,tCh:q.tCh,tI:tIface(q),vConv:q.vConv},ana:{cycle:+r.T.toFixed(1),liftUtil:Math.round(100*r.util)}};
+  return {P,r,top}}
+function showDesign(d,q){const r=d.r,f=(x,k)=>x.toFixed(k),M=x=>(x/1e6).toFixed(2)+" M€",row=(a,b)=>`<tr><td>${a}</td><td>${b}</td></tr>`;
+  const lf=r.lifts.map(l=>f(l.x,1)+(l.end?" (end)":"")).join(" / ");
+  let h='<table class="k">'+row("Cross-aisles × N_C × N_L × N_T",`${r.A} × ${r.nc} × ${r.nl} × ${r.nt}`)+
+    row("Lifts per aisle",r.n?r.n+(r.e?" ("+r.e+" at the ends)":"")+"<br><small>x = "+lf+" m</small>":"none")+
+    row("Shuttles",r.fleet+" <small>"+r.need.join("+")+(r.A>1?" per aisle":"")+" +"+q.spares+" spare</small>")+
+    row("Positions net / effective",Math.round(r.net).toLocaleString("en-US")+" / "+Math.round(r.eff).toLocaleString("en-US"))+
+    row("Space used",`${f(r.G.Ltot,1)} × ${f(r.G.Dtot,1)} × ${f(r.H,1)} m <small>of ${q.bL} × ${q.bW} × ${q.bH}</small>`)+
+    row("Floor use",Math.round(100*r.G.Ltot*r.G.Dtot/(q.bL*q.bW))+"% <small>volume "+Math.round(100*r.G.Ltot*r.G.Dtot*r.H/(q.bL*q.bW*q.bH))+"%</small>")+
+    row("Block position",`starts ${f(r.xb,1)} m from the left wall`)+
+    row("IN / OUT conveyor lines",`${Math.round(r.conv.inLen)} m / ${Math.round(r.conv.outLen)} m`)+
+    row("Shuttle cycle",f(r.T,1)+" s")+row("Lift utilization",r.n?Math.round(100*r.util)+"%"+(r.down!==null?" <small>one down "+Math.round(100*r.down)+"%</small>":""):"–")+
+    row("Total cost",M(r.cost)+`<br><small>lifts ${M(r.costs.lifts)} · shuttles ${M(r.costs.shuttles)} · racks ${M(r.costs.rack)} · building ${M(r.costs.building)} · conveyors ${M(r.costs.conveyors)}</small>`)+"</table>";
+  if(d.top&&d.top.length>1)h+='<div class="note" style="margin-top:6px">Next best: '+d.top.slice(1,4).map(t=>`${t.A}×${t.nc}×${t.nl}×${t.nt}, ${t.n} lift${t.n===1?"":"s"}${t.e?" ("+t.e+" end)":""}${q.sizing===FILL?", "+Math.round(t.eff).toLocaleString("en-US")+" pal":""}, ${M(t.cost)}`).join(" · ")+"</div>";
+  $("designBox").innerHTML=h}
+function msg(t,cls){const m=$("msg");m.textContent=t;m.className=cls||""}
+let timer=null,lastGood=null,lastField=null,booted=false;
+function conflicts(F){const e=[],auto=F.mode===AUTO,maxT=Math.floor(F.bH/F.uh);
+  if(F.dist==="ABC"&&Math.abs(F.shareA+F.shareB+F.shareC-1)>.005)e.push("ABC shares must add up to 100 % (now "+Math.round(100*(F.shareA+F.shareB+F.shareC))+" %).");
+  if(F.rhoFail<F.rhoMax)e.push("Max lift utilization with one lift down ("+F.rhoFail+") cannot be lower than the normal maximum ("+F.rhoMax+").");
+  if(F.inX>F.bL||F.outX>F.bL)e.push("Bays must be on the front wall, between 0 and "+F.bL+" m.");
+  if(maxT<1)e.push("The building height ("+F.bH+" m) is lower than one tier ("+F.uh+" m).");
+  if(F.dist==="ABC"&&F.nA+F.nB>(auto?maxT:F.NT))e.push("Tiers of class A + B ("+(F.nA+F.nB)+") exceed the tiers available ("+(auto?maxT+" fit in "+F.bH+" m":F.NT)+").");
+  if(!auto){if(F.e>F.nLift)e.push("End lifts ("+F.e+") cannot exceed the lifts per aisle ("+F.nLift+").");
+    if(F.e>0&&F.endLifts==="No")e.push("End lifts are switched off in the optimiser options.")}
+  return e}
+const WHY={height:"the racks would be higher than the building",footprint:"the racks would not fit in the building","lanes>300":"more than 300 lanes per side would be needed","lifts>6":"more than 6 lifts per aisle would be needed","lifts too close":"the lifts would be too close together","lift capacity":"the lifts cannot handle the flows within the utilization limits",capacity:"the layout does not hold the required capacity","lane policy":"the fixed lane depth does not allow it","no positions":"the lifts and tunnels take all the positions"};
+function maxCap(F){let lo=0,hi=F.cap;for(let i=0;i<20;i++){const m=(lo+hi)/2;if(optimize(Object.assign({},F,{cap:m,sizing:"Required capacity"}),true).feas.length)lo=m;else hi=m}return Math.floor(lo/10)*10}
+function refuse(lines){msg("Not possible: "+lines.join(" "),"err");
+  if(!lastGood&&!booted){booted=true;fill(Object.assign({},Q0,{mode:AUTO}));apply(true);msg("The starting data were not valid; the optimised design is shown instead. "+lines.join(" "),"err");return}
+  if(lastGood){const bad=lastField;fill(lastGood);if(bad&&$(bad)){$(bad).classList.add("bad");setTimeout(()=>$(bad)&&$(bad).classList.remove("bad"),2500)}}}
+function apply(force){clearTimeout(timer);const {F,bad}=read();
+  if(force!==true&&lastGood&&JSON.stringify(F)===JSON.stringify(lastGood))return;
+  if(bad.length){refuse(["values out of range: "+bad.join("; ")+"."]);return}
+  const c=conflicts(F);if(c.length){refuse(c);return}
+  let d;try{d=design(F)}catch(e){refuse([e.message]);return}
+  if(d.fail){const all=d.fail.all,cl=all.slice().sort((a,b)=>a.viol-b.viol)[0];const why=cl?cl.reasons.map(k=>WHY[k]||k):["no layout found"];let extra="";
+    if(F.mode===AUTO&&F.sizing!==FILL){const m=maxCap(F);extra=m>0?" With these data the building holds at most about "+m.toLocaleString("en-US")+" pallets.":" No layout fits this building with these data."}
+    refuse([(F.mode===AUTO?"no layout meets all constraints; the closest one fails because ":"")+why.join(", ")+"."+extra]);return}
+  if(d.r.A*d.r.nc*d.r.nt*d.r.nl*2>450000){refuse(["the layout would have more than 450 000 pallet slots."]);return}
+  if(F.mode===AUTO){$("f_A").value=d.r.A;$("f_NC").value=d.r.nc;$("f_NL").value=d.r.nl;$("f_NT").value=d.r.nt;$("f_nLift").value=d.r.n;$("f_e").value=d.r.e}
+  if(F.liftMode!=="Manual list")$("f_liftPos").value=d.r.lifts.filter(l=>!l.end).map(l=>(l.x-d.r.xL).toFixed(1)).join(", ");
+  d.P.onBay=(k,wx,final)=>{$("f_"+(k==="in"?"inX":"outX")).value=wx.toFixed(1);if(final){lastField="f_"+(k==="in"?"inX":"outX");apply()}};
+  if(dispose)dispose();dispose=boot(d.P);showDesign(d,F);lock();lastGood=read().F;
+  msg("Optimised for IN at "+F.inX+" m and OUT at "+F.outX+" m: "+d.r.A+" aisle"+(d.r.A>1?"s":"")+", "+d.r.nc+" × "+d.r.nl+" × "+d.r.nt+", lifts at "+d.r.lifts.map(l=>l.x.toFixed(1)+(l.end?" (end)":"")).join(" / ")+" m, "+d.r.fleet+" shuttles, "+Math.round(d.r.eff).toLocaleString("en-US")+" pallets, "+(d.r.cost/1e6).toFixed(2)+" M€.","ok");
+  window.__design=d}
+const sched=()=>{lock();clearTimeout(timer);timer=setTimeout(apply,250)};
+$("form").addEventListener("change",e=>{lastField=e.target.id;sched()});
+$("apply").onclick=()=>apply(true);
+$("sizeNL").onclick=()=>{const {F,bad}=read();if(bad.length){msg("Check: "+bad.join("; "),"err");return}
+  const c={nc:F.NC,nt:F.NT,A:F.A,n:F.nLift,e:F.e};const nl=Math.max(2,nlFor(F,c));$("f_NL").value=nl;lastField="f_NL";apply(true)};
+$("reset").onclick=()=>{fill(Q0);apply(true)};
+
+window.__opt=optimize;window.__Q0=Q0;window.__evalCfg=evalCfg;
+fill(Q0);apply(true);
+</script>
+
+</body></html>
