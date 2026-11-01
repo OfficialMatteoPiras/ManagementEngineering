@@ -4,6 +4,63 @@
  * Creation Date: 29 Oct 2026 at 16:47:29
  *********************************************/
 
+int n = ... ; //n task
+range v = 1 .. n;
+float t[v] = ... ; // tempi task
+int TC = ...; // tempo di ciclo
+int k = ... ; // numero massimo di stazioni
+range w = 1..k; //range di stazioni
+dvar boolean x[v][w];
+dvar boolean y[w];
+dvar float IT; //IDLE TIME
+
+tuple A {
+ int h1;
+ int j1; 
+}
+
+
+{A} P = ... ; //precedenze
+
+// MODELLO
+minimize IT;
+
+subject to {
+  forall(j in v)
+    sum(h in w) x[j][h] == 1;
+  
+  forall(h in w)
+    sum(j in v)(t[j]*x[j][h]) <= TC * y[h];
+    
+  forall(d in P)
+    sum(k in w)k*x[d.h1][k] <= sum(k in w)k*x[d.j1][k];
+   
+  forall(h in w)
+    IT >= TC*y[h]-sum(j in v)x[j][h]*t[j];
+}
+
+// VISUALIZZATORE
+execute ShowSolution{
+  writeln("Idle time massimo è: " + IT);
+  
+  for(var j in v){
+    for(var j in w){
+      if(x[j][h]==1)
+      	writeln("task" + j + " is assigned to station " + h);
+    }
+  }
+  for(h in w){
+    var counter = 0;
+    for(j in v){
+      if(x[j][h] > 0)
+      	counter = counter + 1;
+    }
+    writeln("total time at station " + h + " is: " + counter);
+  }
+}
+
+
+/*
 int n = ...;
 range v = 1..n;
 float t[v] = ...;
@@ -54,4 +111,4 @@ execute ShowSolution {
     writeln("Stazione " + h + ": task " + lista + "| tempo totale = " + Opl.round(counter*100)/100);
   }
 }
- 
+ */
