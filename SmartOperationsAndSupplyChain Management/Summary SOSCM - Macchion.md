@@ -429,14 +429,15 @@ Any organisation that subscribes to sustainability objectives will want to make 
 > Parallel sourcing has the aim of providing the advantages of both multiple sourcing and single sourcing simultaneously. It involves having single-source relationships for a single component for different service packages or product models. If a supplier is deemed unsatisfactory, it is possible to switch to the alternative supplier who currently provides the same component but for a different service package or product model. The advantage of this sourcing approach is that it maintains competition and allows for switching in circumstances of supplier failure. However, managing delegatedsourcing arrangements is a relatively complex task.
 
 ![[Summary SOSCM - Macchion-1793011660570.webp]]
+## 7.6 DIAGNOSTIC QUESTION: ARE SUPPLY CHAIN DYNAMICS UNDER CONTROL?
+### Forrester Effect
+![[Summary SOSCM - Macchion-1793613481804.webp]]
+
+> [!PDF|yellow] [[Smart operation and supply chain management.pdf#page=91&selection=45,0,82,6&color=yellow|p.91]]
+> There are natural dynamics within supply chains that create errors, uncertainty and fluctuations, and these tend to become larger the further upstream a firm sits. This pattern is known as the BULLWHIP EFFECT, named because a small change at one end of the supply chain results in much larger changes as it moves backward through the chain. The bullwhip effect is not caused by irrational behaviour: instead, it arises from each firm in the chain trying to manage its inventory and production levels sensib
 
 
-
-
-
-
-
-
+![[Summary SOSCM - Macchion-1793613575424.webp]]
 
 
 
