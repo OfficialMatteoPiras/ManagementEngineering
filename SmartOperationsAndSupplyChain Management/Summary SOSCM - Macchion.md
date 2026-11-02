@@ -487,9 +487,9 @@ Any organisation that subscribes to sustainability objectives will want to make 
 
 ![[Summary SOSCM - Macchion-1793616813663.webp]]
 
+![[Summary SOSCM - Macchion-1793616929966.webp]]
 
-
-
+![[Summary SOSCM - Macchion-1793617116296.webp]]
 
 
 
