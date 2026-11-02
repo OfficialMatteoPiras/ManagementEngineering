@@ -451,11 +451,16 @@ Any organisation that subscribes to sustainability objectives will want to make 
 > The problem is that we don’t know the forecast demand, because it in depends on the life of the customer. What Forrester recognises is that when the variation of demand is not so big, but when you look at the impact of this variation in the chain the situation is completely different. The effect is the increasing variation of inventories on the chain. So, the suppliers are pushed to have a big inventory for responding at not visible demand. A lot of variations of the stock since the row material producer can’t see how much the customer will buy. It can be avoided with the visibility along the chain, is needed a platform able to read and see the cells and communicate them to the chain.
 
 
-1. align all the channelì of information and supply
-2. increase operational efficency through supplay chain
+1. align all the channel of information and supply
+2. increase operational efficiency through supply chain
 3. improve forecast
-4. share information within
+4. share information within the supply chain
 
+### Blockchain dedicated material
+![[Summary SOSCM - Macchion-1793614547604.webp]]
+
+> [!PDF|yellow] [[Smart operation and supply chain management.pdf#page=96&selection=175,0,191,9&color=yellow|p.96]]
+> Figure 7.10 illustrates how blockchain applications can support supply chains, showing how different stakeholders access and verify shared information securely.
 
 
 
