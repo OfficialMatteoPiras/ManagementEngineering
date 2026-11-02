@@ -462,7 +462,7 @@ Any organisation that subscribes to sustainability objectives will want to make 
 > [!PDF|yellow] [[Smart operation and supply chain management.pdf#page=96&selection=175,0,191,9&color=yellow|p.96]]
 > Figure 7.10 illustrates how blockchain applications can support supply chains, showing how different stakeholders access and verify shared information securely.
 
-
+![[Summary SOSCM - Macchion-1793614736740.webp]]
 
 
 
