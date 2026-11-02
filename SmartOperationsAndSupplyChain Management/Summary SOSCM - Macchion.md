@@ -438,7 +438,10 @@ Any organisation that subscribes to sustainability objectives will want to make 
 
 
 ![[Summary SOSCM - Macchion-1793613575424.webp]]
+![[Summary SOSCM - Macchion-1793613755020.webp]]
 
+> [!PDF|yellow] [[Smart operation and supply chain management.pdf#page=92&selection=2,1,73,13&color=yellow|p.92]]
+> he example in Table 7.4 illustrates this clearly. In the example, demand for a focal firm has been stable at 100 units per period, until period 2 when demand drops slightly to 95 units. Each organisation in the chain works on a policy of holding one period’s worth of stock. At the start of period 2, the focal firm had 100 units in stock. To respond to new demand of 95 units per period, it only needs to produce 90 units, because it will use five units from existing stock and still end with 95 units of stock. In the next period (period 3), demand remains 95 units, so the focal firm produces 95 units, stabilising production: this means a change in customer demand of just 5 units has caused a change in the focal firm’s production of 10 units. This amplification represents the first stage of the bullwhip effect. When the same logic is repeated at the first-tier supplier, the distortion increases further. The supplier sees the focal firm's order fall to 90 units and therefore adjusts production so that it both supplies 90 units and maintains a stock equal to 90 units: this causes another amplified change in output. As the information continues moving upstream (to second-tier and third-tier suppliers), the effect becomes even greater.
 
 
 
