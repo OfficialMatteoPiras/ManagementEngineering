@@ -1,0 +1,499 @@
+/* ── Status bar ── */
+
+.voxtral-recording {
+	color: var(--text-error);
+	font-weight: 600;
+}
+
+.voxtral-processing {
+	color: var(--text-warning);
+}
+
+/* .voxtral-reconnecting is intentionally unstyled here: no current call
+   site ever sets that status-bar state (see main.ts's INDICATOR_STATE_MAP
+   comment) — the story keeps "Desktop keeps the status bar as-is", so
+   styling for an unreachable state is left for whenever it becomes
+   reachable rather than speculatively added now. */
+
+/* ── "Listen back" playback controls (VX_E26_S3, skip + counter VX_E26_S4) ──
+   Second, desktop-only status bar item: skip back, pause/resume, skip
+   forward, a "3/12" paragraph counter, and stop — hidden while idle.
+   Icon-only buttons styled to sit flush in the status bar, matching
+   Obsidian's own status-bar-button look rather than a full <button> chrome. */
+
+.voxtral-tts-status {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+/* An author `display: flex` outranks the user-agent `[hidden] { display: none }`
+   rule, so the hidden state needs its own rule or the strip never hides. */
+.voxtral-tts-status[hidden] {
+	display: none;
+}
+
+/* Obsidian styles bare <button> elements for dialogs: an input-height box with
+   its own padding, background and shadow, and icons at the default --icon-size.
+   In the status bar that reads as oversized next to the 12px item text, so the
+   chrome is reset here and the icon is pinned to the same scale Obsidian uses
+   for its own status-bar icons. */
+.voxtral-tts-btn {
+	--icon-size: var(--icon-xs);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	min-height: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	font-size: inherit;
+	line-height: 1;
+	color: var(--icon-color, var(--text-muted));
+	cursor: pointer;
+}
+
+.voxtral-tts-btn:disabled {
+	color: var(--text-faint);
+	cursor: default;
+}
+
+.voxtral-tts-btn:hover:not(:disabled) {
+	color: var(--icon-color-hover, var(--text-normal));
+}
+
+.voxtral-tts-counter {
+	padding: 0 2px;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+/* ── Mobile view-header playback controls (VX_E26_S5) ──
+   Mobile counterpart of the status bar strip above: skip-back/pause/
+   skip-forward actions in the active MarkdownView's header, shown only
+   while playback is loading, playing or paused (no status bar to live in
+   on mobile — see main.ts's applyPlaybackMobileState). The toggle action is
+   marked, not disabled, while audio is still loading: Obsidian's header
+   actions aren't form controls, so a `disabled` attribute has no effect. */
+
+.voxtral-mobile-playback-inactive {
+	opacity: 0.5;
+}
+
+/* ── Help panel (side view) ── */
+
+.voxtral-help-view {
+	padding: 12px;
+}
+
+.voxtral-help-view h3 {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.voxtral-help-view h4 {
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.voxtral-help-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.85em;
+}
+
+.voxtral-help-table th {
+	text-align: left;
+	border-bottom: 2px solid var(--background-modifier-border);
+	padding: 6px 8px;
+	font-weight: 600;
+}
+
+.voxtral-help-table th.voxtral-help-group {
+	padding-top: 14px;
+	color: var(--text-muted);
+}
+
+.voxtral-help-table td {
+	border-bottom: 1px solid var(--background-modifier-border);
+	padding: 5px 8px;
+	vertical-align: top;
+}
+
+.voxtral-help-lang-note {
+	margin-top: 8px;
+	color: var(--text-muted);
+	font-size: 0.85em;
+}
+
+.voxtral-help-label {
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.voxtral-help-patterns {
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.voxtral-help-tips,
+.voxtral-help-privacy {
+	padding-left: 20px;
+}
+
+.voxtral-help-tips li,
+.voxtral-help-privacy li {
+	margin-bottom: 4px;
+	font-size: 0.85em;
+	color: var(--text-muted);
+}
+
+/* ── Help panel: auto-open opt-out control ── */
+
+.voxtral-help-autoopen {
+	margin-top: 16px;
+	padding-top: 12px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.voxtral-help-autoopen-label {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	font-size: 0.85em;
+	cursor: pointer;
+}
+
+/* Drop the platform default margin (large on mobile) so the checkbox sits a
+   consistent gap from the text, and nudge it down to meet the first line. */
+.voxtral-help-autoopen-label input[type="checkbox"] {
+	flex: 0 0 auto;
+	margin: 0;
+	margin-top: 0.15em;
+}
+
+.voxtral-help-autoopen-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	min-width: 0;
+}
+
+.voxtral-help-autoopen-helper {
+	font-size: 0.92em;
+	color: var(--text-muted);
+}
+
+/* ── Send button (tap-to-send during batch recording) ── */
+
+.voxtral-send-button.voxtral-send-button {
+	color: var(--text-accent);
+}
+
+/* ── Mobile view-header send action (during batch recording) ── */
+
+.voxtral-mobile-send.voxtral-mobile-send {
+	color: var(--text-accent);
+}
+
+/* ── Mobile recording indicator (view-header dot, VX_E27_S9) ──
+   On mobile there's no status bar, so this dot — living next to the send
+   action in the view header — is the only always-visible recording cue.
+   Three states, matching main.ts's RecordingIndicatorState: recording
+   (pulsing red-ish), paused (static muted — focus-loss or typing-mute),
+   reconnecting (pulsing warning color; realtime-only, desktop-only today,
+   kept for when the state mapping becomes reachable there too). */
+
+.voxtral-rec-indicator {
+	display: inline-block;
+	flex-shrink: 0;
+	width: 8px;
+	height: 8px;
+	margin: 0 6px;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.voxtral-rec-indicator--recording {
+	background-color: var(--color-red, var(--text-error));
+	animation: voxtral-rec-pulse 1.4s ease-in-out infinite;
+}
+
+.voxtral-rec-indicator--paused {
+	background-color: var(--text-muted);
+}
+
+.voxtral-rec-indicator--reconnecting {
+	background-color: var(--text-warning);
+	animation: voxtral-rec-pulse 0.8s ease-in-out infinite;
+}
+
+@keyframes voxtral-rec-pulse {
+	0%,
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.35;
+		transform: scale(0.75);
+	}
+}
+
+/* Static fallback: a steady dot still communicates state without motion. */
+@media (prefers-reduced-motion: reduce) {
+	.voxtral-rec-indicator--recording,
+	.voxtral-rec-indicator--reconnecting {
+		animation: none;
+	}
+}
+
+/* ── Notice dismiss link ── */
+
+.voxtral-dismiss-link {
+	opacity: 0.7;
+	font-size: 0.85em;
+}
+
+/* ── API key "Test connection" status (VX_E27_S5) ── */
+
+.voxtral-keytest-status {
+	margin-left: 8px;
+	font-size: 0.85em;
+}
+
+.voxtral-keytest-ok {
+	color: var(--text-success);
+}
+
+.voxtral-keytest-fail {
+	color: var(--text-error);
+}
+
+.voxtral-keytest-pending {
+	color: var(--text-muted);
+}
+
+/* ── Settings textarea ── */
+
+.voxtral-textarea-full {
+	width: 100%;
+}
+
+/* ── Custom command editor modal ── */
+
+.voxtral-cmd-modal-bg {
+	opacity: 0.85;
+}
+
+.voxtral-cmd-modal {
+	max-width: 500px;
+	padding: 20px;
+}
+
+.voxtral-cmd-modal h3 {
+	margin-top: 0;
+}
+
+.voxtral-cmd-field-label {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: var(--font-semibold);
+}
+
+.voxtral-cmd-field-desc {
+	display: block;
+	margin-bottom: 4px;
+	color: var(--text-muted);
+}
+
+.voxtral-cmd-input {
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.voxtral-cmd-select {
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.voxtral-cmd-btn-row {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	margin-top: 16px;
+}
+
+.voxtral-cmd-error {
+	border-color: var(--text-error);
+}
+
+/* ── Custom command editor modal (mobile scroll fix) ── */
+
+.voxtral-cmd-editor-overlay {
+	align-items: safe center;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.voxtral-cmd-editor-modal {
+	max-height: calc(100dvh - 2rem);
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.is-mobile .voxtral-cmd-editor-overlay {
+	align-items: flex-start;
+	padding-top: 1rem;
+}
+
+.is-mobile .voxtral-cmd-editor-modal {
+	max-height: calc(100dvh - 2rem);
+}
+
+/* ── Transcript review modal (VX_E27_S6, mobile scroll fix as above) ── */
+
+.voxtral-review-overlay {
+	align-items: safe center;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.voxtral-review-modal {
+	max-height: calc(100dvh - 2rem);
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.is-mobile .voxtral-review-overlay {
+	align-items: flex-start;
+	padding-top: 1rem;
+}
+
+.is-mobile .voxtral-review-modal {
+	max-height: calc(100dvh - 2rem);
+}
+
+.voxtral-review-preview {
+	max-height: 40vh;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+	padding: 8px 12px;
+	margin-bottom: 12px;
+}
+
+.voxtral-review-preview-text {
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	font-family: var(--font-text);
+	margin: 0;
+}
+
+/* Accordion settings sections (VX_E18_S3; shared pattern:
+   codebase-standards/docs/obsidian-settings-patroon.md). */
+.voxtral-settings-section {
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.voxtral-settings-summary {
+	cursor: pointer;
+	padding: 0.6em 0;
+	font-weight: var(--font-semibold);
+}
+
+.voxtral-settings-badge {
+	margin-left: 0.6em;
+	color: var(--text-warning);
+	font-size: var(--font-smaller);
+	font-weight: var(--font-normal);
+}
+
+/* Pre-flight term dialog (VX_E6_S7). On a phone the on-screen keyboard is
+   drawn over the page without shrinking it; while a field has focus, room
+   the size of the keyboard is added under the content so it can scroll
+   clear (same approach as the Tasks plugin's edit modal). Override the
+   variable in a snippet if your keyboard is taller.
+
+   The focus state is a class the modal sets itself (VX_E6_S12), not a
+   `:has(… :focus)` selector: `:has` invalidates broadly on every focus
+   change, and a class also catches a field of a type the selector did not
+   list. */
+.is-mobile .voxtral-terms-modal-container {
+	--voxtral-keyboard-space: clamp(220px, 35vh, 360px);
+}
+
+.is-mobile .voxtral-terms-modal-container.voxtral-terms-keyboard-open .modal-content {
+	padding-bottom: var(--voxtral-keyboard-space);
+}
+
+.voxtral-terms-actions {
+	position: sticky;
+	bottom: 0;
+	background: var(--background-primary);
+	border-top: 1px solid var(--background-modifier-border);
+	padding-top: 0.6em;
+	padding-bottom: 0.4em;
+	margin-top: 0.4em;
+}
+
+.voxtral-term-chip-covered {
+	opacity: 0.55;
+}
+
+.voxtral-terms-intro {
+	color: var(--text-muted);
+	font-size: var(--font-smaller);
+}
+
+.voxtral-terms-group {
+	margin: 0.6em 0;
+}
+
+.voxtral-terms-group-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: var(--font-semibold);
+	margin-bottom: 0.3em;
+}
+
+.voxtral-terms-group-toggle {
+	font-size: var(--font-smaller);
+	padding: 0.1em 0.6em;
+}
+
+.voxtral-terms-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35em;
+	max-height: 9.5em;
+	overflow-y: auto;
+}
+
+.voxtral-term-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3em;
+	padding: 0.15em 0.55em;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	background: var(--background-secondary);
+	cursor: pointer;
+	font-size: var(--font-smaller);
+}
+
+.voxtral-terms-counter,
+.voxtral-terms-empty {
+	color: var(--text-muted);
+	font-size: var(--font-smaller);
+}

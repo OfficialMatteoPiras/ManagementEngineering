@@ -1,0 +1,11 @@
+{
+	"id": "voxtral-transcribe",
+	"name": "Voxtral Transcribe",
+	"version": "1.20.0",
+	"minAppVersion": "1.11.4",
+	"description": "Your notes, done when you stop talking. Dictate with structure by voice (headings, lists, to-dos), grab the keyboard mid-sentence, transcribe recordings. Mistral Voxtral, 13 languages.",
+	"author": "Max Kloosterman",
+	"authorUrl": "https://github.com/maxonamission",
+	"fundingUrl": "https://buymeacoffee.com/maxonamission",
+	"isDesktopOnly": false
+}
