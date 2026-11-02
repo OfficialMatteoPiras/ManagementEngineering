@@ -491,9 +491,11 @@ Any organisation that subscribes to sustainability objectives will want to make 
 
 ![[Summary SOSCM - Macchion-1793617116296.webp]]
 
+![[Summary SOSCM - Macchion-1793617260862.webp]]
+> [!PDF|yellow] [[Smart operation and supply chain management.pdf#page=47&selection=44,0,45,18&color=yellow|p.47]]
+> QUALITATIVE METHODS
 
-
-
+![[Summary SOSCM - Macchion-1793617416565.webp]]
 
 
 
