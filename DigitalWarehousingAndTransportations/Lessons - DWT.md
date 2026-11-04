@@ -900,6 +900,8 @@ Between:
 
 ![[Lessons - DWT-1793114092253.webp|511]]
 
+# Lesson 8
+
 **Single Use Box**
 ![[Lessons - DWT-1793114057787.webp|479]]
 
@@ -1055,7 +1057,8 @@ $$
 > All values in €/year. Solution (c) is the cheapest.
 
 
-# Lesson 
+# Lesson 9 - Exam Exercise
+![[Lessons - DWT-1793803917330.webp]]
 
 
 
