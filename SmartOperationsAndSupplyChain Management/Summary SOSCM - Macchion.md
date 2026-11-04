@@ -500,8 +500,15 @@ Any organisation that subscribes to sustainability objectives will want to make 
 ![[Summary SOSCM - Macchion-1793617901731.webp]]
 
 
+> [!PDF|note] [[Smart operation and supply chain management.pdf#page=47&selection=142,0,176,38&color=note|p.47]]
+> DELPHI METHOD: relies on a panel of expert. The experts answer questionnaires in two or more rounds. The Delphi method is a more structured expert-based technique designed to reduce the biases of face-to-face discussion. Experts respond to questionnaires independently, and their anonymous responses are summarised and fed back to the group in several rounds. Experts revise their views in light of others’ arguments, often leading to consensus or a narrower range of forecasts. The method can be refined by weighting experts’ contributions based on experience or past accuracy, but it faces challenges such as designing effective questionnaires, selecting appropriate experts, and managing inherent biases.
 
 
+![[Summary SOSCM - Macchion-1793799477725.webp|545]]
+
+![[Summary SOSCM - Macchion-1793799499965.webp|524]]
+
+![[Summary SOSCM - Macchion-1793799522444.webp|573]]
 
 
 
