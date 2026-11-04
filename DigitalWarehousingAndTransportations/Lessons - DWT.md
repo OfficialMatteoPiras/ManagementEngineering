@@ -1129,9 +1129,13 @@ $$ FO(2^{nd}\ \text{step}) = 185 - 35 = 150\ \text{km/day} $$
 
 Remaining: C1–C2 → S = 30 km · C1–C4 → S = 20 km · C2–C4 → S = 20 km
 
+![[Lessons - DWT-1793804781220.webp]]
+
 **Step 3 – Aggregate C1–C2 (saving 30 km)**
 
 $$ FO(3^{rd}\ \text{step}) = 150 - 30 = 120\ \text{km/day} $$
+
+
 
 _Route 1_: W → C5 → C3 → C6 → W
 
