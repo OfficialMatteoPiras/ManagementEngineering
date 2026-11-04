@@ -1138,8 +1138,6 @@ Remaining: C1–C2 → S = 30 km · C1–C4 → S = 20 km · C2–C4 → S = 20 
 
 $$ FO(3^{rd}\ \text{step}) = 150 - 30 = 120\ \text{km/day} $$
 
-
-
 _Route 1_: W → C5 → C3 → C6 → W
 
 Merge C12 – C4:
@@ -1156,6 +1154,8 @@ Merge route 1 + route 2:
 
 $$ S_{C_{5,6,3}-C_{1,2,4}} = \big[\underbrace{(17.5 + 10 + 7.5 + 20)}_{\text{route 1}} + \underbrace{(10 + 7.5 + 7.5 + 20)}_{\text{route 2}}\big] - (17.5 + 10 + 7.5 + 30 + 7.5 + 7.5 + 20) = 0\ \text{km} $$
 
+![[Lessons - DWT-1793806063762.webp]]
+
 No further saving → **final solution: 2 routes, 100 km/day**
 
 - _Route 1_: W → C5 → C3 → C6 → W
@@ -1168,14 +1168,7 @@ No further saving → **final solution: 2 routes, 100 km/day**
 
 $$ C_{tot} = \underbrace{100}_{\text{km/day}} \cdot \underbrace{1.4}_{\text{€/km}} + \underbrace{6}_{\text{stops}} \cdot \underbrace{0.25}_{\text{h}} \cdot \underbrace{30}_{\text{€/h}} = 140 + 45 = 185\ \text{€/day} $$
 
----
-
-**Pallet shuttle channels**
-
-- _Single shuttle warehouse_: 1 machine (shuttle) for each lane
-- _Shuttle-mother warehouse_: 1 machine, 2-direction shuttle (the mother shuttle moves the shuttle between lanes)
-
-
+#
 
 
 
