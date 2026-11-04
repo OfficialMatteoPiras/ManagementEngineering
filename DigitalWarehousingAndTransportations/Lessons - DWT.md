@@ -1060,7 +1060,113 @@ $$
 # Lesson 9 - Exam Exercise
 ![[Lessons - DWT-1793803917330.webp]]
 
+**Vehicle Routing – Savings Method (Clarke & Wright)**
 
+**1st step – Distance matrix [km]**
+
+| W      | C1  | C2   | C4  | C5  | C3   | C6   |      |
+| ------ | --- | ---- | --- | --- | ---- | ---- | ---- |
+| **W**  | ×   | 17,5 | 20  | 10  | 17,5 | 27,5 | 20   |
+| **C1** | /   | ×    | 7,5 | 7,5 |      |      |      |
+| **C2** | /   |      | ×   | 10  |      |      |      |
+| **C4** | /   |      |     | ×   |      |      |      |
+| **C5** | /   |      |     |     | ×    | 10   | 12,5 |
+| **C3** | /   |      |     |     |      | ×    | 7,5  |
+| **C6** | /   |      |     |     |      |      | ×    |
+
+**2nd step – Max number of deliveries per truck $N_{max}$**
+
+$$ N_{max} = \frac{T - T_{A/R}}{t_{stop} + \dfrac{\bar d}{\bar v}} = \frac{8 - 0}{0.25 + \dfrac{10}{50}} = \frac{8}{0.45} = \lfloor 17.78 \rfloor = 17 \quad \left[\frac{\text{deliveries}}{\text{truck}}\right] $$
+assuming:
+- $\bar v = 50\ \text{km/h}$
+- $t_{stop} = 15\ \text{min} = \frac{15}{60} = 0.25\ \text{h}$
+
+Average distance between customers:
+$$ \bar d_{R_1} = \frac{7.5 + 7.5 + 10}{3} = 8.33\ \text{km} \qquad \text{(customers } R_1\text{)} $$ $$ \bar d_{R_2} = \frac{10 + 12.5 + 7.5}{3} = 10\ \text{km} \qquad \text{(customers } R_2\text{)} $$ $$ \bar d = \max\left(\bar d_{R_1}, \bar d_{R_2}\right) = 10\ \text{km} $$
+Since we have only **6 customers** we need only **1 truck**: $1\ \text{truck} ;/; N_{deliveries} = 6$
+
+Travel route ⇒ _Savings method_
+
+**Initial solution – direct round trips**
+$$ FO(\text{0 step}) = 2\cdot17.5 + 2\cdot20 + 2\cdot10 + 2\cdot17.5 + 2\cdot27.5 + 2\cdot20 = 225\ \text{km/day} $$
+
+**Saving formula**
+$$ S_{ij} = 2d(W,C_i) + 2d(W,C_j) - \big[d(W,C_i) + d(C_i,C_j) + d(C_j,W)\big] = d(W,C_i) + d(W,C_j) - d(C_i,C_j) $$
+
+Example: $S_{C_1C_2} = 17.5 + 20 - 7.5 = 30\ \text{km}$
+
+- _Situation 1_: two separate round trips W→C1→W and W→C2→W
+- _Situation 2_: one route W→C1→C2→W (the link C1–C2 = 7.5 km replaces one return to W)
+
+**Savings list**
+
+| Pair    | Computation      | Saving [km] |
+| ------- | ---------------- | ----------- |
+| C1 – C2 | 17.5 + 20 − 7.5  | 30          |
+| C1 – C4 | 17.5 + 10 − 7.5  | 20          |
+| C2 – C4 | 20 + 10 − 10     | 20          |
+| C3 – C5 | 27.5 + 17.5 − 10 | 35          |
+| C3 – C6 | 27.5 + 20 − 7.5  | **40**      |
+| C5 – C6 | 17.5 + 20 − 12.5 | 25          |
+
+![[Lessons - DWT-1793804614531.webp]]
+
+**Iterations**
+
+**Step 1 – Aggregate C3–C6 (saving 40 km)**
+
+$$ FO(1^{st}\ \text{step}) = 225 - 40 = 185\ \text{km/day} $$
+
+Remaining: C1–C2 → S = 30 km · C1–C4 → S = 20 km · C2–C4 → S = 20 km
+
+Merge C36 – C5:
+
+$$ S_{C_{36}-C_5} = \big[\underbrace{(27.5 + 7.5 + 20)}_{W\text{-}C_3\text{-}C_6\text{-}W} + \underbrace{(2\cdot17.5)}_{W\text{-}C_5\text{-}W}\big] - \big[\underbrace{17.5}_{W\text{-}C_5} + \underbrace{10}_{C_5\text{-}C_3} + \underbrace{7.5}_{C_3\text{-}C_6} + \underbrace{20}_{C_6\text{-}W}\big] = 55 + 35 - 55 = 35\ \text{km} $$
+
+**Step 2**
+
+$$ FO(2^{nd}\ \text{step}) = 185 - 35 = 150\ \text{km/day} $$
+
+Remaining: C1–C2 → S = 30 km · C1–C4 → S = 20 km · C2–C4 → S = 20 km
+
+**Step 3 – Aggregate C1–C2 (saving 30 km)**
+
+$$ FO(3^{rd}\ \text{step}) = 150 - 30 = 120\ \text{km/day} $$
+
+_Route 1_: W → C5 → C3 → C6 → W
+
+Merge C12 – C4:
+
+$$ S_{C_{12}-C_4} = \big[\underbrace{(17.5 + 7.5 + 20)}_{W\text{-}C_1,\ C_1\text{-}C_2,\ C_2\text{-}W} + 2\cdot10\big] - \big[\underbrace{10}_{W\text{-}C_4} + \underbrace{7.5}_{C_4\text{-}C_1} + \underbrace{7.5}_{C_1\text{-}C_2} + \underbrace{20}_{C_2\text{-}W}\big] = 20\ \text{km} $$
+
+**Step 4**
+
+$$ FO(4^{th}\ \text{step}) = 120 - 20 = 100\ \text{km/day} $$
+
+_Route 2_: W → C4 → C1 → C2 → W
+
+Merge route 1 + route 2:
+
+$$ S_{C_{5,6,3}-C_{1,2,4}} = \big[\underbrace{(17.5 + 10 + 7.5 + 20)}_{\text{route 1}} + \underbrace{(10 + 7.5 + 7.5 + 20)}_{\text{route 2}}\big] - (17.5 + 10 + 7.5 + 30 + 7.5 + 7.5 + 20) = 0\ \text{km} $$
+
+No further saving → **final solution: 2 routes, 100 km/day**
+
+- _Route 1_: W → C5 → C3 → C6 → W
+- _Route 2_: W → C4 → C1 → C2 → W
+
+**Daily cost**
+
+- Cost per km: $1.4\ \text{€/km}$
+- Driver paid during stopping time: $C_{driver} = 30\ \text{€/h}$
+
+$$ C_{tot} = \underbrace{100}_{\text{km/day}} \cdot \underbrace{1.4}_{\text{€/km}} + \underbrace{6}_{\text{stops}} \cdot \underbrace{0.25}_{\text{h}} \cdot \underbrace{30}_{\text{€/h}} = 140 + 45 = 185\ \text{€/day} $$
+
+---
+
+**Pallet shuttle channels**
+
+- _Single shuttle warehouse_: 1 machine (shuttle) for each lane
+- _Shuttle-mother warehouse_: 1 machine, 2-direction shuttle (the mother shuttle moves the shuttle between lanes)
 
 
 
