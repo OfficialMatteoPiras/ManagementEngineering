@@ -552,6 +552,10 @@ Any organisation that subscribes to sustainability objectives will want to make 
 
 ![[Summary SOSCM - Macchion-1793801579168.webp]]
 
+for 10 we need to do $16-12.33 = 3.67$ and $16-3.9 = 12.10$
+
+
+
 
 ![[Summary SOSCM - Macchion-1793801589758.webp]]
 
