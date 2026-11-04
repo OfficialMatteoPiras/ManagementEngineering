@@ -1124,13 +1124,15 @@ Merge C36 – C5:
 
 $$ S_{C_{36}-C_5} = \big[\underbrace{(27.5 + 7.5 + 20)}_{W\text{-}C_3\text{-}C_6\text{-}W} + \underbrace{(2\cdot17.5)}_{W\text{-}C_5\text{-}W}\big] - \big[\underbrace{17.5}_{W\text{-}C_5} + \underbrace{10}_{C_5\text{-}C_3} + \underbrace{7.5}_{C_3\text{-}C_6} + \underbrace{20}_{C_6\text{-}W}\big] = 55 + 35 - 55 = 35\ \text{km} $$
 
+![[Lessons - DWT-1793804781220.webp]]
+
 **Step 2**
 
 $$ FO(2^{nd}\ \text{step}) = 185 - 35 = 150\ \text{km/day} $$
 
 Remaining: C1–C2 → S = 30 km · C1–C4 → S = 20 km · C2–C4 → S = 20 km
 
-![[Lessons - DWT-1793804781220.webp]]
+![[Lessons - DWT-1793805680275.webp]]
 
 **Step 3 – Aggregate C1–C2 (saving 30 km)**
 
