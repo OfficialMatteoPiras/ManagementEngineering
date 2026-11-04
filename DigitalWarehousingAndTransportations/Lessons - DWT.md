@@ -890,6 +890,7 @@ $$
 
 ![[Lessons - DWT-1793112233719.webp]]
 
+![[Lessons - DWT-1793805542743.webp]]
 ## How do you choose the right box?
 Between:
 - single use packaging
