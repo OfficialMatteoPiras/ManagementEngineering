@@ -566,6 +566,22 @@ for 10 we need to do $16-12.33 = 3.67$ and $16-3.9 = 12.10$
 ![[Summary SOSCM - Macchion-1793802657470.webp]]
 
 ![[Summary SOSCM - Macchion-1793802682541.webp]]
+![[Summary SOSCM - Macchion-1793802765285.webp]]
+
+![[Summary SOSCM - Macchion-1793802879067.webp]]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
