@@ -787,7 +787,7 @@ $$
 | tot       | 35 451 €/month | 35 884 €/month |
 |           |                | 1.1% higher    |
 
-# Lesson 
+# Lesson 7
 In which ways is it possible to understand if the price is correct or not?
 Let's see and example:
 > [!Example]
@@ -1055,6 +1055,7 @@ $$
 > All values in €/year. Solution (c) is the cheapest.
 
 
+# Lesson 
 
 
 
@@ -1227,4 +1228,4 @@ $$
 
 
 
-
+ù
