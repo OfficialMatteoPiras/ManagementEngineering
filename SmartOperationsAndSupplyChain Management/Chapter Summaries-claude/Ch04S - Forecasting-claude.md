@@ -431,6 +431,33 @@ Your note: *"for 10 we need to do 16 − 12.33 = 3.67 and 16 − 3.9 = 12.10"*. 
 
 ---
 
+## 📚 Worked examples (Supplement) – summary for the oral
+
+> [!example] Worked example – **Eurospeed parcels** (moving average and exponential smoothing) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=179|p.179–181]]
+> A Europe-wide parcel company measures weekly demand in **number of parcels** (whatever their size).
+> - **4-week MA:** $F_t=\tfrac14(A_{t-4}+A_{t-3}+A_{t-2}+A_{t-1})$, so $F_{35}=(72.5+66.7+68.3+67.0)/4=68.6$ (the book prints 68.8).
+> - **ES with α = 0.2:** $F_{35}=0.2\cdot67.0+0.8\cdot68.30=68.04$ (Table 4.5, which starts from F₂₀ = 60.00).
+> - **Fig 4.14** compares MA(4), ES 0.2 and ES 0.3: higher α follows changes more closely.
+
+> [!example] Worked example – **Phoenix Consulting** (multiplicative seasonal model) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=182|p.182]]
+> Supply-chain strategy consulting. Expected **annual demand for 2018 = 7,500 hours**. Table 4.6 uses monthly hours sold in 2015–2017.
+>
+> | Month | 2015 | 2016 | 2017 | 3-yr avg | Index (avg / 570.14) |
+> |---|---|---|---|---|---|
+> | Jun | 600 | 625 | 650 | 625.00 | **1.10** |
+> | Jul | 700 | 750 | 800 | 750.00 | **1.32** |
+> | Aug | 450 | 400 | 500 | 450.00 | **0.79** |
+>
+> 570.14 = average monthly demand over all months and years.
+> **Forecasts:** 7,500/12 = 625 per month on average, so **June** = 625 × 1.10 = **687.50**; **July** = 625 × 1.32 = **825.00**; **August** = 625 × 0.79 = **493.75** hours.
+> **Use it to explain** that a seasonal index above 1 means a month above average.
+
+> [!example] Worked example – **ice-cream demand vs temperature** (regression) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=182|p.182–183]] → see the regression section above.
+
+> [!example] Macchion's class exercise – **SMA(3) vs ES(0.1)** with MFE/MAD/TS → see section 4 above (choose SMA 3).
+
+---
+
 > [!question] 🎤 Likely oral questions
 > - *Independent vs dependent demand?* Market-driven and forecast vs BOM-driven and calculated (the 5 wheels).
 > - *Why is forecasting important?* Planning at every horizon (slides 6–8), the production model and decoupling point (slide 9), the bullwhip effect (slide 10).

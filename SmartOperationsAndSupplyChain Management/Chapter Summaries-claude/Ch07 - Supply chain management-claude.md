@@ -14,7 +14,14 @@ tags: [SOSCM, summary, chapter7]
 
 ---
 
+## 7.0 Introduction and executive summary (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=259|p.259–261]]
+Chapter 4 dealt with the **structure and scope** of the network; this chapter covers how chains and networks are **managed on an ongoing basis**: performance objectives, relationships (transactional vs partnership), **sourcing strategies**, **supplier selection and negotiation**, day-to-day supply, **supplier development** and **supply chain dynamics**. These are usually the job of **purchasing/procurement**, the link between the operation's processes (whose requirements it must understand) and the capabilities of potential suppliers.
+The book's six diagnostic questions: 7.1 nature of SCM · 7.2 relationships · 7.3 sourcing configuration (multiple/single/delegated/parallel × **non-critical, bottleneck, leverage, strategic**) · 7.4 **supplier selection and negotiation** (qualification, criteria, information, scoring, tactics) · 7.5 **running supply chains** (two-way information, SLAs, perception gaps, supplier development, **logistics** and IoT) · 7.6 **dynamics** (bullwhip and its four remedies, blockchain).
+
 ## 7.1 What is supply chain management?
+
+*"Operations do not exist in isolation"*: an operation's performance is partly a function of its whole network. Think of disruptions from **factory fires, tsunamis, pandemics, trade disputes**. It is the whole network that determines the quality, speed, dependability, flexibility, cost and sustainability delivered to end customers ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=262|p.262]]).
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=262|p.262]]
 > Supply chain management (SCM) is the management of the relationships and flows between the 'string' (or chain) of operations and processes that deliver value in the form of products and services to the ultimate consumer. It is a holistic approach to managing across the boundaries of companies and of processes. […] supply chains are technically different to supply networks. A supply network is all the operations that are linked together so as to provide products and services through to end customers. […] supply chain management is as much concerned with managing information flows (upstream and downstream) as it is with managing the flow of products and services.
@@ -34,6 +41,10 @@ tags: [SOSCM, summary, chapter7]
 > OPERATIONS PRINCIPLE: Supply chain management concepts apply to internal relationships between processes as well as the external relationships between operations.
 >
 > *(These two principles are exactly your note: "non-physical and physical flows; internal relationships between processes and external relationships between operations".)*
+
+- **Non-physical flows** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=263|p.263]]): most literature focuses on material operations, but SCM applies equally to **financial services, malls, insurers, healthcare, consultants, universities**. They all buy services and choose how to deliver theirs, and every network has service elements.
+- **Internal and external chains:** "organisations" in a chain need not have different owners. The network idea applies at organisation-to-organisation, **process-to-process** and even **resource-to-resource** level (internal customers and suppliers, Ch 1).
+- A large network can contain **hundreds of supply chains** through a single operation. The terms *supply chain* and *supply network* are often (mistakenly) used interchangeably. The most visible failures are downstream, but **root causes are often failures in upstream information flows**.
 
 ### Case example: Zipline's drone-enabled supply network
 
@@ -83,6 +94,12 @@ tags: [SOSCM, summary, chapter7]
 > - **The diagonal (circled in red on the slide):** functional + efficient = **lean supply chain management**; innovative + responsive = **agile supply chain management**. The other two cells are **mismatches** (underlined).
 > **Book examples (Fig 7.3):** a bucket or bread (functional) vs a mobile phone or fashion bag (innovative).
 
+**Book detail** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=265|p.265–267]]): functional demand is stable and predictable with low margins; innovative demand is uncertain with much higher margins. The same company can have both: **consultants** (standardised vs tailored work), **hospitals** (routine cataract removal vs emergency post-trauma surgery), **shoe makers** (classics vs one-season fashion).
+- **Efficient (lean) policies:** low inventory and capacity, especially **downstream**; fast throughput and little working capital; **maximise utilisation**; fast information up and down so schedules can be adjusted efficiently.
+- **Responsive (agile) policies:** high service levels; inventory or capacity **deployed close to the customer**, so supply continues even with dramatic demand changes; fast upstream throughput still needed to replenish.
+- **Figure 7.3** data: time between new introductions (bucket 10 years+, bread 1–10+ years, phone 1 year–18 months, fashion bag 3–6 months); margins (tiny, small, very high, high).
+- **Hybrids exist:** **Inditex** (Zara) is predominantly agile but lean in some activities. "Leagile" is in Ch 11.
+
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=266|p.266]]
 > OPERATIONS PRINCIPLE: 'Functional' products and services suit efficient (lean) supply chain management; 'innovative' products and services suit responsive (agile) supply chain management.
 
@@ -90,8 +107,19 @@ tags: [SOSCM, summary, chapter7]
 
 ## 7.2 What type of supply chain relationship should be adopted?
 
+*"Managing supply networks is about managing relationships"*: the relationship is the basis on which products, services, information and money are exchanged. Two dimensions: **what** to outsource (Ch 4) and **who** supplies (how many suppliers, how close) ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=267|p.267]]).
+
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=267|p.267]]
 > Transactional (or contractual) relationships involve purchasing products and services in a 'pure' market fashion, often seeking the 'best' supplier every time it is necessary to make a purchase. […] In contrast, partnership (or collaborative) relationships are longer term and involve a commitment to work together over time to gain mutual advantage. These relationships emphasise cooperation, frequent interaction, information sharing, joint problem solving and sometimes even profit sharing.
+
+- **Mutuality** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=268|p.268]]): *"A supplier does not become a 'partner' merely by being called one."* True partnerships imply **mutual benefit, and often mutual sacrifice**. A business unwilling to give up some freedom of action won't make partnerships work.
+- **A portfolio of relationships:** firms rarely use only one type, and each relationship can be managed more or less transactionally. The question is **where on the spectrum** to put each relationship:
+  - **Competing on price:** market-based contracts minimise the **price paid**; partnerships minimise **transaction costs**. Choose whichever saves more.
+  - **Competing on innovation:** if innovation needs **close collaboration**, partnership. If suppliers compete to out-innovate each other in a **turbulent, fast-growing market** (software, internet), keep the **freedom to switch** (transactional).
+  - Sometimes the **market structure** decides: with few potential suppliers there is little market leverage.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=268|p.268]]
+> OPERATIONS PRINCIPLE: All supply chain relationships can be described by the balance between their 'contractual' and 'partnership' elements.
 
 ![[Summary SOSCM - Macchion-1793011424974.webp|500]]
 
@@ -133,9 +161,95 @@ The concepts are in the book ([[Operations-and-Process-Management-–-Gestión-p
 > ![[Summary SOSCM - Macchion-1793011660570.webp|350]]
 > - **Parallel:** the buyer makes **Model 1** and **Model 2**. Model 1 takes *component A* from supplier 2 and *component B* from supplier 4; Model 2 takes *component A* from supplier 1 and *component B* from supplier 3. The **dashed arrows** link the suppliers of the *same* component (2↔1 for A, 4↔3 for B): if one fails, the buyer can switch to the other, who already makes that component for the other model.
 
+### Supply base reduction
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270|p.270]]
+A 25-year trend: **fewer, higher-quality relationships** with key suppliers (resources are limited). ✅ Big cuts in daily running costs (ordering, expediting, visits, failure interventions). ❌ **More supply risk** (some suppliers may act **opportunistically**) and **power shifts towards suppliers** as the buyer depends on fewer of them.
+
+### Choosing the sourcing strategy: supply risk × criticality (Figure 7.5, smartphone maker)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270|p.270–271]]
+- **Supply market risk/complexity:** number of alternative suppliers, ease of switching, exit barriers, cost of bringing in-house.
+- **Criticality:** % of total purchase cost, impact on business growth.
+
+| Quadrant | Risk / criticality | Smartphone example | Favoured sourcing |
+|---|---|---|---|
+| **Non-critical** | Low / low | **Packaging, screws** | **Multiple sourcing** (sometimes single with short contracts, after supply base reduction) |
+| **Bottleneck** | High / low | **Power pack** (cheap but few suppliers, high switching costs) | **Single sourcing** (no choice); try to **reduce the specificity** of requirements to widen the options |
+| **Leverage** | Low / high | **Touch screen and display**, partly camera and speaker (high cost, many reliable suppliers) | Price competition (buyer power); **bundling → delegated sourcing** |
+| **Strategic** | High / high | **Processor** (the "brain") | **Single sourcing**, moving towards **delegated or parallel** to reduce risk |
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=270|p.270]]
+> OPERATIONS PRINCIPLE: Sourcing strategy is governed partly by the risk in the supply market, and partly by the criticality of the item to the business.
+
 ---
 
-## 7.4 Are supply chain dynamics under control? The bullwhip (Forrester) effect
+## 7.4 Has the approach to supplier selection and negotiation been determined?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=272|p.272–274]]
+Poor suppliers reduce the performance of every chain they belong to. Five steps:
+1. **Initial qualification:** cut candidates to a manageable set, with minimum thresholds on **technical capability** (product/service knowledge for the spec), **operations capability** (process knowledge for consistent, responsive, dependable, reasonable-cost supply) and **financial capability** (strength in the short and long term).
+2. **Measurement criteria:** set the **relative importance** of objectives (quality, speed, dependability, flexibility, cost, sustainability…) and **measurable criteria** for each. Cost: unit price, pricing terms (volume discounts), exchange rates. Delivery: average lead time, frequency, minimum order size, distance, verified % on time.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=272|p.272]]
+> OPERATIONS PRINCIPLE: Measurement criteria for supplier selection should align with the overall performance objectives of the supply network.
+
+3. **Information collection:** **RFQs** (requests for quotes), **RFIs** (requests for information), supplier visits, **trial orders**. The effort depends on strategic importance and supply-base capability, and on the **type of purchase**: **routine re-buy** (low search) → **modified re-buy** (new service from a known supplier or known service from a new supplier: moderate) → **new buy** (unknown supplier, new product: extensive).
+4. **Final selection:** rarely is one supplier clearly superior, so trade off attributes with **multi-criteria scoring**: the **weighted score method** (worked example below), **AHP** (analytical hierarchy process), or **TCO** (total cost of ownership: all costs, not just price).
+5. **Negotiation:** shaped by the objectives, relationship type and sourcing configuration.
+
+**Table 7.3, negotiation tactics** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=274|p.274]]):
+
+| Tactic | Guidelines |
+|---|---|
+| **Emotion** | Frames the negotiation. **Anger** is the most common and most damaging; positive emotions support collaboration. Use early, be sincere, don't let emotions control you, use them to raise "perceived value" |
+| **Logic** | Be credible; **one powerful argument** beats several weak ones; get yours in first; use it to counter emotion |
+| **Threat** | Avoid if possible and be credible. Threaten the **business, not the person**; veiled threats are less risky; use **"if"** to leave room to manoeuvre |
+| **Bargaining** | Don't expose your position too early; move in **small, decreasing steps** and get something back; don't appear too keen |
+| **Compromise** | Use it **after** other tactics; start from an extreme (but credible) position; compromising too early **shuts down creative solutions** |
+
+- **Advocacy approach** (fight for your own best outcome): risks short-termism, personal conflicts, a damaged relationship, even **lose–lose**.
+- **Collaborative negotiation** (also called *principled negotiation* or *mutual gains bargaining*): meet **both parties' needs**, a transparent process, personal relationships, creative brainstorming (**grow the pie** instead of dividing a fixed one), long-term **win–win**.
+
+---
+
+## 7.5 Are supply chains run effectively?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=274|p.274–280]]
+**Two-way information flow:** choosing suppliers and then "leaving them to it" isn't enough. Customers may expect supply "under any circumstances", while suppliers may hide problems for fear of losing the relationship. In a partnership, **free information and mutual tolerance of occasional problems** are the basis of smooth supply. Watch for **internal inconsistencies** (one department asks the supplier for extra while another pays late).
+
+**Service-level agreements (SLAs):** formal definitions of the dimensions of service and the relationship (response times, range, dependability, boundaries of responsibility, measures). Book example, an **internal SLA** between IS support and a research unit in a pharmaceutical company: standard services, special services by period, **minimum "up time"**, maximum and average **response time** to get the system operational, response time for special services. ⚠️ SLAs often fail because they are used only to **set up** the relationship and then to **resolve disputes**. They should be **working documents** that capture shared knowledge: *"Any SLA that stays unchanged over time is failing to encourage improvement."*
+
+**Perception gaps (Figure 7.6)** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=275|p.275–276]]), from the customer's point of view (scenario A):
+1. **Requirements perception gap:** what the customer really wants vs what the supplier thinks it wants.
+2. **Fulfilment perception gap:** how the customer thinks the supplier performs vs how the supplier thinks it performs.
+3. **Supplier improvement gap:** what the customer wants vs how it perceives the supplier's performance. This drives the customer's **development goals**.
+4. **Supplier performance gap:** the supplier's view of needs vs its own assessment of performance. This drives the supplier's **self-improvement**.
+Gaps 1 and 2 depend on **communication**. In scenario B (the supplier's point of view) the same model also asks whether customer demands are **reasonable**: a small change might not bother the customer but greatly help the supplier, and the customer may be **poor at measuring** performance, so good service goes unrecognised.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=276|p.276]]
+> OPERATIONS PRINCIPLE: Unsatisfactory supply chain relationships can be caused by requirement, fulfilment, supplier improvement and supplier performance perception gaps.
+
+**Multi-tiered relationships (Figure 7.7)** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=276|p.276–277]]): a formal contract between organisation A (buyer) and B (supplier) is interpreted at several levels: **procurement ↔ sales/account managers**, **line managers ↔ line managers**, **service users ↔ service providers** (professional relationships). Ideally attitudes and perceptions are consistent at every level, but often they aren't, and there are also gaps between what each organisation wants from its employees and what is delivered on the ground.
+
+**Supplier development** (unless the relationship is purely transactional, it is in the customer's interest; some firms have dedicated teams) ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=277|p.277–278]]). Four stages:
+1. **Select the product/service and supplier:** typically the **strategic** quadrant; weak current performance but potential; important inputs; hard to switch.
+2. **Form a project team and gain buy-in** from buyer, supplier and stakeholders (it takes time and sensitivity; the supplier's management may be defensive).
+3. **Agree goals and measures:** scope, timeline, cost, deliverables, plus **risk evaluation** and mitigation (e.g. internal marketing of benefits, profit sharing).
+4. **Implement, monitor and learn:** intervene if off target, celebrate success. The goal is for the supplier to **keep improving without the customer's intervention**; the lessons feed future projects.
+
+**Logistics (distribution)** = moving products from suppliers to customers. Critical when distribution is a large share of costs ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=278|p.278–279]]).
+| Level | Meaning |
+|---|---|
+| **1PL** | Logistics entirely **internal** (the manufacturer delivers, or the supermarket collects) |
+| **2PL** | Outsource **one segment** (e.g. a shipping line from A to B, with storage if needed) |
+| **3PL** | A logistics company **manages logistics more fully**, working with other carriers: transport, warehousing, inventory, (re)packaging |
+| **4PL** | An **integrator** (term coined by Accenture) that assembles its own and others' resources to *"design, build and run comprehensive supply chain solutions"*; a single interface to many providers |
+| **5PL** | Broadens 4PL to include **e-business** |
+
+**Choosing transport:** consider **volume, size and value**. Small, high-value volumes go by **air**; high-volume, bulky, low-value goods go by **sea**. Typical cost order, from highest to lowest: **air > road > rail > water > pipeline**. Also consider **vertical trade-offs** (benefits that change over time, e.g. a new high-speed rail link or better ship fuel economy) and **lateral trade-offs** (the cost of a mode vs benefits elsewhere: **Zara** uses costly **air freight** but gains speed and **much lower inventories**).
+
+**Logistics and the Internet of Things (IoT)** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=280|p.280]]): networks of physical objects (products, equipment, handling devices, trucks) with electronics, software and sensors that collect and exchange data. With **GPS**: instant tracking of trucks, materials and people, better coordination, cost savings. Examples: **back-loading** (finding a load for the return trip B → A so trucks don't return empty) and **track-and-trace** for parcel customers.
+
+---
+
+## 7.6 Are supply chain dynamics under control? The bullwhip (Forrester) effect
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=280|p.280]]
 > There are dynamics that exist between firms in supply chains that cause errors, inaccuracies and volatility, and these increase for operations further upstream in the supply chain. This is known as the bullwhip effect, so called because a small disturbance at one end of the chain causes increasingly large disturbances as it works its way 'upstream'. Its main cause is a perfectly understandable and rational desire by the different links in the supply chain to manage their levels of activity or inventory sensibly.
@@ -156,6 +270,14 @@ The concepts are in the book ([[Operations-and-Process-Management-–-Gestión-p
 > - **2nd tier:** 60 → 120 → 90 → 95.
 > - **3rd tier:** **20 → 180 → 60 → 100 → 95**.
 > A 5% change at the market becomes a swing from 20 to 180 three tiers up.
+> Even the focal firm turns a **5-unit** demand change into a **10-unit** production change.
+
+**Factors that make it even worse** (ignored in the simple example) ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=281|p.281]]): no forecasting or forecasting errors; **quantity discounts** (fewer, larger orders); **price fluctuations**; **time lags** between information (orders) and materials (deliveries); variable delivery times; **panic ordering** before or after shortages.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=281|p.281]]
+> OPERATIONS PRINCIPLE: Demand fluctuations become progressively amplified as their effects work back up the supply chain.
+
+**Harmful impacts:** outsized facilities and **excess inventory** (then under-used); capacity swinging between under- and over-utilisation; **hire, fire, re-hire**; inefficiency, delays, **expediting costs**, unhappy customers.
 
 ![[Summary SOSCM - Macchion-1793613755020.webp]]
 
@@ -208,7 +330,9 @@ Your lecture note: *we don't know future demand because it depends on customers'
 
 ---
 
-## 7.5 Blockchain in supply networks
+## 7.7 Blockchain in supply networks
+
+Technically called **distributed ledger technology (DLT)**. Unlike technologies made for one use (robots, face recognition), it evolved from its first application, the accounting method of **Bitcoin**, into many domains including SCM ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=283|p.283]]).
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=284|p.284]]
 > A blockchain is a decentralised, digitised, public ledger (list) of transactions (movements, authorisations, payments, etc.). A 'block' is a record of new transactions. When each block is completed (verified) it is added to the chain, thus creating a chain of blocks, or 'blockchain'.
@@ -220,7 +344,12 @@ Your lecture note: *we don't know future demand because it depends on customers'
 4. **Irreversible records:** each record is linked to all previous ones, so it can't be altered.
 5. **Computational logic:** rules can automatically trigger transactions (e.g. **payment on delivery**, "smart contracts").
 
-**Why it suits supply chains:** many nodes make it *more* secure; it handles huge numbers of transactions, especially cross-border (customs, certificates); it is very hard to hack (an attacker would need to control more than half the nodes); and it gives traceability.
+**Why it suits supply chains** (5 reasons, [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=284|p.284]]):
+1. Networks are **complex with many operations**, and *the more nodes, the more secure* the ledger, so complexity **strengthens** it.
+2. **Huge numbers of transactions**, especially **cross-border** (customs, certifications, regulatory documents).
+3. **Security:** cryptography makes tampering practically impossible; a hacker would need **more than half of the nodes**.
+4. **Provenance (history) can be trusted:** vital for **food**, **luxury goods** (often forged) and **ethical goods** (avoiding "blood diamonds").
+5. It is **distributed**, like supply *networks* themselves.
 
 ![[Summary SOSCM - Macchion-1793614547604.webp]]
 
@@ -232,6 +361,76 @@ Your lecture note: *we don't know future demand because it depends on customers'
 > 4. Once verified, it is **combined with other transactions into a new block** of data for the ledger.
 > 5. The new block is **added to the existing chain**, permanent and unalterable.
 > Book case: **TradeLens**, blockchain for global shipping documentation ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=285|p.285]]).
+
+### Critical commentary
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=286|p.286–287]]
+- **"Demand chain" rather than "supply chain":** "supply" suggests a **push** mentality (customers consume what suppliers decide to deliver); "demand" stresses customers **pulling** through the chain. Yet "supply chain" is still the common term.
+- **Supplier development "imposed" by the customer** has two limits: (1) suppliers have many customers with **conflicting demands**, which can push them to mislead about changes and erode trust; (2) it assumes the **customer's ideas are better**, though suppliers are often as knowledgeable or more. Alternatives: **mutual development**, or **network development** (quality assurance programmes, network-wide technology initiatives such as TradeLens, stakeholder suggestion schemes, supply network councils).
+- **Technology** isn't universally welcome: it can **hinder close partnerships**; firms underestimate the difficulty of adoption, so expected returns fail to materialise; there are threats to **employment, privacy and security** (IoT can be hacked: *"we no longer have objects with computers embedded in them: we have computers with objects attached to them"*). Supply chain **security** gets too little attention.
+
+### Summary checklist (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=287|p.287]]: Is SCM understood as information *and* product flows, and as dependent on the whole network, applied internally too? Are objectives set for the whole network? Which products are functional or innovative, and so need lean or agile? Where is each relationship on the transactional–partnership spectrum, and are "partnerships" real? Which sourcing approach, and has **category analysis** (the four quadrants) been done? Is supplier selection rigorous and transparent? Do negotiators know the tactics and their risks? Is there two-way information, are SLAs used and evolving, are perception gaps monitored, is there enough supplier development? Is logistics managed? Have IoT and blockchain been considered? What bullwhip-reduction mechanisms are in place?
+
+---
+
+## 📚 Case examples and worked examples (Chapter 7)
+
+> [!example] Case – **Zipline** → see 7.1 above · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=263|p.263–264]]. Key message: **lean when it can be, agile when it needs to be**. Higher transport cost offset by less inventory and obsolescence.
+
+> [!example] Case – **Donkeys: the unsung heroes of supply networks** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=268|p.268–269]]
+> **Facts:** in 150 years transport has changed hugely (**containerisation** enabling globalisation, the Wright brothers' flight in **1903**, Benz's "motorwagen" patent in **1886**), but the **donkey** (with ponies, mules and horses, the "packhorses") is still the most widely used transport animal: sugar cane in **Peru**, crops in **Argentina**, flowers in **Jamaica**, maize in **Malawi**, snow sledges in the **USA**, rubbish in **Mexico**, a beach bar in **Brazil**, fish in **Mauritania**, water in **Senegal**, families in **Namibia**, mobile libraries in **Ethiopia**, building materials in **Kenya**, livestock in **Yemen**, **ambulances for women in labour in Afghanistan**, brick kilns in **India**, ploughing in **China**.
+> **The logic:** choosing a donkey follows the **same process as any transport mode**: (1) identify the options (constrained by **terrain** and **infrastructure**); (2) judge relative performance (quality, speed, dependability, flexibility, cost, sustainability). Even when an alternative is technically possible, the donkey may give **the best balance**. Ethical issue: packhorses are among the **most mistreated** animals (malnutrition, beatings, overloading, badly fitting packs, extreme climates). Charities lobby for **codes of conduct** and provide veterinary care.
+> **Oral use:** logistics mode selection (volume, size, value, terrain), plus ethics and sustainability in the supply chain.
+
+> [!example] Worked example – **Weighted supplier selection: a Belgian commercial bank choosing legal services** · Table 7.2, [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=273|p.273]]
+> Three firms scored 1–10 on criteria weighted 1–10:
+> | Criterion | Weight | Sullivan & Anderson | **Juris Civilis** | Altium Legal |
+> |---|---|---|---|---|
+> | Quality of service | 10 | 7 → 70 | 8 → 80 | 6 → 60 |
+> | Range flexibility | 8 | 5 → 40 | 7 → 56 | 6 → 48 |
+> | Volume flexibility | 4 | 8 → 32 | 3 → 12 | 7 → 28 |
+> | Average service speed | 7 | 5 → 35 | 8 → 56 | 9 → 63 |
+> | Record of dependability | 9 | 4 → 36 | 8 → 72 | 7 → 63 |
+> | Sustainability | 4 | 5 → 20 | 6 → 24 | 7 → 28 |
+> | Potential innovation | 3 | 5 → 15 | 7 → 21 | 7 → 21 |
+> | Price of service | 6 | 9 → 54 | 6 → 36 | 5 → 30 |
+> | **Total** | | **302** | **357** ✅ | **341** |
+> **Juris Civilis** is preferred (subject to negotiation). Note that the **cheapest firm** (S&A, price score 9) comes **last**: price weighs only 6, while quality (10) and dependability (9) weigh most.
+
+> [!example] Case – **Twice around the world for Wimbledon's tennis balls** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=279|p.279]] (Fig 7.8)
+> **Slazenger**, Wimbledon's ball supplier **since 1902**: the balls and their materials travel **81,385 km**, across **11 countries and 4 continents**. Clay from **South Carolina (USA)**, silica from **Greece**, magnesium carbonate from **Japan**, zinc oxide from **Thailand**, sulphur from **South Korea**, rubber from **Malaysia** → **Bataan (Philippines)**, where the rubber is **vulcanised** and the balls made. **Wool from New Zealand → felt pressed in Stroud (UK)** (more technical expertise) **→ flown back** to Bataan. Naphthalene from **Zibo (China)**, glue from **Basilan (Philippines)**, tins from **Indonesia**, then to Wimbledon. Prof. Mark Johnson (Warwick): it looks "ludicrous", but it is **the most cost-effective way**, since production sits near the main materials and low-cost labour, while the best wool and felt expertise are kept.
+> **Oral use:** global sourcing and location trade-offs, logistics costs vs quality; links to Ch 4 (offshoring, reshoring).
+
+> [!example] Case – **TradeLens: blockchain revolutionises shipping** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=285|p.285–286]]
+> In **January 2018** **Maersk** and **IBM** (an early **Hyperledger** member) formed a joint venture for a blockchain platform built on **open standards** for the whole shipping ecosystem. Context: **more than 80%** (over **$4 trillion**) of the goods consumers use daily travel by sea; Maersk operates ports and logistics in **130 countries**. Trade documentation could cost up to **one-fifth of the physical transport cost**, because the business was manual and error-prone. CEO Michael J. White: aim for *"a fully open platform"*. Named **TradeLens** at the end of 2018, it was adopted by carriers representing **more than 50% of global container cargo**, **including competitors** (CMA CGM, Hapag-Lloyd, MSC, Namsung, ONE). Hapag-Lloyd: *"…greater trust, transparency and collaboration across supply chains."*
+> **Oral use:** blockchain principles in practice, **co-opetition** (Ch 4) and network development.
+
+> [!example] End-of-chapter case study – **Supplier selection at Hinkley Point C (EDF)** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=288|p.288–291]]
+> **Context:** a new UK nuclear power station (two reactors, turbine halls, substation in the South-West). **Stefano Moretto** (Commercial Director) and **Eva Glines** (Senior Supply Chain Engagement Manager) must source the **site operations services** (everything except construction): expected spend **over £500m** (later **over £1bn**); *"It'll be like a small town."* Five main categories:
+> - **Catering:** food production, vending, bars, food waste, distribution, cleaning, hospitality, staff.
+> - **Transport:** buses for park and ride, direct service, direct secure (a "fast gate" with no internal transfer), internal site buses.
+> - **Accommodation management:** campuses at the site and in Bridgwater, hotel services, grounds and sport, security, 24/7 reception.
+> - **Facilities management:** temporary buildings, office services, cleaning, waste and recycling, M&E maintenance, AV.
+> - **Infrastructure operations and maintenance:** roads and infrastructure.
+> **The dilemma: "big or small?"** One **MNC generalist** per category (tried and tested, a one-stop shop, experience; over **150 tier-1 contracts** to set up in a few months) or **local SMEs** (smaller "bite-size" contracts or **consortia**).
+> - **For SMEs (Eva):** MNCs are hard work in negotiations and don't care much about service quality (too many customers); SMEs put the effort in; the services are **not capital- or technology-intensive**, so capability development is easier; local firms are keen (chamber of commerce); **economic and social value** for the region; the project is **controversial locally** (residents opposed, acceptance "fragile").
+> - **Against (Stefano and service managers):** SMEs lack experience at this **scale**; they need a lot of **upskilling**; it adds complexity to a "BIG jigsaw"; there is the problem of **scaling** from 3,000–4,000 to **7,000–9,000 workers** at peak.
+> Expressions of interest include MNC2 (international transport), MNC3 (hotels), MNC4 (FM and utilities), MNC5 (civil engineering), NC1 (national bus company), SME7 (local buses), SME8 (B&B), SME9 (laundry), SME10 (building trades).
+> **Questions and hints:**
+> 1. *Service characteristics:* use the **criticality × risk** matrix. Catering, cleaning and laundry are low-tech with many suppliers (non-critical or leverage), so they suit **SMEs and multiple sourcing**. Transport and accommodation at large scale and critical to the project lean towards **MNC/national players or consortia** (delegated sourcing).
+> 2. *Other factors:* stakeholders and local politics (CSR, TBL), project risk, the time available, internal capacity to manage many contracts.
+> 3. *Preferring SMEs:* (a) engage through supplier events, the chamber of commerce and simplified bidding; (b) configure **lots** or **consortia** (delegated sourcing with a local lead), with **parallel sourcing** across categories for resilience; (c) use **supplier development** (the four stages), with a partnership approach, shared goals and measures, and gradual growth in scale.
+
+> [!note] Book exercises (p.292–293), with the logic of each answer
+> - **Super Cycles** (Table 7.5): **inner tubes** (3%, many suppliers, switch in days) → **non-critical**, multiple sourcing. **Frame tubing** (15%, only one capable supplier) → **bottleneck**, single sourcing and develop or qualify an alternative over time, reduce specificity. **Carbon-fibre stem and bars** (32%, many suppliers, easy switch) → **leverage**, competitive tendering, bundling or delegated sourcing. **Fourth component** (35%, few capable suppliers, complex, quality risk) → **strategic**, single or parallel sourcing with **partnership** and supplier development.
+> - **Lopez Industries** (retailer → small garment maker → large cloth makers): the bottleneck to flexibility is **cloth**, bought at the start of the season, and Lopez has no leverage over large suppliers. The retailer could **share information** (forecasts, POS data), **use its own leverage** with the cloth makers (aggregate purchases, buy cloth directly or reserve capacity), postpone dyeing or cutting, or split the order into a forecast part and a flexible part.
+> - **Bullwhip variants (my calculations with the book's rule):**
+>   - (a) Demand **alternating 100/95**: focal firm 100, 90, 105, 90, 105…; 1st tier 80, 120, 75, 120…; 2nd tier 60, 160, 30, 165…; 3rd tier 20, 260, **−100**, 300… A negative value is **impossible** (it means the supplier is left with too much stock and produces nothing), so in reality the chain explodes into **stop-and-go**.
+>   - (b) Keeping **half** a period's stock (100 → 95 case): focal 92.5 → 95; 1st 88.8 → 96.2 → 95; 2nd 83.2 → 99.9 → 94.4; 3rd 74.8 → 108.3 → 91.7. **Amplification is much smaller.** Less stock means less buffer adjustment and less bullwhip.
+>   - (c) Examples of remedies: VMI, EPOS sharing, EDI, collaborative forecasting (CPFR), smaller and more frequent orders, everyday low pricing instead of promotions.
+> - **Small retail shop supplier criteria:** price and terms, reliability, minimum order, delivery frequency, quality, range, local/sustainable, flexibility. Compare with the 3-step qualification and weighted scoring.
+> - **Ethical sourcing policy:** motivations are reputation, legal risk, customer and investor pressure, and the TBL. Add environmental impact, anti-corruption, traceability (blockchain), audits and the right to inspect.
+> - **Airline catering (Northern Foods + DHL at Heathrow):** (a) airlines outsource to specialists with scale and expertise (non-core); (b) caterers need quality appropriate to the class, cost, **flexibility** (numbers fixed only **6 hours** before take-off, frequent menu changes), **speed and dependability** (turnaround **≤ 40 minutes**); (c) turnaround time = aircraft utilisation, so revenue; (d) the consortium combined **retail-scale food production** (economies of scale, outside the airport) with an already-present airside logistics provider, reconfiguring the network against traditional on-airport caterers.
 
 ---
 
