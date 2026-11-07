@@ -211,12 +211,12 @@ Processes differ in **technical** content, and also in the **nature of their dem
 
 ## 1.6 The operations manager's activities: the 4 Ds
 
-| D | Activity |
-|---|---|
-| **Direct** | Set the overall operations strategy: strategic purpose, innovation, what to keep in-house vs outsource. |
-| **Design** | Determine the physical form, shape and composition of operations and processes and their resources. |
-| **Deliver** | Plan and control the flow from suppliers, through the operation, to customers. |
-| **Develop** | Improve process capabilities and performance over time. |
+| D           | Activity                                                                                                |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| **Direct**  | Set the overall operations strategy: strategic purpose, innovation, what to keep in-house vs outsource. |
+| **Design**  | Determine the physical form, shape and composition of operations and processes and their resources.     |
+| **Deliver** | Plan and control the flow from suppliers, through the operation, to customers.                          |
+| **Develop** | Improve process capabilities and performance over time.                                                 |
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=54|p.54]]
 > OPERATIONS PRINCIPLE: Operations management activities can be grouped into four broad categories: directing the overall strategy of the operation; designing the operation's products, services and processes; planning and controlling delivery; and developing process performance.
