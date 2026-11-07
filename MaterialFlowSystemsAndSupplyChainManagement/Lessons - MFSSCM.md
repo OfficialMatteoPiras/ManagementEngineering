@@ -828,10 +828,11 @@ $$ \begin{cases} 1 \cdot x_{a1} \le 1 \cdot x_{b1} + 2 \cdot x_{b2} \\ 1 \cdot x
 ```
 
 
-# 
+# LECTURE 8: PART FEEDING SYSTEM
+## IN-HOUSE LOGISTICS: the Part Feeding Problem in ATO production systems
+![[Lessons - MFSSCM-1794052309001.webp]]
 
-
-
+![[Lessons - MFSSCM-1794052331201.webp]]
 
 
 
