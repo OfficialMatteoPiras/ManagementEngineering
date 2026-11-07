@@ -1,0 +1,315 @@
+---
+course: Smart Operations and Supply Chain Management
+professor: Laura Macchion
+chapter: 6
+book: "Slack, Brandon-Jones, Burgess – Operations and Process Management (PDF in /pdf)"
+tags: [SOSCM, summary, chapter6]
+---
+# Chapter 6 – Process design 2: Analysis
+
+> [!abstract] In one breath (for the oral)
+> Detailed process design matters because process networks make up the operation's performance. Operations managers must own it; it is **people *and* process**, not people *vs* process. First set **process performance objectives**: strategic ones (Table 6.1) and **flow objectives** (throughput rate, throughput time, WIP, utilisation, linked by **Little's Law**). Then **map** the process (levels of mapping, **visibility**, customer journey). Then **configure tasks and capacity**: task precedence, **cycle time** (vs takt time), number of stages, **series (long-thin) vs parallel (short-fat)**, **bottleneck**, **balancing loss**. Finally recognise **variability** (activity time and arrival time): waiting time explodes as utilisation approaches 100%.
+
+[[Ch05 - Process design 1 - Positioning-claude|← Ch 5]]
+
+---
+
+## 6.1 Is the importance of detailed process design understood?
+
+### "People vs process" is a false distinction
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=220|p.220]]
+> The argument, sometimes referred to as 'people versus process', is based on a false distinction. People are the most important element in most processes, and 'process' is simply how we do things. In other words, not all processes are the same, nor should they be treated in the same way. […] The way processes are designed should depend on what we want them to do.
+
+Two extreme views: (1) *everything is a process*, so standardise it all ("every time, all the time"); (2) *everything is about people*, and you can't reduce work to steps. Both are simplistic. Processes can be tightly specified **or** loose (broad objectives plus professional judgement).
+
+![[Summary SOSCM - Macchion-1792400270714.webp]]
+
+> [!info] 📖 Figure 6.2 – A process network with an internal process chain · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=220|p.220]]
+> - **Big box** = the operation, between **external suppliers** (left) and **external customers** (right).
+> - **White boxes** = individual processes in the internal **process network**.
+> - **Dark-blue boxes** = one **internal process chain**: a sequence of processes linked as internal supplier → internal customer to deliver a specific output.
+> **Takeaway:** an operation is a network of many interlinked processes, so the design of each one affects the whole.
+
+### Who should be involved in process design?
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=222|p.222]]
+> […] delegating total responsibility for the design of processes entirely to junior staff, or to internal 'experts' (although they have their role), is neglecting an important opportunity to improve performance. Certainly, operations managers will (and should) be held accountable if the processes go wrong.
+
+![[Summary SOSCM - Macchion-1792401853557.webp]]
+![[Summary SOSCM - Macchion-1792401864757.webp]]
+
+> [!info] 📖 Case example – Changi Airport (Singapore) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=218|p.218–219]]
+> - **Why airports are a process-design challenge:** they handle passengers, aircraft, crew, baggage, cargo, food, security and retail under strict regulation, with thousands of contracts and constant disruptions (weather, strikes, volcanoes…).
+> - **Terminal 4:** capacity raised to about **82 million passengers a year**. The aim was *fast, smooth and seamless flow*, with every stage of the customer journey designed for enough capacity.
+> - **Automation:** self check-in, self bag-tagging and bag-drop, automated baggage handling, **face-recognition** immigration and boarding, the 'FAST' (fast and seamless travel) services. These raise throughput and efficiency.
+> - **Experience:** 15,000 m² of shopping and dining and a 300-metre glazed galleria. Design stressed aesthetics and *passenger-centric* layout.
+> - **Who was involved:** workshops with **many stakeholders** (airlines, ground handlers, immigration, security, retailers, users), so the design worked for every party and also for staff.
+> **Link to the theory:** shows the importance of detailed design, involving the right people, and balancing efficiency with experience.
+
+---
+
+## 6.2 Are process performance objectives clear?
+
+![[Summary SOSCM - Macchion-1792402146068.webp]]
+
+> [!info] 📖 Table 6.1 – From strategic objectives to process design objectives · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=223|p.223]]
+> | Strategic objective | Process design objective | Benefit |
+> |---|---|---|
+> | Quality | Capable resources, error-free processing | On-specification output, less recycling and wasted effort |
+> | Speed | Minimum throughput time, output rate matched to demand | Short waiting, low in-process inventory |
+> | Dependability | Dependable resources, reliable output timing and volume | On-time deliveries, less disruption and rescheduling |
+> | Flexibility | Resources with the right range of capabilities; easy change between states | Wide range, fast product/volume/timing changes, coping with unexpected events |
+> | Cost | Capacity matched to demand; eliminate waste (excess capacity, excess capability, delays, errors, wrong inputs) | Low processing, resource and inventory costs |
+
+### Process flow objectives
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=224|p.224]]
+> The flow objectives are: Throughput rate (or flow rate) – the rate at which units emerge from the process […]. Throughput time – the average elapsed time taken for inputs to move through the process and become outputs. The number of units in the process (also called the 'work-in-process' […]). The utilisation of process resources – the proportion of available time that the resources within the process are performing useful work.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=224|p.224]]
+> OPERATIONS PRINCIPLE: Process flow objectives should include throughput rate, throughput time, work-in-process and resource utilisation, all of which are interrelated.
+
+![[Summary SOSCM - Macchion-1792402504886.webp]]
+
+> [!info] 📖 Figure 6.3 – Flow objectives and the design factors that drive them · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=225|p.225]]
+> - **The box** = the process, with the two internal measures **number of units in the process** (WIP) and **utilisation of resources**. Across the top is **throughput time**. On the right, **throughput rate** comes out; on the left, the **arrival rate** goes in.
+> - **The four arrows at the bottom** are the **design factors** you control: *variability of input arrival*, *configuration of resources and activities*, *capacity of resources*, *variability of the activities*.
+> **Takeaway:** the rest of the chapter goes through these four factors one by one.
+
+![[Summary SOSCM - Macchion-1792402881378.webp]]
+
+> [!info] 📖 Table 6.2 – Process design vocabulary · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=225|p.225]]
+> Learn these definitions well; they come up again in every exercise:
+> - **Process task** = all activities to be done. **Work content** = the total time of all of them.
+> - **Precedence relationship** = which activities must come before which.
+> - **Cycle time** = the average time between completions of units. **Throughput rate** = 1/cycle time.
+> - **Process stage** = a work area that performs several activities. **Bottleneck** = the capacity-constraining stage that governs output.
+> - **Balancing** = allocating activities as equally as possible between stages. **Utilisation** = the share of time doing useful work.
+> - **Starving** = a stage underutilised because the previous stage supplies too little. **Blocking** = a stage can't work because the inventory in front of the next stage is full.
+> - **Throughput time** = from entering to leaving. **Queue time** = time waiting to be processed.
+
+---
+
+## 6.3 Are processes designed to achieve process objectives? Process mapping
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=226|p.226]]
+> OPERATIONS PRINCIPLE: Process mapping is needed to expose the reality of process behaviour.
+>
+> […] processes that are not formally defined can be interpreted in different ways, leading to confusion and inhibiting improvement.
+
+### Different levels of mapping
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=227|p.227]]
+> […] processes are often mapped at a more aggregated level, called high-level process mapping, before more detailed maps are drawn. […] At the highest level the process can be drawn simply as an input–transformation–output process […]. At a slightly lower or more detailed level, what is sometimes called an outline process map (or chart) identifies the sequence of activities but only in a general way. […] all the activities are shown in a 'detailed process map' […]
+
+![[Summary SOSCM - Macchion-1792404015097.webp]]
+
+> [!info] 📖 Figure 6.5 – Theatre-lighting operation mapped at three levels · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=228|p.228]]
+> - **Level 1 (top-left):** the whole operation "supplying and installing lighting equipment" as one input → output box.
+> - **Level 2 (blue box), outline process:** three activities, *enquiry to delivery → install and test → collect and check*.
+> - **Level 3 (pink oval), detailed process of "install and test":** *safety check → compliant? (N: rectify in time? → rectify, or file a failure note and inform the customer) → install → routine control check → pass check? (N: rectify in time? → rectify, or call for help) → job sign-off → return to base.*
+> **Symbols:** circles = activities, diamonds = decisions (Y/N).
+> **Takeaway:** map only as deep as is useful. Simple steps ("return to base") need no more detail; activities that rely on skill and discretion ("rectify faulty equipment") are hard to map in detail.
+
+### Process visibility
+
+![[Summary SOSCM - Macchion-1792404053649.webp]]
+
+> [!info] 📖 Figure 6.6 – "Collect-and-check" mapped by levels of visibility · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=229|p.229]]
+> Horizontal bands from top to bottom:
+> - **Very high visibility** (above the *line of interaction*): direct contact with the customer, e.g. *call customer to agree terms*, *check it worked OK*, *agree report*.
+> - **High visibility:** at the customer's site but with little interaction, e.g. *take out equipment*.
+> - **Medium visibility:** visible to potential customers but not to this one, e.g. the transport steps *to site* and *to base*.
+> - **Back office / low visibility** (below the *line of visibility*): *check and clean equipment → did it work OK? → prepare report / amend usage records → equipment to store*.
+> **Why:** design the high-visibility steps to *enhance customer perception*, and the hidden ones for efficiency. This is the same front/back office idea as [[Ch01 - Operations and processes-claude#Front office and back office|Ch 1]].
+
+![[Summary SOSCM - Macchion-1792404459641.webp]]
+
+> [!info] 📖 Figure 6.7 – Customer experience map of a CT scan visit · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=231|p.231]] (text on [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=230|p.230]])
+> - **Middle row:** the customer journey *park car → check in → wait → scan → wait for results → results explained*.
+> - **Top table, "What do you intend the patient to…"**: the intended **think / feel / say / do** at each step ("it's obvious where I park", "relaxed", "this is easier than I expected"…).
+> - **Bottom table, "What does the patient actually…"**: reality ("Where do I go?", "frustrated", "worry", "what's happening?").
+> - **Zig-zag line (−3 to +3):** the emotion score along the journey, with lows at parking/waiting and highs at check-in and the final explanation.
+> **Concepts:** **touchpoints** (every contact point with the customer), **clues/cues** (the messages received there) and **emotion mapping**. Design the clues so the intended and actual emotions match.
+
+---
+
+## 6.4 Are process tasks and capacity configured appropriately?
+
+What you need to master: **task precedence → series/parallel configuration → cycle time and capacity (bottlenecks) → balancing → throughput, cycle time and WIP (Little's Law)**.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=231|p.231]]
+> OPERATIONS PRINCIPLE: Process design must respect task precedence.
+
+### The book's running example: computer test and repair
+Table 6.3 / precedence diagram, Figure 6.8 ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=232|p.232]]): a (5 min) → b (6) → c (4) → d (8), e (6), f (4) in parallel → g (10). **Total work content = 43 min.** Required: **one computer every 12 minutes**.
+
+$$\text{Number of stages}=\frac{\text{work content}}{\text{required cycle time}}=\frac{43}{12}=3.58\ \Rightarrow\ 4\text{ stages}$$
+
+### Series and parallel configurations
+
+![[Summary SOSCM - Macchion-1792586003781.webp]]
+
+> [!info] 📖 Figure 6.9 – "Long–thin" arrangement · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=234|p.234]]
+> Four stages in **series**: stage 1 = a, b (11 min); stage 2 = c, d (**12 min**, the bottleneck); stage 3 = e, f (10); stage 4 = g (10). Output = **one every 12 minutes** (set by the slowest stage). The precedence diagram underneath shows that the split respects the order of activities.
+
+![[Summary SOSCM - Macchion-1792586009949.webp]]
+
+> [!info] 📖 Figure 6.10 – Intermediate configuration · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=234|p.234]] (your annotations W1–W4 = the four workers)
+> **Two parallel lines of two stages each.** Stage 1 = a, b, c, e (21 min) and stage 2 = d, f, g (22 min). Each line gives one computer every 22 min, so two lines give **one every 11 min** on average.
+
+![[Summary SOSCM - Macchion-1792586142044.webp]]
+
+> [!info] 📖 Figure 6.11 – "Short–fat" arrangement · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=235|p.235]]
+> **Four parallel single stages**, each worker (W1–W4) doing *all* activities (43 min). Together: four computers every 43 min = **one every 10.75 min**.
+
+| Long–thin (series) ✅ | Short–fat (parallel) ✅ |
+|---|---|
+| Controlled flow, easy to manage | **Mix flexibility** (each stage can specialise in a product) |
+| Simple materials handling | **Volume flexibility** (open or close stages as demand varies) |
+| Lower capital needs (equipment not duplicated) | **Robustness** (one stage down, the others keep going) |
+| More efficient: more direct productive work per person | **Less monotonous** work (repeats every 43 min instead of 12) |
+
+### Cycle time vs takt time (lecture)
+
+![[Summary SOSCM - Macchion-1792586817215.webp]]
+
+> [!example] 🎓 Lecture slide – Takt time vs cycle time (not in the book)
+> *"Both use time per unit, but they describe different things."*
+> - **TAKT TIME: how fast *must* we produce to meet demand?**
+>   $$\text{Takt}=\frac{\text{available production time}}{\text{customer demand}}$$
+>   A **target pace set by demand**. Recalculate it when demand or available time changes. *Takt is demand-based.*
+> - **CYCLE TIME: how long *does* the process actually take?** The *observed* elapsed time between consecutive completed units. It varies with method, workload and interruptions. *Cycle time is process-based.*
+> **Rule:** the process works only if **cycle time ≤ takt time**. In the book, "required cycle time" plays the role of takt (e.g. the 12 min above).
+
+![[Summary SOSCM - Macchion-1792586803528.webp|500]]
+
+> [!example] 🎓 Lecture slide – Example 1 (photo of the projected slide)
+> A line has **7 productive hours** per shift and customers need **420 units** per shift.
+> - Available time = 7 h × 60 min × 60 s = **25,200 s**.
+> - Takt = 25,200 s / 420 units = **60 s per unit**.
+> - Observed process cycle time = **50 s per unit**.
+> - The slide's bar compares the two: the process completes a unit in **50 s** while demand requires one every **60 s**, so the line is **fast enough**, with 10 s of slack per unit.
+
+![[Summary SOSCM - Macchion-1792586999436.webp|400]]
+
+> [!example] 🎓 Hand-drawn precedence diagram from class (exercise sketch)
+> Five activities with their times: **10 → 20 →** then two branches **45** and **40** in parallel, both feeding the final **50**. Total work content = 10+20+45+40+50 = **165**.
+> How to use it in an exercise: (1) respect precedence (the 50 can't start until 45 and 40 are both done); (2) given a required cycle time, the minimum number of stages = 165 / cycle time, rounded **up**; (3) no stage can be shorter than its longest single activity (50 here). That is why a cycle time below 50 would require putting that activity in **parallel** stations.
+
+### Process balancing and balancing loss
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=236|p.236]]
+> Balancing a process involves attempting to allocate activities to each stage as equally as possible. […] The effectiveness of the balancing activity is measured by balancing loss. This is the time wasted through the unequal allocation of activities as a percentage of the total time invested in processing. The stage of a process that has the longest allocation of work is known as the bottleneck. It is the bottleneck stage that will dictate the output of the whole process.
+
+$$\text{Balancing loss}=\frac{\text{total idle time per cycle}}{\text{number of stages}\times\text{cycle time}}$$
+
+![[Summary SOSCM - Macchion-1792587086777.webp]]
+
+> [!info] 📖 Figure 6.12 – Balancing loss in three configurations · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=237|p.237]]
+> - **(a) Ideal:** 43/4 = 10.75 min per stage, so **idle = 0** and **balancing loss = 0**. In practice this is impossible because activities can't be split.
+> - **(b) Best four-stage allocation:** cycle time = 12. Idle = (12−11) + (12−10) + (12−10) = **5 min**. Loss = 5/(4×12) = **10.4%**.
+> - **(c) Best two-stage allocation:** cycle time = 22. Idle = 22−21 = **1 min**. Loss = 1/(2×22) = **2.3%**.
+> - **Green tops** = idle time at the non-bottleneck stages (they are *starved* by the bottleneck).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=236|p.236]]
+> OPERATIONS PRINCIPLE: Process analysis derives from an understanding of the required process cycle time.
+
+![[Summary SOSCM - Macchion-1792587451370.webp]]
+
+> [!example] 🎓 Lecture slide – Yamazumi chart (not in the book)
+> A **stacked bar chart** of work per workstation (1–4), in **seconds**, with a horizontal **takt line at about 110 s**.
+> - **Green blocks = value-added** work; **red blocks = non-value-added** work (waiting, walking, searching…).
+> - **Station 2 exceeds takt** (about 112 s): it is the **bottleneck** and can't keep up with demand. Station 3 (about 43 s) is heavily **under-loaded**. Stations 1 (about 87 s) and 4 (about 65 s) are below takt.
+> **How to use it:** (1) remove the red (non-value-added) blocks, especially at station 2; (2) **re-balance** by moving work from station 2 to station 3 (respecting precedence) until every bar is below the takt line and the bars are as even as possible. It is a visual tool for **balancing** and **waste** together, from Japanese "yama-zumi" = "stacked up".
+
+### Passport office (worked example: cycle time and capacity)
+
+![[Summary SOSCM - Macchion-1792588698612.webp]]
+
+> [!info] 📖 Worked example – Passport office · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=236|p.236]]
+> 1,600 applications per week; 40 hours available per week; work content = 30 min per passport.
+> $$\text{Cycle time}=\frac{\text{time available}}{\text{number to process}}=\frac{40}{1600}=0.025\text{ h}=1.5\text{ min}$$
+> $$N=\frac{\text{work content}}{\text{cycle time}}=\frac{30}{1.5}=20\text{ people}$$
+> **Logic:** one person alone would produce a passport every 30 min; you need one every 1.5 min, so 20 people.
+
+### Little's Law
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=239|p.239]]
+> The mathematical relationship that relates cycle time to work-in-process and throughput time is called Little's Law. It is simple but very useful, and it works for any stable process.
+
+$$\boxed{\text{Throughput time}=\text{WIP}\times\text{Cycle time}}\qquad\Longleftrightarrow\qquad \text{WIP}=\text{Throughput time}\times\text{Throughput rate}$$
+
+- **Computer repair:** cycle time 12 min, WIP = 4 (one per stage), so throughput time = 4 × 12 = **48 min**.
+- **Passport office, "clear desk" policy:** 450 min = WIP × 1.5, so **WIP = 300 applications** can be loaded in the morning and cleared by evening.
+
+> 💡 *Intuition:* a queue at the supermarket. If there are 10 people in front of you (WIP) and one leaves every 2 min (cycle time), you'll wait 20 min (throughput time).
+
+![[Summary SOSCM - Macchion-1792587983865.webp]]
+
+> [!example] 🎓 Lecture slide – Little's Law on a production line (not in the book)
+> A straight line with **three stations**, each holding **8 units**, so **WIP = 24 units** on the conveyor between entry and exit. Cycle time = **10 min/unit** (6 units per hour leave the line).
+> $$\text{Throughput time}=24\times10=240\text{ min}=4\text{ hours}$$
+> The picture makes each term visible: WIP = the units *inside* the boundary; cycle time = the interval between units leaving; throughput time = how long one unit stays inside.
+
+![[Summary SOSCM - Macchion-1792588577747.webp]]
+
+> [!example] 🎓 Lecture slide – Why use Little's Law? (not in the book)
+> It turns three everyday flow measures into a practical planning tool:
+> 1. **Estimate flow time:** from average WIP and throughput, estimate how long work spends in the process.
+> 2. **Set a WIP target:** work backwards from a desired flow time and expected throughput.
+> 3. **Evaluate changes:** compare before and after to see whether WIP, throughput or flow time changed.
+> 4. **Spot flow problems:** a long flow time prompts a closer look at queues, bottlenecks and uneven work.
+> ⚠️ Footnote on the slide: Little's Law describes **average** flow. It does **not** identify the *cause* of delays, nor guarantee that lowering WIP alone will fix them.
+
+> [!info] 📖 Case example – Little's Law at an IT support unit · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=240|p.240]]
+> Every August all workstations must be renovated in **one week (40 h)**. *Last year:* 500 workstations, 2 h each, so throughput rate = 0.5N per hour; 500 = 40 × 0.5N gives **N = 25 technicians**. *This year:* 530 workstations, 1.5 h each, so throughput rate = N/1.5; 530 = 40 × N/1.5 gives N = 19.9 ≈ **20 technicians**. Faster work more than compensates for the extra workload.
+
+---
+
+## 6.5 Is process variability recognised?
+
+Deterministic analysis is a good first approximation, but real processes have **variability** in activity times and arrival times.
+
+### Activity time variability
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=241|p.241]]
+> […] that synchronised indexing time would have to be set at 15 minutes. This then becomes the effective cycle time of the process. Note that the effective bottleneck stage is now stage 1 rather than stage 2. Although stage 2 has the longer average activity time (12 minutes), stage 1 with an average activity time of 11 minutes has a degree of variability that results in a maximum activity of 15 minutes.
+
+![[Summary SOSCM - Macchion-1792588891127.webp]]
+
+> [!info] 📖 Figure 6.14 – Processing-time variability in a synchronised process · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=242|p.242]]
+> - **Blue bars** = average activity time per stage (11, 12, 10, 10). The **red bell curves** show the variability around each average.
+> - If all stages move **together** (indexing conveyor), the interval must fit the **slowest possible** time of any stage, so **cycle time = 15 min**. Stage 1, with the widest curve, becomes the real bottleneck.
+> - Idle time = (15−11) + (15−12) + (15−10) + (15−10) = **17 min** per cycle (vs 5 min without variability).
+> **Takeaway:** variability, not just imbalance, wastes capacity. Without synchronisation stages wait less, but arrivals at later stages become variable.
+
+### Arrival time variability and utilisation
+
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=242|p.242]]
+> […] in a perfectly constant and predictable world, the relationship between process waiting time and utilisation is a rectangular function […]
+
+![[Summary SOSCM - Macchion-1792589585791.webp]]
+
+> [!info] 📖 Figure 6.15 – Utilisation vs units waiting · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=243|p.243]] (with your annotations)
+> A single stage of **10 min**.
+> - **Dotted line (no variability):** arrivals every 30 min give 33% utilisation (**A**); every 20 min, 50% (**B**); every 10 min, 100% with no queue (**C**). Faster than that, and the queue grows forever (**D**).
+> - **Red curve (with variability):** queues start forming well *before* 100% (points **Z → X → Y**) and the curve shoots up as utilisation approaches 100%.
+> - **Your notes:** *"Point C is the best but performing well → not a feasible situation in reality"*; the **"best spot"** box around **80–90%** is the best % to arrange production: high utilisation without explosive queues.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=243|p.243]]
+> OPERATIONS PRINCIPLE: Process variability results in simultaneous waiting and resource underutilisation.
+
+---
+
+> [!question] 🎤 Likely oral questions
+> - *What are the process flow objectives and how are they linked?* Throughput rate, throughput time, WIP, utilisation; Little's Law.
+> - *Explain Little's Law with an example* (computer repair, passport clear desk, IT support unit).
+> - *Takt time vs cycle time* (lecture example: 60 s vs 50 s).
+> - *Long-thin vs short-fat: pros and cons.*
+> - *What is the bottleneck? How do you compute balancing loss?* (10.4% vs 2.3%; Yamazumi chart).
+> - *Levels of process mapping; line of visibility; customer journey/emotion mapping.*
+> - *Why can't a process run at 100% utilisation?* Variability (Fig 6.15).
+
+Next → [[Ch07 - Supply chain management-claude]]
