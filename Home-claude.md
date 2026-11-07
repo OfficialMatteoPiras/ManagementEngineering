@@ -8,6 +8,26 @@ cssclasses: [home]
 
 ---
 
+## 🗓️ Settimana tipo
+
+| Ora | Lunedì | Martedì | Mercoledì | Giovedì | Venerdì |
+|---|---|---|---|---|---|
+| **08:30–10:30** | 🟩 [[Lessons - International Management\|DMIM]]<br><small>VM6</small> | | | | |
+| **10:30–12:30** | 🟧 [[00 - SOSCM index-claude\|SOSCM]]<br><small>Sala 8</small> | 🟦 [[Lessons - DWT\|DWT]]<br><small>Sala 8</small> | 🟢 [[Lessons - MFSSCM\|MFSLN]]<br><small>VM8</small> | 🟢 [[Lessons - MFSSCM\|MFSLN]]<br><small>VM8</small> | |
+| **12:30–14:30** | 🟦 [[Lessons - DWT\|DWT]]<br><small>Sala 8</small> | 🟧 [[00 - SOSCM index-claude\|SOSCM]]<br><small>Sala 8</small> | | | |
+| **14:30–16:30** | | | 🟧 [[00 - SOSCM index-claude\|SOSCM]]<br><small>Sala 8</small> | 🟢 [[Lessons - MFSSCM\|MFSLN]]<br><small>VM8</small> | |
+| **16:30–18:30** | | | | 🟩 [[Lessons - International Management\|DMIM]]<br><small>VM8</small> | |
+
+> [!info]- Docenti e sedi
+> Tutte le aule sono in **Nuovo Viale Margherita, Vicenza**.
+> - 🟧 **SOSCM** — Smart Operations & Supply Chain Mgmt · Macchion L., Vinelli A. · Sala 8 · 6 h/sett.
+> - 🟦 **DWT** — Digital Warehousing & Transportation · Persona A. · Sala 8 · 4 h/sett.
+> - 🟢 **MFSLN** — Material Flow Systems & Logistic Networks · Battini D., Katiraee N. · VM8 · 6 h/sett.
+> - 🟩 **DMIM** — Digital Marketing & International Mgmt · VM6 (lun) / VM8 (gio) · 4 h/sett.
+> - Venerdì libero 🎉
+
+---
+
 ## 📚 Corsi in corso
 
 | Corso | Lezioni | Riassunti | Moodle |
