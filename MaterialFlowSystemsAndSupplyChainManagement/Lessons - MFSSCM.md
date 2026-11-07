@@ -995,6 +995,7 @@ The supermarket (**SUMA**) **decouples** the flow: upstream we reason in economi
 ### 8. EPQ model (Economic Production Quantity)
 
 ![[mf-12-epq-claude.png]]
+
 ![[mf-13-epq-calcoli-claude.png]]
 
 Unlike EOQ, the lot doesn't arrive all at once: it is **produced at rate $p$** while being **consumed at rate $d$**.
