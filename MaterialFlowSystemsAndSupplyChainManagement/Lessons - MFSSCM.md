@@ -831,14 +831,252 @@ $$ \begin{cases} 1 \cdot x_{a1} \le 1 \cdot x_{b1} + 2 \cdot x_{b2} \\ 1 \cdot x
 # LECTURE 8: PART FEEDING SYSTEM
 ## IN-HOUSE LOGISTICS: the Part Feeding Problem in ATO production systems
 ![[Lessons - MFSSCM-1794052309001.webp]]
+## Part Feeding & Inventory Models
 
-## «In-bound» AND «In-house Logistics»
+### 1. Logistics chain: inbound vs in-house
 
+![[mf-01-logistics-chain-claude.png]]
 
-![[Lessons - MFSSCM-1794052476711.webp]]
+Il flusso parte dall'**ordine** e finisce quando il **pezzo viene usato**:
+- **Inbound logistics**: Production/Purchasing → Transportation, fino alla ricezione dell'ordine.
+- **In-house logistics** (detta anche **intra-logistics**): Inspection → Warehousing → **Part Feeding**, fino all'uso del pezzo in linea.
 
+> [!note] Appunti lezione
+> - Inbound = gestire produzione e acquisto delle parti dei prodotti.
+> - **"We work here!"**: il corso si concentra sulla **in-house / intra-logistics**.
 
-![[Lessons - MFSSCM-1794052502891.webp]]
+### 2. Part Feeding System: i 3 elementi
+
+![[mf-02-part-feeding-system-claude.png]]
+
+```mermaid
+flowchart LR
+    S[1. Storage] --> T[2. Transport]
+    T --> F[3. Feeding policy]
+    F --> S
+```
+
+> [!note] Appunti lezione
+> 1. **Storage**: dove mettiamo gli stock? Quanta quantità? **Centralizzazione o decentralizzazione?**
+> 2. **Transport**: tramite **MHD** (*Material Handling Device*), **con conducente** o **driverless**.
+> 3. **Feeding policy**: come alimentiamo le parti alle **WS** (*Work Station*)?
+
+### 3. Storage: centralizzato vs decentralizzato
+
+#### 3.1 Centralized warehousing system
+
+![[mf-03-centralized-claude.png]]
+![[mf-04-big-boxes-claude.png]]
+
+Un unico **Central Receiving Store (W)** riceve da fornitori/subcontractors e dalle linee di produzione, poi alimenta tutte le linee di assemblaggio (AL1, AL2, AL3). Le linee distano **L** (*travelling distance*) dal magazzino e occupano una superficie **F** (*floor space*). Le parti arrivano in **big boxes di parti omogenee**.
+
+> [!note] Appunti lezione
+> - Si centralizza tenendo **tutti gli stock in un unico magazzino**, e questo comporta un **aumento del costo di trasporto** (le frecce € verso ogni linea).
+> - Gli stock sono grandi ma la **safety stock si riduce** grazie alla centralizzazione.
+> - **C = cycle time** di ogni linea (C₁, C₂, C₃); le parti vanno portate alle WS.
+> - **È un sistema PULL**: le linee "tirano" il materiale dal magazzino.
+
+> [!warning] Nota
+> Negli appunti avevi scritto "*safety stock reduced thanks to decentralization*". Dalla slide 3.3 risulta il contrario: è la **centralizzazione** a ridurre la safety stock.
+
+#### 3.2 Decentralized warehousing system
+
+![[mf-05-decentralized-claude.png]]
+
+Ogni linea ha il **proprio magazzino** (W1, W2, W3) vicino alla linea stessa.
+
+> [!note] Appunti lezione
+> - Il magazzino è vicino alle WS, quindi il **costo di trasporto è più basso**.
+> - Gli stock vengono **duplicati/triplicati**, perché bisogna alimentare più magazzini, e quindi la **safety stock aumenta**.
+
+#### 3.3 Centralization vs Decentralization
+
+![[mf-06-centr-vs-decentr-claude.png]]
+
+| | Centralizzato | Decentralizzato |
+|---|---|---|
+| Safety stock | ↓ minore | ↑ maggiore (stock duplicati) |
+| Lead time / tempo di risposta | ↑ maggiore | ↓ minore (magazzini vicini) |
+| Costo di trasporto | ↑ | ↓ |
+
+> [!note] Appunti lezione
+> - **Non esiste un caso migliore o peggiore: dipende dal caso.**
+> - Se la **distinta base (BOM)** ha **molti componenti in comune tra le linee di assemblaggio**, conviene usare **1 solo magazzino**.
+
+### 4. Supermarket: indirect supply of parts
+
+![[mf-07-supermarket-claude.png]]
+
+Soluzione ibrida: il **Central Receiving Store** tiene la scorta principale e rifornisce un **Supermarket**, cioè un piccolo magazzino vicino alle linee. Da lì un **feeding route** (es. tugger train) gira tra le linee con alta frequenza.
+
+> [!note] Appunti lezione
+> - **È un trade-off.**
+> - La **safety stock resta nel magazzino centrale**, quindi i costi (€) diminuiscono.
+> - Ogni giorno, o anche ogni ½ giornata, si manda materiale dal centrale al supermarket.
+> - **Supermarket = piccolo magazzino.** Perché "supermarket"? Contiene **una piccola quantità di tutto**, così si può portare qualsiasi cosa alle WS **in poco tempo**.
+> - Feeding route: **ogni ora** oppure **ogni cycle time**.
+>   - Il **costo di trasporto aumenta**, ma essendo vicino **non è caro quanto il decentralizzato**.
+>   - Si alimenta la linea **ad alta frequenza**.
+
+#### 4.1 Assembly Station Kit
+
+![[mf-08-assembly-kit-claude.png]]
+
+Variante con **supermarket dedicato a una singola linea**: le parti vengono preparate in **kit** (carrello coperto, *assembly station kit*) per la stazione.
+
+> [!note] Appunti lezione
+> - Il supermarket è **creato per una specifica linea di assemblaggio**, quindi va **duplicato per ogni linea**.
+
+### 5. Direct vs Indirect part supply
+
+![[mf-09-direct-vs-indirect-claude.png]]
+
+```mermaid
+flowchart LR
+    W1[Warehouse - Supermarket area] --> K[Manual picking & kitting] --> A1[Assembly line: KIT su trolley / small bins]
+    W2[Central Receiving Store] --> D[Direct refilling] --> A2[Assembly line: LOAD UNITS]
+```
+
+| | **Indirect** (supermarket + kitting) | **Direct** (refilling da centrale) |
+|---|---|---|
+| Ergonomia picking | ↑ migliore (costo ↓) | ↑ più fatica (costo ↑) |
+| Spazio occupato in linea | ↓ minore | ↑ maggiore |
+| Trasporto | ↑ maggiore | ↓ minore |
+| Attività di kitting | ↑ presente | ↓ **nessuna** |
+| Contenitori | trolley o **small/narrow bins** | unità di carico intere |
+
+> [!note] Appunti lezione
+> - **Direct refilling**: **quantità maggiori ma meno frequenti**.
+> - Le frecce ↑/↓ vanno lette in termini di **costo €**.
+> - **La soluzione migliore dipende dal costo.**
+
+### 6. Il supermarket come Decoupling Point
+
+![[mf-10-decoupling-point-claude.png]]
+
+Il supermarket (**SUMA**) **disaccoppia** il flusso: a monte si ragiona in lotti economici, a valle in consumi per ciclo.
+
+- **Suppliers → Central WH**: lotto **Qp\*** = **EOQ** (*Economic Order Quantity*)
+- **Production lines → Central WH**: lotto **Qm\*** = **EPQ** (*Economic Production Quantity*, si usa quando **produciamo** internamente)
+- **Central WH**: contiene qp\*, qm\* + **SS** (*safety stock*)
+- **Central WH → SUMA**: multipli **k·Qc, k·c**
+- **SUMA → linea**: **Qc, c** = **consumo in un ciclo**
+- Il **depot** è l'area di parcheggio dei veicoli del feeding route.
+
+> [!note] Appunti lezione
+> - Il **materiale** si muove da sinistra a destra (fornitori → linea).
+> - L'**informazione** si muove da destra a sinistra (linea → fornitori): sistema pull.
+
+### 7. EOQ model (Economic Order Quantity)
+
+![[mf-11-eoq-claude.png]]
+
+> [!note] Appunti lezione
+> **EOQ = quantità da ordinare che minimizza i costi totali.**
+>
+> Variabili:
+> - $D$ = domanda annua
+> - $C_o$ = costo di emissione ordine [€/ordine]
+> - $h$ = costo di mantenimento a scorta $= p \cdot i\%$, dove $p$ = costo di acquisto e $i\%$ = costo % annuo di inventario
+>
+> Costo totale = costo ordinazione + costo mantenimento:
+> $$C_{tot} = \frac{D}{Q}C_o + \frac{Q}{2}\,p\,i\%$$
+>
+> Per minimizzarlo si calcola la **derivata prima** e la si pone uguale a 0:
+> $$\frac{dC_{tot}}{dQ} = -\frac{D}{Q^2}C_o + \frac{p\,i\%}{2} = 0$$
+>
+> **Q ottimo:**
+> $$EOQ = Q^* = \sqrt{\frac{2\,D\,C_o}{p\cdot i\%}}$$
+>
+> Lettura del grafico a dente di sega:
+> - $Q$ = quantità che arriva al magazzino
+> - si consumano i pezzi secondo il **consumption rate**
+> - **RL = reorder level**: quando la scorta lo raggiunge si riordina
+> - tra riordino e arrivo passa il **tempo di consegna** (*delivery time*)
+> - scorta media $= Q/2$
+
+### 8. EPQ model (Economic Production Quantity)
+
+![[mf-12-epq-claude.png]]
+![[mf-13-epq-calcoli-claude.png]]
+
+Rispetto all'EOQ, il lotto non arriva tutto insieme: viene **prodotto a rate $p$** mentre viene **consumato a rate $d$**.
+
+> [!note] Appunti lezione
+> - **Produzione e consumo sono sovrapposti.** $\Delta Q$ = pezzi consumati durante la produzione.
+> - $LT_p$ = lead time di produzione (*order production period*), $LT_c$ = lead time di consumo.
+>
+> Derivazione del livello massimo $Q^*$:
+> $$Q - \Delta Q = Q^* \;\Rightarrow\; Q - d\,LT_p = Q^*$$
+> $$p\,LT_p - d\,LT_p = Q^* \;\Rightarrow\; LT_p(p-d) = Q^*$$
+> $$\text{con } LT_p = \frac{Q}{p}: \quad \frac{Q}{p}(p-d) = Q^* \;\Rightarrow\; \boxed{Q^* = Q\left(1-\frac{d}{p}\right)}$$
+>
+> - Livello massimo: $Q(1-d/p)$
+> - **Livello medio:** $\frac{Q}{2}(1-d/p)$
+>
+> **Costo totale** = costo di setup macchine + costo di mantenimento:
+> $$C_{tot} = \frac{D}{Q}C_s + \frac{Q}{2}\left(1-\frac{d}{p}\right) v_p\, i\%$$
+> - $C_s$ = costo di **setup** delle linee/impianto
+> - $v_p$ = **valore di produzione** [€/pz]
+>
+> Derivata prima:
+> $$\frac{dC_{tot}}{dQ} = -\frac{D}{Q^2}C_s + \frac{1}{2}\left(1-\frac{d}{p}\right)v_p\,i\% = 0$$
+> $$\boxed{EPQ = \sqrt{\frac{2\,D\,C_s}{v_p\cdot i\%\cdot\left(1-\frac{d}{p}\right)}}}$$
+>
+> ⚠️ $v_p$ è un **valore di produzione**, non un prezzo d'acquisto come nell'EOQ.
+
+> [!tip] EOQ vs EPQ in breve
+> | | EOQ | EPQ |
+> |---|---|---|
+> | Costo fisso | $C_o$ ordine | $C_s$ setup |
+> | Valore pezzo | $p$ prezzo acquisto | $v_p$ valore produzione |
+> | Fattore extra | — | $(1-d/p)$ |
+> | Rifornimento | istantaneo | graduale (rate $p$) |
+
+### 9. Inventory cost (holding cost)
+
+![[mf-14-inventory-cost-claude.png]]
+
+La scelta del metodo dipende da **opinioni di esperti**, dai **sistemi di magazzino esistenti** e dalle **esigenze future** dell'azienda. Ci sono due approcci:
+
+- **Approach A**, il tradizionale: storage costs (*evident + semi-evident + hidden*) + **opportunity cost**, allocati come **% del valore del prodotto**. Si ottiene **$h$** = tasso annuo di holding cost in % del valore a scorta.
+- **Approach B**: storage costs (*investment + operation*) + **opportunity cost**, allocati **per posizione pallet**. Si ottengono **$s$** (costo annuo di storage in rapporto alla capacità del sistema) e **$i$** (opportunity cost annuo in % del valore unitario del pallet).
+
+#### Annual holding cost rate $h$
+
+![[mf-15-holding-cost-rate-claude.png]]
+
+| Evident costs | Semi-evident costs | Hidden costs |
+|---|---|---|
+| Floor space | Obsolescence | Inspection & counting |
+| Energy | Product damage | Remanufacturing |
+| Cleaning | Product depreciation | Repackaging & relabelling |
+| Surveillance | Deterioration / expiration | Lost sales / backlog |
+| Insurances | Indirect labor & supervision | |
+| Taxes | Stock list execution | |
+| MH / storage equipment | | |
+| WHMS & HAS (HW + SW) | | |
+| Maintenance | | |
+| Direct labor | | |
+
+$$h = \text{storage costs (evident + semi-evident + hidden)} + \text{opportunity cost}$$
+### 10. Inventory control systems
+
+![[mf-16-inventory-control-claude.png]]
+
+1. **(s, Q)**: *Continuous review*, **quantità d'ordine fissa**
+2. **(s, S)**: *Continuous review*, **order-up-to-level**
+3. **(T, S)**: *Periodic review*, **order-up-to-level**
+
+#### 10.1 Continuous review (s, Q)
+
+![[mf-17-continuous-sQ-claude.png]]
+
+- La scorta viene monitorata **continuamente**.
+- Quando scende al **reorder point $s$** (*signal stock*), si emette un ordine di quantità **fissa $Q$**.
+- L'ordine arriva dopo il **lead time $\tau$** (*order acceptance*).
+- Con **domanda stocastica** i cicli $T_1, T_2, T_3$ hanno **durata variabile**: Q è fisso, il tempo tra ordini no.
+- Se durante $\tau$ la domanda è alta, la scorta scende sotto $s$, e la **safety stock** serve proprio a coprire questo.
 
 
 
