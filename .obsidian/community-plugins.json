@@ -11,6 +11,7 @@
   "image-captions",
   "homepage",
   "omnisearch",
+  "pdf-plus",
   "recent-files-obsidian",
   "templater-obsidian",
   "obsidian-day-planner",
@@ -24,6 +25,8 @@
   "obsidian-hover-editor",
   "quickadd",
   "periodic-notes",
+  "pdfplus-exporter",
+  "obsidian-zotero-desktop-connector",
   "obsidian-tasks-plugin",
   "obsidian-minimal-settings",
   "obsidian-paste-image-rename",
@@ -36,9 +39,6 @@
   "web-browser",
   "advanced-rename-and-delete-handler",
   "obsidian-latex-suite",
-  "pdfplus-exporter",
   "obsidian-annotator",
-  "obsidian-zotero-desktop-connector",
-  "pdf-plus",
-  "local-pdf-annotator"
+  "claude-code-ide"
 ]
