@@ -315,7 +315,11 @@ Next → [[Ch06 - Process design 2 - Analysis-claude]]
 
 ![[Ch05 concept map-claude.png]]
 
+**Figures A–D of the map, full size:**
+
+![[Ch05 concept map figures-claude.png]]
+
 > [!tip] How to read the map
-> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails A–D** (blue dashed line) = the book figure or slide that explains that concept, with its page; they are shown full size below the map.
 >
 > 🎤 **Oral storyline:** Positioning vs analysis → the product–process matrix and the process types on the diagonal → then show that the diagonal also drives layout, technology and job design (red arrows).

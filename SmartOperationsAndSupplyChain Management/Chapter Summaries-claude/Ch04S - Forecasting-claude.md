@@ -473,7 +473,11 @@ Your note: *"for 10 we need to do 16 − 12.33 = 3.67 and 16 − 3.9 = 12.10"*. 
 
 ![[Ch04S concept map-claude.png]]
 
+**Figures A–D of the map, full size:**
+
+![[Ch04S concept map figures-claude.png]]
+
 > [!tip] How to read the map
-> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails A–D** (blue dashed line) = the book figure or slide that explains that concept, with its page; they are shown full size below the map.
 >
 > 🎤 **Oral storyline:** Why forecast (planning levels, decoupling point, bullwhip) → principles (forecasts are always wrong) → the three families: qualitative, time series, causal → time-series components and the methods (SMA, WMA, ES) → choose the approach → measure error (MFE = bias, MAD = accuracy, tracking signal).

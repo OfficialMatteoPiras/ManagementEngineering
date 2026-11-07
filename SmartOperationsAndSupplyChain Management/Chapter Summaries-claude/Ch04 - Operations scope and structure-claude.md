@@ -395,7 +395,11 @@ Next → [[Ch04S - Forecasting-claude]] · [[Ch05 - Process design 1 - Positioni
 
 ![[Ch04 concept map-claude.png]]
 
+**Figures A–D of the map, full size:**
+
+![[Ch04 concept map figures-claude.png]]
+
 > [!tip] How to read the map
-> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails A–D** (blue dashed line) = the book figure or slide that explains that concept, with its page; they are shown full size below the map.
 >
 > 🎤 **Oral storyline:** Place the operation in the network (tiers) → choose how much to integrate → decide what to do in-house or outsource (Fig 4.5) → configure the network (co-opetition, channels) → size and time capacity (lead/lag/smooth, fixed-cost breaks) → choose the location.

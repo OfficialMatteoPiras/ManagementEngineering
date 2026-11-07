@@ -451,7 +451,11 @@ Technically called **distributed ledger technology (DLT)**. Unlike technologies 
 
 ![[Ch07 concept map-claude.png]]
 
+**Figures A–D of the map, full size:**
+
+![[Ch07 concept map figures-claude.png]]
+
 > [!tip] How to read the map
-> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails A–D** (blue dashed line) = the book figure or slide that explains that concept, with its page; they are shown full size below the map.
 >
 > 🎤 **Oral storyline:** What SCM is (flows, chain vs network, Fisher) → relationships → sourcing (risk × criticality) → selection and negotiation → running the chain (SLAs, gaps, development, logistics) → bullwhip and remedies → blockchain.

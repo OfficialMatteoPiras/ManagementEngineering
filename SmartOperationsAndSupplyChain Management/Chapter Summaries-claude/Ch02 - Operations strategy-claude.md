@@ -417,7 +417,11 @@ Next → [[Ch04 - Operations scope and structure-claude]]
 
 ![[Ch02 concept map-claude.png]]
 
+**Figures A–D of the map, full size:**
+
+![[Ch02 concept map figures-claude.png]]
+
 > [!tip] How to read the map
-> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails A–D** (blue dashed line) = the book figure or slide that explains that concept, with its page; they are shown full size below the map.
 >
 > 🎤 **Oral storyline:** Define strategy → stakeholders and CSR → Hayes & Wheelwright stages → the four perspectives (top-down, outside-in, bottom-up, inside-out, Fig 2.3) → reconcile them with the strategy matrix and the line of fit → improve with trade-offs and the efficient frontier.
