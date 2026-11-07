@@ -14,12 +14,28 @@ tags: [SOSCM, summary, chapter2]
 
 ---
 
+## 2.0 What is (operations) strategy?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=68|p.68–70]]
+- **Strategy** comes from the Greek *strategos*, "leading an army". Military and business strategy share five features: (1) setting **broad objectives** towards an overall goal; (2) **planning the path** in general rather than specific terms; (3) stressing the **long term**; (4) dealing with the **total picture**; (5) being **detached from day-to-day** distractions.
+- **Operations strategy** = *"the pattern of decisions and actions that shape the long-term vision, objectives and capabilities of the operation and its contribution to the overall strategy of the business"*. It is how operations resources are developed over the long term to create **sustainable competitive advantage**. Even marketing-led companies (FMCG) gain from it.
+- **Is "operations strategy" a contradiction?** No: *operations* ≠ *operational*. Many successful firms (from **Apple to Zara**) owe their superiority to their operations strategy; when firms stumble, it is often because they "took their eye off the operations ball".
+- **Two meanings:** (1) how the operations *function* contributes to strategic success; (2) how *any* function develops its resources and processes to build its strategic role.
+- **Lessons from SSTL** (case at the end): innovative use of emerging technology, link to what customers want, learning from experience, and *actually having* an operations strategy.
+
+**How do you judge an operations strategy?** You can't see or touch it. Its effects show only **after years**, and it is never a single decision: it is revealed in the **total pattern of decisions** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=70|p.70]]). An operations strategy should: (1) take **stakeholders** into account; (2) articulate a **vision** for operations' contribution (Hayes & Wheelwright); (3) be built from the four perspectives.
+
+---
+
 ## 2.1 Stakeholders and corporate social responsibility (CSR)
 
 > [!PDF|red] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=70|p.70]]
 > All operations have stakeholders. They are the people and groups who have a legitimate interest in the operation's strategy. Some are internal (employees); others are external (customers, society or community groups, and a company's shareholders). […] in any kind of organisation, it is a responsibility of the operations function to understand the (often conflicting) objectives of its stakeholders and set its objectives accordingly.
 
-**CSR** is closely related to the stakeholder view: listening and responding to the needs of a company's stakeholders, including sustainable development, and building good relationships with employees, suppliers and wider society.
+- In **not-for-profit** operations stakeholder groups can overlap (a charity volunteer can be employee, "shareholder" and customer at once).
+- The relationship is **two-way**: what stakeholders want from the operation *and* what the operation wants from them (Table 2.1).
+- **Dilemma:** maximising profit vs managing in the interests of society with accountability and transparency. How can a business actually do it?
+
+**CSR** is closely related to the stakeholder view: listening and responding to the needs of a company's stakeholders, including sustainable development, and building good relationships with employees, suppliers and wider society. It matters both **ethically and commercially**, but turning it into operational reality is **difficult**; the TBL is one of the best-known attempts ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=71|p.71]]).
 
 ![[Summary SOSCM - Vinelli-1791193646521.webp]]
 
@@ -37,6 +53,13 @@ tags: [SOSCM, summary, chapter2]
 ---
 
 ## 2.2 The vision of operations' contribution: Hayes & Wheelwright's Four-Stage Model
+
+The **vision** is *not* a statement of what operations want to achieve (those are objectives) but of **what operations must become and what contribution it should make** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=72|p.72]]).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=72|p.72]]
+> OPERATIONS PRINCIPLE: Operations strategy should articulate a 'vision' for the operations function's contribution to overall strategy.
+
+Stage 1 detail: operations is **inward-looking and at best reactive**, with no originality, flair or competitive drive. Stage 3 "used to be taken as the limit"; Stage 4 captures the growing importance of OM: it **forecasts changes in markets and supply** and builds the capabilities needed in the future, and operations becomes **central to strategy-making** (creative, proactive, "one step ahead").
 
 | Stage | Name | Vision | In plain words |
 |---|---|---|---|
@@ -86,7 +109,16 @@ The distinction was popularised by **Andrew Pettigrew** (an eight-year study of 
 
 ## 2.3 Top-down: does operations strategy reflect business strategy?
 
-There are three levels: **corporate** strategy (which businesses and where) → **business** strategy (how each business competes) → **functional** strategies (operations, marketing, finance…).
+There are three levels ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=74|p.74–75]]):
+- **Corporate** strategy positions the corporation in its global, economic, political and social environment: which businesses, which parts of the world, how to allocate cash.
+- **Business** strategy sets each business unit's mission and objectives towards customers, markets and competitors, and its role in the group.
+- **Functional** strategies set what each function (operations, marketing, product development…) contributes to the business objectives.
+To understand strategy at any level, place it in the context of **what it is trying to do** (the level above) and **how it is trying to do it** (the level below). A good top-down perspective provides **clarity and connection**.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=75|p.75]]
+> OPERATIONS PRINCIPLE: Operations strategies should reflect top-down corporate and/or business objectives.
+
+Business strategy is inevitably **aggregated and approximate**: there are ambiguities to clarify and conflicts to reconcile.
 
 ![[Summary SOSCM - Vinelli-1791376701008.webp]]
 
@@ -102,7 +134,9 @@ There are three levels: **corporate** strategy (which businesses and where) → 
 
 Common elements of a business model: (1) value proposition, (2) target customer segments, (3) communication and distribution channels, (4) customer relationships, (5) core capabilities, (6) configuration of activities, (7) partners, (8) revenue streams, (9) cost structure.
 
-An **operating model** describes *how* the business model will be achieved. It is like an operations strategy applied to **all** functions. Typical elements: KPIs (with relative importance of objectives), core financial structure, accountabilities, organisational structure (often as capability areas), systems and technologies, processes and responsibilities, key knowledge. A **target operating model (TOM)** is how the organisation *should* operate in the future, so it implies change.
+The business model is broadly analogous to **business strategy**, but puts more emphasis on *how* to achieve it ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=77|p.77]]). The more formal definition: *"a conceptual tool that contains a big set of elements and their relationships and allows [the expression of] the business logic of a specific firm…"*.
+
+An **operating model** is *"a high-level design of the organisation that defines the structure and style which enables it to meet its business objectives"*: a "big picture" of what the organisation does and how. Unlike the business model (which often assumes profit), it applies to **any organisation**, including not-for-profit and public. Two characteristics: (1) it **ignores conventional functional boundaries**, like an operations strategy applied to all functions; (2) it **overlaps** with the business model but focuses on *how* the strategy is achieved. It is rarely designed from scratch, so it implies **change or transformation**. Typical elements: KPIs (with relative importance of objectives), core financial structure, accountabilities, organisational structure (often as capability areas), systems and technologies, processes and responsibilities, key knowledge. A **target operating model (TOM)** is how the organisation *should* operate in the future, so it implies change.
 
 ![[Summary SOSCM - Vinelli-1791377142909.webp]]
 
@@ -131,6 +165,12 @@ The five performance objectives (from Ch 1) are the operations translation of wh
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80|p.80]]
 > OPERATIONS PRINCIPLE: The interpretation of the five performance objectives will differ between different operations.
 
+- Operations may **re-bundle** the elements. Example: **"quality of service" (QoS)** in information networks covers uptime (dependability), bandwidth (dependability and flexibility), latency (speed) and error rate (quality). What matters is **internal consistency** of definitions ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80|p.80]]).
+- **The relative priority differs between businesses:** competing on low price means emphasising cost, productivity and efficiency; competing on customisation means emphasising flexibility. There must be a clear logical link between competitive stance and operations objectives.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80|p.80]]
+> OPERATIONS PRINCIPLE: The relative importance of the five performance objectives depends on how the business competes in its market.
+
 ### Order-winners and qualifiers
 
 > [!PDF|red] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=81|p.81]]
@@ -148,6 +188,23 @@ The five performance objectives (from Ch 1) are the operations translation of wh
 
 > [!important] OPERATIONS PRINCIPLE
 > Operations strategy should reflect the requirements of the business's markets. ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=80|p.80]]) · Different customer needs imply different priorities of performance objectives. ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=81|p.81]])
+
+### Different customer needs imply different objectives (Table 2.3, retail vs corporate banking)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=81|p.81]]
+
+| | Retail banking | Corporate banking |
+|---|---|---|
+| Products | Personal financial services (loans, credit cards) | Special services for businesses |
+| Customers | Individuals | Businesses |
+| Range | Medium but standardised | Very wide, many customised |
+| Design changes | Occasional | Continual |
+| Delivery | Fast decisions | Dependable service |
+| Quality means | Error-free transactions | Close relationships |
+| Volume per service | High | Low |
+| Margins | Low–medium (some high) | Medium–high |
+| **Order-winners** | Price, accessibility, speed | Customisation, quality of service, reliability |
+| **Qualifiers** | Quality, range | Speed, price |
+| **Objectives emphasised** | **Cost, speed, quality** | **Flexibility, quality, dependability** |
 
 ### The product/service life cycle and performance objectives
 
@@ -169,17 +226,53 @@ The five performance objectives (from Ch 1) are the operations translation of wh
 
 ---
 
-## 2.5 Bottom-up and inside-out (brief, for completeness)
+## 2.5 Bottom-up: does operations strategy learn from operational experience?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=84|p.84–85]]
+- The top-down hierarchy doesn't always describe reality: groups review strategy **taking into account the circumstances, experiences and capabilities** of their businesses and functions. Many strategic ideas **emerge over time from operational experience**.
+- **Emergent strategies:** a consensus emerges from operations, and the "high-level" decision (if any) simply confirms it and provides resources. Strategy-making is seen as partly *unstructured and fragmented*, because the future is partly unpredictable. This is **not** an abandonment of strategic responsibility by senior managers; it accepts that good ideas come from the operational level.
+- **Key virtue: the ability to learn from experience:** (1) **capture** the learning from routine activities; (2) **transform** it into strategically valuable knowledge.
+- Advantage: **trends often show up first** at the day-to-day level, which matters in unstable environments, where the other three perspectives are slower.
 
-- **Bottom-up:** strategy should **learn from operational experience**: capture the learning from routine activities and turn it into strategically valuable knowledge. Trends often show up first at the day-to-day level. Book example: Micraytech's **modular design** emerged from engineers' experience, not from a board decision ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=85|p.85]]).
-- **Inside-out:** build **operations capabilities** from tangible *and intangible* resources (supplier relationships, reputation, know-how, teamwork). Strategic resources are scarce, imperfectly mobile, imperfectly imitable and imperfectly substitutable; test them with **VRIO** (Valuable, Rare, Inimitable, Organised to exploit) ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=87|p.87–88]]).
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=84|p.84]]
+> OPERATIONS PRINCIPLE: Operations strategy should reflect the bottom-up experience of operational reality.
+
+## 2.6 Inside-out: does operations strategy develop the capability of its resources and processes?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=85|p.85–88]]
+- **Capability (= competence)** is the *"know-how" embedded within the business's resources and processes*. It is built up from experience (bottom-up) or bought/acquired. Refined and integrated, capabilities let the firm offer **unique, difficult-to-imitate** products and services. This is the **resource (inside-out) perspective**.
+- **Car analogy:** listing resources is like listing a car's parts. You need the mechanisms (= **processes**) and also the "personality" (= **intangible resources**): supplier relationships and customer reputation; knowledge of process technologies; how staff work together in new product and service development; how all processes are integrated into a mutually supporting whole.
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=86|p.86]]
 > OPERATIONS PRINCIPLE: The long-term objective of operations strategy is to build operations-based capabilities.
 
+- The strategy should indicate **broadly** which decisions will build capabilities (e.g. "reduce costs by aggressive outsourcing of non-core processes and more efficient technology" or "customise through modular design"). The balance is between being **too restrictive** and **too open**.
+- **Table 2.4: typical operations strategy decisions** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=87|p.87]]): which products and services to develop and how; outsource or in-house; acquire suppliers or customers; how many sites, where, with what activities and capacity; what technology; how to develop people and their role in management; how to forecast demand and adjust activity levels; how to develop supplier relationships; how much inventory and where; what coordination system; how to measure and report performance and set improvement priorities; who is involved in improvement, continuous or radical, how it is managed; how to maintain resources to prevent failure and ensure continuity.
+
+### Resource-based view (RBV) and VRIO
+- **RBV:** above-average performance comes from **core competences/capabilities**. The **traditional view** protects advantage through **market control** (barriers to entry through differentiation, switching costs, controlling distribution channels, e.g. oil companies owning petrol stations). The RBV protects it through **barriers to imitation**.
+- **Strategic resources** are: **scarce** (specialised facilities, experienced engineers, proprietary software); **imperfectly mobile** (developed in-house, based on staff experience, interconnected, so they can't be traded); **imperfectly imitable and imperfectly substitutable** (the deeper the embedded process knowledge, the harder to copy).
+- **VRIO** (Jay **Barney**, 1990s):
+  1. **V**aluable: can you identify specific competitive value?
+  2. **R**are: do competitors lack it (at least in short supply and likely to stay so)?
+  3. **I**nimitable: can it not be copied, bought or substituted at realistic cost and time?
+  4. **O**rganised: do you have the systems, culture, capacity, motivation, leadership and controls to exploit it?
+- Two points: (1) **everything is time-dependent** (competitors don't stand still); (2) **"O" is the prerequisite**.
+
+**Figure 2.8 – the VRIO sequence** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=88|p.88]]):
+| Conditions met | Result |
+|---|---|
+| Organisation only | Potential to contribute |
+| O + Value | **At least parity** with competitors |
+| O + V + Rarity | **Short-/medium-term** competitive advantage |
+| O + V + R + Inimitability | **Long-term (sustainable)** competitive advantage |
+
 ---
 
-## 2.6 Diagnostic question: are the four perspectives reconciled?
+## 2.7 Diagnostic question: are the four perspectives reconciled?
+
+Reconciliation is a **condition for an effective operations strategy**. The matrix checks **outside-in vs inside-out**: for every cell (objective × decision area) the business should be able to explain the intended link ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=89|p.89]]).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=89|p.89]]
+> OPERATIONS PRINCIPLE: An operations strategy should articulate the relationship between operations objectives and the means of achieving them.
 
 ![[Summary SOSCM - Vinelli-1791380476922.webp]]
 
@@ -216,6 +309,19 @@ The five performance objectives (from Ch 1) are the operations translation of wh
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=91|p.91]]
 > OPERATIONS PRINCIPLE: An operation positioned on the 'line of fit' has operations capabilities that match its market requirements.
 
+## 2.8 Diagnostic question: does operations strategy set an improvement path?
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=92|p.92–96]]
+An operations strategy is the **starting point for improvement**. If it doesn't say how improvement will happen, it fails its main purpose. This is best thought about through the **trade-offs** between performance objectives.
+
+**Two views of trade-offs:**
+1. **Trade-offs are real** ("there's no such thing as a free lunch"). **Wickham Skinner** (1969): *"…no one today can design a 500-passenger plane that can land on an aircraft carrier and also break the sound barrier. Much the same thing is true in … [operations]."*
+2. **Trade-offs are the enemy of improvement**: accepting them is limiting and unambitious. **Overcoming trade-offs is the central objective** of strategic improvement.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=93|p.93]]
+> OPERATIONS PRINCIPLE: In the short term, operations cannot achieve outstanding performance in all its operations objectives simultaneously. · In the long term, a key objective of operations strategy is to improve all aspects of operations performance.
+
+The two views lead to two improvement approaches, and most businesses use both: **repositioning** (trade some objectives for others) vs increasing **effectiveness** (overcome trade-offs).
+
 ### Trade-offs and the 'efficient frontier'
 
 ![[Summary SOSCM - Vinelli-1791380934203.webp]]
@@ -228,6 +334,24 @@ The five performance objectives (from Ch 1) are the operations translation of wh
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=94|p.94]]
 > OPERATIONS PRINCIPLE: Operations that lie on the 'efficient frontier' have performance levels that dominate those that do not.
+
+### Improving effectiveness through focus: the "operation-within-an-operation"
+**Figure 2.13** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=95|p.95–96]]):
+- **(a) Focus:** operation **P** (high variety, low cost efficiency, using general-purpose tech and multi-skilled staff) can push variety *even further* by dedicating resources to each large customer and totally customising (**P1**), sacrificing more cost. Operation **Q** can push cost efficiency further by offering even less variety (**Q1**). Effectiveness improves by focusing on a **narrow set of objectives**.
+- **(b) Operation-within-an-operation** ("plant-within-a-plant", "shop-within-a-shop"): an interior **paint** maker serves *domestic* customers (price-sensitive, limited colours and sizes) and *professional decorators* (wide variety, less price-sensitive). Instead of one set of processes (**X**), it creates **two separate sets**: **Y** = high cost efficiency for the domestic market and **Z** = high variety for professionals. It **segments its processes to match the market segmentation**.
+- **But focus isn't always right:** cars used to be either cheap and unreliable or reliable and expensive. Manufacturers found that **reducing defects actually reduces costs**, so today even budget cars are reliable. A *permanent* expansion of the frontier comes from **overcoming trade-offs through better operations practice**.
+- **Even "inevitable" trade-offs can be softened:** supermarket checkouts trade staff utilisation (cost) against customer waiting (speed). With **core staff plus other staff trained and on call** to open checkouts when queues build, the manager improves service *and* keeps utilisation high.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=96|p.96]]
+> OPERATIONS PRINCIPLE: An operation's strategy improvement path can be described in terms of repositioning and/or overcoming its performance trade-offs.
+
+### Critical commentary
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=97|p.97]]
+- Starting from **stakeholders** is disputed: too many criteria, so what exactly should be maximised? It gives narrow special interests a spurious legitimacy that undermines value-seeking behaviour.
+- The idea that **operations can drive strategy** and the **RBV** are problematic for some theorists. Traditionally strategy is **market-driven** and **planned/deliberate** (get the market proposition right and customers respond; otherwise "business is a lottery"). Resource-based advantage and **emergent** strategy were once seen as outrageous; **research now supports both**. Yet many practices (e.g. the business-model/operating-model idea) remain **top-down** and give operations a *supporting*, not *driving*, role. The book blends the traditional and newer views.
+
+### Summary checklist (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=97|p.97–98]]: Is there an articulated operations strategy and vision? Are stakeholders considered? Which Hayes & Wheelwright stage are you at? Is there a top-down translation process, with correspondence and coherence? Does the business model fit the operating model? Are objectives articulated as order-winners and qualifiers, with priorities per part of the operation? Is there bottom-up communication? Are the key decisions and capabilities identified? Are resources scarce, immobile, inimitable, non-substitutable? Are market–capability links established? Where are you on the line of fit? Are trade-offs identified, and how will you reposition or overcome them?
 
 ---
 

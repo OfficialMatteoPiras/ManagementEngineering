@@ -80,6 +80,22 @@ tags: [SOSCM, summary, forecasting]
 
 ---
 
+### What the book adds: know the options and their lead times
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=175|p.175–177]]
+- Knowing that demand is rising or falling isn't enough: you need the **rate of change**. A **law firm** must know when to recruit a new partner (hiring takes months). A **plant manager** buys a machine only when needed, but in time to order, build, deliver, install and test it. The same applies to governments planning airports or schools.
+- **How far ahead to forecast depends on the options available and their lead times.** **Table 4.3** (a local authority must provide school places for children aged 4–11):
+
+| Option | Lead time | Capacity horizon |
+|---|---|---|
+| Hire short-term (supply) teachers | Hours | Short-term capacity management |
+| Hire or buy temporary classrooms | About 2 weeks | Short–medium |
+| Hire or lay off permanent staff | Months | Medium-term |
+| Amend school catchment areas | Lengthy consultations | Medium |
+| Build new classrooms or schools | 1–5 years | Long-term |
+
+- **Simple extrapolation** (Fig 4.11): tomorrow's attendance = today's; in five years = this year's births. It is error-prone, and some councils built schools that were nearly empty when finished while others overflowed (falling morale and educational standards).
+- **Causal variables** (Fig 4.12): **death rate** of children 0–5 (minor in developed countries, major in developing ones; higher in poorer areas); **immigration/emigration** (driven by housing, jobs and prosperity); **amount and type of housing stock** (city-centre tenements have more children per dwelling than suburban semi-detached houses), including planned developments.
+
 ## 2. Principles of forecasting
 
 ![[Summary SOSCM - Macchion-1793616004646.webp|600]]
@@ -148,6 +164,8 @@ tags: [SOSCM, summary, forecasting]
 > [!example] 🎓 Slide – Qualitative methods · [[Forecasting_260128_162152.pdf#page=22|slide 22]] (repeated in [[Summary SOSCM - Macchion-1793799499965.webp|this photo]])
 > Based on **past experiences**, **views, insight and opinions** and **experts**. Five techniques: **market research** (ask customers about their habits), **historical analogy** (use the history of a similar product), **panel of experts**, **Delphi method**, **scenario planning**.
 
+**Book view of qualitative methods** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=177|p.177]]): forecasting a **football match** by extrapolating recent results is unlikely to be right. The outcome depends on the opposition, form, injuries, location and weather. Qualitative methods collect and appraise judgements, options, best guesses and past performance from "experts". The panel works like a **focus group**: "several brains are better than one", but consensus is hard and the **loudest or highest-status** view may win (the **bandwagon effect**), and even experts can be wrong.
+
 ![[Summary SOSCM - Macchion-1793617901731.webp|600]]
 
 > [!example] 🎓 Slide – Panel of experts · [[Forecasting_260128_162152.pdf#page=25|slide 25]] (also [[Summary SOSCM - Macchion-1793799477725.webp|this photo]])
@@ -197,8 +215,22 @@ Refinement: weight the experts (experience, past accuracy). Problems: designing 
 > - **Step 2, seasonality:** remove the trend, and a **cyclical** wave appears (panettoni sell at Christmas).
 > - **Step 3, random variations:** remove trend and seasonality, and points still fluctuate around a flat line. These are fluctuations **within the same cycle whose cause cannot be identified**.
 
+**Book definition of the two quantitative families** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=178|p.178]]):
+1. **Time series analysis** examines the pattern of past behaviour of a **single phenomenon** over time, accounting for reasons for variation, to forecast its future.
+2. **Causal modelling** describes and evaluates the complex **cause–effect relationships** between key variables (like those in Fig 4.12).
+In the decomposition, future sales are predicted as lying **within a band** around the projected trend plus seasonality. The **width of the band** depends on the random variation. Random variation has *no known or assignable cause*, which doesn't mean it has no cause.
+
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=182|p.182]]
 > OPERATIONS PRINCIPLE: In demand forecasting, 'seasonality' refers to any repeating pattern of demand – annual, quarterly, monthly, weekly, daily or even hourly.
+
+#### Seasonality in forecasting: the multiplicative seasonal model (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=180|p.180–182]]
+Causes of seasonality: **climatic** (holidays), **festive** (gifts), **financial** (tax), social, political. Patterns can be **annual, weekly or daily**: a utility has yearly, weekly and daily patterns; a supermarket is low in the morning, peaks at lunchtime and after work, low Mon–Tue, peaks Fri–Sat. **Multiplicative model** = seasonal index × average demand (assuming no trend). Five steps:
+1. **Average demand per season**, e.g. March = (80 + 75 + 100)/3 = **85**.
+2. **Average demand over all seasons**, e.g. 1,320/12 = **110**.
+3. **Seasonal index** = step 1 / step 2, e.g. 85/110 = **0.77**.
+4. **Estimate next period's total demand** (with any qualitative or quantitative method).
+5. **Divide by the number of seasons and multiply by the index** to get the seasonal forecast.
 
 #### Moving average
 
@@ -241,6 +273,8 @@ Refinement: weight the experts (experience, past accuracy). Problems: designing 
 > The future depends mostly on **the most recent observation** and **the error of the latest forecast**. α = smoothing constant. The first term uses the **actual sales** of the previous period; the second uses the **forecast** of the previous period.
 > 💡 *Intuition:* rewrite it as $F_t = F_{t-1} + \alpha(A_{t-1}-F_{t-1})$: **new forecast = old forecast + α × last error.** α is how much you "correct yourself".
 
+**Why the book prefers exponential smoothing to the moving average** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=180|p.180]]): the MA has two drawbacks: (1) it gives **equal weight** to the n periods (fixable with weights); (2) more importantly, it **ignores all data older than n periods**. Exponential smoothing fixes both and is **easier to calculate**. Since $F_{t-1}$ already contains the previous data, **all past data have a (diminishing) effect**. The weights fall exponentially, hence the name. α governs the balance between **responsiveness** and **stability**: the closer to 0, the more forecasts are dampened by previous forecasts.
+
 ![[Summary SOSCM - Macchion-1793800620321.webp|600]]
 
 > [!example] 🎓 Slide – Choosing α · [[Forecasting_260128_162152.pdf#page=46|slide 46]]
@@ -279,6 +313,14 @@ Refinement: weight the experts (experience, past accuracy). Problems: designing 
 > $$Y=a+bX$$
 > *Y* = dependent variable (demand); *X* = independent variable (the cause); *a* = intercept; *b* = slope. You fit a straight line to the data, explaining changes in *y* through changes in *x*.
 > **Least squares:** choose the line that minimises the distances (errors) $\varepsilon_i=y_i-Y_i$ between each **observed** point $y_i$ and the line's **predicted** value $Y_i$ (strictly, it minimises the sum of the squared errors). Example: **ice-cream sales vs temperature**. The book's version (Fig 4.15) plots demand (thousands of cases) against the previous week's average temperature.
+
+**Book example of regression** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=182|p.182–183]]): an **ice-cream company** finds that factory demand depends mainly on the **average temperature of the previous week** and plots the regression line (Fig 4.15). It is reliable only if other market conditions stay stable; otherwise more variables must enter the model, which gets more complex. Complex causal networks (many variables, feedback) are beyond the book's scope.
+
+### How well do forecasting models perform? (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=183|p.183]]
+- **Hogarth & Makridakis (1981):** the record of forecasters using judgement *and* sophisticated mathematics is **"not good"**. But **short-term** (≤ 3 months) phenomena have **inertia**, so simple time-series methods are accurate and can **outperform** elaborate econometric ones.
+- **Armstrong & Grohman (1972):** for **long-range** forecasts, **econometric (objective causal) methods** beat expert opinion and time series, and their superiority **grows with the horizon**.
+- → In practice: **time series for the short term, causal models for the long term** (consistent with Macchion's "which family when" slide).
 
 ---
 
