@@ -16,12 +16,24 @@ tags: [SOSCM, summary, chapter6]
 
 ## 6.1 Is the importance of detailed process design understood?
 
+- These detailed decisions are **not mere "technicalities"**: they largely determine the actual performance of the process and therefore of the business. Detailed analysis must always be **thought through in the context of the positioning** in Ch 5 ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=218|p.218]]).
+- Processes are the **building blocks** and link into **internal process chains**, and *no chain is stronger than its weakest link*: the output is limited by the **worst stage**, and no operation is better than its **weakest process**. The root causes of business failure are often failures of everyday processes.
+- **Why it matters (from Changi):** good design pays back visibly, and bad design shows quickly in cost and service (a broken baggage system, slow security, a holiday rush). Don't be afraid to analyse processes **in great detail**: understand the current reality, allocate tasks and capacity carefully, and design for **variability**. Resources add their full value only through how they are used in processes, so periodically review: which are the key processes, what are they good at, where are they weak or vulnerable, how will they cope with the future ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=219|p.219–220]]).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=219|p.219]]
+> OPERATIONS PRINCIPLE: Processes should always be designed to reflect customer and/or market requirements.
+
+**Processes as networks** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=220|p.220]]): thinking of the process within the internal network (1) helps set its **objectives**; (2) gives everyone a **line of sight** to end customers ("how can each process help the intermediate processes between them and the customer?"); (3) clarifies the role of **suppliers** (looking backwards); (4) shows that process chains can become **channels for disruption** when things go wrong.
+
 ### "People vs process" is a false distinction
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=220|p.220]]
 > The argument, sometimes referred to as 'people versus process', is based on a false distinction. People are the most important element in most processes, and 'process' is simply how we do things. In other words, not all processes are the same, nor should they be treated in the same way. […] The way processes are designed should depend on what we want them to do.
 
 Two extreme views: (1) *everything is a process*, so standardise it all ("every time, all the time"); (2) *everything is about people*, and you can't reduce work to steps. Both are simplistic. Processes can be tightly specified **or** loose (broad objectives plus professional judgement).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=221|p.221]]
+> OPERATIONS PRINCIPLE: Not all processes are the same; some need to be highly specified, but not all. 'Process' simply means 'how we do things'.
 
 ![[Summary SOSCM - Macchion-1792400270714.webp]]
 
@@ -63,6 +75,7 @@ Two extreme views: (1) *everything is a process*, so standardise it all ("every 
 > | Cost | Capacity matched to demand; eliminate waste (excess capacity, excess capability, delays, errors, wrong inputs) | Low processing, resource and inventory costs |
 
 ### Process flow objectives
+**Why "micro" objectives** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=224|p.224]]): "units" (whatever is processed) pass through activities but **wait in inventories** between them, so **throughput time > sum of activity times**. Resources aren't used all the time either (not all units need every activity, and capacity doesn't match demand at every stage). So units leave the process differently from how they arrived.
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=224|p.224]]
 > The flow objectives are: Throughput rate (or flow rate) – the rate at which units emerge from the process […]. Throughput time – the average elapsed time taken for inputs to move through the process and become outputs. The number of units in the process (also called the 'work-in-process' […]). The utilisation of process resources – the proportion of available time that the resources within the process are performing useful work.
@@ -98,6 +111,12 @@ Two extreme views: (1) *everything is a process*, so standardise it all ("every 
 >
 > […] processes that are not formally defined can be interpreted in different ways, leading to confusion and inhibiting improvement.
 
+Existing processes are often **not well defined**: they developed over time without being recorded, or were changed informally. Since **much process design is really redesign**, start by understanding the current process.
+
+**Process mapping** (also called **process blueprinting**) describes how the activities in a process relate to each other. All techniques share **two features**: (1) they **identify the different types of activity**; (2) they show the **flow** of materials, people or information (the sequence of activities). The symbols aren't universal; most derive from early **"scientific" management** or from **information-system flowcharting** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=226|p.226]]).
+
+**Figure 6.4, "enquiry-to-delivery" at the theatre lighting company** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=226|p.226–227]]): calls go to the store technician, who discusses requirements and checks the **availability file**. If it's in stock, the equipment is reserved, a **"kit wagon"** goes to the store the day before, and the kit is brought to the workshop, **checked (repaired if needed)**, packed and delivered. If not in stock, the customer may be offered a search among other suppliers (*depending on how busy and helpful the technician is*). If they decline, they receive a "Guide to Customers" leaflet; if they accept, the technician calls suppliers, and if nothing is found the customer is informed, while if something is found it is reserved and delivered to the company's site. Note that the variability ("depends on the technician") is itself a sign of a poorly defined process.
+
 ### Different levels of mapping
 
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=227|p.227]]
@@ -110,7 +129,7 @@ Two extreme views: (1) *everything is a process*, so standardise it all ("every 
 > - **Level 2 (blue box), outline process:** three activities, *enquiry to delivery → install and test → collect and check*.
 > - **Level 3 (pink oval), detailed process of "install and test":** *safety check → compliant? (N: rectify in time? → rectify, or file a failure note and inform the customer) → install → routine control check → pass check? (N: rectify in time? → rectify, or call for help) → job sign-off → return to base.*
 > **Symbols:** circles = activities, diamonds = decisions (Y/N).
-> **Takeaway:** map only as deep as is useful. Simple steps ("return to base") need no more detail; activities that rely on skill and discretion ("rectify faulty equipment") are hard to map in detail.
+> **Takeaway:** map only as deep as is useful. Simple steps ("return to base") need no more detail; activities that rely on skill and discretion ("rectify faulty equipment") are hard to map in detail. Some activities **must** be mapped in detail for quality or **legal** protection (the **site safety check** proves the company met its legal responsibilities). An even more micro level could specify **every motion** (some **quick-service restaurants** do exactly that).
 
 ### Process visibility
 
@@ -123,6 +142,16 @@ Two extreme views: (1) *everything is a process*, so standardise it all ("every 
 > - **Medium visibility:** visible to potential customers but not to this one, e.g. the transport steps *to site* and *to base*.
 > - **Back office / low visibility** (below the *line of visibility*): *check and clean equipment → did it work OK? → prepare report / amend usage records → equipment to store*.
 > **Why:** design the high-visibility steps to *enhance customer perception*, and the hidden ones for efficiency. This is the same front/back office idea as [[Ch01 - Operations and processes-claude#Front office and back office|Ch 1]].
+
+### Designing the customer experience
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=229|p.229–230]]
+- High-visibility processes can't be designed like processes for materials or information: *material and information are processed, but customers **experience** the process*. Experience creates **emotions** (not always rational) and affects satisfaction, loyalty, expectations and emotional bonds, which is why many service firms put the **customer journey** at the core of process design. This applies to **any** high-contact service, not just entertainment (theme parks).
+- **Customer service ≠ customer experience:** *service* concerns each single touchpoint; *experience* concerns feelings and emotions across **all encounters of the whole journey** (sights, sounds, smells, atmosphere). Experience exists **only in the customer's mind**, so no two people have the same one. Some say experiences can't be designed, only the **mechanisms** that create them: build the right **clues** into the process.
+- **Touchpoints** = *"everything the consumer uses to verify their service's effectiveness"* (Shostack): the points of contact. Their accumulation shapes judgement. **Clues/cues** = the messages received at the touchpoints; the resulting emotions shape how the process is judged.
+- **Tools:** map the route customers take (websites, **clinical pathways**); **walk-through audits** (staff or advisers as surrogate customers); **emotion mapping** (capture positive and negative emotions, change, re-check). All clues must be **consistent** with the intended emotions.
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=230|p.230]]
+> OPERATIONS PRINCIPLE: The design of processes that deal with customers should consider the emotions engendered at each stage of the process.
 
 ![[Summary SOSCM - Macchion-1792404459641.webp]]
 
@@ -141,6 +170,8 @@ What you need to master: **task precedence → series/parallel configuration →
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=231|p.231]]
 > OPERATIONS PRINCIPLE: Process design must respect task precedence.
+
+**Task precedence** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=231|p.231]]) defines which activities must occur before others *because of the nature of the task*. It is defined by (1) the individual activities and (2) their relationships. A **precedence diagram** also shows the time of the total task (work content) and of each activity. It doesn't determine the design, but it constrains how activities can be grouped into stages.
 
 ### The book's running example: computer test and repair
 Table 6.3 / precedence diagram, Figure 6.8 ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=232|p.232]]): a (5 min) → b (6) → c (4) → d (8), e (6), f (4) in parallel → g (10). **Total work content = 43 min.** Required: **one computer every 12 minutes**.
@@ -164,12 +195,20 @@ $$\text{Number of stages}=\frac{\text{work content}}{\text{required cycle time}}
 > [!info] 📖 Figure 6.11 – "Short–fat" arrangement · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=235|p.235]]
 > **Four parallel single stages**, each worker (W1–W4) doing *all* activities (43 min). Together: four computers every 43 min = **one every 10.75 min**.
 
+*"Long" = number of stages; "fat" = amount of work per stage.* Most processes **combine** series and parallel, with technical constraints limiting the extremes, but there is usually a real choice ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=233|p.233]]).
+
 | Long–thin (series) ✅ | Short–fat (parallel) ✅ |
 |---|---|
 | Controlled flow, easy to manage | **Mix flexibility** (each stage can specialise in a product) |
 | Simple materials handling | **Volume flexibility** (open or close stages as demand varies) |
 | Lower capital needs (equipment not duplicated) | **Robustness** (one stage down, the others keep going) |
 | More efficient: more direct productive work per person | **Less monotonous** work (repeats every 43 min instead of 12) |
+
+### Cycle time and process capacity: bottlenecks (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=235|p.235–236]]
+- **Cycle time** = the time between completed units emerging. It is usually **one of the first things calculated**, because it represents both the **demand** on the process and the process's **capacity**, and sets its **pace or "drum beat"**. It is calculated from likely demand over a period and the production time available in that period.
+- **Process capacity:** given the required cycle time, the capacity needed depends on the **work content**. The larger the work content and the smaller the cycle time, the more capacity is needed.
+- Capacity is often expressed as **throughput rate** (= 1/cycle time): a theme-park ride takes 1,000 customers an hour, a bottling line 100 bottles a minute. But **high capacity ≠ fast throughput time**: if many units are in the process, they wait in WIP inventories → Little's Law ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=239|p.239]]).
 
 ### Cycle time vs takt time (lecture)
 
@@ -216,6 +255,11 @@ $$\text{Balancing loss}=\frac{\text{total idle time per cycle}}{\text{number of 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=236|p.236]]
 > OPERATIONS PRINCIPLE: Process analysis derives from an understanding of the required process cycle time.
 
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=237|p.237]]
+> OPERATIONS PRINCIPLE: Allocating work equally to each stage in a process (balancing) smooths flow and avoids bottlenecks.
+
+**Detail of the book's balancing explanation** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=237|p.237–238]]): stage 1 (11 min) is idle 1 minute per cycle, *or* it keeps working every 11 minutes and the **inventory between stages 1 and 2 grows to infinity**. Stages 3 and 4 are **starved** for 2 minutes every 12. In practice non-bottleneck stages **slow down** to the bottleneck's pace, but that is still effective idle time. **Total invested time** = number of stages × cycle time = 4 × 12 = 48 minutes; idle time = 5 minutes; loss = 10.4%.
+
 ![[Summary SOSCM - Macchion-1792587451370.webp]]
 
 > [!example] 🎓 Lecture slide – Yamazumi chart (not in the book)
@@ -240,6 +284,9 @@ $$\text{Balancing loss}=\frac{\text{total idle time per cycle}}{\text{number of 
 > The mathematical relationship that relates cycle time to work-in-process and throughput time is called Little's Law. It is simple but very useful, and it works for any stable process.
 
 $$\boxed{\text{Throughput time}=\text{WIP}\times\text{Cycle time}}\qquad\Longleftrightarrow\qquad \text{WIP}=\text{Throughput time}\times\text{Throughput rate}$$
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=239|p.239]]
+> OPERATIONS PRINCIPLE: Little's Law states that throughput time = work-in-process × cycle time.
 
 - **Computer repair:** cycle time 12 min, WIP = 4 (one per stage), so throughput time = 4 × 12 = **48 min**.
 - **Passport office, "clear desk" policy:** 450 min = WIP × 1.5, so **WIP = 300 applications** can be loaded in the morning and cleared by evening.
@@ -270,7 +317,10 @@ $$\boxed{\text{Throughput time}=\text{WIP}\times\text{Cycle time}}\qquad\Longlef
 
 ## 6.5 Is process variability recognised?
 
-Deterministic analysis is a good first approximation, but real processes have **variability** in activity times and arrival times.
+Deterministic analysis is a good first approximation (and its relationships hold **for average values**), but real processes have **variability** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=241|p.241]]).
+
+**Sources of variability:** early or late arrival of material, information or customers; temporary **breakdowns**; **recycling** misprocessed units to an earlier stage; **misrouting**; each product or service being **different**; the same product needing **slightly different treatment** (e.g. depending on diagnostic results); natural **human variation** in coordination and effort.
+These produce **two fundamental types**: (1) variability in **demand at each stage** (**inter-arrival times**); (2) variability in **activity times** at each stage.
 
 ### Activity time variability
 
@@ -284,6 +334,12 @@ Deterministic analysis is a good first approximation, but real processes have **
 > - If all stages move **together** (indexing conveyor), the interval must fit the **slowest possible** time of any stage, so **cycle time = 15 min**. Stage 1, with the widest curve, becomes the real bottleneck.
 > - Idle time = (15−11) + (15−12) + (15−10) + (15−10) = **17 min** per cycle (vs 5 min without variability).
 > **Takeaway:** variability, not just imbalance, wastes capacity. Without synchronisation stages wait less, but arrivals at later stages become variable.
+
+- **Synchronised flow** (indexing conveyor, a traffic-light system, a **car assembly belt** whose speed accommodates variability): the inter-arrival time is **fixed** at the cycle time.
+- **Unsynchronised flow** (more common with information and customers): units move as soon as each stage finishes, so less waiting, but the **inter-arrival times at later stages become variable** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=242|p.242]]).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=242|p.242]]
+> OPERATIONS PRINCIPLE: Variability in a process acts to reduce its efficiency.
 
 ### Arrival time variability and utilisation
 
@@ -300,6 +356,27 @@ Deterministic analysis is a good first approximation, but real processes have **
 
 > [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=243|p.243]]
 > OPERATIONS PRINCIPLE: Process variability results in simultaneous waiting and resource underutilisation.
+
+**Book's supermarket checkout example** ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=243|p.243]]) for points X, Y, Z: a real checkout is sometimes idle and sometimes has a queue, i.e. point **X** (some underutilisation *and* a positive average queue). The manager **closes checkouts** to raise utilisation, and waiting rises (**Y**). She **opens more checkouts** to cut waiting, and utilisation falls (**Z**). As utilisation approaches 100%, average waiting time keeps rising. *The only way to guarantee very low waiting is to accept low utilisation.* The greater the variability, the further the curve moves from the rectangular "no-variability" function.
+
+### The "OM triangle" (Figure 6.16)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=243|p.243–244]]
+**(a)** A family of utilisation-vs-waiting curves: the higher the variability, the higher the curve. **(b)** The three options for designers:
+1. accept **long waiting** times and get **high utilisation** (X);
+2. accept **low utilisation** and get **short waiting** (Y);
+3. **reduce variability** (in arrivals, activities or both) and get **high utilisation *and* short waiting** (Z), moving to a lower curve.
+This is a **strategic choice**: fast throughput or high utilisation? Having both requires reducing variability, which may mean **limiting customisation** or imposing stricter limits on how services are delivered. Day-to-day corollary: guaranteeing **100% utilisation** means accepting **infinite WIP and/or waiting** (→ Ch 8, capacity). Processes with both arrival and activity variability are analysed with **queuing (waiting-line) theory** (supplement to Ch 6).
+
+> [!PDF|yellow] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=244|p.244]]
+> OPERATIONS PRINCIPLE: Process design involves some choice between utilisation, waiting time and variability reduction.
+
+### Critical commentary
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=244|p.244–245]]
+- Some reject mapping the **current** process and prefer a radical **"clean sheet of paper"** approach, the only way, they say, to be imaginative enough in redesign.
+- The chapter's examples are **assembly-line-like** (linear, synchronised), but many business processes are **fuzzy, simultaneous and interactive** in unpredictable ways, and conventional theory offers little guidance for them.
+
+### Summary checklist (book)
+[[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=245|p.245]]: Clear performance objectives for each process, linked to strategy? Are throughput rate, throughput time, WIP and utilisation known for key processes? Are processes mapped, and the emotions of customers understood? Are formal descriptions followed, or should they be changed or enforced? Is visibility mapped? Is task precedence known? Have series and parallel options been explored? Is the process balanced, and can the bottleneck be redesigned? Is Little's Law understood? Are the sources and effects of variability recognised in the design?
 
 ---
 
