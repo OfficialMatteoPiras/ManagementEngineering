@@ -372,6 +372,10 @@ The five typical criteria ([[Operations-and-Process-Management-–-Gestión-por-
 
 > [!note] Book exercises ("Applying the principles", p.171), with the logic of each answer
 > - *Music business as a supply network:* streaming and downloads **disintermediated** record shops, changed artists' revenues (fewer sales, more live shows and streaming) and moved power to the platforms. Use this for "long-term issues" and "disintermediation".
+- *Data centre location:* build the criteria from the five categories: capital (land, power), market and labour (skills), cost (energy, cooling, taxes, connectivity), future flexibility (expansion), risk (natural disasters, political stability, security).
+- *Concrete paving slabs* (machine = 10,000 units/month, fixed €20,000/month, variable €1, price €4). Year 2 at **24,000/month** needs 3 machines: cost = 60,000 + 24,000 = 84,000, revenue = 96,000, **profit = €12,000/month**. Restricting to **20,000/month** needs 2 machines: cost = 40,000 + 20,000 = 60,000, revenue = 80,000, **profit = €20,000/month**. **Yes, it is true:** the third machine (only 4,000 units) is a fixed-cost break that isn't absorbed (break-even per machine ≈ 6,667 units).
+- *FAE Transport: one site vs two.* One site: fixed €300,000 + variable per truck. Two sites: €500,000 + €10,000 per truck. The printed figure for one site is "€300,000 per truck", which looks like a typo for **€30,000**. With €30,000: 300,000 + 30,000N = 500,000 + 10,000N, so **N = 10 trucks**; above 10 trucks (and they will have 55–60) **two sites are cheaper**. Method: set the two total costs equal and solve for N.
+- *Globalisation pros and cons:* pros: lower costs, access to markets and skills, development, lifting millions out of poverty. Cons: job losses in developed countries, loss of local cultures, long fragile chains (COVID), environmental and reputational risk. Link to reshoring.
 
 ---
 
@@ -384,3 +388,14 @@ The five typical criteria ([[Operations-and-Process-Management-–-Gestión-por-
 > - *Location criteria.* The five categories plus the IKEA case.
 
 Next → [[Ch04S - Forecasting-claude]] · [[Ch05 - Process design 1 - Positioning-claude]]
+
+---
+
+## 🗺️ Concept map (Chapter 4)
+
+![[Ch04 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Place the operation in the network (tiers) → choose how much to integrate → decide what to do in-house or outsource (Fig 4.5) → configure the network (co-opetition, channels) → size and time capacity (lead/lag/smooth, fixed-cost breaks) → choose the location.

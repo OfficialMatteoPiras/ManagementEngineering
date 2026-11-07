@@ -449,3 +449,14 @@ The 4 Ds roughly follow the **life cycle** of operations and processes. The boun
 **Glossary EN→IT:** transformed resources = *risorse trasformate* · transforming resources = *risorse trasformatrici* · front/back office = *front/back office (processi a contatto/non a contatto col cliente)* · throughput = *flusso in uscita* · stakeholder = *portatore di interessi*.
 
 Next → [[Ch02 - Operations strategy-claude]]
+
+---
+
+## 🗺️ Concept map (Chapter 1)
+
+![[Ch01 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Define operations (transformation process) → zoom from network to operation to process (Fig 1.7) → explain why it is strategic (cost, revenue, investment, capabilities, TBL) → measure it with the 5 objectives → show that the 4 Vs set what a process can do → close with what managers do (the 4 Ds).

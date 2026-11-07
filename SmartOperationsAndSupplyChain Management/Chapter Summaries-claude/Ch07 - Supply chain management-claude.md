@@ -444,3 +444,14 @@ Technically called **distributed ledger technology (DLT)**. Unlike technologies 
 > - *How can blockchain help?* (five principles, Fig 7.10).
 
 [[00 - SOSCM index-claude|↑ Index]]
+
+---
+
+## 🗺️ Concept map (Chapter 7)
+
+![[Ch07 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** What SCM is (flows, chain vs network, Fisher) → relationships → sourcing (risk × criticality) → selection and negotiation → running the chain (SLAs, gaps, development, logistics) → bullwhip and remedies → blockchain.

@@ -254,6 +254,52 @@ Commitment depends on job history, co-workers and personal circumstances, but al
 
 ---
 
+## 📚 Case examples and worked examples (Chapter 5)
+
+> [!example] Case – **Dishang and Sands Films**: opposite ends of the volume–variety spectrum · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=190|p.190–191]]
+> **Context:** the world garment market is worth about **€1.3 trillion** and employs up to **75 million** people.
+> - **Dishang Group (China):** founded 1993, **$1.5 billion** turnover; makes garments for **Zara, Matalan, Adidas**. When Chinese labour costs rose it expanded to **Cambodia, Myanmar, Bangladesh**. **73 million garments a year**, **80 wholly-owned factories in 12 locations**; automated technology, in-line and end-of-line quality control, **AQL** inspection levels per customer; a digital library of **50,000 fabrics** with image-based search for similar styles. Chairman Lihua Zhu's three success factors: (1) **volume strength**, which gives buying power; (2) in-house design and specialised factories, so brands get "everything" in one place; (3) its own international offices, **cutting out the middleman** (disintermediation, Ch 4). → **High volume, low variety: mass process.**
+> - **Sands Films (London):** costume workshop for film, stage and TV, an "**Aladdin's cave**". From a single outfit to a wide range of specially designed costumes over a long production. Cutting, dyeing, printing, **corset and crinoline making, millinery**; actors visit and meet their character for the first time; work starts only once the project is approved and a designer appointed; **each costume needs different skills and a different route** through the stages. → **Low volume, high variety: jobbing process.**
+> **Oral use:** an example of both ends of the product–process matrix in the same industry.
+
+> [!example] Case – **Legal & General's modular homes** (mass process in construction) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=193|p.193]]
+> **Facts:** a financial services group (more than **£19 billion** invested in homebuilding, regeneration and clean energy) builds houses **like cars**: modules made **off-site in a factory** and transported to site. Managers came from **Rolls-Royce** (CEO Rosie Toogood) and **automotive** (Ops Director Stuart Lord). "**Everything new, but nothing new**": an assembly line with **4 large and 4 smaller computer-controlled cutting and milling machines** cutting timber panels more precisely than on site. Modules leave with wiring, plumbing, decoration, carpets, kitchens and bathrooms; a home has one or more modules. Every millimetre is **digitally modelled** before production; processes are **standardised and simplified**; **continuous improvement** almost **halved delivery time**. Environmental benefits: **less water and site waste** (fewer skips, a tidier and safer site), more energy-efficient homes (Ellen MacArthur Foundation).
+> **Exercise 5 in the book:** does it invalidate the volume–variety idea? **No.** L&G *reduced variety* (standard modules) to reach mass volumes, so it moved *down the diagonal* together with its process design. It **confirms** the model.
+
+> [!example] Worked example – **Meter installation at a water utility** (moving off the diagonal) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=195|p.195–196]] → Fig 5.5 above
+> - **Before (A):** installing and repairing a wide variety of meters in very different pipe systems. A supervisor **surveys** first, then **skilled plumbers** install on an agreed date: a **jobbing** process.
+> - **The change:** the company installs **free** a new **standard remote-reading meter** (read via the phone line, which saves reading costs) with **universal quick-fit joints**. More plumbers are hired. Pilot: start with the customers who have the **oldest meters**, *leaving every other aspect of the process as it was*.
+> - **Result (B): failure.** Old meters were scattered, so there was **long travel**. Customers hadn't asked for the visit, so they **forgot appointments**. Costs were far higher than forecast and plumbers were **frustrated** by a now standardised job. Variety fell and volume rose, but the process was still designed for jobbing: **excess flexibility and high cost**.
+> - **Redesign (C):** target **small geographic areas**, **drop the survey** (98% of installations done in one visit), use **less expensive, less skilled labour**. Back on the diagonal: efficient.
+
+> [!example] Case – **Reconciling quiet and interaction in laboratory layout** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=198|p.198–199]] (Fig 5.7)
+> Labs have different service needs (temperature, extraction, no vibration) and two kinds of work: **active experimentation and conversation** vs **quiet reflection and writing up**. At the **Francis Crick Institute** (London), some complain the open plan makes concentration hard, but it has promoted ad hoc meetings and **new collaborations**. Prof. **Alan Penn**: busy circulation spaces let groups share ideas (people stop and join conversations in doorways). **Fig 5.7:** in the original layout conversations happen next to the **quiet writing area**; in the improved layout, a small change moves scientists' circulation (and their conversations) **towards the entrance**, away from the quiet area, so there is no interference.
+> **Oral use:** layout isn't only about movement cost but about the **look, feel and behaviour** of people (servicescape).
+
+> [!example] Case – **Ducati factory and Google offices: they have to look good** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=202|p.202]]
+> - **Ducati (Bologna, since 1946):** **350 bikes a day** in the busy season. Assembly starts in a **"supermarket"** zone for each model, where **kits** with exactly the right parts are put together for every stage. *A part left in the tray means something went wrong.* **Just-in-time**, learned from **Porsche** engineers who learned it from **Toyota**: **−85% defects**. The factory is also a **tourist attraction** (tours and museum), so it is designed for visitors too, as a marketing and customer-relations device. Ducati riders park inside the gates; others park outside.
+> - **Google offices:** **more than 70% of UK GDP** is reportedly generated by people at desks, so office layout matters as much as factory layout. Google designs for **creativity and collaboration**: nobody is more than **100 metres from food**; eco-friendly kitchens; quiet areas (libraries, aquariums); spaces for relaxing (even football). Design considers **culture, etiquette and rituals** and **observes behaviour** (where people spend time, where productive meetings happen, when the office is empty or noisy).
+
+> [!example] End-of-chapter case study – **McPherson Charles solicitors** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=210|p.210–211]]
+> Bristol law firm: **21 partners, ~400 staff, 15 teams**. Managing Partner **Grace Whelan** runs a meeting on improving operations ("Plans for the Future"). Positions: **Simon Reece** says the people and relationship skills matter most (raise revenue); **Hazel Lewis** says technology and systems (cut costs); **Kate Hutchinson** says clients are cost-conscious and the firm "over-engineers" its services, so non-qualified staff could do much of the work.
+> - **Family Law (Simon):** **89 "high value" clients** (word of mouth, wealthy, personal touch, no standard procedures, travel worldwide) plus **~750 routine** divorce and counselling cases (about 1/3 of income). Work is mixed for each lawyer; empowerment; an **open-plan office** around a specialist library.
+> - **Property (Kate):** up to **100 domestic clients a week**; one contact solicitor; a **4-stage specialised process** (land registry searches → bank and mortgage liaison → surveys → completion). Plus about **5 "specials" a week** (volume remortgages, complex one-offs, "plot sales" for two big builders) that go through the **same** process.
+> - **Litigation (Hazel):** bulk **debt collection** for **17 clients (5 = 85% of volume)**; a **semi-automated** process (data input → standard letters → queries → court if needed); work in batches; about 7 new cases a week.
+> **Questions and hints:**
+> 1. *Services:* high-value family, routine family, domestic property, special property, bulk debt collection.
+> 2. *Volume–variety:* high-value family = professional service (low volume, very high variety); routine family = service shop; domestic property = towards mass service; property "specials" = high variety pushed through a mass process (**off the diagonal: excess rigidity**); debt collection = mass service (high volume, low variety, automated).
+> 3. *Layout, technology, jobs:* family = open plan, little technology, broad empowered jobs; property = product-like 4-stage flow, divided jobs; litigation = semi-automated, closely defined jobs.
+> 4. *Matrix:* the mismatches are the **property specials** (variety too high for the line) and possibly **routine family** work done by highly skilled, high-discretion staff (**excess flexibility**, as in Kate's point). Each partner is right for their own service: the answer is a different process per service.
+
+> [!note] Book exercises (p.212–213), with the logic of each answer
+> - **Retail bank:** service categories (transactions, advice, mortgages, business) get separate processes (ATM/app vs advisor) with different objectives (cost and speed vs quality and flexibility).
+> - **Educational kits (Figs 5.10–5.11):** compare the flow between departments. Put departments with the **heaviest flow next to each other**; reconfigure the layout for the new flow matrix (minimise load × distance).
+> - **International Frozen Pizza Co.:** Market 2 (20,000 t, 12 varieties) suits **automation (APAS)**. Markets 1 (25,000 t, 20 varieties, frequent innovation) and 3 (10,000 t, premium, wide range) have high variety, so APAS would put them **off the diagonal** (excess rigidity). Market 2 should prove that APAS can handle variety (the "new technology bends the diagonal" argument).
+> - **Kitchen-equipment direct marketing:** the DC is built for high volume and medium orders. **Web orders** (many customers, 1–2 items) need higher variety and smaller orders; **discount stores** need few large orders of a narrow range. Neither fits the current process: subcontract or redesign (separate processes per channel = operation-within-an-operation).
+> - **Supermarket:** a conventional supermarket is a **functional layout**, but the *customer* moves and chooses their own route (unlike a factory); **customer tracking** data helps design the layout and servicescape.
+
+---
+
 > [!question] 🎤 Likely oral questions
 > - *Draw and explain the product–process matrix.* Axes, diagonal, process types, and what happens off the diagonal (Fig 5.5: A → B → C).
 > - *Manufacturing vs service process types, with examples.*
@@ -262,3 +308,14 @@ Commitment depends on job history, co-workers and personal circumstances, but al
 > - *Division of labour pros and cons; job design along the diagonal* (Fig 5.9).
 
 Next → [[Ch06 - Process design 2 - Analysis-claude]]
+
+---
+
+## 🗺️ Concept map (Chapter 5)
+
+![[Ch05 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Positioning vs analysis → the product–process matrix and the process types on the diagonal → then show that the diagonal also drives layout, technology and job design (red arrows).

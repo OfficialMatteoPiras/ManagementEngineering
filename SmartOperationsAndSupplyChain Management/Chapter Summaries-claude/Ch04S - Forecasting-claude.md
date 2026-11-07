@@ -76,7 +76,7 @@ tags: [SOSCM, summary, forecasting]
 ![[Summary SOSCM - Macchion-1793615889685.webp|600]]
 
 > [!example] 🎓 Slide – (3) Eliminating the bullwhip effect · [[Forecasting_260128_162152.pdf#page=10|slide 10]]
-> *"The variability of demand is increasing in the upper side of supply chains. Small variations of final demand can create very big variations in the supply chain."* The drawing shows a person flicking a whip: a small movement of the hand becomes a huge wave at the far end. Better forecasts dampen the whip → see [[Ch07 - Supply chain management-claude#7.4 Are supply chain dynamics under control? The bullwhip (Forrester) effect|Ch 7, bullwhip]] and the book: *"Improving forecast accuracy directly reduces the inventory-holding requirements"* ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=283|p.283]]).
+> *"The variability of demand is increasing in the upper side of supply chains. Small variations of final demand can create very big variations in the supply chain."* The drawing shows a person flicking a whip: a small movement of the hand becomes a huge wave at the far end. Better forecasts dampen the whip → see [[Ch07 - Supply chain management-claude#7.6 Are supply chain dynamics under control? The bullwhip (Forrester) effect|Ch 7, bullwhip]] and the book: *"Improving forecast accuracy directly reduces the inventory-holding requirements"* ([[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=283|p.283]]).
 
 ---
 
@@ -466,3 +466,14 @@ Your note: *"for 10 we need to do 16 − 12.33 = 3.67 and 16 − 3.9 = 12.10"*. 
 > - *Time series components; SMA vs weighted MA vs exponential smoothing; effect of α.*
 > - *How do you choose the method?* Minimise the errors: MFE (bias), MAD (size), TS (control, ±4), σ.
 > - Be ready to **compute** an SMA, an ES forecast and MFE/MAD/TS by hand, as in the exercise above.
+
+---
+
+## 🗺️ Concept map (Supplement)
+
+![[Ch04S concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Why forecast (planning levels, decoupling point, bullwhip) → principles (forecasts are always wrong) → the three families: qualitative, time series, causal → time-series components and the methods (SMA, WMA, ES) → choose the approach → measure error (MFE = bias, MAD = accuracy, tracking signal).

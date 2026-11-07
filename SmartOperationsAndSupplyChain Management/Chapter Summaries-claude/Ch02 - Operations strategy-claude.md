@@ -355,6 +355,52 @@ The two views lead to two improvement approaches, and most businesses use both: 
 
 ---
 
+## 📚 Case examples and worked examples (Chapter 2)
+
+> [!example] Case – **Surrey Satellite Technology Ltd (SSTL)** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=69|p.69–70]]
+> **Facts:** the conventional wisdom was that satellites need expensive, specially developed components. In the late 1970s **Sir Martin Sweeting** (PhD at the University of Surrey) built a satellite from **commercial off-the-shelf** components: 72 kg, about the size of two microwave ovens, launched with NASA in **1981**; a second one followed in 1984, built in **6 months**. SSTL was founded in 1985 and is now the world leader in small satellites: 500+ staff, 40+ satellites, part of **Airbus Defence and Space** since 2014. It exploits the scale economies of consumer-electronics and auto-parts makers ("we were being parasitic"), but **rigorous testing** of which components survive space is core knowledge. Despite buying components, it is **vertically integrated** (design, manufacture, launch, operation, consultancy).
+> **Why:** an operations strategy that **changed an industry**. Lessons (book p.70): innovative use of technology; link to what customers want; learning from experience; actually *having* an operations strategy.
+> **Oral use:** inside-out (capabilities, knowledge as a strategic resource), Stage 4 of Hayes & Wheelwright, efficient frontier (low cost *and* reliability).
+
+> [!example] Case – **Danone** and B Corp · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=72|p.72]]
+> **Facts:** French food company, **100,000+ employees**, **€25 billion** sales, 130 countries (Activia, Evian). It **rejects** the idea that a firm exists mainly to maximise shareholder returns and aims to be one of the first certified **B Corp multinationals** (B Corps meet the highest standards of verified social and environmental performance, transparency and legal accountability; **2,300+ B Corps in 50 countries**; certified by the non-profit **B Lab**). Actions: sold its biscuit, chocolate and beer businesses; aims for carbon-neutral water brands; invests in making recycled plastic more attractive.
+> **Why:** a concrete example of **stakeholders/CSR/TBL** shaping operations strategy.
+
+> [!example] Worked example – **Micraytech** (metrology) through all four perspectives · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=76|p.76]], [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=84|p.84]], [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=85|p.85]], [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=89|p.89]]
+> 1. **Top-down:** part of the Micray Group, which sets ambitious growth targets and relaxes return-on-sales targets. Strategy: **first to market with every technical innovation**. Operations must cope with constant change: flexible processes, trained staff, responsive suppliers. *Everything must not inhibit, and in the long term must develop, growth through innovation.*
+> 2. **Outside-in:** two markets. **Individual metrology devices** (stand-alone; compete on technical performance, reliability and short delivery) vs **integrated metrology systems** (customised, higher margin, forecast to grow, for manufacturers automating). The second requires working with customers *and* their technology suppliers, plus **software, data-exchange and client-liaison skills**.
+> 3. **Bottom-up:** continual innovation **raised costs** and **confused customers**, so engineers started **modularising** designs (update one module without redesigning the system). It became standard practice *without any board decision*: a pure emergent strategy. Result: more customisation **and** lower costs.
+> 4. **Inside-out:** integrating sophisticated modules was technically hard, so the company **recruited specialist engineers** to design **interface modules**. That opened a new market (integrating *other firms'* instruments), which required supplier relationships (sometimes with competitors) and seamless internal processes (sales engineers, design, procurement). Two key capabilities: **buying in the interface engineering skills** and a **seamless internal and external supply chain**, "not impossible to copy, but very difficult to reach our level" (COO).
+> **Reconciliation:** Figure 2.9. On the efficient frontier: modular design moves **B → B1** (Fig 2.12b).
+
+> [!example] Case – **Dow Corning and Xiameter** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=82|p.82]]
+> **Facts:** a silicone business built on service and technical excellence at premium prices. As the market matured, some customers became price-sensitive and Dow Corning was **"stuck in the middle"** between big low-cost rivals and small low-overhead ones. It **segmented** customers by purchase motive: **innovative solution seekers** (collaborate with their R&D), **proven solution seekers** (help the sales team know the range), **cost-effective solution seekers** (two-way knowledge transfer to understand their processes) and **price seekers** (about **30% of the market**, growing, where it was weak). For the last group it created **Xiameter**: no-frills, low price, **restricted range**, **minimum order quantities**, **no technical advice**, **web-only** sales, with **long delivery times** so orders fit existing production schedules.
+> **The four steps of the outside-in perspective:** (1) segment the market; (2) decide which segments to serve; (3) define the operations objectives each needs (for Xiameter, low cost); (4) define what operations must do, and **stop customers asking for anything that raises costs**.
+> **Oral use:** order-winners and qualifiers by segment, and a high-volume, low-variety operation-within-an-operation.
+
+> [!example] Case – **Tesco turns itself around** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=93|p.93–94]]
+> **Facts:** the UK's biggest grocer lost its lead: **Waitrose** at the top end, **Aldi and Lidl** for cost-conscious shoppers. But part of the problem was self-made: it kept building large **out-of-town superstores** while families shifted to home delivery and top-ups at local stores. CEO Philip Clarke admitted he should have cut back faster. New CEO **Dave Lewis** halted expansion and **closed 43 branches**, reinvested the savings in customer service, and overhauled **"toxic" supplier relationships** ("imagine we are all one company, work out the most efficient supply chain"). Later: a pioneer in measuring **food waste**.
+> **Why:** when the market changes, operations strategy must change, and change is **disruptive and costly** in the short term. It is a clear example of losing **fit** (line of fit).
+
+> [!example] End-of-chapter case study – **IKEA looks to the future** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=99|p.99–101]]
+> **The "big box" model:** 400+ stores in 49 countries, about **25,000 m²** each, customers stay about **2 hours**. Founded in the 1950s by **Ingvar Kamprad**: a catalogue, a showroom on the outskirts of Stockholm, customers picking from the warehouse themselves (*"we do our part, you do yours"*). Flat-pack Scandinavian design at affordable prices; store designed so that finding, parking, moving through, ordering and picking up are smooth; catalogue at the entrance, supervised kids' area, room settings plus categories, few staff and information points, tickets showing warehouse location, self-service warehouse, checkouts, loading area, restaurant (meatballs): "a day out".
+> **Complaints:** long drives; prescriptive maze; few staff; queues; heavy self-picking; bland designs; self-assembly. **Why people still go:** everything under one roof, wide range, immediate availability, kids' area and restaurant, inoffensive modern design, good value.
+> **Changes:** *"a proposition that fits around the customer"* (Gillian Drakeford, UK boss). **TaskRabbit** bought in 2017 (gig economy, 60,000 "taskers" for assembly and moving). Fewer young drivers (UK licences among 21–29s fell from **75% to 66%**, 1994–2017), and demand for delivery and online ordering where IKEA was slow ("multichannel" while protecting impulse purchases in store). **Smaller city stores**, each one different as a test lab (Madrid bedroom-only pop-up, Stockholm kitchens with cooking and 90-minute consultations, London with no café, touch-screen ordering; "70% of those shoppers wouldn't go to a big store"). **Third-party online retailers**. **Sustainability:** about **1% of the world's wood**, a Chief Sustainability Officer, the circular economy (buy-back, renewing, repair, returning, donating; buying back furniture in Aalborg *increased revenue*); "peak stuff".
+> **Book questions and hints:**
+> 1. *Objectives vs a high-street store:* cost (low price) and dependability/availability (immediate) dominate; flexibility and personal service are lower.
+> 2. *Trade-offs customers make:* their time, travel and self-service effort in exchange for price, range and immediacy.
+> 3. *Online:* reduces the customer's effort (speed, convenience) but raises IKEA's costs (delivery) and loses impulse purchases.
+> 4. *"Peak stuff":* move to services and circular models (servitisation, Ch 1), longer-lasting products.
+> **Oral use:** this case links the business model and operating model, line of fit (C/B positions), omnichannel (Ch 4) and location (the Coventry store, Ch 4).
+
+> [!note] Book exercises (p.102–103), with the logic of each answer
+> - **Recycling NC vs GR:** NC (fixed weekly door-to-door, low value, environmental motive) emphasises **dependability and cost**. GR (on request, 24-hour guarantee, any material, priced by volume) emphasises **speed, flexibility and dependability**.
+> - **The Brandfair Partnership:** 40% routine work (market research, focus groups: cost, speed, quality as a qualifier, standard package) vs 60% complex brand reshaping (trust and judgement, quality as the order-winner, speed and dependability as qualifiers). Splitting them is **focus / operation-within-an-operation**. Pros: each is optimised and can compete with specialists on price. Cons: shared capabilities are lost, and staff prefer the complex work.
+> - **DSD (medical equipment):** moving from customised, low volume, delivery dependability and a lab culture to "small black box" consumer devices (higher volume, standardised, fast-changing technology, fast product development, logistics, short delivery, uncertain growth). It must build new capabilities, decide **make or buy** for manufacturing and logistics (quality control vs investment), and decide **capacity timing** (lead strategy, Ch 4).
+> - **Xexon7 help desk:** the trade-off between **staff cost/utilisation and service response/quality**, especially at night with low, unpredictable demand. Soften it with flexible staffing and diagnostic technology (like the supermarket checkout example).
+
+---
+
 > [!question] 🎤 Likely oral questions
 > - *Describe Hayes & Wheelwright.* 4 stages, from implementing strategy to driving it; give IKEA/Toyota/Southwest as Stage 4.
 > - *What are the four perspectives of operations strategy and how do you reconcile them?* Fig 2.3, then the matrix (static) and the line of fit (dynamic).
@@ -364,3 +410,14 @@ The two views lead to two improvement approaches, and most businesses use both: 
 > - *Efficient frontier: what does it mean to push it out?* B → B1 thanks to modular design.
 
 Next → [[Ch04 - Operations scope and structure-claude]]
+
+---
+
+## 🗺️ Concept map (Chapter 2)
+
+![[Ch02 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Define strategy → stakeholders and CSR → Hayes & Wheelwright stages → the four perspectives (top-down, outside-in, bottom-up, inside-out, Fig 2.3) → reconcile them with the strategy matrix and the line of fit → improve with trade-offs and the efficient frontier.

@@ -380,6 +380,60 @@ This is a **strategic choice**: fast throughput or high utilisation? Having both
 
 ---
 
+## 📚 Case examples and worked examples (Chapter 6)
+
+> [!example] Case – **Changi Airport** → full summary in 6.1 above · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=218|p.218–219]]
+> Extra facts: more than **100 airlines**, about **300 cities in 70 countries**, almost **60 million passengers a year** (about 10 times Singapore's population), a movement every **90 seconds**, the **sixth-busiest** international airport. T4 has an overhead bridge to the highway, **2 car parks (1,500 vehicles)** with sheltered links, a butterfly garden, orchid and sunflower gardens, a koi pond. "T4 breaks new ground in passenger experience… passenger-centric and user-friendly" (Yam Kum Weng, CAG).
+
+> [!example] Worked example – **Lobbying team (IPA) at a European pulp and paper company** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=221|p.221–222]]
+> **Situation:** **Jim Glazier** (Head of Institutional and Public Affairs) wants his experienced lobbyists (at the European Parliament, accredited with special passes to reach MEPs) to be more **systematic**. **Anders** objects: *"I'm a qualified professional, not a process worker in a sausage factory… our job is the very antithesis of 'process'"*, warning against a box-ticking mentality and loss of creativity, freedom and self-worth. Jim: *"All I am proposing is that we should articulate three things: **what we actually do, how we should go about doing it, and maybe how we could do it better**."*
+> **Outcome:** **Marie Louise Bourg** (head of European Parliament lobbying) has her team write down what they do to prepare and deliver parliamentary briefings. Everyone had **different views** of the activities, frequency, sequence and importance. It took **2 hours** just to agree on the list of quarterly, weekly and daily tasks. They then assessed each stage (importance to the mission, how good they are, how to improve), and the team became motivated to make changes.
+> **Message:** "people vs process" is a false distinction. Even professional services benefit from **defining** their processes (loosely, by outcome).
+
+> [!example] Case – **Ecover** (environmental process objectives) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=223|p.223–224]]
+> The world's largest producer of **ecological detergents** and cleaning products (factories in France and Belgium). **100% green electricity**; energy-efficient lighting; standard machinery but **low-speed** appliances that need no water to clean (mixers that mix **25 tonnes** while using "no more electricity than a few flat irons"); a "squeezy gadget" that empties pipes so they **don't need rinsing**; minimal and recyclable packaging; **"Plant-astic"**, a 100% renewable, reusable and recyclable plastic made from **sugarcane**. The building follows the **sun** (natural daylight), with a **pine** frame, bricks of clay, wood pulp and mineral waste (less energy to bake), and a **flowering-plant roof** for insulation, so **no heating or air conditioning**.
+> **Message:** processes are increasingly judged also on their **environmental impact** (TBL).
+
+> [!example] Worked examples – **computer test and repair** · **passport office** · **IT support unit** → all solved in 6.4 above.
+
+> [!example] Case – **London Underground escalators at Holborn** (bottleneck) · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=238|p.238]] · Figure 6.13
+> **Situation:** Londoners traditionally **stand on the right and walk on the left**. At Holborn the escalators are **over 24 m high**, and the taller the escalator, the fewer people walk (at 30 m only the very energetic do), so the left side is under-used and the escalator becomes a **bottleneck**. New stations are expensive, so capacity has to be found in existing ones.
+> **Trial:** **stand on both sides** at peak times. Capacity went from about **115 to about 150 people per minute** (+30%). **Technically successful, but not made permanent:** it slowed the (vocal) minority who walk up as their daily workout, and it removed the **feeling of choice** (even if most people didn't use it).
+> **Message:** removing a bottleneck increases capacity, but **human behaviour** (behavioural operations, Ch 1) can defeat the "optimal" design.
+
+> [!example] Worked example – **Coffee break and Little's Law** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=240|p.240]]
+> At 10:45, **20 managers** are queuing for coffee and the seminar restarts at 11:00. Each serving takes **48 s = 0.8 min** (cycle time). Throughput time = WIP × CT = 20 × 0.8 = **16 minutes**, plus time for the last person to drink, so **just over 20 minutes**. *"You just haven't allowed long enough for the process"* (Mike to Shaun). The problem isn't motivation, it's **process capacity**.
+
+> [!example] End-of-chapter case study – **Action Response Applications Processing Unit (ARAPU)** · [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=246|p.246–247]]
+> **Context:** a London charity (CEO **Susan N'tini**) giving **fast short-term aid** to small projects until larger donors step in (*"…he might starve while he's training to catch fish"*). Problems: **funds arrive too slowly**, **costs are rising** (the administration share is a key objective), risk of **bad publicity** if money goes to the "wrong" place. Stakeholders complain about delays and that staff **can't say where a file is**. Some assessors fear more efficiency would reduce **flexibility** and the **counselling** role.
+> **Process data** (35-hour week; about **300 new applications per week** in and out; turnaround target **20 days**, not measured; about **2,000 files in the process**):
+> | Stage | Staff | Time per application |
+> |---|---|---|
+> | Receipt (checks forms complete) | 4 clerks (**2 almost full-time searching for files**) | 10 min |
+> | Coding (in batches twice a day) | 5 | 20 min |
+> | Assessment | 7 assessors | **100/week returned after 10 min** for more information (1–8 weeks, then they **re-enter** the process); the rest about **60 min**: **150 accepted / 150 declined** |
+> | Committee of trustees | — | **Only on Thursdays** (samples decisions, reviews unusual cases) |
+> | Declines | 3 | 30 min |
+> | Payments | 4 | 50 min |
+> | Dispatch | 2 | 10 min |
+> **Analysis with the chapter's tools** (my calculations from the case data, to use as answer hints):
+> - **Little's Law:** throughput time = WIP / throughput rate = 2,000 / 300 ≈ **6.7 weeks ≈ 33 working days**, well over the 20-day target.
+> - **Load vs capacity** (2,100 min per person per week): assessors need 100 × 10 + 300 × 60 = **19,000 min** vs 7 × 2,100 = **14,700 min**, i.e. **~129% load**, so they are the **bottleneck** (queues build in front of them). The other stages are below capacity (payments 7,500/8,400; coding 8,000/10,500; declines 4,500/6,300; dispatch 3,000/4,200).
+> - **Other causes:** the **weekly committee** batches everything (up to a week of waiting, and "completers" waiting on Thursdays); coding in **batches**; **recycling** of incomplete files; no visibility of files (staff wasted on searching).
+> **Book questions and hints:**
+> 1. *Objectives:* speed (turnaround), dependability (knowing status and keeping promises), quality (correct decisions, avoiding bad publicity), low cost (administration share), flexibility (unusual requests).
+> 2. *Main problem:* excessive **WIP and throughput time** caused by the assessment bottleneck, recycling, batching and the weekly committee, with no tracking.
+> 3. *Improvements:* check completeness **at receipt** (reduce recycling), add assessor capacity or rebalance (use receipt staff, simple triage), let the committee approve **more often or by sampling** without blocking payment, a **tracking system** (status visibility), **smaller batches**, and track turnaround time as a KPI.
+
+> [!note] Book exercises (p.248–249), with the logic of each answer
+> - **Drive-through:** map the process with a **line of visibility** (order point, payment, pick-up window; behind it the kitchen and assembly).
+> - **Expense claims (Sweden):** 12 staff, 10 working days, 20 min per claim. *Assuming 7.5 h per day* (as in the passport office): capacity per person = 10 × 450 = 4,500 min per cycle. Average 3,200 claims × 20 = 64,000 min, so **≈ 14.2 staff**; minimum 1,000, so **≈ 4.4**; maximum 4,300, so **≈ 19.1** (12 are not enough at peak). **(b)** At 15 min: 10.7 / 3.3 / 14.3. **(c)** With 15 days at 20 min: 9.5 / 3.0 / 12.7. Earlier submission has an effect similar to automation.
+> - **Budget estimates (Table 6.4):** 20 per week × 35 h → **required cycle time = 2,100/20 = 105 min**. Work content = 20+15+80+65+20+80+80 = **360 min**, so **N = 360/105 = 3.43 → 4 people/stages**. **Long–thin** respecting precedence, e.g. S1 = A+C (100), S2 = B+D (80), S3 = E+F (100), S4 = G (80): bottleneck 100 min, idle = 0+20+0+20 = 40, **balancing loss = 40/(4 × 100) = 10%**. **Two parallel lines of 2 stages:** S1 = A+B+C+D (180) and S2 = E+F+G (180), perfectly balanced, **loss = 0%**; each line gives one estimate every 180 min, so two lines give one every 90 min ≤ 105.
+> - **King Lear toilets:** demand = 86 × 3 = **258 cubicle-minutes**; capacity = 10 × 20 = **200**, so **not enough**. Interval needed = 258/10 = **25.8 ≈ 26 minutes** (ignoring variability, which would require even more time).
+> - **Gourmet burgers:** cycle time = 600/250 = **2.4 min**; servers = 7.2/2.4 = **3**. With stages 2.0 / 3.0 / 2.2 the bottleneck is 3.0: idle = 1.0 + 0 + 0.8 = 1.8, **balancing loss = 1.8/(3 × 3) = 20%** (and actual output is one every 3 min, not 2.4: demand isn't met).
+
+---
+
 > [!question] 🎤 Likely oral questions
 > - *What are the process flow objectives and how are they linked?* Throughput rate, throughput time, WIP, utilisation; Little's Law.
 > - *Explain Little's Law with an example* (computer repair, passport clear desk, IT support unit).
@@ -390,3 +444,14 @@ This is a **strategic choice**: fast throughput or high utilisation? Having both
 > - *Why can't a process run at 100% utilisation?* Variability (Fig 6.15).
 
 Next → [[Ch07 - Supply chain management-claude]]
+
+---
+
+## 🗺️ Concept map (Chapter 6)
+
+![[Ch06 concept map-claude.png]]
+
+> [!tip] How to read the map
+> **Dark blue box** = the chapter; **coloured blocks** = its sections, each with its key concepts. **Red arrows** = links between concepts (with the relation written on them); **orange dashed boxes** = links to other chapters. **Thumbnails** (blue dashed line) = the book figure or slide that explains that concept, with its page.
+>
+> 🎤 **Oral storyline:** Why detail matters (weakest link) → flow objectives → mapping (visibility, customer experience) → configure tasks and capacity: cycle time → number of stages → balancing → Little's Law → variability and the utilisation–waiting trade-off.
