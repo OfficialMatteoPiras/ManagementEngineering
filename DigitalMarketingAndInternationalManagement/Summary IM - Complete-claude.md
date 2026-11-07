@@ -261,7 +261,9 @@ flowchart LR
 | **4 NA growth** [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=12|📑 ppt4 s.12]] [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=13|📑 ppt4 s.13]] | *Related-constrained*: live sports, news, foreign-language content, gaming; *related-linked*: merchandise, advertising, product placement. Unrelated diversification unlikely |
 | **5 International** [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=15|📑 ppt4 s.15]] | ⭐ **Transnational strategy**: local low-budget content that breaks out globally (*Squid Game, Money Heist, Dark, Lupin*), thousands of experiments; priority: profitable markets (Canada, W. Europe, Korea, Japan, Australia, Gulf, India…); China closed. Fast entry to **190 countries** (languages, algorithms, device/payment partners) [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=16|📑 ppt4 s.16]]; **mobile-first** for emerging markets [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=17|📑 ppt4 s.17]] |
 ![[IM-ppt04-p09-claude.webp|450]]
+
 ![[IM-ppt04-p15-claude.webp|600]]
+
 Takeaways [[2026 IntMan ppt 4 Week 2 Netflix case - the Solutions.pdf#page=18|📑 ppt4 s.18]]
 ![[IM-ppt04-p18-claude.webp|550]]
 
@@ -319,16 +321,16 @@ flowchart TB
 
 ⭐ **Erin Meyer – The Culture Map (8 scales)** [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=19|📑 ppt5 s.19]]
 
-| Scale | From | To |
-|---|---|---|
-| Communicating | Low-context | High-context |
-| Evaluating | Direct negative feedback | Indirect negative feedback |
-| Persuading | Principles-first | Applications-first |
-| Leading | Egalitarian | Hierarchical |
-| Deciding | Consensual | Top-down |
-| Trusting | Task-based | Relationship-based |
-| Disagreeing | Confrontational | Avoids confrontation |
-| Scheduling | Linear-time | Flexible-time |
+| Scale         | From                     | To                         |
+| ------------- | ------------------------ | -------------------------- |
+| Communicating | Low-context              | High-context               |
+| Evaluating    | Direct negative feedback | Indirect negative feedback |
+| Persuading    | Principles-first         | Applications-first         |
+| Leading       | Egalitarian              | Hierarchical               |
+| Deciding      | Consensual               | Top-down                   |
+| Trusting      | Task-based               | Relationship-based         |
+| Disagreeing   | Confrontational          | Avoids confrontation       |
+| Scheduling    | Linear-time              | Flexible-time              |
 *(Meyer co-authored "No Rules Rules" with Reed Hastings → link to Netflix)*
 
 **CSR & ESG** [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=20|📑 ppt5 s.20]]: CSR = internal self-regulated efforts on social/environmental consequences; **ESG** = measurable criteria used by investors (EcoVadis). **Sustainability** [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=21|📑 ppt5 s.21]]: meet present needs without compromising future generations; **UN 17 SDGs (Agenda 2030)**; Environmental stewardship = E, Economic responsibility ↔ G.
@@ -349,16 +351,16 @@ flowchart LR
   M -.-> NEO["Neo-mercantilism<br/>China today"]
 ```
 
-| Theory | Key idea | Slide |
-|---|---|---|
-| **Mercantilism** | Wealth = gold/silver; export > import; government intervention; **zero-sum**. Neo-mercantilism: China (currency, export promotion) | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=26|📑 ppt5 s.26]] |
-| **Absolute advantage** (Smith 1776) | Specialize where you are most efficient, buy the rest; **positive-sum** (cocoa/rice PPF) | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=27|📑 ppt5 s.27]] |
-| **Comparative advantage** (Ricardo) | Gains even if one country is better at everything – specialize in **lowest opportunity cost**; consumption beyond PPF | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=28|📑 ppt5 s.28]] |
-| **Heckscher–Ohlin** | Export goods intensive in **abundant factors**; *Leontief paradox* contradicts it | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=29|📑 ppt5 s.29]] |
-| **Samuelson** | Dynamic gains can be non-beneficial; free trade historically favoured rich countries | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=29|📑 ppt5 s.29]] |
-| **Product Life Cycle** (Vernon) | New (developed, home market) → maturing (exports, some foreign production) → standardized (production moves to developing, innovator imports) | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=30|📑 ppt5 s.30]] |
-| **New Trade Theory** | Trade between similar countries: **economies of scale**, product variety, **first-mover advantages** | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=31|📑 ppt5 s.31]] |
-| ⭐ **Porter's Diamond** | Factor endowments · Demand conditions · Related & supporting industries · Firm strategy, structure & rivalry | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=32|📑 ppt5 s.32]] |
+| Theory                              | Key idea                                                                                                                                      | Slide                                                 |                |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------- |
+| **Mercantilism**                    | Wealth = gold/silver; export > import; government intervention; **zero-sum**. Neo-mercantilism: China (currency, export promotion)            | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=26 | 📑 ppt5 s.26]] |
+| **Absolute advantage** (Smith 1776) | Specialize where you are most efficient, buy the rest; **positive-sum** (cocoa/rice PPF)                                                      | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=27 | 📑 ppt5 s.27]] |
+| **Comparative advantage** (Ricardo) | Gains even if one country is better at everything – specialize in **lowest opportunity cost**; consumption beyond PPF                         | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=28 | 📑 ppt5 s.28]] |
+| **Heckscher–Ohlin**                 | Export goods intensive in **abundant factors**; *Leontief paradox* contradicts it                                                             | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=29 | 📑 ppt5 s.29]] |
+| **Samuelson**                       | Dynamic gains can be non-beneficial; free trade historically favoured rich countries                                                          | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=29 | 📑 ppt5 s.29]] |
+| **Product Life Cycle** (Vernon)     | New (developed, home market) → maturing (exports, some foreign production) → standardized (production moves to developing, innovator imports) | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=30 | 📑 ppt5 s.30]] |
+| **New Trade Theory**                | Trade between similar countries: **economies of scale**, product variety, **first-mover advantages**                                          | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=31 | 📑 ppt5 s.31]] |
+| ⭐ **Porter's Diamond**              | Factor endowments · Demand conditions · Related & supporting industries · Firm strategy, structure & rivalry                                  | [[2026 IntMan ppt 5 Week 3 Gov Cult Trade.pdf#page=32 | 📑 ppt5 s.32]] |
 ![[IM-ppt05-p27-claude.webp|450]]
 ![[IM-ppt05-p28-claude.webp|450]]
 ![[IM-ppt05-p32-claude.webp|500]]
@@ -394,19 +396,25 @@ flowchart TB
 ```
 
 **ASML today** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=4|📑 ppt6 s.4]]: Europe's largest tech company (≈$592B market cap), revenue €32.7B (2025), net income €9.6B, gross margin 52.8%, 44,000 employees from 143 nationalities; origins 1984 JV (Philips–ASM).
+
 ![[IM-ppt06-p04-claude.webp|600]]
 
 - **Dilemma** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=5|📑 ppt6 s.5]]: after US export restrictions (Dec 2022): maximize profit with China or align with Western policy. *Monopoly* (Cambridge def.) · *Moore's Law* (transistors double ≈ every 2 years).
 - **Leadership** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=6|📑 ppt6 s.6]]: Wennink CEO 2013–2024 (+260% profit) → Christophe Fouquet.
 - **Why semiconductors matter** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=7|📑 ppt6 s.7]]: $3T direct GDP contribution, defence, AI/IoT/5G. **Chip war** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=8|📑 ppt6 s.8]]: China spends more on chips than oil; CHIPS & Science Act (9 Aug 2022).
 - **Value chain** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=9|📑 ppt6 s.9]]: design US (~46%), fabrication East Asia (TSMC 54%, Samsung 17%), equipment (ASML, Applied Materials, Lam), materials JP/KR/TW; ~25 countries per segment → unilateral restrictions hard.
+- 
 ![[IM-ppt06-p09-claude.webp|550]]
+
 - **Dominance** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=10|📑 ppt6 s.10]]: EUV 100% (13.5 nm light), DUV 80% (KrF/ArF; vs Nikon, Canon).
 - **Business model** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=11|📑 ppt6 s.11]]: innovation through collaboration (R&D, 11K engineers) · **strategic outsourcing** (keeps only system design in-house, integrates global suppliers) · customer partnership (field service, training).
 - **Competitors** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=12|📑 ppt6 s.12]]: Nikon (exited EUV 2011), Canon (nanoimprint), SMEE (state-owned China, ~decade behind).
 - **Revenue by region** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=13|📑 ppt6 s.13]] [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=3|📑 ppt7 s.3]]: Taiwan 39.4%, S. Korea 33.4%, **China 14.7%** (2021, all products; EUV = 46% of sales).
+
 ![[IM-ppt07-p03-claude.webp|550]]
+
 - **Timeline** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=14|📑 ppt6 s.14]]: 2015 Made in China 2025 → 2019 first EUV ban → 2022 CHIPS Act ($52B) → Oct 2022 sweeping controls → Dec 2022 pressure to extend to DUV. FDI shift [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=15|📑 ppt6 s.15]]. China's response: $143B package, 90% import dependence, anti-sanction laws [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=16|📑 ppt6 s.16]].
+
 ![[IM-ppt06-p14-claude.webp|550]]
 
 **The trilemma** [[2026 IntMan ppt 6 Week 4 ASML case.pdf#page=17|📑 ppt6 s.17]] + solutions
@@ -419,9 +427,12 @@ flowchart TB
 
 - **Q1 Success factors** [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=5|📑 ppt7 s.5]]: technology leadership, heavy R&D, partnerships (Intel, Samsung, TSMC), global presence, portfolio, **high entry barriers**.
 - **Q3 Market-entry factors** [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=11|📑 ppt7 s.11]]: competitive landscape (SMEE, IP theft), economic conditions, political/local environment, geopolitical tensions, national security, competitive advantage.
-- **Q4 Recommendation: Middle ground** [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=13|📑 ppt7 s.13]] – *what happened*: March 2023 NL extended restrictions; ASML complied; Wennink warned it would accelerate China's independence; he left.
+- **Q4 Recommendation: Middle ground** [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=13|📑 ppt7 s.13]] – *what happened*: March 2023 NL extended restrictions; ASML complied; Wennink warned it 
+- would accelerate China's independence; he left.
 ![[IM-ppt07-p13-claude.webp|550]]
+
 **Learnings** [[2026 IntMan ppt 7 Week 4 ASML case - The Solutions.pdf#page=14|📑 ppt7 s.14]]: strategy must consider geopolitics; technology leadership = leverage; government relations are strategic assets; middle-ground solutions often optimal.
+
 ![[IM-ppt07-p14-claude.webp|550]]
 
 ---
@@ -453,6 +464,7 @@ flowchart LR
 
 Lecturer's 2-page recap [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=3|📑 ppt9 s.3]] [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=4|📑 ppt9 s.4]]
 ![[IM-ppt09-p03-claude.webp|600]]
+
 ![[IM-ppt09-p04-claude.webp|600]]
 
 ---
@@ -482,10 +494,12 @@ flowchart TB
 **Foundations** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=6|📑 ppt9 s.6]] [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=7|📑 ppt9 s.7]]: strategy = actions managers take to attain goals; seek **sustainable competitive advantage**. Questions: how does competing across borders change industry dynamics? which sources of advantage? where to locate & how to enter?
 
 **Value chain (Porter)** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=8|📑 ppt9 s.8]] – value created when outputs are valued more than input costs. **Positioning** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=9|📑 ppt9 s.9]] [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=10|📑 ppt9 s.10]]: *Differentiation* (features, quality, service, brand, innovation) vs *Cost leadership* (efficiency, scale, process innovation, supply chain).
+
 ![[IM-ppt09-p10-claude.webp|550]]
 
 **AB InBev** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=11|📑 ppt9 s.11]] [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=12|📑 ppt9 s.12]]: value via **M&A consolidation**, **operational excellence** (standardized brewing/supply chain), **brand portfolio** (global + local brands).
 **Grant – internationalization patterns** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=13|📑 ppt9 s.13]]
+
 ![[IM-ppt09-p13-claude.webp|600]]
 
 **Profitability & growth through expansion** [[2026 IntMan ppt 9 Week 5 International Strategy.pdf#page=14|📑 ppt9 s.14]]
@@ -546,21 +560,28 @@ flowchart LR
 - **Coffee industry** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=3|📑 ppt10 s.3]] [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=6|📑 ppt10 s.6]]: one of the top-10 traded commodities; $269B market (2024) → $369B (2030), 2.5B cups/day, +5.3%/yr; producers Brazil, Vietnam (robusta), Colombia (arabica); trends = **emerging markets + premiumization**.
 - **Lavazza** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=5|📑 ppt10 s.5]]: founded 1895 Turin, €2.2B (2020) → €3.9B (2025), **70% international**, 140+ countries, #7 roaster.
 - Players [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=7|📑 ppt10 s.7]] [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=8|📑 ppt10 s.8]]: Starbucks, JDE Peet's, Nestlé (Nescafé, Nespresso), Dunkin', Keurig…
+
 ![[IM-ppt10-p05-claude.webp|500]]
+
 - **European playbook** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=10|📑 ppt10 s.10]]: acquire local roasters (Carte Noire, Merrild…), boutique cafés, 50 training centres, "only one brand".
 - **American paradox** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=11|📑 ppt10 s.11]]: US $8.1B market, Lavazza 1.4%. **Mismatch** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=12|📑 ppt10 s.12]]: Americans want drip, large, flavoured, ground/pods.
+
 ![[IM-ppt10-p12-claude.webp|550]]
+
 - **Starbucks** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=13|📑 ppt10 s.13]] [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=14|📑 ppt10 s.14]] [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=15|📑 ppt10 s.15]]: *third place*, differentiation, brand equity; entry = company stores in developed markets, JV/licensing in emerging; localized menu; "people business serving coffee".
 - **Dilemma** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=16|📑 ppt10 s.16]]: stay authentic (boutique) vs adapt to America (mass market). CEO: *"we are small potatoes… careful about our identity"*.
 
-| Q | Answer |
-|---|---|
-| **1 European success** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=18|📑 ppt10 s.18]] | Innovation & customization (lab, blends) · strategic acquisitions of local roasters · branded café experience · **brand autonomy** (no JVs) |
-| **2 Localization vs standardization** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=20|📑 ppt10 s.20]] | Localization: faster penetration, fit with tastes, local value chains ↔ higher R&D cost, complexity, low scale. Standardization: low cost, scale, simple ↔ poor fit & penetration |
-| **3 Why US failure** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=22|📑 ppt10 s.22]] | **Stuck in the middle**, diluted brand (partners pushed their own brands), limited brand equity, missing café/food-service segment |
-| **4 Strategic push** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=24|📑 ppt10 s.24]] | 2015 retail focus → Mars Drinks ($650M, 2018), PepsiCo RTD → e-commerce 2019 → West Chester PA plant 2021 (US-customized portfolio) → branding/sustainability (¡Tierra!, US Open, American Airlines 2026) |
+| Q                                                                                                       | Answer          |                                                                                                                                                                                                           |     |
+| ------------------------------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| **1 European success** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=18                | 📑 ppt10 s.18]] | Innovation & customization (lab, blends) · strategic acquisitions of local roasters · branded café experience · **brand autonomy** (no JVs)                                                               |     |
+| **2 Localization vs standardization** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=20 | 📑 ppt10 s.20]] | Localization: faster penetration, fit with tastes, local value chains ↔ higher R&D cost, complexity, low scale. Standardization: low cost, scale, simple ↔ poor fit & penetration                         |     |
+| **3 Why US failure** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=22                  | 📑 ppt10 s.22]] | **Stuck in the middle**, diluted brand (partners pushed their own brands), limited brand equity, missing café/food-service segment                                                                        |     |
+| **4 Strategic push** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=24                  | 📑 ppt10 s.24]] | 2015 retail focus → Mars Drinks ($650M, 2018), PepsiCo RTD → e-commerce 2019 → West Chester PA plant 2021 (US-customized portfolio) → branding/sustainability (¡Tierra!, US Open, American Airlines 2026) |     |
+
 ![[IM-ppt10-p20-claude.webp|550]]
+
 ![[IM-ppt10-p24-claude.webp|600]]
+
 **Takeaways** [[2026 IntMan ppt10 Week 5 Coffee US and Lavazza Case.pdf#page=26|📑 ppt10 s.26]]: success doesn't transfer automatically · know your consumer · control the experience · balance global & local.
 
 ---
