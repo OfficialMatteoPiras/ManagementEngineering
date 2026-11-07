@@ -8,6 +8,48 @@ cssclasses: [home]
 
 ---
 
+## 📍 Oggi
+```dataviewjs
+// Orario settimanale (1 = lunedì … 5 = venerdì)
+const C = {
+  SOSCM: {e:"🟧", n:"Smart Operations & SCM", note:"00 - SOSCM index-claude", prof:"Macchion, Vinelli"},
+  DWT:   {e:"🟦", n:"Digital Warehousing & Transportation", note:"Lessons - DWT", prof:"Persona"},
+  MFSLN: {e:"🟢", n:"Material Flow Systems & Logistic Networks", note:"Lessons - MFSSCM", prof:"Battini, Katiraee"},
+  DMIM:  {e:"🟩", n:"Digital Marketing & International Mgmt", note:"Lessons - International Management", prof:"—"},
+};
+const W = {
+  1: [["08:30","10:30","DMIM","VM6"],["10:30","12:30","SOSCM","Sala 8"],["12:30","14:30","DWT","Sala 8"]],
+  2: [["10:30","12:30","DWT","Sala 8"],["12:30","14:30","SOSCM","Sala 8"]],
+  3: [["10:30","12:30","MFSLN","VM8"],["14:30","16:30","SOSCM","Sala 8"]],
+  4: [["10:30","12:30","MFSLN","VM8"],["14:30","16:30","MFSLN","VM8"],["16:30","18:30","DMIM","VM8"]],
+  5: [],
+};
+const giorni = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+const now = moment();
+const d = now.day();
+const t = now.format("HH:mm");
+const today = W[d] ?? [];
+
+dv.paragraph(`**${giorni[d].charAt(0).toUpperCase()+giorni[d].slice(1)} ${now.format("D MMMM YYYY")}** · ore ${t}`);
+
+if (today.length) {
+  dv.table(["", "Orario", "Corso", "Aula", "Stato"],
+    today.map(([a,b,k,aula]) => {
+      const st = t >= b ? "✔️ finita" : (t >= a ? "🔴 **in corso**" : "⏳ da fare");
+      return [C[k].e, `${a}–${b}`, dv.fileLink(C[k].note, false, `${k} — ${C[k].n}`), aula, st];
+    }));
+  const next = today.find(([a]) => t < a);
+  if (next) dv.paragraph(`➡️ Prossima: **${next[2]}** alle ${next[0]} in ${next[3]}`);
+  else if (today.every(([,b]) => t >= b)) dv.paragraph("🏁 Lezioni finite per oggi.");
+} else {
+  // Trova il prossimo giorno con lezioni
+  let k = 1;
+  while (!(W[(d + k) % 7] ?? []).length) k++;
+  const nd = (d + k) % 7, first = W[nd][0];
+  dv.paragraph(`🎉 Nessuna lezione oggi. Prossima: **${giorni[nd]}** alle ${first[0]} — ${C[first[2]].e} **${first[2]}** (${first[3]})`);
+}
+```
+
 ## 🗓️ Settimana tipo
 
 | Ora | Lunedì | Martedì | Mercoledì | Giovedì | Venerdì |

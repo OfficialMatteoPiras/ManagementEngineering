@@ -621,9 +621,9 @@ flowchart LR
 - [ ] 2 drivers (barriers, technology) + numbers (tariffs 40% → 2–3%)
 - [ ] WTO / IMF / World Bank / UN roles
 - [ ] Ghemawat: Semiglobalization (25%), Distance/CAGE (with multipliers), Globaloney (×5), Yo-yo
-- [ ] DHL Global Connectedness ≈ 25%
-- [ ] VUCA vs BANI; Globalization 1.0 → 4.0
-- [ ] Political, economic, legal systems; country attractiveness (benefits/costs/risks)
+- [x] DHL Global Connectedness ≈ 25% ✅ 2026-11-07
+- [x] VUCA vs BANI; Globalization 1.0 → 4.0 ✅ 2026-11-07
+- [x] Political, economic, legal systems; country attractiveness (benefits/costs/risks) ✅ 2026-11-07
 - [ ] Culture = values + norms; Meyer's 8 scales; Hofstede; CSR vs ESG; SDGs
 - [ ] Trade theories in order + Porter's Diamond 4 elements
 - [ ] Netflix: planned emergence, 3 disruptions, flywheel, transnational
