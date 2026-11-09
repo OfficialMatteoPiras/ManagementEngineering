@@ -1283,6 +1283,20 @@ flowchart LR
 ```
 
 ![[Lessons - DWT-1794233757737.webp]]
+1. Rear and lateral unload solution
+   ![[Lessons - DWT-1794233955685.webp]]
+2. In and Out on the same side
+   ![[Lessons - DWT-1794233901164.webp]]
+   
+3. in on one side and out around
+   ![[Lessons - DWT-1794233984751.webp]]
+4. Sorting of fresh food
+   ![[Lessons - DWT-1794234001587.webp]]
+
+
+
+
+
 
 
 
