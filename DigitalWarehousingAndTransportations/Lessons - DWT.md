@@ -1170,7 +1170,8 @@ $$ C_{tot} = \underbrace{100}_{\text{km/day}} \cdot \underbrace{1.4}_{\text{€/
 
 
 # Lesson 10 
-
+## Why Digital Warehousing?
+![[Lessons - DWT-1794233107963.webp]]
 
 
 
