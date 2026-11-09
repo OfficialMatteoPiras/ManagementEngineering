@@ -1174,7 +1174,47 @@ $$ C_{tot} = \underbrace{100}_{\text{km/day}} \cdot \underbrace{1.4}_{\text{€/
 ![[Lessons - DWT-1794233107963.webp]]
 
 
+**Warehouse classifications**
 
+**1st classification – by unit handled**
+```mermaid
+flowchart LR
+    W[Warehouses] --> U[Unit loads / pallets<br/><i>tertiary packaging</i>]
+    W --> T[Totes / boxes<br/><i>secondary packaging</i>]
+    T -.-> SP[Also WHs with single products<br/><i>primary packaging</i>]
+    W --> SG[Special goods<br/><i>aluminium bars, pipes, cable reels</i>]
+```
+
+**2nd classification – by level of automation**
+```mermaid
+flowchart LR
+    W[Warehouses] --> A[Automated WH<br/><i>the whole WH is completely automated</i>]
+    W --> S[Semi-automated WH]
+    W --> M[Manual WH]
+    M --> N["Doesn't mean ALL activities<br/>are carried out by an operator"]
+    N --> L[Lifts, forklifts… are present]
+```
+
+**3rd classification – by function**
+```mermaid
+flowchart LR
+    W[Warehouse] --> ST[Stocking WH]
+    W --> SPK[Stocking + Picking WH]
+    W --> SO["Sorting WH<br/><i>transit points, cross-docking points</i>"]
+    SPK --> P1[1. Picker-to-goods policy]
+    SPK --> P2[2. Goods-to-picker policy]
+    SO --> PG[Person to goods]
+    SO --> GP[Goods to person]
+```
+
+> [!important] Note – big hubs
+> In a **big hub (WH)** we have the **integration of different types of WH**
+> ↓
+> we need an **important consolidation activity**
+> ↓
+> to **lower the time to market** ⬇️⬇️⬇️
+
+## Functional Representation of Warehouse
 
 
 
