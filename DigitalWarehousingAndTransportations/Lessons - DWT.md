@@ -1215,11 +1215,74 @@ flowchart LR
 > to **lower the time to market** ⬇️⬇️⬇️
 
 ## Functional Representation of Warehouse
+![[Lessons - DWT-1794233579311.webp]]
 
+**Areas of the warehouse**
 
+**Receiving area** → activity of:
+- control of goods
+- labelling, repackaging…
 
+```mermaid
+flowchart LR
+    Q[Quality area] --> F[Free-pass goods]
+    Q --> T[Goods we have to test]
+    T -.->|rejected| QA[Quarantine area<br/><i>rejected goods</i>]
+```
 
+**Design a warehouse – number of unloading & loading bays**
+![[Lessons - DWT-1794233707727.webp|246x305]]
 
+Evaluation of the **number of unloading & loading bays** (it also affects the **shape of the warehouse**) with the **Poisson distribution**:
+
+$$P_{x,\lambda,T} = \frac{(\lambda T)^x \, e^{-\lambda T}}{x!}$$
+
+- $x$ = number of events (truck arrivals) in the time $T$
+- $\lambda$ = average number of events (trucks/h)
+- $T$ = time we consider = **time for a truck to unload its goods**, $t_{unload} \approx 45$ min (usual value)
+
+Usual values:
+- $T = 45$ min $= 0.75$ h (**T in hours!**)
+- $\lambda = 3$ trucks/h → $\lambda T = 2.25$
+- $LS = 90\%$ (or $95\%$)
+
+> [!info] LS = Service Level
+> Probability that a truck, when it arrives, **finds an available bay**.
+
+**Calculation**
+
+$P_{x=0} = \dfrac{(\lambda T)^0 e^{-\lambda T}}{0!} = e^{-\lambda T} = e^{-2.25} = 0.1054$
+
+$P_{x=1} = \lambda T \, e^{-\lambda T} = 2.25 \cdot 0.1054 = 0.2371$
+
+| $x$ | $N_{bays}$ | $P_{x,\lambda,T}$ | $\sum P = LS$ | LS % |
+|---|---|---|---|---|
+| 0 | 1 | 0.1054 | 0.1054 | 10.54 % |
+| 1 | 2 | 0.2371 | 0.3425 | 34.25 % |
+| 2 | 3 | 0.2668 | 0.6093 | 60.93 % |
+| 3 | 4 | 0.2001 | 0.8094 | 80.94 % |
+| 4 | **5** | 0.1126 | **0.9220** | **92.20 %** ✅ |
+| 5 | 6 | 0.0506 | 0.9726 | 97.26 % |
+
+We want **LS ≥ 90%** → first cumulative value above 90% → **5 bays**.
+(With LS = 95% → **6 bays**.)
+
+**Bays**
+- bays for **unloading** trucks
+- bays for **loading** trucks
+- each bay takes ≈ **4.5 m** of wall → if we need 10 bays: $4.5 \cdot 10 = 45$ m
+
+**Loading solutions**
+```mermaid
+flowchart LR
+    S[Truck loading /<br/>unloading] --> R[Rear solution]
+    S --> L[Lateral solution]
+    R --> UL["Unit loads<br/>ISO 1: 0.8 × 1.2 m<br/>ISO 2: 1.0 × 1.2 m"]
+    L --> LM["Long materials (L > 1.2 m)"]
+    L --> NC[No constraints on the<br/>sequence of delivery]
+```
+
+![[Lessons - DWT-1794233757737.webp]]
 
 
 
