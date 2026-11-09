@@ -1168,7 +1168,8 @@ No further saving → **final solution: 2 routes, 100 km/day**
 
 $$ C_{tot} = \underbrace{100}_{\text{km/day}} \cdot \underbrace{1.4}_{\text{€/km}} + \underbrace{6}_{\text{stops}} \cdot \underbrace{0.25}_{\text{h}} \cdot \underbrace{30}_{\text{€/h}} = 140 + 45 = 185\ \text{€/day} $$
 
-#
+
+# Lesson 10 
 
 
 
