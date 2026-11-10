@@ -1376,11 +1376,19 @@ $I_S \approx 0.5$
 ```
 
 
+![[Lessons - DWT-1794319518465.webp|459]]
 
 
+$v_x = 4\ \text{m/s}$
+$a_x = 1.2\ \text{m/s}^2$
+$v_y = 1\ \text{m/s}$
+$a_y = 0.9\ \text{m/s}^2$
+$t_{forks} = 1\ \text{s/unit load}$
 
+1 machine for aisle
+↳ we have to decide how many machines are necessary
 
-
+![[Lessons - DWT-1794319544838.webp|523]]
 
 
 
