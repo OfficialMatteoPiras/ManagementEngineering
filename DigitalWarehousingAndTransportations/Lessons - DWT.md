@@ -1315,8 +1315,57 @@ $$
 $$
 
 ![[Lessons - DWT-1794318775302.webp]]
+$I_S \Rightarrow$ when we need $I_S = 1$ means every product stocks 1 unit load
+$\Rightarrow$ need to reach every unit load directly
+
+**AWP**: 6 unit loads for each product/article
+↳ build WH with $I_S = \frac{1}{6}$
+
+*Single deep WH* $\longrightarrow$ *Multiple deep WH*
+
+*Surface saturation increases while going from single to multiple.*
+
+Today avg value of $I_S \to 1$
 
 **ACCESS INDEX**
+- *Product parameter*
+- $I_A = \dfrac{M\ \left[\frac{\text{unit loads}}{\text{per day}}\right]}{C\ [\text{unit loads}]}$
+
+$M$: movement of the item in a specific period
+$C$: average value of stocks of that item
+
+**Example**
+
+| Items | Movements per day | Avg stock | $I_A$ |
+| ----- | ----------------- | --------- | ----- |
+| A     | 7                 | 7         | 1     |
+| B     | 6                 | 2         | 3     |
+| C     | 5                 | 1         | 5     |
+| D     | 10                | 5         | 2     |
+| E     | 9                 | 3         | 3     |
+| F     | 8                 | 2         | 4     |
+| **Tot** | **45**          | **20**    |       |
+
+- A: *moved 1 time per day*
+- C: *highest $I_A$, thus the closest to the door*
+
+![[Lessons - DWT-1794318953659.webp]]![[Lessons - DWT-1794318976483.webp|386x335]]
+
+**(a)** ↑ *unit load movement*
+↑ $I_S \Rightarrow 1$ unit load/article
+- → Automatic WH AS/RS (*Automated Storage and Retrieval System*)
+- → *Single deep configuration*
+
+**(b)** ↑ *unit loads movement*
+$I_S \approx 0.5$
+- → Automatic WH AS/RS
+- → *Double deep configuration*
+
+![[Lessons - DWT-1794319086013.webp]]
+
+
+
+
 
 
 
