@@ -1361,8 +1361,19 @@ $I_S \approx 0.5$
 - → Automatic WH AS/RS
 - → *Double deep configuration*
 
-![[Lessons - DWT-1794319086013.webp]]
 
+```horizontal
+![[Lessons - DWT-1794319086013.webp]]
+---
+![[Lessons - DWT-1794319183167.webp|396x346]]
+
+```
+
+```horizontal
+![[Lessons - DWT-1794319199647.webp|415x274]]
+---
+![[Lessons - DWT-1794319212624.webp|463x362]]
+```
 
 
 
