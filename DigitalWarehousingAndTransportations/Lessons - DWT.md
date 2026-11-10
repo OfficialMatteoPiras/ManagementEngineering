@@ -1295,15 +1295,28 @@ flowchart LR
 
 
 # Lesson 11
+**Logistic hub design**
+- *Selective index* (WH parameter)
+- *Access index* (product parameter)
 
+**Selective index**
 
+$$
+I_S = \frac{\text{unit loads that we can take directly without additional movement}}{\text{total amount of unit loads}}
+$$
+![[Lessons - DWT-1794318560982.webp]]
 
+In the example: $I_{S}=\frac{1}{4}=0.25$
+![[Lessons - DWT-1794318696768.webp]]
+In this situation $I_S = 1 \;\left[= \frac{36}{36}\right]$ since we can reach every unit load.
 
+$$
+0 \le I_S \le 1
+$$
 
+![[Lessons - DWT-1794318775302.webp]]
 
-
-
-
+**ACCESS INDEX**
 
 
 
