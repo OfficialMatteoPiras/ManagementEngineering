@@ -380,7 +380,10 @@ Mass services have many customer transactions and little customisation. Such ser
 ![[Summary SOSCM - Vinelli-1794405464789.webp]]
 
 
-
+> [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=308&selection=26,0,26,18&color=note|Operations-and-Process-Management-–-Gestión-por-Procesos, p.308]]
+> > Capacity ‘leakage’
+> 
+> 
 
 
 
