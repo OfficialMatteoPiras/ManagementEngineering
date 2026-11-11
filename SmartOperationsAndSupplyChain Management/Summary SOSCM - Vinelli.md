@@ -383,7 +383,18 @@ Mass services have many customer transactions and little customisation. Such ser
 > [!PDF|note] [[Operations-and-Process-Management-–-Gestión-por-Procesos.pdf#page=308&selection=26,0,26,18&color=note|Operations-and-Process-Management-–-Gestión-por-Procesos, p.308]]
 > > Capacity ‘leakage’
 > 
-> 
+> Even after allowing for all the difficulties inherent in measuring capacity, the theoretical capacity of a process (the capacity that it was designed to have) is rarely achieved in practice. Some reasons for this are, to some extent, predictable. Different products or services may have different requirements, so people and machinery will have delays when switching between tasks. Maintenance will need to be performed on machines, while training will be required for employees. Scheduling difficulties could mean further lost time. Not all of these losses are necessarily avoidable; they may occur because of the market and technical demands on the process. However, some of the reduction in capacity can be the result of less predictable events. For example, labour shortages, quality problems, delays in the delivery of bought-in products and services, and machine, or system, breakdown, can all reduce capacity. This loss in capacity is sometimes called ‘capacity leakage’ and one popular method of assessing this leakage is the overall equipment effectiveness (OEE) measure (see Figure|.) that is calculated as follows
+> $$OEE = a \times p \times q$$
+> where a is the availability of a process, p is the performance or speed of a process, and q is the quality of product or services that the process creates.OEE works on the assumption that some capacity leakage occurs as a result of reduced availability. For example, availability can be lost through time losses such as set-up and changeover losses (when equipment, or people in a service context, are being prepared for the next activity), and breakdown failures (when a machine is being repaired or, in a service context, where employees are being trained, or absent). Some capacity is lost through speed losses such as when equipment is idling (for example when it is temporarily waiting for work from another process) and when equipment is being run below its optimum work rate. In a service context, the same principle can be seen when individuals are not working at an optimum rate – for example, mail-order call-centre employees in the quiet period after the winter holiday season. Finally, not everything processed by an operation will be error free. So, for example, a consulting firm having to re-run some of its analysis caused by data input errors would lose some of its effective capacity.
+
+![[Summary SOSCM - Vinelli-1794407151949.webp]]
+
+
+
+
+
+
+
 
 
 
