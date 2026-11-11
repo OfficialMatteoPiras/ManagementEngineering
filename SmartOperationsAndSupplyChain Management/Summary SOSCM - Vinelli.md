@@ -374,6 +374,7 @@ Mass services have many customer transactions and little customisation. Such ser
 ![[Summary SOSCM - Vinelli-1792494197095.webp]]
 
 # Chapter 8: Capacity management
+![[Summary SOSCM - Vinelli-1794404529096.webp]]
 
 
 
