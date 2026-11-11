@@ -395,7 +395,7 @@ Mass services have many customer transactions and little customisation. Such ser
 
 ![[Summary SOSCM - Vinelli-1794408349011.webp]]
 
-
+![[Summary SOSCM - Vinelli-1794408795544.webp]]![[Summary SOSCM - Vinelli-1794408909836.webp]]
 
 
 
