@@ -1077,7 +1077,7 @@ $$h = \text{storage costs (evident + semi-evident + hidden)} + \text{opportunity
 - If demand is high during $\tau$, stock falls below $s$, and that's exactly what the **safety stock** is there to cover.
 
 
-
+# LECTURE 9: INVENTORY CONTROL POLICIES AND SAFETY STOCKS COMPUTATION
 
 
 
