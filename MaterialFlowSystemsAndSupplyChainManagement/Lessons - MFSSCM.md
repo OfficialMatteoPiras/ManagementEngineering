@@ -1197,6 +1197,8 @@ TECHNICAL FEATURES:
 | AS/RS                | 40           | 1.5            |
 
 ## Driver-less vehicles
+Machines capable of moving independently without a driver on board and capable of managing and improving logistics operations within a production system, from the entry of raw materials to complete warehouse and shipment management
+![[Lessons - MFSSCM-1794999185907.webp]]![[Lessons - MFSSCM-1794999193020.webp]]
 
 
 
