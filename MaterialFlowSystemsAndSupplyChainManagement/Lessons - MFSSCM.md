@@ -1157,7 +1157,26 @@ Forks moves on a sliding plate thanks to the mast, that is the vertical column d
 The traditional frontal forklift trucks need standard aisle dimensions between racks, that go from 2.7 to 3.5 meters (aisle length depends on the radius of curvature of the vehicle and on the number of wheels)
 
 
+| Technical Features | Ranges             |
+| ------------------ | ------------------ |
+| Horizontal Speed   | 10 $\div$ 20 km/h  |
+| Lifting Speed      | 0.2 $\div$ 0.5 m/s |
+| Descent speed      | 0.4 $\div$ 0.6 m/s |
+| % Slope            | 6 $\div$ 9 %       |
 
+### Narrow aisle forklift trucks (bilateral and trilateral)
+![[Lessons - MFSSCM-1794998227731.webp]]
+
+Narrow aisle forklift trucks, known as trilateral or bilateral turret trucks, are machines for working in narrow aisles (between 1.5m and 1.8m). Thanks to this equipment storage capacity notably increases. These forklifts can raise a load to heights of more than 14 m
+
+They do not turn in the aisle. Rather, it is the forks that make the movements needed to pick up or deposit the pallets. This is why these machines are designed for working within warehouse aisles. Maneuvers outside this space are slow, and must therefore be minimized
+
+With trilateral forklifts, the head that supports the forks can rotate and can pick up and deposit loads on one side of the aisle or the other, as well as in front. They can also deposit pallets directly on the ground. With bilateral forklifts, the forks are telescopic and assembled on what is called a cradle.
+
+They must also be guided inside the racks using rails placed on both sides of the aisle or be wire-guided or optical-guided with optimal markers on the floor.
+
+### AS/RS Systems
+![[Lessons - MFSSCM-1794998279990.webp]]
 
 
 
