@@ -1141,7 +1141,14 @@ Material transportation can be executed in practice thanks to containers (pallet
 
 ![[Lessons - MFSSCM-1794996751072.webp|504]]
 
+### Walking Industrial Vehicles
+![[Lessons - MFSSCM-1794997639985.webp]]
 
+### Riding Industrial Vehicle
+![[Lessons - MFSSCM-1794997655753.webp]]
+
+### Traditional forklifts trucks (standard aisle)
+![[Lessons - MFSSCM-1794997671912.webp]]
 
 
 
