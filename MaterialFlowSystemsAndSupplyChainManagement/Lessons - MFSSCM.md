@@ -1177,7 +1177,11 @@ They must also be guided inside the racks using rails placed on both sides of th
 
 ### AS/RS Systems
 ![[Lessons - MFSSCM-1794998279990.webp]]
-
+TECHNICAL FEATURES:
+1) The mobile platform can move in y while the column moves in x : combined motion x-y, than the forks move in z. 
+2) Aisle length: 1.5 m 
+3) Lifting height until 40 m 
+4) Horizontal speed: from 1.5 m/s to 3 m/s 5) Lifting speed: from 0.6 to 1 m/s 6) Fixed times: from 10 to 20 seconds (controls, forks cycle, acceleration and deceleration)
 
 
 
