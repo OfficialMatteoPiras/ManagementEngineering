@@ -1200,6 +1200,32 @@ TECHNICAL FEATURES:
 Machines capable of moving independently without a driver on board and capable of managing and improving logistics operations within a production system, from the entry of raw materials to complete warehouse and shipment management
 ![[Lessons - MFSSCM-1794999185907.webp]]![[Lessons - MFSSCM-1794999193020.webp]]
 
+### WAREHOUSE/DISTRIBUTION CENTER
+#### Guidance systems
+![[Lessons - MFSSCM-1794999463845.webp]]
+#### AGV(wire guidance)
+![[Pasted image 20261118115812.png]]
+#### LGV (laser guidance)
+The navigation device emits a continuous beam of modulated laser light in a 360 degree pattern. 
+
+The laser beam interacts with reflectors (also called "targets") positioned in the LGV working area. Depending on the Laser device manufacturer, LGVs calculate and correct their positioning between 30 and 40 times per second. These devices are incredibly accurate. 
+
+Once the laser "impacts" the reflector, the beam is sent back to the navigation laser that calculates the laser go&back time together with radial coordinates. These data allow to calculate the X,Y coordinates of the reflectors and the LGV.
+
+The centre of the reflectors must be positioned at the same Navigation Device height and a maximum of 30 meters far from the AGV.
+
+**LASER SCANNER:** The laser utilized is an infrared, class 1 laser and is extremely safe for continuous use
+**REFLECTIVE TARGETS**: The algorithm which calculates the vehicle position is updated numerous times per second.
+
+## Automated Mobile Robot–AMR-
+An Autonomous Mobile Robot (AMR) represents the combination of robotics and autonomy, creating a new era of mobile efficiency and flexibility in material handling. Unlike traditional mobile robotic systems, AMRs operate using sensors and software as guidance. They use advanced sensor arrays, onboard computing, 3D cameras, laser scanners and GPS and real-time decision-making to navigate efficiently and safely within warehouses. 
+
+![[Lessons - MFSSCM-1794999644562.webp]]
+
+
+
+
+
 
 
 
