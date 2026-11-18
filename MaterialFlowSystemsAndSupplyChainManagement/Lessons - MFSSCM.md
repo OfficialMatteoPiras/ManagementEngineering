@@ -1105,10 +1105,14 @@ Material transport equipment inside an industrial facility are distinguished fro
 
 Material transportation can be executed in practice thanks to containers (pallets, skids, boxes, bins and tote pans) and unitizers (stretchwrappers and palletizers) that create a convenient unit load to facilitate and economize material handling and storage operations. These devices also protect and secure material. Load units must respect the standards of the countries in which the majority of the flow occurs and also the Governmental ergonomics and safety rules.
 
+## The packaging sequence
+1. Primary packaging is the packaging in direct contact with the product itself. Secondary packaging Tertiary packaging 
+2. Secondary packaging groups a certain number of products to create a stockkeeping unit, commonly referred to as a SKU. 
+3. Tertiary packaging is a bulk or transit packaging, this type of packaging is used to group larger quantities of SKUs to transport them from point A to point B.
+![[Lessons - MFSSCM-1794996470958.webp]]
 
-
-
-
+**Secondary Packaging**
+![[Lessons - MFSSCM-1794996517702.webp]]
 
 
 
