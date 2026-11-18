@@ -1210,7 +1210,7 @@ The navigation device emits a continuous beam of modulated laser light in a 360 
 
 The laser beam interacts with reflectors (also called "targets") positioned in the LGV working area. Depending on the Laser device manufacturer, LGVs calculate and correct their positioning between 30 and 40 times per second. These devices are incredibly accurate. 
 
-Once the laser "impacts" the reflector, the beam is sent back to the navigation laser that calculates the laser go&back time together with radial coordinates. These data allow to calculate the X,Y coordinates of the reflectors and the LGV.
+Once the laser "impacts" the reflector, the beam is sent back to the navigation laser that calculates the laser go & back time together with radial coordinates. These data allow to calculate the X,Y coordinates of the reflectors and the LGV.
 
 The centre of the reflectors must be positioned at the same Navigation Device height and a maximum of 30 meters far from the AGV.
 
