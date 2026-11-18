@@ -1114,12 +1114,32 @@ Material transportation can be executed in practice thanks to containers (pallet
 **Secondary Packaging**
 ![[Lessons - MFSSCM-1794996517702.webp]]
 
+**Tertiary Packaging**
+![[Lessons - MFSSCM-1794996534696.webp]]
 
+## MATERIAL HANDLING SYSTEMS
+### Manual Trolleys
+![[Lessons - MFSSCM-1794996689934.webp]]
 
+### Conveyors
+- Chute Conveyors 
+- Belt Conveyors
+- Tape Conveyors 
+- Roller Conveyors 
+- Chain Conveyors 
+- Slat Conveyors
 
+![[Lessons - MFSSCM-1794996636943.webp]]
 
+### Trolley conveyor and power and free conveyor
 
+```horizontal
+![[Lessons - MFSSCM-1794996662655.webp|294x146]]
+---
+![[Lessons - MFSSCM-1794996714953.webp|246x187]]
+```
 
+![[Lessons - MFSSCM-1794996751072.webp|504]]
 
 
 
