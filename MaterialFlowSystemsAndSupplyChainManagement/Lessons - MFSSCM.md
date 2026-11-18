@@ -1150,7 +1150,11 @@ Material transportation can be executed in practice thanks to containers (pallet
 ### Traditional forklifts trucks (standard aisle)
 ![[Lessons - MFSSCM-1794997671912.webp]]
 
+The driving system can be activated by electric engine or gasoline engine • Both translation and lifting are automated but exectued in sequence and not combined ( movement in x  movement in y  movement in z) 
 
+Forks moves on a sliding plate thanks to the mast, that is the vertical column driven hydraulically, and operated by one or more hydraulic cylinders directly or using chains from the cylinder or cylinders (norm UNI ISO 5053) 
+
+The traditional frontal forklift trucks need standard aisle dimensions between racks, that go from 2.7 to 3.5 meters (aisle length depends on the radius of curvature of the vehicle and on the number of wheels)
 
 
 
