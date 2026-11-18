@@ -1083,7 +1083,33 @@ $$h = \text{storage costs (evident + semi-evident + hidden)} + \text{opportunity
 
 
 
-# L10:
+# L12: PACKAGING SEQUENCE AND MATERIAL HANDLING SYSTEMS
+Material handling is the movement, protection, storage and control of materials and products throughout manufacturing, warehousing, distribution, consumption and disposal. As a process, material handling incorporates a wide range of manual, semiautomated and automated equipment and systems that support logistics and make the supply chain work.
+Material handling (MH) has the following objectives: 
+1) Make available through the use of specific material the right quantity of the right material in the right position. 
+2) By respecting times, sequences and constraints 
+3) By minimizing total material handling costs
+
+Material transportation is not a value-added activity. Thus, it is necessary to minimize the material transportation as much as possible and reducing congestions, delays and useless transportations.
+
+At the same time, a company desires to design material handling systems and also part feeding systems able to minimize total costs for the company (made up also by inventory costs, supermarket costs, assembly costs and not only by transportation costs). 
+
+Thus, it becomes a complex problem of total costs computation and trade off definition
+
+Material transport equipment inside an industrial facility are distinguished from one another by their: 
+1) Degree of automation (walking, riding and automated) 
+2) Flow pattern (continuous vs intermittent, synchronous vs asynchronous) 
+3) Flow path (fixed vs variable), (flexible vs un-flexible to layout changes) 
+4) Location (underground, in-floor, floor level, overhead) 
+5) Throughput capacity
+
+Material transportation can be executed in practice thanks to containers (pallets, skids, boxes, bins and tote pans) and unitizers (stretchwrappers and palletizers) that create a convenient unit load to facilitate and economize material handling and storage operations. These devices also protect and secure material. Load units must respect the standards of the countries in which the majority of the flow occurs and also the Governmental ergonomics and safety rules.
+
+
+
+
+
+
 
 
 
