@@ -1706,7 +1706,7 @@ N_{modules} = \left\lceil \frac{1819}{2 \cdot 3 \cdot \underset{\#\ of\ floors}{
 $$
 
 *6 unit loads* per module (schema: due file di 3 unit load con la macchina M in mezzo, quote 1.2 e 0.8)
-
+![[Lessons - DWT-1795598786304.webp|225]]
 $I/O_{coords} = (0\ ;\ 0)$
 
 $$
@@ -1716,13 +1716,69 @@ $$
 $$
 H = (N_F - 1)\, H_F = (20 - 1) \cdot 1.35 = 19 \cdot 1.35 = 25.7\ \text{m}
 $$
+**(Step 2)**
 
+$I/O = (0\,;\,0)$  $\quad Y_{I/O} = 0$
 
+$$
+P_1 = \left(\tfrac{1}{5}L\ ;\ \tfrac{2}{3}H\right) = \left(\frac{47.2}{5}\ ;\ \tfrac{2}{3} \cdot 25.7\right) = (9.5\ ;\ 17.2)
+$$
 
+$$
+P_2 = \left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right) = (31.5\ ;\ 5.2)
+$$
 
+$$
+T_{CS} = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 4\,t_f
+$$
 
+(REAL START OF LESSON 14 -  I PUT THE EXERCISE FROM THE END OF LESSON 13 ALL INSIDE LESSON 14)
+So summarizing:
+$L = 47.2\ \text{m}$
+$H = 25.7\ \text{m}$
 
+$I/O\ (0\,;\,0)$
+$P_1\ (9.5\,;\,17.2)$
+$P_2\ (31.5\,;\,5.2)$
 
+$$
+T_{CS} = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 4\,t_f \qquad \left(t_f = 10\ \text{s}\right)
+$$
+
+**$T[I/O - P_1]$**
+
+```horizontal
+| $x$ | $y$ |
+| --- | --- |
+| $d_x = 9.5\ \text{m}$ | $d_y = 17.2\ \text{m}$ |
+| $v_x = 4\ \text{m/s}$ | $v_y = 1\ \text{m/s}$ |
+| $a_x = 1.2\ \text{m/s}^2$ | $a_y = 0.9\ \text{m/s}^2$ |
+---
+![[Lessons - DWT-1795598864448.webp|384]]
+```
+
+$$
+T_x = \frac{9.5}{4} + \frac{4}{1.2} = \frac{l_x}{v_x} + \frac{v_x}{a_x} = 5.7\ \text{s}
+$$
+$$
+T_y = \frac{17.2}{1} + \frac{1}{0.9} = 18.3\ \text{s}
+$$
+$$
+T[I/O - P_1] = 18.3\ \text{s}
+$$
+
+**$T[I/O - P_2]$**
+$d_x = 31.5\ \text{m}$  $\quad d_y = 5.2\ \text{m}$
+
+$$
+T_x = \frac{l_x}{v_x} + \frac{v_x}{a_x} = \frac{31.5}{4} + \frac{4}{1.2} = 11.2\ \text{s}
+$$
+$$
+T_y = \frac{5.2}{1} + \frac{1}{0.9} = 6.3\ \text{s}
+$$
+$$
+T[I/O - P_2] = 11.2\ \text{s}
+$$
 
 
 
