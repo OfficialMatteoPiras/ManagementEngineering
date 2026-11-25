@@ -2247,8 +2247,6 @@ $P_2\left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right)$
 
 $$T(CS)_{FEM} = 99\ \left[\frac{s}{UC_{in} + UC_{out}}\right]$$
 
----
-
 **Bozer–White (BW)**
 
 Average speeds: $\bar v_x = 3\ m/s$, $\bar v_y = 0{,}9\ m/s$
@@ -2261,8 +2259,7 @@ $$T = \max{T_l;\ T_h} = 28{,}5\ s$$
 
 $$b = \min{\frac{T_l}{T};\ \frac{T_h}{T}} = 0,55 \quad \text{(BAD, rack far from square-in-time)}$$
 
-> [!note] Normalized rack Rectangle $1 \times 0{,}55$ in time units
-
+![[Lessons - DWT-1795604721483.webp]]
 **Dual command cycle time** ($t_f = 10\ s$)
 
 $$T(CS) = 2T\left[1 + \frac{b^2}{3}\right] + 4t_f = 2 \cdot 28{,}5\left[1 + \frac{0{,}55^2}{3}\right] + 4 \cdot 10 = 102{,}8\ \left[\frac{s}{UC_{in} + UC_{out}}\right]$$
@@ -2311,9 +2308,7 @@ flowchart TD
 - $v_x = 6\ m/s$ $a_x = 4\ m/s^2$
 - $v_y = 4\ m/s$ $a_y = 3\ m/s^2$
 - $t_f = 5\ s$ (5–6 s)
-
-**Layout**: IN bay and OUT bay at the aisle head, racks on both sides of the aisle, a single shuttle running in the aisle.
-
+![[Lessons - DWT-1795604745654.webp]]
 **Method**
 
 - ⇒ FEM
