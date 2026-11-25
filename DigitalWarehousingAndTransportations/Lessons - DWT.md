@@ -1446,23 +1446,53 @@ N_{machines} = \left\lceil N^*_{machines} \right\rceil
 $$
 ![[Lessons - DWT-1795597043604.webp]]
 
+$$
+N_{machines} = \left\lceil N^*_{machines} \right\rceil = \left\lceil \frac{\overset{Q}{150}}{3600 \cdot \dfrac{1}{100}} \right\rceil = \left\lceil \frac{15000}{3600} \right\rceil = \lceil 4.16 \rceil = 5
+$$
 
+---
+## Example
+We know:
+![[Lessons - DWT-1795597107802.webp|473x117]]
+$N_{floors}$, with $H_F$ (*height of each floor*)
+$S = 0.15\ \text{m}\ (0.12\ \text{m})$
+$g_V = 0.1\ \text{m}$
+![[Lessons - DWT-1795597157345.webp|569x425]]
+
+$$
+H_F = H_{unit\ loads} + g_V + S_{rack}
+$$
+**Evaluation of the # of floors**
+$$
+H_{usable} = H_{available} - g_{roof} - g_{floor\ ground}
+$$
+con $g_{roof} = 1\ \text{m}$ e $g_{floor\ ground} = 0.8\ \text{m}$
+$$
+N_{floor} = \left\lfloor \frac{H_{usable\ height}}{H_{floor}} \right\rfloor
+$$
+**Example**
+$$
+H_{avail.\ height} = 30\ \text{m} - 1 - 0.8 = 28.2\ \text{m}
+$$
+$$
+H_{space\ height} = H_{unit\ load} + g_V + S = 1.65\ \text{m} + 0.1 + 0.15 = 1.9\ \text{m}
+$$
+
+con $g_V = 0.1\ \text{m}$ e $S = 0.15\ \text{m}$
+
+$$
+N_{floors} = \left\lfloor \frac{28.2}{1.9} \right\rfloor = \lfloor 14.84 \rfloor = 14
+$$
 
 ---
 
+Evaluation of number of racks 
 
-
-
-
-
-
-
-
-
-
-
-
-
+```horizontal
+![[Lessons - DWT-1795597286004.webp]]
+---
+![[Lessons - DWT-1795597300388.webp]]
+```
 
 
 
