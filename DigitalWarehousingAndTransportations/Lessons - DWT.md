@@ -1391,7 +1391,7 @@ $t_{forks} = 1\ \text{s/unit load}$
 ![[Lessons - DWT-1794319544838.webp|523]]
 
 # Lesson 12
-
+![[Lessons - DWT-1795596503689.webp|556x649]]
 
 
 
