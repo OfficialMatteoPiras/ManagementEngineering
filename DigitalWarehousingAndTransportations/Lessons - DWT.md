@@ -2336,6 +2336,9 @@ flowchart LR
 - **UL WH**: 24 000 UL
 - Moving the **storage** activity from the UL WH to the totes WH → **saves money**
 
+![[Lessons - DWT-1795614731199.webp|578]]
+
+
 **Cost comparison**
 
 |Type|Investment|
@@ -2344,6 +2347,7 @@ flowchart LR
 |Automated WH for boxes|$30 \div 50\ €/box$|
 
 **Example**: $40\ €/box \iff 40 \cdot 28 = 1120\ €/UL$
+
 # Lesson 17
 
 
