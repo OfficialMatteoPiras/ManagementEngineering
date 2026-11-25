@@ -1571,7 +1571,24 @@ $$
 
 ![[Lessons - DWT-1795597958639.webp|768]]
 
+**FEM SUGGESTS:**
+```horizontal
+$v_x = 4\ \text{m/s}$
+$a_x = 1.2\ \text{m/s}^2$
+$v_y = 1\ \text{m/s}$
+$a_y = 0.9\ \text{m/s}^2$
 
+$$
+t_a = \frac{v}{a}\ \left[\frac{\text{m/s}}{\text{m/s}^2}\right] \Rightarrow \text{s}
+$$
+
+$$
+S_a = \frac{1}{2}\, a\, t_a^2
+$$
+
+---
+![[Lessons - DWT-1795598269991.webp]]
+```
 
 
 
