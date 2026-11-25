@@ -1647,7 +1647,7 @@ $\sum DT_i = 10\ \text{days}$
 $$
 A = \frac{365 - 10}{365} = \frac{355}{365} = 0.97
 $$
-# L14 - Exam
+# Lesson 14 - Exam
 ![[Lessons - DWT-1795598450262.webp]]
 
 **(Step 1)**
@@ -1945,7 +1945,7 @@ $$
 T[CS] = 120\ \frac{\text{s}}{UL_{in} + UL_{out}}
 $$
 
-# L15 - MULTI DEEP WAREHOUSES
+# Lesson 15 - MULTI DEEP WAREHOUSES
 **Multi-deep warehouse**
 
 ```horizontal
@@ -1956,14 +1956,121 @@ $$
 *Same UL for each item (batch)*
 ```
 
-Matrice: $I_S$ in orizzontale ($+$ a sinistra, $-$ a destra), $I_{ASS}$ in verticale ($+$ in alto, $-$ in basso). La freccia del titolo punta al quadrante in alto a destra ($I_S -$, $I_{ASS} +$).
+$$
+T[CS] = 2\,T[I/O - P_1]_x + 2\,T[I/O - P_2]_x + 2\,t_{f\ chain} + 2\,t_{f\ channels}
+$$
 
+```horizontal
+$L \Rightarrow P_1\left(\tfrac{1}{3}L\right)$
+$\qquad\ \ P_2\left(\tfrac{2}{3}L\right)$
 
+$$
+T[CS] = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 2 \cdot \underset{t_{f\ chain}}{10} + 2 \cdot \underset{t_{f\ shuttle}}{25}
+$$
+---
+![[Lessons - DWT-1795601481814.webp]]
 
+```
 
+$$
+Q_{1\ \text{push machine}} = \frac{3600}{T[CS]}
+$$
 
+*Doesn't consider availability, utilization*
 
+$$
+Q_{tot\ throughput\ WH,\ \text{push moves}} = Q_{1\ \text{push machines}} \cdot N_{floors}
+$$
+![[Lessons - DWT-1795601408403.webp|739]]
 
+**Throughput of lifts**
+
+```horizontal
+$I/O\ (\text{bay}) = (0\,,\,0)$  $\quad y_{I/O}$
+$P_1\left(\tfrac{2}{3}H\right)$
+$P_2\left(\tfrac{1}{5}H\right)$
+
+$P_1 = \left(\tfrac{2}{3}H + \tfrac{1}{3}y_{I/O}\right)$
+$P_2 = \left(\tfrac{1}{5}H + \tfrac{1}{3}y_{I/O}\right)$
+---
+![[Lessons - DWT-1795601549997.webp]]
+```
+
+*Highest level* (in alto) e *floor level* (in basso), con i *floors* nel mezzo.
+
+$$
+\underset{\text{IN + OUT, 1 UL}}{T[CS]} = 2\,T[I/O - P_1]_y + 2\,T[I/O - P_2]_y + 4\,t_f \qquad \left(t_f = 10\ \text{s}\right)
+$$
+
+We have 1 lift for inbounding
+1 lift for outbounding
+
+- *Inbound lift* $\Rightarrow \dfrac{T[CS]_y}{2}$
+- *Outbound lift* $\Rightarrow \dfrac{T[CS]_y}{2}$
+
+**Example**
+
+```horizontal
+- $L = 80\ \text{m}$
+- $H = 25\ \text{m}$
+- $I/O\ (0, 0)$
+- $N_f = 8$ floors
+
+**Rush moves**
+- $v_x = 2\ \text{m/s}$
+- $a_x = 1\ \text{m/s}^2$
+
+**Lift**
+- $v_y = 1\ \text{m/s}$
+- $a_y = 0.8\ \text{m/s}^2$
+- $t_{f,chain} = 10\ \text{s}$
+- $t_{f,shuttle\ LD} = 25\ \text{s}$
+---
+![[Lessons - DWT-1795601636170.webp]]
+```
+
+**Rush moves**
+
+$P_1\left(\tfrac{1}{5}L\right)$  $P_2\left(\tfrac{2}{3}L\right)$
+↓
+$P_1\ (16)$  $P_2\ (54)$  $\quad (0, 0)$
+$$
+T[CS] = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] = \dots = 148\ \left(\frac{\text{s}}{UL_{in} + UL_{out}}\right)
+$$
+$$
+Q_{1\ \text{rush mover}} = \frac{3600}{148} = 24.3\ \left(\frac{UL_{in+out}}{\text{hour}}\right)
+$$
+$$
+Q_{\text{rush movers}} = 8 \cdot 24.3 = 194.4\ \left(\frac{UL_{in} + UL_{out}}{\text{hour}}\right)
+$$
+**Lift**
+
+$H = 25\ \text{m} \Rightarrow P_1\left(\tfrac{2}{3}H\right) \Rightarrow P_1\ (16.7)$
+$\qquad\qquad\ \ P_2\left(\tfrac{1}{5}H\right) \Rightarrow P_2\ (5)$
+
+$$
+T[CS]_y = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 4\,t_f \qquad \left(t_f = 10\ \text{s}\right)
+$$
+
+$$
+T[CS]_y = 2\left[\frac{16.7}{1} + \frac{1}{0.8}\right] + 2\left[\frac{5}{1} + \frac{1}{0.8}\right] + 40 = 88.4\ \left(\frac{\text{s}}{UL_{in} + UL_{out}}\right)
+$$
+
+**Two separate lifts**
+
+$$
+\frac{T[CS]}{2} \Rightarrow
+\begin{cases}
+44.2\ \dfrac{\text{s}}{UL_{in}} & \text{inbound} \\[2mm]
+44.2\ \dfrac{\text{s}}{UL_{out}} & \text{outbound}
+\end{cases}
+$$
+
+$$
+Q_{lift} = \frac{3600}{44.2} = 81.4\ UL/\text{hour}
+$$
+
+*Bottleneck of the system*
 
 
 
