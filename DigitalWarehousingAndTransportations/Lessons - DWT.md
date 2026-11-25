@@ -901,6 +901,31 @@ Between:
 
 ![[Lessons - DWT-1793114092253.webp|511]]
 
+```horizontal
+- **Single use box**
+	- $Q$ [boxes/year]: A (*vendor*) → B (*buyer*)
+	- Transport cost
+	- Packaging cost: $Q \cdot C_{box}$
+---
+![[Lessons - DWT-1795602103951.webp]]
+```
+
+```horizontal
+- **Reusable box** (not collapsable)
+	- $Q$ [boxes/year]: A → B, con ritorno tratteggiato B → A
+	- Transport cost (go + back)
+	- How many boxes we need
+---
+![[Lessons - DWT-1795602133066.webp]]
+```
+
+$N$ = # boxes per trip [boxes/trip]
+
+$$
+N_{tot\ boxes\ needed\ (minimum)} = (I_c + 2)\, N
+$$
+
+con $I_c$ = *not collapsable boxes*, $I_c = 1$
 # Lesson 8
 
 **Single Use Box**
