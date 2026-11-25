@@ -1799,20 +1799,94 @@ $$
 v_y \approx \frac{v_x}{4} \quad \text{thus} \quad d_y \approx \frac{d_x}{4}
 $$
 ---
-
+![[Lessons - DWT-1795600480658.webp]]
 ```
 
+$$
+U = \frac{\overset{UL_{in} + UL_{out}\ [\text{input data}]}{350} \cdot \overset{99\ \text{s}}{T_{CS}}}{3600 \cdot A \cdot N_{machines}} \;\Rightarrow\; U = \frac{34650\ \text{s/h}}{3600 \cdot \underset{\text{recommended availability for AS/RS machines}}{0.96} \cdot 11} = 0.912 = 91.2\%
+$$
 
+*Numeratore* $350 \cdot T_{CS}$: total amount of work in s that the machines have to do in 1 hour
 
+**Conditions:**
+- If $U > 1 \Rightarrow$ we need another machine
+- $U < 0.6 \Rightarrow$ we need to reduce # of machines
 
+**Question 2**
+AS/RS machine with capacity equal 2 U.L.
+Dual AS/RS
+![[Lessons - DWT-1795600528064.webp|416]]
+Throuput if we use dual AS/RS $\rightarrow$ % of increasing
 
+![[Lessons - DWT-1795600559046.webp|727]]
 
+![[Lessons - DWT-1795600643057.webp]]
 
+$$
+T[CS]\ \ (2\ UL\ \text{in+out}) = 2\,T[I/O - P_1] + 2\,T[P_1 - P_2] + 2\,T[I/O - P_2] + 6\,t_f
+$$
 
+$$
+T[CS]\ \ (1\ UL\ \text{in+out}) = T[I/O - P_1] + T[P_1 - P_2] + T[I/O - P_2] + 3\,t_f
+$$
 
+| $x$ | $y$ |
+| --- | --- |
+| $d_x = 22\ \text{m}$ | $d_y = 12\ \text{m}$ |
 
+$$
+t_x = \frac{22}{4} + \frac{4}{1.2} = 8.9\ \text{s}
+$$
 
+$$
+t_y = \frac{12}{1} + \frac{1}{0.9} = 13.2\ \text{s}
+$$
 
+$$
+T[P_1 - P_2] = 13.2\ \text{s}
+$$
+
+$$
+T[CS] = 18.3 + 13.2 + 11.2 + 3 \cdot 10 = 72.7\ \frac{\text{s}}{UL_{in} + UL_{out}}
+$$
+
+con $18.3 = T[I/O - P_1]$, $13.2 = T[P_1 - P_2]$, $11.2 = T[I/O - P_2]$, $10 = t_f$
+
+**For machine with capacity 1 pallet:**
+
+```horizontal
+$$
+T[CS] = 99\ \frac{\text{s}}{UL_{in} + UL_{out}}
+$$
+
+$$
+Q(CS) = \frac{3600}{99} = 36.4\ \left(UL_{in+out}/\text{h}\right)
+$$
+
+*Tot capacity:* $N_{machines} \cdot Q(CS)$
+---
+![[macchina-capacita-1.webp|300]]
+```
+
+**For machine with capacity 2 pallets:**
+
+```horizontal
+$$
+T[CS] = 72.7\ \frac{\text{s}}{UL_{in} + UL_{out}}
+$$
+
+$$
+Q_2(CS) = \frac{3600}{72.7} \cdot \frac{1}{UL_{in} + UL_{out}} = 49.5\ \frac{UL_{in+out}}{\text{h} \cdot \text{machine}}
+$$
+
+$$
+\% = \frac{49.5}{36.4} = 1.36 \quad \Rightarrow \quad 136\%
+$$
+---
+![[macchina-capacita-2.webp|300]]
+```
+
+**Which is the movement for a dual AS/RS in case of combined cycle?**
 
 
 
