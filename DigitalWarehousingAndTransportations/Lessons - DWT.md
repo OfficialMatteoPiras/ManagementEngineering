@@ -2247,7 +2247,7 @@ $P_2\left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right)$
 
 $$T(CS)_{FEM} = 99\ \left[\frac{s}{UC_{in} + UC_{out}}\right]$$
 
-**Bozer–White (BW)**
+ **Bozer–White (BW)**
 
 Average speeds: $\bar v_x = 3\ m/s$, $\bar v_y = 0{,}9\ m/s$
 
