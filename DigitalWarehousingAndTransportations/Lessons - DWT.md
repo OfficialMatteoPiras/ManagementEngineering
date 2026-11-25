@@ -1392,20 +1392,63 @@ $t_{forks} = 1\ \text{s/unit load}$
 
 # Lesson 12
 ![[Lessons - DWT-1795596503689.webp|556x649]]
+$H_{available}$ = *available height*
+$g \equiv \text{gap} = 0.8\ \text{m}$
+*1 m required for fire protection plants* (sprinkler, ...)
+$$
+H_{usable} = H_{available} - g_{ground\ floor} - g_{roof}
+$$
+
+**Input data:**
+
+```horizontal
+**AS/RS: single deep configuration**
+- unit load dimensions
+- unit load weight
+- capacity of warehouse (n° unit loads)
+- throughput (unit loads in + unit loads out)/hour (max value)
+- available height
+- available surface (space)
+---
+![[Lessons - DWT-1795596877853.webp|429x307]]
+```
+**Design**
+Evaluation of # of machines needed
+↳ predicted # of machines
+
+**Target values of productivity of AS/RS machines**
+
+Machines
+- *simple cycle way*: $110 \left( \dfrac{1}{\text{unit load}_{in} + \text{unit load}_{out}} \right)$
+- *combined cycle policy*: $100 \left( \dfrac{1}{\text{unit load}_{in} + \text{unit load}_{out}} \right)$
+
+
+```horizontal
+**Combined cycle policy**
+- lower time
+- combine in and out
+- *devoted to picking activity*
+
+*1 combined cycle for each row of picking*
+---
+![[Lessons - DWT-1795596965252.webp|522x267]]
+```
+
+![[Lessons - DWT-1795597001994.webp|689x385]]
+Don't have picking activity so we use only simple cycle
+
+$$
+N^*_{machines} = \frac{Q\left[\dfrac{\text{unit load}_{in} + \text{unit load}_{out}}{\text{hour}}\right]}{3600\left(\dfrac{s}{\text{hour}}\right) \cdot \dfrac{1}{T_C}\left(\dfrac{\text{unit load}_{in} + \text{unit load}_{out}}{s}\right)}
+$$
+
+$$
+N_{machines} = \left\lceil N^*_{machines} \right\rceil
+$$
+![[Lessons - DWT-1795597043604.webp]]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
