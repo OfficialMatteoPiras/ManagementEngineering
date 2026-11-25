@@ -2157,9 +2157,81 @@ $$
 ```
 
 # Lesson 16
+$b \geq 0.8$ *good design*
 
+```horizontal
+$$
+\frac{T_\ell}{\bar{v}_x} = T
+$$
+---
+![[Lessons - DWT-1795603607599.webp]]
+```
 
+Lo schema mostra il rettangolo con la zona tratteggiata fino a $b$ (linea verticale tratteggiata), l'asse $x$ da $0$ a $1$, la striscia $dx$ in blu, e la scala $\dfrac{T_\ell}{T}$ che punta a $1$.
 
+$$
+T[CS] = \frac{\overset{\#\ \text{of trips}}{4}\,T}{b}\left[\int_0^b x \cdot 2x\, dx + \int_b^1 x\, b\, dx\right] + 4\,t_f
+$$
+
+$$
+= \frac{4T}{b}\left[\frac{2x^3}{3}\Big|_0^b + b\,\frac{x^2}{2}\Big|_b^1\right] + 4\,t_f
+$$
+
+$$
+= \frac{4T}{b}\left[\frac{4b^3 - 3b^3}{6} + \frac{b}{2}\right] + 4\,t_f
+$$
+
+$$
+= 2T\left[1 + \frac{b^2}{3}\right] + 4\,t_f \qquad\qquad I/O\ (0,0)\ \ \text{randomly management}
+$$
+
+```horizontal
+$$
+T_{internal\ movement} = T\left[\frac{1}{3} + \frac{b^2}{6} - \frac{b^3}{30}\right]
+$$
+
+$$
+T[CC] = \frac{T[CS]}{2} + T_{internal\ movement}
+$$
+
+$$
+T[CC] = T\left(\frac{4}{3} + \frac{b^2}{2} - \frac{b^3}{30}\right) + 4\,t_f
+$$
+---
+![[Lessons - DWT-1795603616751.webp]]
+```
+
+## **Compare between FEM & BW**
+
+$$
+T[CS]_{FEM} = 2\left(\frac{\tfrac{2}{3}H}{v_y}\right) + 2\left(\frac{\tfrac{2}{3}L}{v_x}\right) + 4\,t_f
+$$
+
+$$
+T[CS]_{FEM} = \frac{4}{3}T + \frac{4}{3}\frac{H}{v_y} = \frac{4}{3}\,T\,(1 + b) + 4\,t_f
+$$
+
+$$
+T[CS]_{BW} = 2T\left(1 + \frac{b^2}{3}\right) + 4\,t_f
+$$
+
+```horizontal
+$P_1\left(\tfrac{1}{5}L\ ;\ \tfrac{2}{3}H\right)$
+$P_2\left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right)$
+---
+![[Lessons - DWT-1795603660527.webp]]
+```
+
+```horizontal
+**$T[CS]$ (without $t_f$) in funzione di $b$**
+
+- livelli sull'asse $T[CS]$: $\tfrac{4}{3}T$, $2T$, $\tfrac{8}{3}T$, $3T$
+- $b = 0.5$, $b = 0.8$, $b = 1$
+- *FEM*: retta da $\tfrac{4}{3}T$ (in $b=0$) a $\tfrac{8}{3}T$ (in $b=1$)
+- *BW*: curva tratteggiata da $2T$ (in $b=0$) a $\tfrac{8}{3}T$ (in $b=1$)
+---
+
+```
 
 
 
