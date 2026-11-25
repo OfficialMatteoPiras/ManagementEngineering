@@ -1543,7 +1543,7 @@ $$
 ![[Lessons - DWT-1795597539156.webp|600]]
 ![[Lessons - DWT-1795597593272.webp|712]]
 
-# L13 - FEM 9851 REGULATION
+# Lesson 13 - FEM 9851 REGULATION
 **Step** ⇒ FEM 9851 AS/RS
 ***Federation European of Maintenance***
 $$
@@ -1731,6 +1731,9 @@ $$
 $$
 T_{CS} = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 4\,t_f
 $$
+
+![[Lessons - DWT-1795600973436.webp|549]]
+
 
 (REAL START OF LESSON 14 -  I PUT THE EXERCISE FROM THE END OF LESSON 13 ALL INSIDE LESSON 14)
 So summarizing:
@@ -1929,7 +1932,7 @@ $I/O \to P_1 \to P_2 \to P_3 \to P_4 \to I/O$ (il tratto $P_2 \to P_3$ è tratte
 
 $I_S = 0.5$ *(selectivity index)*
 ---
-![[Lessons - DWT-1795600973436.webp]]
+![[Lessons - DWT-1795601237707.webp]]
 ```
 
 **Target values**
@@ -1942,9 +1945,18 @@ $$
 T[CS] = 120\ \frac{\text{s}}{UL_{in} + UL_{out}}
 $$
 
-# L15
+# L15 - MULTI DEEP WAREHOUSES
+**Multi-deep warehouse**
 
+```horizontal
+![[Lessons - DWT-1795601326778.webp]]
+---
+*High value throughput multi-deep solution*
+↓
+*Same UL for each item (batch)*
+```
 
+Matrice: $I_S$ in orizzontale ($+$ a sinistra, $-$ a destra), $I_{ASS}$ in verticale ($+$ in alto, $-$ in basso). La freccia del titolo punta al quadrante in alto a destra ($I_S -$, $I_{ASS} +$).
 
 
 
