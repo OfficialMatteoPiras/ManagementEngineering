@@ -2230,7 +2230,7 @@ $P_2\left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right)$
 - *FEM*: retta da $\tfrac{4}{3}T$ (in $b=0$) a $\tfrac{8}{3}T$ (in $b=1$)
 - *BW*: curva tratteggiata da $2T$ (in $b=0$) a $\tfrac{8}{3}T$ (in $b=1$)
 ---
-
+![[Lessons - DWT-1795604156363.webp]]
 ```
 
 
