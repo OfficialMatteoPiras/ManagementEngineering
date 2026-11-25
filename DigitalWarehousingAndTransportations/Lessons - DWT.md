@@ -2233,7 +2233,123 @@ $P_2\left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right)$
 ![[Lessons - DWT-1795604156363.webp]]
 ```
 
+**Exam exercise: AS/RS cycle time (FEM vs BW)**
 
+**Data**
+
+- $L = 47{,}2\ m$ $H = 25{,}7\ m$ I/O $= (0,0)$
+- $v_x = 4\ m/s$ $a_x = 1{,}2\ m/s^2$
+- $v_y = 1\ m/s$ $a_y = 0{,}9\ m/s^2$
+
+**Speed profile**: trapezoidal (acceleration → constant speed → deceleration)
+
+**FEM result**
+
+$$T(CS)_{FEM} = 99\ \left[\frac{s}{UC_{in} + UC_{out}}\right]$$
+
+---
+
+**Bozer–White (BW)**
+
+Average speeds: $\bar v_x = 3\ m/s$, $\bar v_y = 0{,}9\ m/s$
+
+$$T_l = \frac{L}{\bar v_x} = \frac{47{,}2}{3} = 15{,}73\ s$$
+
+$$T_h = \frac{H}{\bar v_y} = \frac{14{,}25}{0{,}5} = 28{,}5\ s$$
+
+$$T = \max{T_l;\ T_h} = 28{,}5\ s$$
+
+$$b = \min{\frac{T_l}{T};\ \frac{T_h}{T}} = 0,55 \quad \text{(BAD, rack far from square-in-time)}$$
+
+> [!note] Normalized rack Rectangle $1 \times 0{,}55$ in time units
+
+**Dual command cycle time** ($t_f = 10\ s$)
+
+$$T(CS) = 2T\left[1 + \frac{b^2}{3}\right] + 4t_f = 2 \cdot 28{,}5\left[1 + \frac{0{,}55^2}{3}\right] + 4 \cdot 10 = 102{,}8\ \left[\frac{s}{UC_{in} + UC_{out}}\right]$$
+
+> [!warning] Check The $T_h$ line in the original notes uses $14{,}25 / 0{,}5$, which doesn't match $H = 25{,}7$ and $\bar v_y = 0{,}9$. The numbers are kept as written.
+
+
+**BW applied to**
+
+- AS/RS warehouse for boxes (totes)
+- Miniload warehouse
+
+**Load unit (box / tote)**
+
+- Base $0{,}6 \times 0{,}6\ m$, height $0{,}2 \div 0{,}5\ m$
+- $W \le 50\ kg$
+- **Machine capacity**: 4 boxes/trip
+
+**Multi-command cycle (capacity = 4)**: the machine leaves the I/O with 4 boxes (+4), stores them at points 1 → 2 → 3 → 4, then retrieves at 5 → 6 → 7 → 8 and returns to the I/O with 4 boxes (+4). The return leg is about $T(CS)/2$.
+
+```mermaid
+flowchart LR
+    IO0["I/O (+4 in)"] --> S1[1] --> S2[2] --> S3[3] --> S4[4]
+    S4 -.-> R5[5] --> R6[6] --> R7[7] --> R8[8] --> IO1["I/O (+4 out)"]
+    classDef store fill:#f8d7da,stroke:#c0392b;
+    classDef retr fill:#d6eaf8,stroke:#2e86c1;
+    class S1,S2,S3,S4 store;
+    class R5,R6,R7,R8 retr;
+```
+
+Red = storage, blue = retrieval
+
+
+**BW formulas → miniload, machine capacity 4-5-6**
+
+```mermaid
+flowchart TD
+    A["AS/RS warehouse for totes"] --> P[Plastic boxes]
+    A --> C[Carton boxes]
+    P --- S[Secondary boxes]
+    C --- S
+```
+
+**Miniload data**
+
+- $v_x = 6\ m/s$ $a_x = 4\ m/s^2$
+- $v_y = 4\ m/s$ $a_y = 3\ m/s^2$
+- $t_f = 5\ s$ (5–6 s)
+
+**Layout**: IN bay and OUT bay at the aisle head, racks on both sides of the aisle, a single shuttle running in the aisle.
+
+**Method**
+
+- ⇒ FEM
+- ⇒ BW for throughput evaluation
+
+**Throughput of one machine**
+
+$$150\ \left[\frac{boxes_{in} + boxes_{out}}{hour}\right]$$
+
+---
+
+**Considerations**
+
+```mermaid
+flowchart LR
+    CO[Company] --> UL[Unit load warehouse]
+    CO --> TO[Totes warehouses]
+    UL --> SA[Storage activity]
+    TO --> SA
+    SA --> ONLY[Only unit load warehouses]
+```
+
+- Totes warehouses hold materials for a **coverage period of 1 week** (max 1 month)
+- **Totes WH**: 50 000 boxes → about 20 000 UL
+- **UL WH**: 24 000 UL
+- Moving the **storage** activity from the UL WH to the totes WH → **saves money**
+
+**Cost comparison**
+
+|Type|Investment|
+|---|---|
+|Automated WH for pallets (UL)|$300 \div 400\ €/UL$|
+|Automated WH for boxes|$30 \div 50\ €/box$|
+
+**Example**: $40\ €/box \iff 40 \cdot 28 = 1120\ €/UL$
+# Lesson 17
 
 
 
