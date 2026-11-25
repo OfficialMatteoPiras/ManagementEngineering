@@ -1865,7 +1865,7 @@ $$
 
 *Tot capacity:* $N_{machines} \cdot Q(CS)$
 ---
-![[macchina-capacita-1.webp|300]]
+![[Lessons - DWT-1795600768377.webp]]
 ```
 
 **For machine with capacity 2 pallets:**
@@ -1883,17 +1883,66 @@ $$
 \% = \frac{49.5}{36.4} = 1.36 \quad \Rightarrow \quad 136\%
 $$
 ---
-![[macchina-capacita-2.webp|300]]
+![[Lessons - DWT-1795600781579.webp]]
 ```
 
 **Which is the movement for a dual AS/RS in case of combined cycle?**
+![[Lessons - DWT-1795600820623.webp|453]]
+```horizontal
+$$
+P_1 = \left(\tfrac{1}{5}L\ ;\ \tfrac{2}{3}H\right) \quad \text{(FEM)}
+$$
 
+$$
+P_2 = \left(0.44\,L\ ;\ 0.46\,H\right)
+$$
 
+$$
+P_3 = \left(1\,L\ ;\ 0.87\,H\right)
+$$
 
+$$
+P_4 = \left(\tfrac{2}{3}L\ ;\ \tfrac{1}{5}H\right) \quad \text{(FEM)}
+$$
+---
+![[Lessons - DWT-1795600864611.webp]]
+```
 
+**Percorso (dual AS/RS, combined cycle)**
 
+| Punto | Variazione di carico           |
+| ----- | ------------------------------ |
+| I/O   | $+2$ (partenza), $-2$ (arrivo) |
+| $P_1$ | $-1$                           |
+| $P_2$ | $-1$                           |
+| $P_3$ | $+1$                           |
+| $P_4$ | $+1$                           |
 
+$I/O \to P_1 \to P_2 \to P_3 \to P_4 \to I/O$ (il tratto $P_2 \to P_3$ è tratteggiato)
 
+---
+
+```horizontal
+**AS/RS**
+
+*Machine with capacity 1*
+
+$I_S = 0.5$ *(selectivity index)*
+---
+![[Lessons - DWT-1795600973436.webp]]
+```
+
+**Target values**
+
+$$
+T[CS] = 130\ \frac{\text{s}}{UL_{in} + UL_{out}}
+$$
+
+$$
+T[CS] = 120\ \frac{\text{s}}{UL_{in} + UL_{out}}
+$$
+
+# L15
 
 
 
