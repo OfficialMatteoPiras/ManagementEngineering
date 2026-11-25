@@ -1486,7 +1486,7 @@ $$
 
 ---
 
-Evaluation of number of racks 
+## Evaluation of number of rack modules that we need
 
 ```horizontal
 ![[Lessons - DWT-1795597286004.webp]]
@@ -1495,19 +1495,79 @@ Evaluation of number of racks
 ```
 
 
+$$
+L_{module} = \underset{\#\ unit\ loads}{3} \cdot 0.8 + (3+1)\, g_{horizontal} + S_{vertical}
+$$
+con $g_{horizontal} = 0.1\ \text{m}$
+### **a) Europallet**
+$$
+L_{module} = 3 \cdot 0.8 + 4 \cdot 0.1 + 0.15 = 2.95\ \text{m}
+$$
+con $g_{hor} = 0.1\ \text{m}$ e $S_V = 0.15\ \text{m}$
+**How many modules we need?**
 
+$$
+N_{modules} = \left\lceil \frac{C_{w/1\ machine}}{C_{module} \cdot 2 \cdot N_{floors}} \right\rceil
+$$
 
+- $C_{module}$: 3 → case (a)
+- $2$: 2 racks for machine
 
+**Example**
 
+| Data | Value |
+| ---- | ----- |
+| Unit loads | 15 000 |
+| Machines | 5 |
+| Floors | 14 |
+| Unit loads / module | 3 |
+| Module length | 2.95 |
 
+$$
+\frac{15000}{5} = 3000 = C_{w/1\ machine}\ [\text{unit loads}]
+$$
 
+$$
+N_{modules} = \left\lceil \frac{3000}{\underset{\text{unit loads/module}}{3} \cdot 2 \cdot \underset{\#\ floors}{14}} \right\rceil = \lceil 35.7 \rceil = 36\ \text{modules}
+$$
 
+$$
+L_w = 2.95 \cdot 36 = 106.2\ \text{m}
+$$
+$[\text{m/module}]$ → *max range movement on axis X*
+![[Lessons - DWT-1795597504940.webp|267x199]]
+$$
+H_w = (N_{floor} - 1)\, H_{floor}
+$$
+*vertical movement of the machine*
+![[Lessons - DWT-1795597539156.webp|600]]
+![[Lessons - DWT-1795597593272.webp|712]]
 
+# L13 - FEM 9851 REGULATION
+**Step** ⇒ FEM 9851 AS/RS
+***Federation European of Maintenance***
+$$
+P_1\left[\tfrac{1}{3}L\ ;\ \tfrac{2}{3}H + \tfrac{1}{3}Y_{I/O}\right]
+$$
+$$
+P_2\left[\tfrac{2}{3}L\ ;\ \tfrac{1}{3}H + \tfrac{1}{3}Y_{I/O}\right]
+$$
+$$
+I/O\left[0\ ;\ Y_{I/O}\right]
+$$
+![[Lessons - DWT-1795597663421.webp|769]]
 
+**Time for simple cycle:**
 
+$$
+T_{CS} = 2\,T(I/O - P_1) + 2\,T(I/O - P_2) + 4\,t_f
+$$
 
+**Time for combined shuttle:**
 
-
+$$
+T_{CC} = T(I/O - P_1) + T(P_1 - P_2) + T(P_2 - I/O) + 4\,t_f
+$$
 
 
 
