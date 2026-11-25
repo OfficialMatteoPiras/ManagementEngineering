@@ -1945,7 +1945,7 @@ $$
 T[CS] = 120\ \frac{\text{s}}{UL_{in} + UL_{out}}
 $$
 
-# Lesson 15 - MULTI DEEP WAREHOUSES
+# Lesson 15 - MULTI DEEP WAREHOUSES AND BOZER - WHITE FORMULAS
 **Multi-deep warehouse**
 
 ```horizontal
@@ -2071,8 +2071,67 @@ Q_{lift} = \frac{3600}{44.2} = 81.4\ UL/\text{hour}
 $$
 
 *Bottleneck of the system*
+## **Bozer-White formulas**
 
+*Calculus of throughput of automated WH*
+→ when we don't find this situation in FEM 9.851
 
+$L, H$: same definition of FEM
+
+```horizontal
+![[Lessons - DWT-1795601749975.webp]]
+---
+*FEM* → $v$, $a$
+*BW* → $\bar{v}$
+
+*Temporal representation of WH*
+```
+
+Il grafico mostra la velocità $v$ in funzione della distanza, con il tratto trapezoidale (accelerazione, velocità costante, decelerazione) e la velocità media $\bar{v}$ tratteggiata.
+
+$$
+\begin{cases}
+T_l = \dfrac{L}{\bar{v}_x} \\[2mm]
+T_h = \dfrac{H}{\bar{v}_y}
+\end{cases}
+\qquad
+\begin{cases}
+T = \max\{T_l,\ T_h\} \\[1mm]
+b = \min\left\{\dfrac{T_l}{T},\ \dfrac{T_h}{T}\right\}
+\end{cases}
+$$
+
+**Example**
+
+```horizontal
+- $L = 50\ \text{m}$
+- $H = 8\ \text{m}$
+- $\bar{v}_x = 2\ \text{m/s}$
+- $\bar{v}_y = 0.3\ \text{m/s}$
+---
+![[Lessons - DWT-1795601785241.webp]]
+```
+
+```horizontal
+$$
+T_l = \frac{L}{\bar{v}_x} = \frac{50}{2} = 25\ \text{s}
+$$
+$$
+T_h = \frac{H}{\bar{v}_y} = \frac{8}{0.3} = 26.7\ \text{s}
+$$
+$$
+T = \max\{T_l,\ T_h\} = 26.7
+$$
+$$
+b = \min\left\{\frac{T_l}{T},\ \frac{T_h}{T}\right\} = 0.94
+$$
+
+*This is a representation of the WH:* un quadrato di lato $1$ per $0.94$.
+---
+![[Lessons - DWT-1795601819509.webp]]
+```
+
+# 
 
 
 
