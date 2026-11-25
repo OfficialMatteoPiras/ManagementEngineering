@@ -1590,18 +1590,132 @@ $$
 ![[Lessons - DWT-1795598269991.webp]]
 ```
 
+$$
+t_{A-B} = t_a + \left[\frac{l_{AB} - 2 S_a}{v}\right] + t_d = \frac{v}{a} + \frac{l_{AB} - 2 \cdot \frac{1}{2} \cdot a\, t_a^2}{v} + \frac{v}{a}
+$$
 
+con $t_a = t_d$
 
+$$
+t_{A-B} = \frac{v}{a} + \frac{v}{a} + \frac{l_{AB}}{v} - \boxed{\frac{a\, t_a^2}{v}}
+$$
 
+con $t_a = \dfrac{v}{a}$, quindi $\left(a \cdot \dfrac{v^2}{a^2}\right)\dfrac{1}{v} = \dfrac{v}{a}$
 
+$$
+t_{A-B} = \frac{l_{AB}}{v} + \frac{v}{a} + \cancel{\frac{v}{a}} - \cancel{\frac{v}{a}} = \boxed{\frac{l_{AB}}{v} + \frac{v}{a}}
+$$
 
+$$
+T_{CS} = 2\,T[I/O - P_1] + 2\,T[I/O - P_2]
+$$
+![[Lessons - DWT-1795598398894.webp|428]]
+$d_{I/O-P_1}$ → $d_{I/O-P_1}$, $d_{(I/O-P_1)x}$, $d_{(I/O-P_1)y}$
 
+$$
+\left.
+\begin{aligned}
+d_{(I/O-P_1)x} &\Rightarrow \frac{d_x}{v_x} + \frac{v_x}{a_x} = t_x \\
+d_{(I/O-P_2)y} &\Rightarrow \frac{d_y}{v_y} + \frac{v_y}{a_y} = t_y
+\end{aligned}
+\right\} \quad t = \max\{t_x ;\, t_y\}
+$$
 
+![[Lessons - DWT-1795598412900.webp|380x255]]
+**Total work AS/RS machines have to do:**
 
+$$
+U = \frac{\overset{}{T_{CS}\, Q_{in+out}}\ \text{(SC policy)} + T_{CC}\, Q_{in+out}\ \text{(CC policy)}}{N_{AS/RS} \cdot 3600 \cdot A}
+$$
 
+*Utilization of AS/RS machines* = $U$
+*Availability* $A \approx 0.96$
 
+$$
+A = \frac{\sum UT_i}{\sum UT_i + \sum DT_i}
+$$
 
+- $UT_i$ = *uptime*
+- $DT_i$ = *downtime*
 
+Timeline: $UT_i \to DT_i \to UT_{i+1} \to DT_{i+1}$ 
+![[Lessons - DWT-1795598507378.webp|553]]
+
+**My car:** $\sum UT_i + \sum DT_i = 365\ \text{days}$
+$\sum DT_i = 10\ \text{days}$
+
+$$
+A = \frac{365 - 10}{365} = \frac{355}{365} = 0.97
+$$
+# L14 - Exam
+![[Lessons - DWT-1795598450262.webp]]
+
+**(Step 1)**
+
+$Q = 350$ unit loads (in + out)
+
+*Simple cycle*
+↳ target value $110\left[\dfrac{1}{\text{unit load}_{in} + \text{unit load}_{out}}\right]$
+
+$$
+N_{AS/RS\ machines} = \left\lceil \frac{Q \cdot 110}{3600} \right\rceil = \left\lceil \frac{350 \cdot 110}{3600} \right\rceil = \lceil 10.69 \rceil = 11
+$$
+
+**$N_{floors}$**
+
+- 10 000 unit loads: $0.8 \cdot 1.2 \cdot 0.9$
+- 10 000 unit loads: $0.8 \cdot 1.2 \cdot 1.3$
+
+![[Lessons - DWT-1795598571441.webp|474]]
+
+$$
+H_F = H_{unit\ load} + g_V + S_{rack}
+$$
+
+*Type a, in general*; $S_{rack}$ = *thickness rack*
+
+$$
+H_F = 0.9 + 0.1 + 0.15 = 1.15\ \text{m} \qquad \text{(type a)}
+$$
+$$
+H_F = 1.3 + 0.1 + 0.15 = 1.55\ \text{m} \qquad \text{(type b)}
+$$
+
+*Average a-b:*
+
+$$
+\bar{H}_F = 0.5 \cdot 1.15 + 0.5 \cdot 1.55 = 1.35\ \text{m}
+$$
+
+$$
+N_{floors} = \left\lfloor \frac{30 - \underset{\text{ground floor gap}}{0.8} - \underset{\text{roof gap}}{1}}{1.35} \right\rfloor = \lfloor 20.88 \rfloor = 20\ \text{floors}
+$$
+
+![[Lessons - DWT-1795598605266.webp|423]]
+
+$N_{modules} \Rightarrow L$
+
+$C_w = 20\,000$ unit loads
+
+$$
+C_w = \frac{20\,000}{N_{AS/RS\ machines}} = \frac{20\,000}{11} = 1819\ \text{unit loads}
+$$
+
+$$
+N_{modules} = \left\lceil \frac{1819}{2 \cdot 3 \cdot \underset{\#\ of\ floors}{20}} \right\rceil = \lceil 15.15 \rceil = 16\ \text{modules}
+$$
+
+*6 unit loads* per module (schema: due file di 3 unit load con la macchina M in mezzo, quote 1.2 e 0.8)
+
+$I/O_{coords} = (0\ ;\ 0)$
+
+$$
+L = 16 \cdot \underset{\text{module length}}{2.95} = 47.2\ \text{m}
+$$
+
+$$
+H = (N_F - 1)\, H_F = (20 - 1) \cdot 1.35 = 19 \cdot 1.35 = 25.7\ \text{m}
+$$
 
 
 
