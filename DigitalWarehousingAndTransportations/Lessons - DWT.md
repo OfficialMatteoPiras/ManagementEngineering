@@ -1779,7 +1779,28 @@ $$
 $$
 T[I/O - P_2] = 11.2\ \text{s}
 $$
+$$
+T_{CS} = 2\,T[I/O - P_1] + 2\,T[I/O - P_2] + 4\,t_f = 2 \cdot 18.3 + 2 \cdot 11.2 + 4 \cdot 10 = \boxed{99\ \text{s}} \ \left[\frac{1}{\text{unit load}_{in} + \text{unit load}_{out}}\right]
+$$
 
+*Target value:* $\dfrac{1}{UL_{in} + UL_{out}}$
+
+*Lower value, thus faster cycle time*
+
+```horizontal
+**Caso generale**
+
+- $v_x = 4\ \text{m/s}$
+- $v_y = 1\ \text{m/s}$
+- $L \approx 100\ \text{m}$
+- $H = 28\ \text{m}$
+
+$$
+v_y \approx \frac{v_x}{4} \quad \text{thus} \quad d_y \approx \frac{d_x}{4}
+$$
+---
+
+```
 
 
 
