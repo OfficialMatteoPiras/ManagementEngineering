@@ -23,3 +23,5 @@ voice_recorder/build/
 voice_recorder/
 __pycache__/
 *.mp3
+*.mp4
+MaterialFlowSystemsAndSupplyChainManagement/anylogistic_lessons/*.zip
